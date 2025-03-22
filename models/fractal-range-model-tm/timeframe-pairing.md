@@ -1,0 +1,16 @@
+---
+description: Fractal Range Model Timeframe Pairing
+icon: chess-clock-flip
+---
+
+# Timeframe Pairing
+
+The **Fractal Range Model** supports a variety of timeframe pairings, each designed to analyze market trends at different levels of granularity.&#x20;
+
+These timeframes help traders and investors identify key price movements and market shifts, offering insights across short-term to long-term perspectives.
+
+The Fractal Range Model supports following timeframe pairings:
+
+<table><thead><tr><th width="107.45703125">Timeframe</th><th>Description</th></tr></thead><tbody><tr><td>Automatic</td><td>Automatically selects the best timeframe pairing based on current timeframe. (15s - 5m, 1m - 15m, 2m - 20m, 3m - 30m, 5m - 1H, 15m - 4H, 30m - 12H, 1H - 1D, 4H - 1W, 1D - 1M, 1W - 3M, 1M - 12M)</td></tr><tr><td>15s - 5m</td><td>Ultra-short-term timeframe pairing for precise, rapid market movements.</td></tr><tr><td>1m - 15m</td><td>Ideal for fast trades and short-term trend analysis.</td></tr><tr><td>1m - 30m</td><td>Short intervals for detailed analysis in a fast-moving market.</td></tr><tr><td>2m - 20m</td><td>Captures small-to-medium price shifts with quicker market reactions.</td></tr><tr><td>3m - 30m</td><td>Provides a balance between short-term movements and clearer trend signals.</td></tr><tr><td>3m - 60m</td><td>Short to medium intervals for faster market behavior observation.</td></tr><tr><td>5m - 1H</td><td>Suitable for intraday trades, offering more clarity on medium-term trends.</td></tr><tr><td>15m - 4H</td><td>Useful for swing trades, identifying medium-term price changes and market shifts.</td></tr><tr><td>15m - 8H</td><td>Longer medium-term analysis for more sustained market movements.</td></tr><tr><td>30m - 9H</td><td>Moderate to long-term intervals, useful for observing significant trends.</td></tr><tr><td>30m - 12H</td><td>Combines intraday and overnight data for identifying longer-term moves.</td></tr><tr><td>1H - 1D</td><td>Provides a clearer view of market trends over several hours to a full day.</td></tr><tr><td>2H - 2D</td><td>Slightly longer, covering 2-hour to 2-day periods.</td></tr><tr><td>3H - 3D</td><td>Medium short-term, 3-hour to 3-day outlook.</td></tr><tr><td>4H - 1W</td><td>Focuses on mid-to-long-term price movements, ideal for position trading.</td></tr><tr><td>8H - 2W</td><td>Mid-term, spanning 8 hours to 2 weeks.</td></tr><tr><td>12H - 3W</td><td>Moderate, 12-hour to 3-week forecast.</td></tr><tr><td>1D - 1M</td><td>Tracks long-term trends, perfect for investors looking at weekly to monthly shifts.</td></tr><tr><td>2D - 2M</td><td>2-day to 2-month period, medium-term focus.</td></tr><tr><td>1W - 3M</td><td>Focuses on broader market trends over weeks or months for strategic planning.</td></tr><tr><td>2W - 6M</td><td>Long-term intervals for broader trend analysis over multiple months.</td></tr><tr><td>3W - 9M</td><td>Extended medium-term analysis, tracking seasonal shifts.</td></tr><tr><td>1M - 12M</td><td>Best for macro-level market analysis and long-term investment decisions.</td></tr><tr><td>Custom</td><td>A user-defined timeframe for flexible and personalized analysis.</td></tr></tbody></table>
+
+These pairings allow for versatile market analysis, ensuring traders and investors can tailor their approach to suit various trading strategies and time horizons.
