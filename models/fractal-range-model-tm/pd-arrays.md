@@ -16,11 +16,19 @@ play a critical role in market analysis and trading strategy.
 
 ### HTF PD Arrays
 
-The **HTF PD Arrays** are key points of interest that indicate significant market levels where sweeps (sharp price movements) are likely to occur. These arrays represent areas of high potential for reversals when touched by a price sweep. When a sweep forms and touches an HTF PD Array, it signals a strong probability of price reversal. Traders can use these levels as potential exit points or as areas to look for price reaction, making them crucial for identifying important turning points in the market.
+The **HTF PD Arrays** are key points of interest that indicate significant market levels where sweeps (sharp price movements) are likely to occur.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-frm-009.png" alt=""><figcaption></figcaption></figure>
+
+These arrays represent areas of high potential for reversals when touched by a price sweep. When a sweep forms and touches an HTF PD Array, it signals a strong probability of price reversal.&#x20;
+
+Traders can use these levels as potential exit points or as areas to look for price reaction, making them crucial for identifying important turning points in the market.
 
 ### LTF PD Arrays
 
 The **LTF PD Arrays**, on the other hand, are used for identifying **entry points**. When a model, such as a **Sweep** or **CISD (Change In Structure Direction)**, forms on the chart, the Fractal Range Model highlights the **PD Arrays** around the newly formed model.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-frm-010.png" alt=""><figcaption></figcaption></figure>
 
 These PD Arrays serve as key reference points for traders to enter positions. By recognizing the array's location relative to the newly formed market structure, traders can make informed decisions about entering trades, whether in the direction of the trend or anticipating a potential reversal.
 

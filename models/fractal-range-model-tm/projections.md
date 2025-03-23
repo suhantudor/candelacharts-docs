@@ -7,6 +7,8 @@ icon: rectangle-vertical-history
 
 Once a model is formed, the **Fractal Range Model (FRM)** automatically generates **projection levels** based on **standard deviations**.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-frm-011.png" alt=""><figcaption></figcaption></figure>
+
 These projections are calculated from the **CISD Low** to the **CISD High**, offering a dynamic view of potential price movement and volatility.&#x20;
 
 The projections provide traders with valuable insight into possible future price ranges, helping to guide trade planning and decision-making.

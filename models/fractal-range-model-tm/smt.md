@@ -7,6 +7,8 @@ icon: dash
 
 In the context of the **Fractal Range Model (FRM)**, the **SMT (Smart Money Technique)** serves as a crucial **confluence indicator** that strengthens the reliability of a formed model.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-frm-012.png" alt=""><figcaption></figcaption></figure>
+
 When an SMT signal aligns with a model, it signifies a high level of confidence in the direction of the market, indicating a strong and likely sustained trend.
 
 The **SMT** acts as a confirmation tool that validates the directional bias provided by the Fractal Range Model. It helps identify the involvement of **smart money** — the institutional and sophisticated market participants whose actions often drive significant market moves.&#x20;

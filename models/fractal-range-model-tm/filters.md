@@ -7,6 +7,8 @@ icon: filter
 
 The **Fractal Range Model** offers a powerful set of time-based filters that allow users to focus exclusively on market patterns that occur during specific times of the day.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-frm-008.png" alt=""><figcaption></figcaption></figure>
+
 These filters enable traders to tailor their analysis to particular trading sessions, ensuring that the data they view is relevant to their preferred trading hours.
 
 ## Filters

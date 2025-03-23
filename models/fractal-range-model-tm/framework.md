@@ -21,7 +21,11 @@ The model's lifecycle includes the following statuses:
 
 ### **1. Formation**
 
-The **Formation** phase marks the initial setup of the Fractal Range Model. During this stage, the model identifies and plots key components, such as:
+The **Formation** phase marks the initial setup of the Fractal Range Model.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-frm-006.png" alt=""><figcaption></figcaption></figure>
+
+During this stage, the model identifies and plots key components, such as:
 
 * **Sweeps**: Market movements that indicate a potential reversal or strong shift in trend.
 * **CISD (Change In State of Delivery)**: A structural change that provides insight into trend shifts.
@@ -40,6 +44,8 @@ If any of these elements are present, they will be automatically displayed on th
 
 A Fractal Range Model is considered **invalidated** when the price does not reach the **2 Standard Deviation** level or the first identified liquidity level, and when the price breaks above the high that formed the **Sweep**.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-frm-005.png" alt=""><figcaption></figcaption></figure>
+
 Invalidation signals that the original setup is no longer reliable, and traders should avoid taking action based on the model's original parameters.
 
 **Key Invalidation Conditions**:
@@ -51,6 +57,8 @@ Invalidation signals that the original setup is no longer reliable, and traders 
 ### **3. Success**
 
 A Fractal Range Model is considered **successful** when the price reaches the **2 Standard Deviation** level or the first identified liquidity level.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-frm-003.png" alt=""><figcaption></figcaption></figure>
 
 This indicates that the model's predictions align with actual market movements, confirming the setup's validity and providing a potential trading signal.
 
@@ -67,7 +75,11 @@ After the **Fractal Range Model** has formed and key components like **Sweep** a
 
 ### **1. Entry Based on LTF PD Arrays**
 
-Once the model is formed and **Sweep** and **CISD** have been established, the next step is to check for **Low-Timeframe (LTF) PD Arrays**. These arrays are key areas of liquidity or price structure that can give further confirmation for an entry. If a **LTF PD Array** is present, traders can place their position in line with this array, as it serves as a strong zone of potential price reversal or continuation.
+Once the model is formed and **Sweep** and **CISD** have been established, the next step is to check for **Low-Timeframe (LTF) PD Arrays**. These arrays are key areas of liquidity or price structure that can give further confirmation for an entry.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-frm-007.png" alt=""><figcaption></figcaption></figure>
+
+If a **LTF PD Array** is present, traders can place their position in line with this array, as it serves as a strong zone of potential price reversal or continuation.
 
 * **Action**: Look for LTF PD Arrays that align with the Fractal Range Model’s structure.
 * **Entry**: If the array provides confluence, place the position near the array with a stop loss below the array zone.
