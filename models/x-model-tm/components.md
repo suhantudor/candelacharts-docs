@@ -7,6 +7,8 @@ icon: diamonds-4
 
 The **X Model** in trading is a methodical approach that combines key market behaviors to identify promising trading opportunities.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-x-002.png" alt=""><figcaption></figcaption></figure>
+
 A prime example is the Market Maker X Model (MMXM), which focuses on analyzing price action, liquidity zones, and shifts in market structure to predict future price movements.
 
 ## Key Components

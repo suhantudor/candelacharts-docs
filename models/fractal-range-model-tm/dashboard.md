@@ -19,6 +19,8 @@ The following key metrics are displayed:
 4. **Sessions Filter:** This filter allows users to view trading data within specific market sessions (Killzones).
 5. **Model Status Filter:** This filter enables users to focus on specific states or conditions of the trading model.
 
+### Conclusion
+
 The **FRM Dashboard** delivers a streamlined view of critical information, including the **market bias**, the **current model**, and the **remaining time until the HTF candle closes**.&#x20;
 
 By consolidating these key data points, traders can make more informed decisions, enhancing their ability to navigate market conditions with greater confidence and precision.

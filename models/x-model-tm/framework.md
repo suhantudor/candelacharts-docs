@@ -7,6 +7,8 @@ icon: diagram-venn
 
 The X Model trading framework offers a structured approach for identifying high-probability trading opportunities by combining key technical indicators, market structure analysis, and timing strategies to guide both long and short entries.
 
+<figure><img src="../../.gitbook/assets/docs-x-003.png" alt=""><figcaption></figcaption></figure>
+
 ### **Short Entry Checklist**
 
 1. **Previous Day High (ERL):** Price breaks or tests the previous day’s high.

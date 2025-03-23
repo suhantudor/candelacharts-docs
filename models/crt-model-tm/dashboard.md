@@ -27,6 +27,16 @@ The dashboard displays a countdown showing the remaining time until the higher t
 
 It’s particularly useful for traders focusing on higher timeframes who need to make decisions based on the closure of key candles.
 
+### **Sessions Filter**
+
+This filter allows users to view trading data within specific market sessions (Killzones).
+
+### **Model Status Filter**
+
+This filter enables users to focus on specific states or conditions of the trading model.
+
+### Conclusion
+
 The CRT Model Dashboard consolidates critical information, including market bias, the current model, and the remaining time until the HTF candle closes.&#x20;
 
 By presenting these data points in a streamlined format, traders can make more informed decisions, enhancing their ability to navigate market conditions with greater confidence and precision.
