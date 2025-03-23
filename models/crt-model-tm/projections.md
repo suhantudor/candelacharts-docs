@@ -7,6 +7,8 @@ icon: rectangle-vertical-history
 
 Once a model is formed, the **Candle Range Theory (CRT) Model** automatically generates projection levels based on standard deviations.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-crt-004.png" alt=""><figcaption></figcaption></figure>
+
 These projections are calculated from the CISD Low to the CISD High, offering a dynamic view of potential price movement and volatility.&#x20;
 
 The projections provide traders with valuable insights into possible future price ranges, assisting in trade planning and decision-making.

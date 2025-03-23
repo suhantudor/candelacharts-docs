@@ -7,6 +7,8 @@ icon: game-board-simple
 
 The **Candle Range Theory (CRT) Model** Dashboard provides traders with essential, real-time information to support decision-making and improve market analysis.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-crt-005.png" alt=""><figcaption></figcaption></figure>
+
 Designed to present key data points, the dashboard offers a comprehensive view of current market conditions and the chart's state.&#x20;
 
 The following key metrics are displayed:

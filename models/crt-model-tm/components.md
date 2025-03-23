@@ -7,6 +7,8 @@ icon: diamonds-4
 
 This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-crt-002.png" alt=""><figcaption></figcaption></figure>
+
 Below are the key components that make up the algorithm:
 
 * **Sweep**
