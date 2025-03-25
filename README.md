@@ -33,4 +33,4 @@ Looking for fast answers to common questions about our website, products, or bil
 
 #### Join our community
 
-Need more assistance or have feedback to share? Join our community or email us at candelacharts@gmail.com
+Need more assistance or have feedback to share? Join our community or email us at hello@candelacharts.com
