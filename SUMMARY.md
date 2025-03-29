@@ -52,6 +52,7 @@
   * [Overview](toolkits/daily-profiles-tm/overview.md)
   * [ICT Daily Profiles](toolkits/daily-profiles-tm/ict-daily-profiles.md)
   * [Scanner](toolkits/daily-profiles-tm/scanner.md)
+* [Premium Discount Pro 🔜](toolkits/premium-discount-pro.md)
 * [Trend Concepts 🔜](toolkits/trend-concepts.md)
 * [Institutional Concepts 🔜](toolkits/institutional-concepts.md)
 * [Killzones, Macros & Pivots Concepts 🔜](toolkits/killzones-macros-and-pivots-concepts.md)
