@@ -34,8 +34,8 @@ Once these components are detected, the model automatically calculates and displ
 
 At this stage, the model also identifies and displays the following key elements, provided they are available:
 
-* **HTF PD Arrays** (Higher-Timeframe Price Delivery Arrays)
-* **LTF PD Arrays** (Lower-Timeframe Price Delivery Arrays)
+* **HTF PD Arrays** (Higher-Timeframe PD Arrays)
+* **LTF PD Arrays** (Lower-Timeframe PD Arrays)
 * **SMT (Smart Money Technique)**
 
 If any of these elements are present, they will be automatically displayed on the chart.
