@@ -40,6 +40,10 @@ At this stage, the model also identifies and displays the following key elements
 
 If any of these elements are present, they will be automatically displayed on the chart.
 
+{% hint style="info" %}
+The models formed on the LFT for the same HTF candle, even if they reach 2 standard deviations or the first liquidity level, may be invalidated later within the same candle. In such cases, we mark them as "real-time invalidated models."
+{% endhint %}
+
 ### **2. Invalidation**
 
 A Fractal Range Model is considered **invalidated** when the price does not reach the **2 Standard Deviation** level or the first identified liquidity level, and when the price breaks above the high that formed the **Sweep**.&#x20;
