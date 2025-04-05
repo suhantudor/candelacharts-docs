@@ -90,6 +90,8 @@
   * [Overview](models/x-model-tm/overview.md)
   * [Timeframe Agreement](models/x-model-tm/timeframe-agreement.md)
   * [Components](models/x-model-tm/components.md)
+  * [Labels](models/x-model-tm/labels.md)
+  * [Statuses](models/x-model-tm/statuses.md)
   * [Framework](models/x-model-tm/framework.md)
   * [Dashboard](models/x-model-tm/dashboard.md)
   * [Alerts](models/x-model-tm/alerts.md)

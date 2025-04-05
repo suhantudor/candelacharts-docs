@@ -1,5 +1,5 @@
 ---
-description: Fractal Range Model Labels
+description: X Model Labels
 icon: text-size
 ---
 
