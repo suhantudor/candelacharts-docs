@@ -42,7 +42,7 @@ Below are the key components that make up the algorithm:
   * Invalidated if the next candle is bearish and its body closes below the low of the prior candle.
   * Invalidated if any subsequent bearish candle closes below the low of the prior candle.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Real-time models remove the sweep when the model is invalidated and the candle is closed. For other models, the sweep is retained and only invalidated if the sweep itself is invalidated, with the update clearly highlighted in the UI.
 {% endhint %}
 
