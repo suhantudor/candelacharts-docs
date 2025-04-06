@@ -101,6 +101,8 @@
 * [Silver Bullet Model 🔜](models/silver-bullet-model.md)
 * [Unicorn Model 🔜](models/unicorn-model.md)
 * [MMXM Model 🔜](models/mmxm-model.md)
+* [Forever Model 🔜](models/forever-model.md)
+* [Venom Model 🔜](models/venom-model.md)
 
 ## Statistics
 
