@@ -9,6 +9,7 @@ The **OHLC Range Map Algorithm** is a sophisticated tool designed to provide dee
 
 * **Mean**&#x20;
 * **Median**
+* **KDE**
 
 These methods, coupled with insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
