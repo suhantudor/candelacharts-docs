@@ -40,6 +40,14 @@ The **Median** method focuses on the middle value within the OHLC dataset, offer
 
 When paired with manipulation and distribution phases, the **Median** highlights stable zones and reliable price levels for potential trade entries or exits.
 
+### 3. Kernel Density Estimation
+
+The **Kernel Density Estimation (KDE)** method focuses on identifying the most probable price levels within the OHLC dataset by estimating the underlying distribution of price action. Unlike simple averages or medians, KDE provides a smoothed view of the data, capturing subtle patterns and price clusters while minimizing the impact of outliers.&#x20;
+
+By modeling the distribution with a continuous curve, KDE is particularly effective in volatile markets, as it highlights zones of price stability even amidst rapid fluctuations.&#x20;
+
+When applied in conjunction with manipulation and distribution phases, KDE reveals densely populated price areas, offering reliable zones for potential trade entries or exits.
+
 ### **Period Options**
 
 The algorithm includes several customizable period options, allowing traders to adjust statistical calculations to suit different market conditions. These periods determine how data is aggregated and how the **Mean** and **Median** are calculated over time for each specific session or "killzone."
