@@ -9,8 +9,16 @@ icon: list-ol
 
 Enhance your TradingView toolkit with the **OHLC Volatility Range Map**—a sophisticated indicator designed to provide actionable insights for refined trading strategies.
 
-{% content-ref url="algorithm.md" %}
-[algorithm.md](algorithm.md)
+{% content-ref url="themes.md" %}
+[themes.md](themes.md)
+{% endcontent-ref %}
+
+{% content-ref url="visualization.md" %}
+[visualization.md](visualization.md)
+{% endcontent-ref %}
+
+{% content-ref url="calculation.md" %}
+[calculation.md](calculation.md)
 {% endcontent-ref %}
 
 {% content-ref url="statistics.md" %}

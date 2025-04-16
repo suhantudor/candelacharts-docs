@@ -1,11 +1,11 @@
 ---
-description: OHLC Volatility Range Map Algorithm
-icon: rectangle-terminal
+description: OHLC Volatility Range Map
+icon: sigma
 ---
 
-# Algorithm
+# Calculation
 
-The **OHLC Volatility Range Map Algorithm** is a cutting-edge tool designed to provide deeper insights into market dynamics by incorporating candlestick data analysis with a focus on volatility.&#x20;
+The **OHLC Volatility Range Map** is a cutting-edge tool designed to provide deeper insights into market dynamics by incorporating candlestick data analysis with a focus on volatility.&#x20;
 
 It utilizes two core statistical methods—Mean and Median—to deliver actionable insights into price behavior, especially during periods of heightened market activity.
 

@@ -9,8 +9,8 @@ icon: list-ol
 
 Elevate your TradingView toolkit with the **OHLC Macro Range Map**—an advanced indicator crafted to deliver actionable insights for more refined trading strategies.
 
-{% content-ref url="algorithm.md" %}
-[algorithm.md](algorithm.md)
+{% content-ref url="calculation.md" %}
+[calculation.md](calculation.md)
 {% endcontent-ref %}
 
 {% content-ref url="statistics.md" %}

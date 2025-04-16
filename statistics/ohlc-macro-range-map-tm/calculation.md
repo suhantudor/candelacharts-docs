@@ -1,27 +1,17 @@
 ---
-description: OHLC Macro Range Map Algorithm
-icon: rectangle-terminal
+description: OHLC Macro Range Map Calculation
+icon: sigma
 ---
 
-# Algorithm
+# Calculation
 
-The **OHLC Macro Range Map Algorithm** is an advanced tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two key statistical methods:
+The **OHLC Macro Range Map** is an advanced tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two key statistical methods:
 
 * **Mean**
 * **Median**
+* **KDE**
 
 These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.&#x20;
-
-The calculations are specifically tailored to different trading macros, providing focused analysis for each key market period:
-
-* **(London) 02:33-03:00**
-* **(London) 04:03-04:30**
-* **(NY AM) 08:50-09:10**
-* **(NY AM) 09:50-10:10**
-* **(NY AM) 10:50-11:10**
-* **(NY Launch) 11:50-12:10**
-* **(NY PM) 13:10-13:40**
-* **(NY PM) 15:15-15:45**
 
 ### **1. Mean Method**
 
@@ -65,7 +55,7 @@ The selected period directly influences the statistical outputs and traders' int
 * **Long Periods** (e.g., 40, 60): Smooth out short-term fluctuations, providing a clearer view of underlying trends and significant liquidity levels within each session.
 * **Custom and Maximum Periods:** Offer flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
 
-By combining the **Mean** and **Median** methods with dynamic period options, the **OHLC Macro Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
+By combining the **Mean,** **Median and KDE** methods with dynamic period options, the **OHLC Macro Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
 
 Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.&#x20;
 
