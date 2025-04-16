@@ -1,11 +1,11 @@
 ---
-description: OHLC Range Map Algorithm
-icon: rectangle-terminal
+description: OHLC Range Map Calculation
+icon: sigma
 ---
 
-# Algorithm
+# Calculation
 
-The **OHLC Range Map Algorithm** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:&#x20;
+The **OHLC Range Map** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:&#x20;
 
 * **Mean**&#x20;
 * **Median**
@@ -59,7 +59,7 @@ The chosen period directly affects the statistical outputs and how traders inter
 * **Long Periods (e.g., 40, 60)**: Smooth out short-term fluctuations, offering a clearer picture of underlying trends and significant liquidity levels.
 * **Custom and Maximum Periods**: Provide flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
 
-By integrating the **Mean** and **Median** methods with dynamic period options, the OHLC Range Map Algorithm empowers traders to analyze market behavior with precision and adaptability.&#x20;
+By integrating the **Mean,** **Median and KDE** methods with dynamic period options, the OHLC Range Map Algorithm empowers traders to analyze market behavior with precision and adaptability.&#x20;
 
 Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.&#x20;
 
