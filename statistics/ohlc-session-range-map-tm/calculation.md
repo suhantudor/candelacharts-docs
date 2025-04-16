@@ -1,22 +1,17 @@
 ---
-description: OHLC Session Range Map Algorithm
-icon: rectangle-terminal
+description: OHLC Session Range Map Calculation
+icon: sigma
 ---
 
-# Algorithm
+# Calculation
 
-The **OHLC Session Range Map Algorithm** is an advanced tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two key statistical methods:
+The **OHLC Session Range Map** is an advanced tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two key statistical methods:
 
 * **Mean**
 * **Median**
+* **KDE**
 
-These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action. The calculations are specifically tailored to different trading sessions (or "killzones"), providing a more focused analysis for each key market period:
-
-* **Asia Session (20:00–00:00)**
-* **London Session (02:00–05:00)**
-* **NY AM Session (09:30–11:00)**
-* **NY Lunch Session (12:00–13:00)**
-* **NY PM Session (13:30–16:00)**
+These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
 ### 1. **Mean Method**
 
@@ -62,7 +57,7 @@ The selected period directly influences the statistical outputs and traders' int
 * **Long Periods** (e.g., 40, 60): Smooth out short-term fluctuations, providing a clearer view of underlying trends and significant liquidity levels within each session.
 * **Custom and Maximum Periods**: Offer flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
 
-By combining the **Mean** and **Median** methods with dynamic period options, the **OHLC Session Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
+By combining the **Mean,** **Median and KDE** methods with dynamic period options, the **OHLC Session Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
 
 Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.&#x20;
 

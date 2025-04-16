@@ -17,8 +17,8 @@ Enhance your TradingView toolkit by incorporating this powerful indicator into y
 [po3.md](po3.md)
 {% endcontent-ref %}
 
-{% content-ref url="calculation.md" %}
-[calculation.md](calculation.md)
+{% content-ref url="algorithm.md" %}
+[algorithm.md](algorithm.md)
 {% endcontent-ref %}
 
 {% content-ref url="liquidity.md" %}
