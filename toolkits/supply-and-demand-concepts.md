@@ -3,5 +3,5 @@ hidden: true
 icon: pipe-section
 ---
 
-# Supply & Demand Concepts 🔜
+# Support, Resistance Concepts 🔜
 

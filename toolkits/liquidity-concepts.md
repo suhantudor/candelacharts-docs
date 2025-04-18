@@ -1,6 +1,6 @@
 ---
 hidden: true
-icon: arrow-trend-up
+icon: objects-align-top
 ---
 
 # Liquidity Concepts 🔜

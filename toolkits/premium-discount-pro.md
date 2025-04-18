@@ -3,5 +3,5 @@ hidden: true
 icon: square-divide
 ---
 
-# Premium Discount Pro 🔜
+# Premium Discount Model 🔜
 
