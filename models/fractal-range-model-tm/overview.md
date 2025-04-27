@@ -23,6 +23,14 @@ Recognizing these swings is critical in anticipating future price movements and 
 [c-area.md](c-area.md)
 {% endcontent-ref %}
 
+{% content-ref url="labels.md" %}
+[labels.md](labels.md)
+{% endcontent-ref %}
+
+{% content-ref url="statuses.md" %}
+[statuses.md](statuses.md)
+{% endcontent-ref %}
+
 {% content-ref url="framework.md" %}
 [framework.md](framework.md)
 {% endcontent-ref %}
@@ -45,6 +53,10 @@ Recognizing these swings is critical in anticipating future price movements and 
 
 {% content-ref url="dashboard.md" %}
 [dashboard.md](dashboard.md)
+{% endcontent-ref %}
+
+{% content-ref url="alerts.md" %}
+[alerts.md](alerts.md)
 {% endcontent-ref %}
 
 By combining the identification of swing points, detecting sweeps, interpreting candlestick behavior, and understanding shifts in market delivery, the FRM offers a dynamic and adaptive approach to trading, enabling traders to make more precise decisions and navigate the complexities of the market with greater confidence.
