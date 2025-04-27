@@ -4,6 +4,8 @@ icon: airplay
 
 # C-area
 
+<figure><img src="../../.gitbook/assets/docs-frm-013.png" alt=""><figcaption></figcaption></figure>
+
 ### **Definition**
 
 The **C-Area** refers to the price zone between the **opening price of the current candle** and the **midpoint of the previous candle's range**. It provides insight into early price positioning relative to the prior session’s balance and can serve as a contextual reference for potential intraday direction or rejection zones.
