@@ -19,6 +19,10 @@ Recognizing these swings is critical in anticipating future price movements and 
 [components.md](components.md)
 {% endcontent-ref %}
 
+{% content-ref url="c-area.md" %}
+[c-area.md](c-area.md)
+{% endcontent-ref %}
+
 {% content-ref url="framework.md" %}
 [framework.md](framework.md)
 {% endcontent-ref %}
