@@ -15,7 +15,7 @@ After signing up for a plan, you'll be directed to a page where you can access y
 
 You'll be asked to connect your TradingView and Discord accounts, both of which are free platforms that our tools operate on.
 
-We do not store your payment details; they are encrypted and securely processed through _Stripe_ for safe transactions on our site.
+We do not store your payment details; they are encrypted and securely processed through _Stripe_ on Whop for safe transactions on our site.
 
 </details>
 
@@ -23,11 +23,17 @@ We do not store your payment details; they are encrypted and securely processed 
 
 <summary>Which plan is right for me?</summary>
 
-The **Glow Plan** is our most popular option, offering versatility for any trading style and providing access to the complete set of our _Smart Money Concepts™, Trend Toolkit™, Supply & Demand™, Killzones, Macros & Pivots™_ toolkits.
+The **Glow Plan** is our most popular option, offering versatility for any trading style and providing access to the complete set of our _Price Action Toolkit™, Imbalance Concepts™, ICT Weekly Profiles™, OHLC Range Map™, OHLC Session Range Map™, OHLC Volatility Range Map™, CRT Model™,_ and _X Model™_.
 
-For traders who focus on essentials like support/resistance, trend lines, and patterns, the **Spark Plan** is an excellent choice. It’s ideal for those who want to streamline their analysis using just our _Smart Money Concepts™_ toolkit.
+For traders who focus on essentials like support/resistance, trend lines, and patterns, the **Spark Plan** is an excellent choice. It’s ideal for those who want to streamline their analysis using just our _Smart Money Concepts™, OHLC Range Map™, OHLC Volatility Range Map™_ and _X Model™_.
 
-For data-driven traders, the **Radiant Plan** is the best option. It includes _Smart Money Concepts™, Trend Toolkit™, Supply & Demand™, Killzones, Macros & Pivots™, KMP Statistics_ toolkits and _MMXM Model, X Model, Unicorn Model, CRT Model_.
+For data-driven traders, the **Radiant Plan** is the best option. It includes _Price Action Toolkit™, Imbalance Concepts™, Block Concepts™, ICT Weekly Profiles™, ICT Daily Profiles™, OHLC Range Map™, OHLC Session Range Map™, OHLC Macro Range Map™, OHLC Volatility Range Map™, Fractal Range Model™, CRT Model™_ and _X Model™._
+
+Perfect for traders who align with ICT-style strategies, the **PAT Plan** delivers a comprehensive suite of _Price Action Toolkit_™_, Imbalance Concepts™, ICT Weekly and Daily Profiles™, and Block Concepts™._ It's a powerful package for dissecting price delivery and institutional activity across all timeframes.
+
+**OHLC Plan,** designed for traders who prioritize price structure and range dynamics, the **OHLC Plan** offers full access to the _OHLC Range Map™, Session Range Map™, Macro Range Map™, and Volatility Range Map™_. It's an excellent choice for those who prefer precision and clarity in their market profiling.
+
+Tailored for traders who want advanced modeling tools, the **Model Plan** includes access to the _Fractal Range Model™, CRT Model™, Unicorn Model™, Forever Model™,_ and _the X Model™_. Ideal for strategic thinkers aiming to anticipate market behavior through multi-dimensional models.
 
 </details>
 
