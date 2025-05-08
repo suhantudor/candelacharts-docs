@@ -5,9 +5,9 @@ icon: list-ol
 
 # Overview
 
-Market price imbalances arise when there is a sharp discrepancy between supply and demand, causing the asset's price to diverge from its fair value, leading to market inefficiencies.&#x20;
+Market price imbalances arise when there is a sharp discrepancy between supply and demand, causing the asset's price to diverge from its fair value, leading to market inefficiencies.
 
-Generally, prices tend to return to these imbalanced areas in an attempt to restore equilibrium.&#x20;
+Generally, prices tend to return to these imbalanced areas in an attempt to restore equilibrium.
 
 The toolkit is able to detect the following imbalances:
 
@@ -29,6 +29,14 @@ The toolkit is able to detect the following imbalances:
 
 {% content-ref url="volume-imbalance.md" %}
 [volume-imbalance.md](volume-imbalance.md)
+{% endcontent-ref %}
+
+{% content-ref url="new-day-opening-gap.md" %}
+[new-day-opening-gap.md](new-day-opening-gap.md)
+{% endcontent-ref %}
+
+{% content-ref url="new-week-opening-gap.md" %}
+[new-week-opening-gap.md](new-week-opening-gap.md)
 {% endcontent-ref %}
 
 These zones often act as support and resistance levels, marking significant points of interest for traders.
