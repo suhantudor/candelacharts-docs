@@ -1,6 +1,6 @@
 ---
-icon: alicorn
+icon: pot-food
 ---
 
-# Unicorn Model™ 🔜
+# Turtle Soup Model™ 🔜
 
