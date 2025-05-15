@@ -1,9 +1,9 @@
 ---
-description: CRT Projections
+description: Turtle Soup Standard Deviation
 icon: rectangle-vertical-history
 ---
 
-# Projections
+# Standard Deviation
 
 Once a model is formed, the **Candle Range Theory (CRT) Model** automatically generates projection levels based on standard deviations.
 
