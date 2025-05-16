@@ -29,10 +29,6 @@ Building on the original Turtle Soup concept, the ICT version incorporates smart
 [time.md](time.md)
 {% endcontent-ref %}
 
-{% content-ref url="framework.md" %}
-[framework.md](framework.md)
-{% endcontent-ref %}
-
 {% content-ref url="pd-arrays.md" %}
 [pd-arrays.md](pd-arrays.md)
 {% endcontent-ref %}

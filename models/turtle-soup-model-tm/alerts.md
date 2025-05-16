@@ -24,22 +24,22 @@ layout:
 
 You can configure alerts for the following available model alerts:
 
-1. CRT Model Formation +B/-B
-2. CRT Model Successful
-3. CRT Model Invalidated
-4. CRT Model Formation Sweep
-5. CRT Model Formation D-purge
+1. Turtle Soup Model Formation +B/-B
+2. Turtle Soup Model Successful
+3. Turtle Soup Model Invalidated
+4. Turtle Soup Model Formation Sweep
+5. Turtle Soup Model Formation D-purge
 
 Set these alerts to stay on top of critical market conditions and enhance your trading strategy with timely notifications.
 
 ### Setup Alerts
 
-To set up alerts using the CRT Model on TradingView, follow these steps:
+To set up alerts using the Turtle Soup Model on TradingView, follow these steps:
 
 1. **Create a New Alert**\
    Click the **“+ Alert”** button located at the top of your TradingView chart interface.
 2. **Set the Condition**\
-   In the **"Condition"** dropdown menu, select **CRT Model** as the indicator you want to trigger the alert.
+   In the **"Condition"** dropdown menu, select **Turtle Soup Model** as the indicator you want to trigger the alert.
 3. **Choose the Timeframe**\
    Under the **“Interval”** setting, choose your **preferred timeframe** (e.g., 1H, 4H, 1D) based on your trading strategy or the timeframe you want to monitor.
 4. **Configure Alert Expiration (Optional)**\

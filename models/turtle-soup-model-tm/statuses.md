@@ -23,6 +23,10 @@ The **Formation** phase marks the beginning of the Turtle Soup setup. During thi
 
 Once identified, the model calculates **Projections** and **Liquidity Levels**, providing insight into potential price movements and the overall market bias.
 
+{% hint style="warning" %}
+The lower timeframe PD Arrays are essential for model formation. In the absence of a LTF PD Array, the model is considered low probability and will not be formed.
+{% endhint %}
+
 ### **2. Pre-Invalidation**
 
 In the **Pre-Invalidation** phase, the model is considered at risk of failing. This occurs when the price moves above the sweep high but the **sweep itself remains intact** (not fully broken). In this case:
@@ -49,7 +53,7 @@ When the model is invalidated, it is crucial for traders to **abandon the setup*
 The **Success** phase happens when the trade setup aligns with the expected market movement, confirming that the model is valid. Success is reached when:
 
 * The price **reaches the 2 Standard Deviation level**.
-* The price **hits the first identified liquidity level**.
+* The price **hits the first identified SSL/BSL liquidity level**.
 
 At this point, the model’s predictions are confirmed, and traders can **execute the trade** with higher confidence.
 

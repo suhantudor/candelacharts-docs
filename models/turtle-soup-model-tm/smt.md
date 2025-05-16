@@ -5,22 +5,16 @@ icon: dash
 
 # SMT
 
-In the context of the **Fractal Range Model (FRM)**, the **SMT (Smart Money Technique)** serves as a crucial **confluence indicator** that strengthens the reliability of a formed model.
+In the context of the Turtle Soup Model (TSM), the Smart Money Technique (SMT) serves as a crucial confluence indicator that enhances the reliability of a formed model. When an SMT signal aligns with a model, it signifies a high level of confidence in the market's direction, suggesting a strong and likely sustained trend.
 
-<figure><img src="../../.gitbook/assets/docs-frm-012.png" alt=""><figcaption></figcaption></figure>
+The SMT acts as a confirmation tool, validating the directional bias indicated by the Turtle Soup Model. It helps identify the participation of smart money—institutional and sophisticated market players whose actions often drive significant market movements.
 
-When an SMT signal aligns with a model, it signifies a high level of confidence in the direction of the market, indicating a strong and likely sustained trend.
+When the SMT signal aligns with a specific model, such as a Sweep or Market Structure Shift (MSS) formation, it confirms the likelihood of the market continuing in the indicated direction.&#x20;
 
-The **SMT** acts as a confirmation tool that validates the directional bias provided by the Fractal Range Model. It helps identify the involvement of **smart money** — the institutional and sophisticated market participants whose actions often drive significant market moves.
+This confluence between the Turtle Soup Model and SMT provides traders with a more reliable and robust framework for predicting price action, offering greater clarity on the most probable market movement.
 
-When the SMT signal aligns with a specific model, such as a **Sweep** or **CISD** formation, it confirms the likelihood that the market will follow through in the indicated direction.
+With the added confirmation from SMT, traders can enter positions with greater conviction, knowing that the market is likely to follow through in the projected direction.
 
-This confluence between the **Fractal Range Model** and **SMT** offers traders a more reliable and robust framework for predicting price action, providing clarity on which way the market is most likely to move.
+In summary, the SMT within the Turtle Soup Model is a vital confluence factor that strengthens the directional signals of the model. When an SMT signal aligns with a formed market model, it solidifies a clear market bias, indicating a high probability of price movement in that direction.&#x20;
 
-With the added confirmation from SMT, traders can confidently enter positions with a stronger conviction in the direction of the trend.
-
-In summary, the **SMT** within the Fractal Range Model is a critical confluence factor that strengthens the directional signals of the model.
-
-When an SMT signal aligns with a formed market model, it confirms a clear market bias, indicating a strong probability of price movement in that direction.
-
-By leveraging this confluence, traders can make more informed, high-confidence decisions in their market entries and exits.
+By leveraging this confluence, traders can make more informed, high-confidence decisions for both market entries and exits.

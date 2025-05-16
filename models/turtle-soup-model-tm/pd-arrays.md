@@ -5,38 +5,40 @@ icon: frame
 
 # PD Arrays
 
-The Fractal Range Model (FRM) provides two distinct sets of **PD Arrays**: one for **Higher Time Frames (HTF)** and one for **Lower Time Frames (LTF)**.
+The Turtle Soup Model (TSM) utilizes two distinct sets of PD Arrays: one for Higher Time Frames (HTF) and one for Lower Time Frames (LTF).
 
 These arrays, referred to as:
 
 * **FVG** (Fair Value Gap)
 * **IFVG** (Inverse Fair Value Gap)
 
-play a critical role in market analysis and trading strategy.
+are crucial components of market analysis and trading strategy.
 
 ### HTF PD Arrays
 
-The **HTF PD Arrays** are key points of interest that indicate significant market levels where sweeps (sharp price movements) are likely to occur.
+HTF PD Arrays serve as key levels of interest, highlighting significant market zones where sharp price movements (sweeps) are likely to occur.&#x20;
 
-<figure><img src="../../.gitbook/assets/docs-frm-009.png" alt=""><figcaption></figcaption></figure>
+These arrays represent high-probability reversal points when touched by a price sweep. A sweep that reaches an HTF PD Array signals a strong likelihood of price reversal, making these levels vital for identifying major turning points in the market.
 
-These arrays represent areas of high potential for reversals when touched by a price sweep. When a sweep forms and touches an HTF PD Array, it signals a strong probability of price reversal.
-
-Traders can use these levels as potential exit points or as areas to look for price reaction, making them crucial for identifying important turning points in the market.
+Traders can use HTF PD Arrays to monitor for price reactions. Their role in signaling market reversals or retracements makes them essential in determining when a trend may change direction.
 
 ### LTF PD Arrays
 
-The **LTF PD Arrays**, on the other hand, are used for identifying **entry points**. When a model, such as a **Sweep** or **CISD (Change In Structure Direction)**, forms on the chart, the Fractal Range Model highlights the **PD Arrays** around the newly formed model.
+LTF PD Arrays are instrumental in pinpointing entry points. When a model, such as a Sweep or Market Structure Shift (MSS), forms on the chart, the Turtle Soup Model highlights nearby PD Arrays that align with the newly formed structure.&#x20;
 
-<figure><img src="../../.gitbook/assets/docs-frm-010.png" alt=""><figcaption></figcaption></figure>
+These arrays act as reference levels for entering trades, allowing traders to make informed decisions about positioning.&#x20;
 
-These PD Arrays serve as key reference points for traders to enter positions. By recognizing the array's location relative to the newly formed market structure, traders can make informed decisions about entering trades, whether in the direction of the trend or anticipating a potential reversal.
+Whether entering in the direction of the trend or anticipating a reversal, these levels offer key insights for optimal entry timing.
+
+{% hint style="danger" %}
+The lower timeframe PD Arrays are essential for model formation. In the absence of a LTF PD Array, the model is considered low probability and will not be formed.
+{% endhint %}
 
 ### Key Points
 
-* **HTF PD Arrays** (FVG/IFVG) act as **resistance** or **support** levels, offering areas of potential reversal when touched by a market sweep. These are crucial for identifying significant price levels that may indicate a reversal or retracement.
-* **LTF PD Arrays** provide **entry points** into the market. As a model like a Sweep or CISD is formed, the Fractal Range Model identifies nearby PD Arrays, giving traders specific levels to watch for optimal trade entries.
+* **HTF PD Arrays (FVG/IFVG)**: These arrays function as critical support or resistance levels. When touched by a market sweep, they suggest potential reversals or retracements. They are essential for identifying key price levels where significant market shifts may occur.
+* **LTF PD Arrays**: These arrays provide entry points, helping traders identify precise levels to enter the market once a sweep or market structure shift (MSS) occurs. The proximity of these arrays to newly formed market structures enables traders to make timely, informed entry decisions.
 
-By using both **HTF PD Arrays** for potential reversals and **LTF PD Arrays** for entries, the Fractal Range Model equips traders with a comprehensive framework for both market analysis and actionable trade decisions.
+By combining HTF PD Arrays for reversal identification and LTF PD Arrays for precise entries, the Turtle Soup Model equips traders with a comprehensive framework for both market analysis and execution.&#x20;
 
-These arrays help to pinpoint significant levels and inform key decisions for timing entries more effectively.
+This dual approach ensures that traders can effectively time their entries, whether they are capitalizing on trend continuations or anticipating market reversals.
