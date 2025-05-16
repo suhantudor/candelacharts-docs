@@ -1,5 +1,5 @@
 ---
-description: CRT Dashboard
+description: Turtle Soup Dashboard
 icon: game-board-simple
 ---
 

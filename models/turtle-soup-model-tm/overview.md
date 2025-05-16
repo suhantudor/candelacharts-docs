@@ -25,8 +25,8 @@ Building on the original Turtle Soup concept, the ICT version incorporates smart
 [statuses.md](statuses.md)
 {% endcontent-ref %}
 
-{% content-ref url="time.md" %}
-[time.md](time.md)
+{% content-ref url="filters.md" %}
+[filters.md](filters.md)
 {% endcontent-ref %}
 
 {% content-ref url="pd-arrays.md" %}

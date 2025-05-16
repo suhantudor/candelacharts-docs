@@ -82,7 +82,7 @@
   * [Components](models/turtle-soup-model-tm/components.md)
   * [Labels](models/turtle-soup-model-tm/labels.md)
   * [Statuses](models/turtle-soup-model-tm/statuses.md)
-  * [Filters](models/turtle-soup-model-tm/time.md)
+  * [Filters](models/turtle-soup-model-tm/filters.md)
   * [PD Arrays](models/turtle-soup-model-tm/pd-arrays.md)
   * [Standard Deviation](models/turtle-soup-model-tm/standard-deviation.md)
   * [SMT](models/turtle-soup-model-tm/smt.md)
