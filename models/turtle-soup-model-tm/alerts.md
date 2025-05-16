@@ -1,5 +1,5 @@
 ---
-description: CRT Model Alerts
+description: Turtle Soup Model Alerts
 icon: bell
 coverY: 0
 layout:

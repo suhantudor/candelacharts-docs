@@ -1,21 +1,19 @@
 ---
-description: CRT Components
+description: Turtle Soup Components
 icon: diamonds-4
 ---
 
 # Components
 
-This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.
-
-<figure><img src="../../.gitbook/assets/docs-crt-002.png" alt=""><figcaption></figcaption></figure>
+**ICT Turtle Soup** is a **liquidity-based reversal setup** taught by the Inner Circle Trader (ICT). It targets traders who follow traditional breakout strategies (like the classic Turtle Trading System) by **fading false breakouts** near key swing highs or lows.
 
 Below are the key components that make up the algorithm:
 
 * **Sweep**
 * **D-purge**
-* **CISD**
-* **Mean**
-* **C-area**
+* **MSS**
+* **PD Arrays**
+* **SMT**
 * **Projections**
 * **Liquidity**
 
@@ -40,7 +38,7 @@ Below are the key components that make up the algorithm:
   * Invalidated if any subsequent bearish candle closes below the low of the prior candle.
 
 {% hint style="warning" %}
-Real-time models remove the sweep when the model is invalidated and the candle is closed. For other models, the sweep is retained and only invalidated if the sweep itself is invalidated, with the update clearly highlighted in the UI.
+Real-time models remove the sweep once the model is invalidated and the candle closes. In other models, the sweep remains unless it is directly invalidated, with any changes clearly shown in the UI.
 {% endhint %}
 
 ### **2. D-Purge**
@@ -58,43 +56,58 @@ Real-time models remove the sweep when the model is invalidated and the candle i
   * Invalidated if the next candle is bearish and closes its body below the low of the prior candle.
   * Invalidated if any subsequent bearish candle closes below the low of the prior candle.
 
-### **3. CISD**
+### **3. MSS**
 
-**Definition:** Change in State of Delivery (CISD) refers to a shift in price delivery, indicating a transition between the buy-side and sell-side or vice versa.
+**Definition:** **Market Structure Shift (MSS)** in trading refers to a significant change in the price pattern or trend direction of an asset, indicating a potential reversal or transition in market sentiment.
 
 **Formation:**
 
-* **Bullish CISD:** Occurs when the price closes above the opening price of a bearish delivery.
-* **Bearish CISD:** Occurs when the price closes below the opening price of a bullish delivery.
+* **Bullish MSS:** Occurs when the price closes above the opening price of a bearish delivery.
+* **Bearish MSS:** Occurs when the price closes below the opening price of a bullish delivery.
 
 **Invalidation:**
 
 * N/A (No specific invalidation).
 
-### **4. Mean**
+### **4. PD Arrays**
 
-**Definition:** The mean is the midpoint of the previous candle.
+**Definition:** PD Arrays are models that describe how price is likely to be delivered from one liquidity point to another, based on smart money behavior.&#x20;
 
-**Formation:** The midpoint of the previous candle is marked at the close of the current candle.
+Model supports following PD Arrays for HTF and LTF:
+
+* **Fair Value Gaps (FVGs):** Imbalances between buying and selling, often acts as a **magnet for price** or a **support/resistance zone**
+* **Inversion Fair Value Gaps:** Former FVGs that, once filled or mitigated, reverse roles — acting as support/resistance or continuation zones.
+
+**Formation:**&#x20;
+
+#### Fair Value Gaps (FVG)
+
+An FVG forms when there's a gap between Candle 1 and Candle 3 due to strong buying or selling, leaving an untraded zone.
+
+* **Bullish FVG:** Gap between Candle 1 high and Candle 3 low after a strong up move.
+* **Bearish FVG:** Gap between Candle 1 low and Candle 3 high after a strong down move.
+
+#### Inversion Fair Value Gaps (FVG)
+
+An FVG that was filled and later acts as support (bullish) or resistance (bearish) after a market shift.
 
 **Invalidation:**
 
-* **Bullish:** Invalidated if a bullish candle closes above the midpoint of the previous candle.
-* **Bearish:** Invalidated if a bearish candle closes above the midpoint of the previous candle.
+#### Fair Value Gaps (IFVG)
 
-### **5. C-Area**
+FVG is invalidated when price fully trades through (closes inside) the gap.
 
-**Definition:** C-area represents the region between the open of the current candle and the midpoint of the previous candle.
+#### Inversion Fair Value Gaps (FVG)
 
-**Formation:**
+IFVG is invalidated when price breaks through and closes beyond it in the opposite direction.
 
-* **Bullish C-area:** The distance between the current candle’s open and the previous candle’s midpoint.
-* **Bearish C-area:** The same as above, but for a bearish candle.
+### **5. SMT**
 
-**Invalidation:**
+**Definition:** **Smart Money Technique** refers to strategies used by institutional investors and large entities that have access to advanced insights and market-moving information.
 
-* **Bullish:** Invalidated if a bullish candle closes above the midpoint of the previous candle.
-* **Bearish:** Invalidated if a bearish candle closes above the midpoint of the previous candle.
+**Formation:** **SMT Divergences** occur when two correlated markets show differing swing highs or lows, signaling a potential shift in market direction.
+
+**Invalidation:** The SMT formation is invalidated if the price moves in the opposite direction, failing to respect the expected pattern.
 
 ### **6. Projections**
 

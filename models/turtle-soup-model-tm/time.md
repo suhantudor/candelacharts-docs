@@ -5,20 +5,14 @@ icon: hourglass-start
 
 # Filters
 
-The Candle Range Theory (CRT) Model incorporates various times when the CRT can occur, each designed to analyze market trends at different levels of granularity.
+The **Turtle Soup Model** allows traders to filter potential setups by specific **Killzones**, such as Asia, London, NY AM, NY Launch, and NY Open.&#x20;
 
-<figure><img src="../../.gitbook/assets/docs-crt-003.png" alt=""><figcaption></figcaption></figure>
+These Killzones correspond to key periods of market activity, where liquidity and volatility are typically more pronounced, giving traders an advantage in identifying high-probability setups.
 
-These specific times enable traders and investors to capture key price movements and shifts in market dynamics, offering insights across both short-term and long-term perspectives.
+### Killzones
 
-The CRT model supports the following times when the CRT can happen:
+<table><thead><tr><th width="224.4140625"></th><th></th></tr></thead><tbody><tr><td>Asia (20:00 - 00:00)</td><td>Marks the start of the trading day with moderate volatility. Often sets up liquidity levels that later sessions may target.</td></tr><tr><td>London (02:00 - 05:00)</td><td>High-volume session as major European markets open. Often establishes the day’s directional bias with strong institutional activity.</td></tr><tr><td>NY AM (09:30 - 11:00)</td><td>U.S. equity market open. A key window for volatility spikes and liquidity grabs, making it ideal for Turtle Soup reversals.</td></tr><tr><td>NY Launch (12:00 - 13:00)</td><td>Midday session where markets often pause or reverse. Useful for identifying continuation or reversal patterns.</td></tr><tr><td>NY PM (13:30 - 16:00)</td><td>Final hours of the U.S. session. Often sees profit-taking and closing moves, creating opportunities for late-day setups.</td></tr></tbody></table>
 
-### 4-Hour CRT
+Additionally, the model provides the flexibility to filter by **customer-defined hours ranges**, allowing users to tailor the analysis to their preferred trading times or specific market conditions.&#x20;
 
-<table><thead><tr><th width="163.7265625"></th><th></th></tr></thead><tbody><tr><td>1-5-9 (AM/PM)</td><td>Captures early market trends setting the tone for the trading day.</td></tr><tr><td>2-6-10 (AM/PM)</td><td>Analyzes market shifts after the early session and pre-midday changes.</td></tr></tbody></table>
-
-### 1-Hour CRT
-
-<table><thead><tr><th width="163.234375"></th><th></th></tr></thead><tbody><tr><td>8-9-10 (AM/PM)</td><td>Reflects late-market movements, influenced by global markets' closing.</td></tr><tr><td>2-3-4 (AM)</td><td>Focuses on overnight consolidation and early morning trend shifts.</td></tr><tr><td>7-8-9 (AM)</td><td>Tracks early morning market activity before the official opening.</td></tr></tbody></table>
-
-By using these pairings, the CRT provides a comprehensive framework for market analysis across multiple timeframes, enabling users to adapt their approach based on specific trading objectives.
+This feature enhances the model’s adaptability, ensuring that traders can focus on the timeframes that align with their strategy and trading objectives, improving the overall effectiveness of their trades.

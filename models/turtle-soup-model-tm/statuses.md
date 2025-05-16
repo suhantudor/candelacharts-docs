@@ -1,13 +1,13 @@
 ---
-description: CRT Model Statuses
+description: Turtle Soup Model Statuses
 icon: battery-quarter
 ---
 
 # Statuses
 
-The CRT Model operates through a defined lifecycle that outlines its current state and determines whether a trade opportunity is valid.
+The **Turtle Soup Model** follows a well-defined lifecycle, outlining its current state and determining if a trade opportunity is valid.&#x20;
 
-The lifecycle includes the following phases:
+The lifecycle consists of four phases:
 
 * **Formation**
 * **Pre-Invalidation**
@@ -16,42 +16,43 @@ The lifecycle includes the following phases:
 
 ### **1. Formation**
 
-The Formation phase marks the initiation of the CRT Model. During this stage, the model identifies and plots critical components like:
+The **Formation** phase marks the beginning of the Turtle Soup setup. During this phase, the model identifies key components that suggest a potential reversal, such as:
 
-* **Sweeps**: Market movements signaling potential trend reversals or shifts.
-* **CISD (Change In State of Delivery)**: Structural changes that reveal potential trend shifts.
+* **Sweeps**: Price moves that capture liquidity, often above or below significant swing points, signaling potential trend shifts.
+* **Market Structure Shift (MSS)**: A structural shift that indicates a potential change in market direction.
 
-Once these components are detected, the model calculates and visualizes Projections and Liquidity Levels, providing insights into future price action.
+Once identified, the model calculates **Projections** and **Liquidity Levels**, providing insight into potential price movements and the overall market bias.
 
 ### **2. Pre-Invalidation**
 
-A CRT Model is considered pre-invalidated when the body of the subsequent candle closes above the sweep, yet the high that formed the sweep remains intact.
+In the **Pre-Invalidation** phase, the model is considered at risk of failing. This occurs when the price moves above the sweep high but the **sweep itself remains intact** (not fully broken). In this case:
 
-In such cases, the model is typically deemed unreliable, as it suggests a potential failure in most instances.
+* The model is viewed as **unreliable** but not yet fully invalidated.
+* The **sweep high** remains significant, indicating the setup may still be valid, but it’s close to being invalidated.
 
-Despite this, the high from the original sweep continues to hold significance, indicating that the model has not yet been fully invalidated but is on the brink of doing so.
-
-Most of the time, these models do not result in successful outcomes.
+{% hint style="info" %}
+Most setups in this phase do not lead to success, as the market often reverses, and the original trade setup becomes less reliable.
+{% endhint %}
 
 ### **3. Invalidation**
 
-The CRT Model is considered invalid when the price fails to meet key conditions, signaling that the initial setup is no longer reliable.
+The **Invalidation** phase occurs when key conditions for the setup are not met, signaling that the trade idea is no longer valid. The model is invalidated if:
 
-Invalidation occurs when:
+* The price **fails to reach** the 2 Standard Deviation level.
+* The price **doesn’t hit** the first identified liquidity level.
+* The price **breaks above** the sweep high.
 
-* The price fails to reach the **2 Standard Deviation** level.
-* The price fails to reach the **first identified liquidity** level.
-* The price breaks above the high that initiated the Sweep.
-
-When invalidated, the original trade setup is no longer valid, and traders should refrain from acting on it.
+When the model is invalidated, it is crucial for traders to **abandon the setup**, as the trade no longer aligns with the expected price behavior.
 
 ### **4. Success**
 
-The CRT Model is deemed successful when the price meets one of the following criteria:
+The **Success** phase happens when the trade setup aligns with the expected market movement, confirming that the model is valid. Success is reached when:
 
-* The price reaches the **2 Standard Deviation** level.
-* The price reaches the **first identified liquidity** level.
+* The price **reaches the 2 Standard Deviation level**.
+* The price **hits the first identified liquidity level**.
 
-When success is achieved, the model's predictions align with market movements, confirming the validity of the trade setup and providing a potential signal to execute a trade.
+At this point, the model’s predictions are confirmed, and traders can **execute the trade** with higher confidence.
 
-By understanding the phases of **Formation**, **Invalidation**, and **Success**, traders can effectively manage their positions, reduce risk, and take advantage of high-probability setups that the CRT Model identifies.
+By understanding the **Formation**, **Pre-Invalidation**, **Invalidation**, and **Success** phases, traders can effectively manage positions and capitalize on high-probability setups identified by the Turtle Soup Model.&#x20;
+
+This structured approach helps reduce risk and increases the likelihood of successful trades.

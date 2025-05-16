@@ -1,5 +1,5 @@
 ---
-description: Fractal Range Model HTF & LTF PD Arrays
+description: Turtle Soup Model HTF & LTF PD Arrays
 icon: frame
 ---
 
