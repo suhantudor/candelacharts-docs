@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup Standard Deviation
+description: Turtle Soup Model Standard Deviation
 icon: rectangle-vertical-history
 ---
 

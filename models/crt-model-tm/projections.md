@@ -1,15 +1,15 @@
 ---
-description: CRT Projections
+description: CRT Model Projections
 icon: rectangle-vertical-history
 ---
 
 # Projections
 
-Once a model is formed, the **Candle Range Theory (CRT) Model** automatically generates projection levels based on standard deviations.&#x20;
+Once a model is formed, the **Candle Range Theory (CRT) Model** automatically generates projection levels based on standard deviations.
 
 <figure><img src="../../.gitbook/assets/docs-crt-004.png" alt=""><figcaption></figcaption></figure>
 
-These projections are calculated from the CISD Low to the CISD High, offering a dynamic view of potential price movement and volatility.&#x20;
+These projections are calculated from the CISD Low to the CISD High, offering a dynamic view of potential price movement and volatility.
 
 The projections provide traders with valuable insights into possible future price ranges, assisting in trade planning and decision-making.
 
@@ -24,8 +24,8 @@ This flexibility allows traders to adjust their projections based on their prefe
 
 ### Purpose and Application
 
-The CRT Model's automatic projection levels are essential for understanding market potential after a model has formed.&#x20;
+The CRT Model's automatic projection levels are essential for understanding market potential after a model has formed.
 
-These projections not only indicate possible price targets but also guide traders in assessing market behavior and making informed decisions.&#x20;
+These projections not only indicate possible price targets but also guide traders in assessing market behavior and making informed decisions.
 
 Whether for planning exits, managing risk, or evaluating trends, these projections are a core feature of the model’s functionality.

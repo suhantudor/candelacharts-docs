@@ -88,7 +88,7 @@
   * [SMT](models/turtle-soup-model-tm/smt.md)
   * [Dashboard](models/turtle-soup-model-tm/dashboard.md)
   * [Alerts](models/turtle-soup-model-tm/alerts.md)
-* [Unicorn Model™ 🔜](models/unicorn-model-tm/README.md)
+* [Unicorn Model™ 🔜](models/unicorn-model-tm.md)
   * [Overview](models/unicorn-model-tm/overview.md)
   * [Timeframe Synchronization](models/unicorn-model-tm/timeframe-synchronization.md)
   * [Components](models/unicorn-model-tm/components.md)

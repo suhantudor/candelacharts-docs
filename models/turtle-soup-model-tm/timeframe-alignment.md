@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup Timeframe Alignment
+description: Turtle Soup Model Timeframe Alignment
 icon: chess-clock-flip
 ---
 

@@ -1,21 +1,21 @@
 ---
-description: CRT Time
+description: CRT Model Time
 icon: hourglass-start
 ---
 
 # Time
 
-The Candle Range Theory (CRT) Model incorporates various times when the CRT can occur, each designed to analyze market trends at different levels of granularity.&#x20;
+The Candle Range Theory (CRT) Model incorporates various times when the CRT can occur, each designed to analyze market trends at different levels of granularity.
 
 <figure><img src="../../.gitbook/assets/docs-crt-003.png" alt=""><figcaption></figcaption></figure>
 
-These specific times enable traders and investors to capture key price movements and shifts in market dynamics, offering insights across both short-term and long-term perspectives.&#x20;
+These specific times enable traders and investors to capture key price movements and shifts in market dynamics, offering insights across both short-term and long-term perspectives.
 
 The CRT model supports the following times when the CRT can happen:
 
 ### 4-Hour CRT
 
-<table><thead><tr><th width="163.7265625"></th><th></th></tr></thead><tbody><tr><td>1-5-9 (AM/PM) </td><td>Captures early market trends setting the tone for the trading day.</td></tr><tr><td>2-6-10 (AM/PM)</td><td>Analyzes market shifts after the early session and pre-midday changes.</td></tr></tbody></table>
+<table><thead><tr><th width="163.7265625"></th><th></th></tr></thead><tbody><tr><td>1-5-9 (AM/PM)</td><td>Captures early market trends setting the tone for the trading day.</td></tr><tr><td>2-6-10 (AM/PM)</td><td>Analyzes market shifts after the early session and pre-midday changes.</td></tr></tbody></table>
 
 ### 1-Hour CRT
 

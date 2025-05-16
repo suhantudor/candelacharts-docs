@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup Dashboard
+description: Turtle Soup Model Dashboard
 icon: game-board-simple
 ---
 

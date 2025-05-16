@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup Components
+description: Turtle Soup Model Components
 icon: diamonds-4
 ---
 

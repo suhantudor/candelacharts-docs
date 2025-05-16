@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup Overview
+description: Turtle Soup Model Overview
 icon: list-ol
 ---
 

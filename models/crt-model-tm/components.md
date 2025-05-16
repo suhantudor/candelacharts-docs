@@ -1,11 +1,11 @@
 ---
-description: CRT Components
+description: CRT Model Components
 icon: diamonds-4
 ---
 
 # Components
 
-This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.&#x20;
+This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.
 
 <figure><img src="../../.gitbook/assets/docs-crt-002.png" alt=""><figcaption></figcaption></figure>
 

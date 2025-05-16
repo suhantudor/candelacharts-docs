@@ -1,5 +1,5 @@
 ---
-description: Turtle Soup
+description: Turtle Soup Model
 icon: pot-food
 ---
 

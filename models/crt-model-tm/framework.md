@@ -1,11 +1,11 @@
 ---
-description: CRT Framework
+description: CRT Model Framework
 icon: diagram-venn
 ---
 
 # Framework
 
-The **Candle Range Theory (CRT) Model** is an advanced trading framework designed to programmatically detect, visualize, and invalidate key market concepts such as **Sweeps**, **CISD** (Change In State of Delivery), **Projections**, **Liquidity**, and more.&#x20;
+The **Candle Range Theory (CRT) Model** is an advanced trading framework designed to programmatically detect, visualize, and invalidate key market concepts such as **Sweeps**, **CISD** (Change In State of Delivery), **Projections**, **Liquidity**, and more.
 
 By integrating various components, this model provides a comprehensive view of the market, enabling traders to identify optimal entry and exit points.
 
