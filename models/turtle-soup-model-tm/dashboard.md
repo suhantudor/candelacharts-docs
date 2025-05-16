@@ -5,7 +5,11 @@ icon: game-board-simple
 
 # Dashboard
 
-The Turtle Soup Model Dashboard provides traders with essential, real-time information to support decision-making and enhance market analysis. Designed to present key data points, the dashboard offers a comprehensive overview of current market conditions and the chart’s state, allowing traders to make informed and timely decisions.
+The Turtle Soup Model Dashboard provides traders with essential, real-time information to support decision-making and enhance market analysis.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-turtle-soup-008.png" alt=""><figcaption></figcaption></figure>
+
+Designed to present key data points, the dashboard offers a comprehensive overview of current market conditions and the chart’s state, allowing traders to make informed and timely decisions.
 
 ### **Bias**
 

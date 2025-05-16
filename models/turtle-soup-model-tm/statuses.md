@@ -14,6 +14,10 @@ The lifecycle consists of four phases:
 * **Invalidation**
 * **Success**
 
+{% hint style="info" %}
+The current status of the model will become visible when you hover your cursor over the associated label (e.g., C1, R1, H1).
+{% endhint %}
+
 ### **1. Formation**
 
 The **Formation** phase marks the beginning of the Turtle Soup setup. During this phase, the model identifies key components that suggest a potential reversal, such as:

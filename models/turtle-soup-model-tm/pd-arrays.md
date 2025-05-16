@@ -18,6 +18,8 @@ are crucial components of market analysis and trading strategy.
 
 HTF PD Arrays serve as key levels of interest, highlighting significant market zones where sharp price movements (sweeps) are likely to occur.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-turtle-soup-003.png" alt=""><figcaption></figcaption></figure>
+
 These arrays represent high-probability reversal points when touched by a price sweep. A sweep that reaches an HTF PD Array signals a strong likelihood of price reversal, making these levels vital for identifying major turning points in the market.
 
 Traders can use HTF PD Arrays to monitor for price reactions. Their role in signaling market reversals or retracements makes them essential in determining when a trend may change direction.
@@ -25,6 +27,8 @@ Traders can use HTF PD Arrays to monitor for price reactions. Their role in sign
 ### LTF PD Arrays
 
 LTF PD Arrays are instrumental in pinpointing entry points. When a model, such as a Sweep or Market Structure Shift (MSS), forms on the chart, the Turtle Soup Model highlights nearby PD Arrays that align with the newly formed structure.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-turtle-soup-004.png" alt=""><figcaption></figcaption></figure>
 
 These arrays act as reference levels for entering trades, allowing traders to make informed decisions about positioning.&#x20;
 

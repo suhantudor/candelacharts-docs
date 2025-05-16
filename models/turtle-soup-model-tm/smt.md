@@ -7,6 +7,8 @@ icon: dash
 
 In the context of the Turtle Soup Model (TSM), the Smart Money Technique (SMT) serves as a crucial confluence indicator that enhances the reliability of a formed model. When an SMT signal aligns with a model, it signifies a high level of confidence in the market's direction, suggesting a strong and likely sustained trend.
 
+<figure><img src="../../.gitbook/assets/docs-turtle-soup-009.png" alt=""><figcaption></figcaption></figure>
+
 The SMT acts as a confirmation tool, validating the directional bias indicated by the Turtle Soup Model. It helps identify the participation of smart money—institutional and sophisticated market players whose actions often drive significant market movements.
 
 When the SMT signal aligns with a specific model, such as a Sweep or Market Structure Shift (MSS) formation, it confirms the likelihood of the market continuing in the indicated direction.&#x20;

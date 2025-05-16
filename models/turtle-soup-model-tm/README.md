@@ -10,7 +10,7 @@ The ICT Turtle Soup Model is a reversal-based trading strategy developed by Mich
 
 Unlike traditional breakout systems that assume continuation, the Turtle Soup setup anticipates a sharp reversal after the market takes out a widely recognized level—such as a prior high or low—and then fails to hold beyond it.
 
-<figure><img src="../../.gitbook/assets/docs-turtle-soup-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-turtle-soup-005.png" alt=""><figcaption></figcaption></figure>
 
 This pattern is often a sign that large institutions, or "smart money," have engineered a liquidity run to trigger retail stop orders and enter positions at more favorable prices.&#x20;
 

@@ -5,7 +5,9 @@ icon: text-size
 
 # Labels
 
-The model assigns specific labels based on certain conditions. Below is an explanation of what each label represents.
+The model assigns specific labels based on certain conditions.&#x20;
+
+Below is an explanation of what each label represents.
 
 **C** - _Current Model Label:_ These models are generated and displayed based on the number of candles present on the Higher Time Frame (HTF).
 
