@@ -1,6 +1,6 @@
 ---
 description: Turtle Soup Filters
-icon: hourglass-start
+icon: filter
 ---
 
 # Filters
