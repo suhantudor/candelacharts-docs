@@ -76,7 +76,7 @@
   * [SMT](models/fractal-range-model-tm/smt.md)
   * [Dashboard](models/fractal-range-model-tm/dashboard.md)
   * [Alerts](models/fractal-range-model-tm/alerts.md)
-* [Turtle Soup Model™ 🔜](models/turtle-soup-model-tm/README.md)
+* [Turtle Soup Model™](models/turtle-soup-model-tm/README.md)
   * [Overview](models/turtle-soup-model-tm/overview.md)
   * [Timeframe Alignment](models/turtle-soup-model-tm/timeframe-alignment.md)
   * [Components](models/turtle-soup-model-tm/components.md)
