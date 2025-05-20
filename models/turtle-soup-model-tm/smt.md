@@ -1,5 +1,6 @@
 ---
 description: Turtle Soup Model SMT
+hidden: true
 icon: dash
 ---
 
