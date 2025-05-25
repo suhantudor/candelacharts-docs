@@ -90,7 +90,7 @@
   * [Alerts](models/turtle-soup-model-tm/alerts.md)
 * [Unicorn Model™ 🔜](models/unicorn-model-tm.md)
   * [Overview](models/unicorn-model-tm/overview.md)
-  * [Timeframe Synchronization](models/unicorn-model-tm/timeframe-synchronization.md)
+  * [Timeframe Pairing](models/unicorn-model-tm/timeframe-pairing.md)
   * [Components](models/unicorn-model-tm/components.md)
   * [Labels](models/unicorn-model-tm/labels.md)
   * [Statuses](models/unicorn-model-tm/statuses.md)
