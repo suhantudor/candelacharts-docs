@@ -7,7 +7,7 @@ icon: clock-eleven
 
 The Unicorn Model integrates **ICT Macro Times** to identify high-probability trading windows during the global trading day.&#x20;
 
-These time-based intervals represent key moments when institutional algorithms are most active—seeking liquidity, rebalancing portfolios, or delivering price to key levels like fair value gaps and liquidity pools.
+These time-based intervals represent key moments when institutional algorithms are most active—seeking liquidity, rebalancing, or delivering price to key levels like fair value gaps and liquidity pools.
 
 By aligning trade setups with these macro windows, the Unicorn Model increases precision, offering clearer context for potential entries, mitigations, and reversals.&#x20;
 
