@@ -5,40 +5,23 @@ icon: frame
 
 # PD Arrays
 
-The Turtle Soup Model (TSM) utilizes two distinct sets of PD Arrays: one for Higher Time Frames (HTF) and one for Lower Time Frames (LTF).
+The Unicorn Model leverages two tiers of PD Arrays—Higher Time Frame (HTF) and Lower Time Frame (LTF)—to structure both macro-level bias and precise trade entries.
 
 These arrays, referred to as:
 
 * **FVG** (Fair Value Gap)
 * **IFVG** (Inverse Fair Value Gap)
 
-are crucial components of market analysis and trading strategy.
+forming the foundation for model-based decisions.
 
 ### HTF PD Arrays
 
-HTF PD Arrays serve as key levels of interest, highlighting significant market zones where sharp price movements (sweeps) are likely to occur.&#x20;
-
-These arrays represent high-probability reversal points when touched by a price sweep. A sweep that reaches an HTF PD Array signals a strong likelihood of price reversal, making these levels vital for identifying major turning points in the market.
-
-Traders can use HTF PD Arrays to monitor for price reactions. Their role in signaling market reversals or retracements makes them essential in determining when a trend may change direction.
+HTF PD Arrays define **high-probability reversal zones**, typically aligning with major liquidity pools. When a price sweep reaches these levels, the model anticipates a potential reversal or significant reaction. These zones serve as macro-level anchors, helping traders identify when a dominant trend may exhaust or shift.
 
 ### LTF PD Arrays
 
-LTF PD Arrays are instrumental in pinpointing entry points. When a model, such as a Sweep or Market Structure Shift (MSS), forms on the chart, the Turtle Soup Model highlights nearby PD Arrays that align with the newly formed structure.&#x20;
+LTF PD Arrays are essential components of the Unicorn Model and must **overlap with the Zigzag Breaker** to form a valid setup. These arrays highlight precise zones of local imbalance or liquidity—typically Fair Value Gaps (FVGs) or Inverse Fair Value Gaps (IFVGs)—that serve as the foundation for low time frame execution.
 
-These arrays act as reference levels for entering trades, allowing traders to make informed decisions about positioning.&#x20;
+A Unicorn Model is only considered valid if the Zigzag Breaker and the LTF PD Array **intersect within the same price zone**. This overlap provides structural and liquidity-based confluence, greatly increasing the probability of a successful trade. If there is no alignment between the two, the model is discarded as low-confidence and not tradeable.
 
-Whether entering in the direction of the trend or anticipating a reversal, these levels offer key insights for optimal entry timing.
-
-{% hint style="danger" %}
-The lower timeframe PD Arrays are essential for model formation. In the absence of a LTF PD Array, the model is considered low probability and will not be formed.
-{% endhint %}
-
-### Key Points
-
-* **HTF PD Arrays (FVG/IFVG)**: These arrays function as critical support or resistance levels. When touched by a market sweep, they suggest potential reversals or retracements. They are essential for identifying key price levels where significant market shifts may occur.
-* **LTF PD Arrays**: These arrays provide entry points, helping traders identify precise levels to enter the market once a sweep or market structure shift (MSS) occurs. The proximity of these arrays to newly formed market structures enables traders to make timely, informed entry decisions.
-
-By combining HTF PD Arrays for reversal identification and LTF PD Arrays for precise entries, the Turtle Soup Model equips traders with a comprehensive framework for both market analysis and execution.&#x20;
-
-This dual approach ensures that traders can effectively time their entries, whether they are capitalizing on trend continuations or anticipating market reversals.
+By pairing **HTF arrays for directional bias** with **LTF arrays for tactical entries**, the Unicorn Model ensures both clarity and timing in execution—empowering traders to capture meaningful moves with structure and confidence.

@@ -5,10 +5,10 @@ icon: rectangle-vertical-history
 
 # Standard Deviation
 
-Once a model is formed, the Turtle Soup Model automatically generates standard deviation levels based exclusively on the wicks of the MSS High and MSS Low.&#x20;
+Once a model is formed, the Unicorn Model calculates standard deviation levels based exclusively on the wicks of the MSS High and MSS Low, using the range between the Zigzag 2nd Point (anchor) and the Zigzag 3rd Point (manipulation swing) as the projection base.
 
-By anchoring standard deviation to the wicks, the Turtle Soup Model captures the full range of price fluctuations, incorporating potential volatility and broader market movements.&#x20;
+These standard deviations measure the expected extension of price by quantifying its dispersion from this key structural move, helping forecast potential swing targets and overextensions. By anchoring the calculation to the wicks, the model captures the full breadth of price fluctuations, including volatility extremes and broader market dynamics.
 
-This approach provides traders with a more comprehensive understanding of the market’s potential behavior, highlighting areas where price could realistically move in the near term.
+Standard deviation levels such as 1σ and 2σ are extended from this base to anticipate price expansion zones. When price reaches or exceeds the 2σ level, the standard deviation is considered invalidated—signaling the move may be overextended or complete.
 
-Whether for planning exits, managing risk, or evaluating price trends, these wick-based standard deviations are a core feature of the Turtle Soup Model, providing valuable insights into future price movements and assisting traders in executing strategies with greater confidence.
+This wick-based, structural approach gives traders a comprehensive framework for planning exits, managing risk, and evaluating trend strength. These standard deviations are fundamental to the Unicorn Model, providing clear insights into future price behavior and enabling confident strategy execution.

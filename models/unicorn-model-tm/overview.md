@@ -5,12 +5,10 @@ icon: list-ol
 
 # Overview
 
-The ICT Turtle Soup Model is a price action-based trading strategy introduced by Michael J. Huddleston, also known as the Inner Circle Trader (ICT). It is designed to capitalize on false breakouts of key swing highs or lows—often referred to as “liquidity grabs.”&#x20;
+The **ICT Unicorn Model** represents a refined intraday trading strategy grounded in smart money principles. It leverages time-of-day precision, liquidity runs, and institutional order flow to offer compelling trade opportunities.
 
-Building on the original Turtle Soup concept, the ICT version incorporates smart money principles, focusing on market structure, liquidity, and timing.&#x20;
-
-{% content-ref url="../turtle-soup-model-tm/timeframe-alignment.md" %}
-[timeframe-alignment.md](../turtle-soup-model-tm/timeframe-alignment.md)
+{% content-ref url="timeframe-pairing.md" %}
+[timeframe-pairing.md](timeframe-pairing.md)
 {% endcontent-ref %}
 
 {% content-ref url="../turtle-soup-model-tm/components.md" %}
@@ -25,6 +23,10 @@ Building on the original Turtle Soup concept, the ICT version incorporates smart
 [statuses.md](../turtle-soup-model-tm/statuses.md)
 {% endcontent-ref %}
 
+{% content-ref url="macros.md" %}
+[macros.md](macros.md)
+{% endcontent-ref %}
+
 {% content-ref url="../turtle-soup-model-tm/filters.md" %}
 [filters.md](../turtle-soup-model-tm/filters.md)
 {% endcontent-ref %}
@@ -37,10 +39,6 @@ Building on the original Turtle Soup concept, the ICT version incorporates smart
 [standard-deviation.md](../turtle-soup-model-tm/standard-deviation.md)
 {% endcontent-ref %}
 
-{% content-ref url="../turtle-soup-model-tm/smt.md" %}
-[smt.md](../turtle-soup-model-tm/smt.md)
-{% endcontent-ref %}
-
 {% content-ref url="../turtle-soup-model-tm/dashboard.md" %}
 [dashboard.md](../turtle-soup-model-tm/dashboard.md)
 {% endcontent-ref %}
@@ -49,4 +47,4 @@ Building on the original Turtle Soup concept, the ICT version incorporates smart
 [alerts.md](../turtle-soup-model-tm/alerts.md)
 {% endcontent-ref %}
 
-Traders use this strategy to anticipate sharp reversals after stops are run beyond obvious support or resistance levels, making it a valuable tool for both intraday and swing trading.
+The ICT Unicorn Model is a high-probability, intraday trading setup rooted in the Smart Money Concepts developed by Michael J. Huddleston (ICT). It aims to capitalize on liquidity sweeps, market structure shifts, and institutional price imbalances during specific market sessions.

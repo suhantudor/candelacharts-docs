@@ -76,7 +76,7 @@ Real-time models remove the sweep once the model is invalidated and the candle c
 Model supports following PD Arrays for HTF and LTF:
 
 * **Fair Value Gaps (FVGs):** Imbalances between buying and selling, often acts as a **magnet for price** or a **support/resistance zone**
-* **Inversion Fair Value Gaps:** Former FVGs that, once filled or mitigated, reverse roles — acting as support/resistance or continuation zones.
+* **Inversion Fair Value Gaps (IFVGs):** Former FVGs that, once filled or mitigated, reverse roles — acting as support/resistance or continuation zones.
 
 **Formation:**&#x20;
 
@@ -87,17 +87,17 @@ An FVG forms when there's a gap between Candle 1 and Candle 3 due to strong buyi
 * **Bullish FVG:** Gap between Candle 1 high and Candle 3 low after a strong up move.
 * **Bearish FVG:** Gap between Candle 1 low and Candle 3 high after a strong down move.
 
-#### Inversion Fair Value Gaps (FVG)
+#### Inversion Fair Value Gaps (IFVG)
 
 An FVG that was filled and later acts as support (bullish) or resistance (bearish) after a market shift.
 
 **Invalidation:**
 
-#### Fair Value Gaps (IFVG)
+#### Fair Value Gaps (FVG)
 
 FVG is invalidated when price fully trades through (closes inside) the gap.
 
-#### Inversion Fair Value Gaps (FVG)
+#### Inversion Fair Value Gaps (IFVG)
 
 IFVG is invalidated when price breaks through and closes beyond it in the opposite direction.
 
