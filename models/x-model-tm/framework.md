@@ -7,8 +7,6 @@ icon: diagram-venn
 
 The X Model trading framework offers a structured approach for identifying high-probability trading opportunities by combining key technical indicators, market structure analysis, and timing strategies to guide both long and short entries.
 
-<figure><img src="../../.gitbook/assets/docs-x-003.png" alt=""><figcaption></figcaption></figure>
-
 ## **How it works?**
 
 Below, you'll find a comprehensive set of rules that explain how the model operates and how it should be properly applied in practice. These guidelines are intended to ensure consistent use, improve decision-making, and help you get the most out of the model across different market conditions and timeframes.
@@ -20,12 +18,16 @@ Below, you'll find a comprehensive set of rules that explain how the model opera
 3. **m15 CISD / SMT:** Confirm the bearish market structure on the 15-minute chart, supported by Smart Money confirmation (e.g., divergence, volume analysis).
 4. **Above 00:00:** Only enter short trades **above 00:00**, on CISD after the market’s daily reset.
 
+<figure><img src="../../.gitbook/assets/docs-x-007.png" alt=""><figcaption></figcaption></figure>
+
 ### **Long Entry Checklist**
 
 1. **Previous Day Low (ERL):** Price breaks or tests the previous day’s low, indicating a potential support level.
 2. **H1 Bearish FVG (IRL):** A **Bearish FVG** on the 1-hour chart is present, signaling a potential target for a long opportunity.
 3. **m15 CISD / SMT:** Confirm the bullish market structure on the 15-minute chart, supported by Smart Money confirmation (e.g., volume, divergence).
 4. **Below 00:00:** Only enter long trades **below 00:00**, on CISD before the market’s daily reset.
+
+<figure><img src="../../.gitbook/assets/docs-x-005.png" alt=""><figcaption></figcaption></figure>
 
 By following these rules, the X Model provides a structured approach for identifying high-probability entry points for both long and short trades.
 
