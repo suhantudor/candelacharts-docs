@@ -19,6 +19,6 @@ The CRT model supports the following times when the CRT can happen:
 
 ### 1-Hour CRT
 
-<table><thead><tr><th width="163.234375"></th><th></th></tr></thead><tbody><tr><td>8-9-10 (AM/PM)</td><td>Reflects late-market movements, influenced by global markets' closing.</td></tr><tr><td>2-3-4 (AM)</td><td>Focuses on overnight consolidation and early morning trend shifts.</td></tr><tr><td>7-8-9 (AM)</td><td>Tracks early morning market activity before the official opening.</td></tr></tbody></table>
+<table><thead><tr><th width="163.234375"></th><th></th></tr></thead><tbody><tr><td>8-9-10 (AM/PM)</td><td>Reflects late-market movements, influenced by global markets' closing.</td></tr><tr><td>2-3-4 (AM/PM)</td><td>Focuses on overnight consolidation and early morning trend shifts.</td></tr><tr><td>7-8-9 (AM/PM)</td><td>Tracks early morning market activity before the official opening.</td></tr></tbody></table>
 
 By using these pairings, the CRT provides a comprehensive framework for market analysis across multiple timeframes, enabling users to adapt their approach based on specific trading objectives.

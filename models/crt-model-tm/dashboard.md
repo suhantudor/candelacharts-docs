@@ -31,7 +31,7 @@ It’s particularly useful for traders focusing on higher timeframes who need to
 
 This filter allows users to view trading data within specific market sessions (Killzones).
 
-### **Model Status Filter**
+### **Status Filter**
 
 This filter enables users to focus on specific states or conditions of the trading model.
 

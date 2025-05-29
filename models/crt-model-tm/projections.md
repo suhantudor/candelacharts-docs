@@ -13,7 +13,7 @@ These projections are calculated from the CISD Low to the CISD High, offering a 
 
 The projections provide traders with valuable insights into possible future price ranges, assisting in trade planning and decision-making.
 
-### Projection Setup and Customization
+### Customization
 
 The projections can be anchored to either the body or the wicks of the CISD High and CISD Low, giving traders flexibility in how they interpret the model’s projected price levels.
 
@@ -22,7 +22,7 @@ The projections can be anchored to either the body or the wicks of the CISD High
 
 This flexibility allows traders to adjust their projections based on their preferred risk profile and trading strategy.
 
-### Purpose and Application
+### Purpose
 
 The CRT Model's automatic projection levels are essential for understanding market potential after a model has formed.
 
