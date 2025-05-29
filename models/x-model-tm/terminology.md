@@ -5,6 +5,10 @@ icon: spell-check
 
 # Terminology
 
+Understanding the terminology used in this model is essential for applying it effectively. This section defines key concepts, and abbreviations.
+
+Whether you're new to Smart Money Concepts or refining your current knowledge, this glossary will ensure clarity and consistency as you navigate the model.
+
 ### **External Range Liquidity (ERL)**
 
 ICT External Range Liquidity refers to the pools of liquidity located _outside_ the boundaries of a defined dealing range—specifically, above previous swing highs and below previous swing lows. These areas are typically targeted by price as they represent clusters of stop orders and resting liquidity.

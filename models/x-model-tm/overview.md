@@ -5,9 +5,7 @@ icon: list-ol
 
 # Overview
 
-This model focuses on understanding the dynamics between market makers and retail traders to identify potential trading opportunities.
-
-It emphasizes concepts such as liquidity zones, market structure shifts, and the interplay between supply and demand.
+This trading model is built on Smart Money Concepts and time-based precision. It leverages key liquidity levels from the previous day, institutional reference points like Fair Value Gaps, and lower timeframe confirmations such as SMT divergence and Change in State of Delivery (CISD).
 
 {% content-ref url="terminology.md" %}
 [terminology.md](terminology.md)
@@ -41,4 +39,4 @@ It emphasizes concepts such as liquidity zones, market structure shifts, and the
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-Traders using the MMXM aim to anticipate price movements by analyzing these factors.
+By aligning entries with time-of-day context—only taking shorts above midnight and longs below—it filters for high-probability directional moves with a strong emphasis on market timing and structural alignment.

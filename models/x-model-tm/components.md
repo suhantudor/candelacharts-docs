@@ -21,7 +21,7 @@ Determines if the previous day's high or low has been broken, signaling potentia
 
 Focuses on finding an optimal entry point by targeting the 1-hour Fair Value Gap, especially around the 50% level of the previous day's price range.
 
-### **15m-Smart Money Technique (SMT) Confirmation**
+### **15m-Smart Money Technique (SMT)**
 
 Utilizes SMT indicators to verify the market structure shift, ensuring alignment with institutional trading patterns.
 

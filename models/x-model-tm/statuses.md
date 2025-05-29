@@ -14,7 +14,7 @@ The Formation phase marks the initiation of the X Model. In this phase, the mode
 * **Sweeps**: Market movements that signal potential trend reversals or shifts.
 * **CISD (Change In State of Delivery)**: Structural changes indicating a potential trend shift.
 
-Once these components are identified, the model calculates and visualizes **Projections** and **Liquidity Levels**, offering insights into potential future price movements.
+Once these components are identified, the model calculates and visualizes **Projections** and **Fair Value Gaps**, offering insights into potential future price movements and targets.
 
 ### **2. Pre-Invalidation**
 
@@ -24,10 +24,12 @@ However, the high of the original sweep still holds importance, implying the mod
 
 ### **3. Invalidation**
 
-The X Model is invalidated when the price fails to meet critical conditions, signaling that the initial setup is no longer reliable. Invalidation occurs under the following circumstances:
+The X Model is invalidated when the price fails to meet critical conditions, signaling that the initial setup is no longer reliable.&#x20;
+
+Invalidation occurs under the following circumstances:
 
 * The price fails to reach the **2 Standard Deviation** level.
-* The price fails to reach the first identified **Liquidity Level**.
+* The price fails to reach the first identified **Fair Value Gap**.
 * The price breaks above the high that initiated the **Sweep**.
 
 Once invalidated, the original trade setup is no longer viable, and traders should refrain from executing the trade.
@@ -37,7 +39,7 @@ Once invalidated, the original trade setup is no longer viable, and traders shou
 The X Model is considered successful when the price meets one of the following criteria:
 
 * The price reaches the **2 Standard Deviation** level.
-* The price reaches the first identified **Liquidity Level**.
+* The price reaches the first identified **Fair Value Gap**.
 
 When success is achieved, the model's projections align with market movements, confirming the validity of the trade setup and providing a potential signal to execute the trade.
 
