@@ -5,11 +5,15 @@ icon: list-ol
 
 # Overview
 
-At its core, the model focuses on **Market Swing Points**, which represent crucial turning points in the market where price action shifts direction.&#x20;
+At its core, the model focuses on **Market Swing Points**, which represent crucial turning points in the market where price action shifts direction.
 
-These points provide insight into potential reversals and momentum changes, allowing traders to identify key support and resistance areas.&#x20;
+These points provide insight into potential reversals and momentum changes, allowing traders to identify key support and resistance areas.
 
 Recognizing these swings is critical in anticipating future price movements and understanding the market’s underlying structure.
+
+{% content-ref url="terminology.md" %}
+[terminology.md](terminology.md)
+{% endcontent-ref %}
 
 {% content-ref url="timeframe-pairing.md" %}
 [timeframe-pairing.md](timeframe-pairing.md)

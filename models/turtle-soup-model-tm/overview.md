@@ -9,6 +9,10 @@ The ICT Turtle Soup Model is a price action-based trading strategy introduced by
 
 Building on the original Turtle Soup concept, the ICT version incorporates smart money principles, focusing on market structure, liquidity, and timing.&#x20;
 
+{% content-ref url="terminology.md" %}
+[terminology.md](terminology.md)
+{% endcontent-ref %}
+
 {% content-ref url="timeframe-alignment.md" %}
 [timeframe-alignment.md](timeframe-alignment.md)
 {% endcontent-ref %}
