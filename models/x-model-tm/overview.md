@@ -5,9 +5,13 @@ icon: list-ol
 
 # Overview
 
-This model focuses on understanding the dynamics between market makers and retail traders to identify potential trading opportunities.&#x20;
+This model focuses on understanding the dynamics between market makers and retail traders to identify potential trading opportunities.
 
-It emphasizes concepts such as liquidity zones, market structure shifts, and the interplay between supply and demand.&#x20;
+It emphasizes concepts such as liquidity zones, market structure shifts, and the interplay between supply and demand.
+
+{% content-ref url="terminology.md" %}
+[terminology.md](terminology.md)
+{% endcontent-ref %}
 
 {% content-ref url="timeframe-agreement.md" %}
 [timeframe-agreement.md](timeframe-agreement.md)
