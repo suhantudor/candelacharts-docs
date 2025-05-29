@@ -113,6 +113,7 @@
   * [Alerts](models/crt-model-tm/alerts.md)
 * [X Model™](models/x-model-tm/README.md)
   * [Overview](models/x-model-tm/overview.md)
+  * [Terminology](models/x-model-tm/terminology.md)
   * [Timeframe Agreement](models/x-model-tm/timeframe-agreement.md)
   * [Components](models/x-model-tm/components.md)
   * [Labels](models/x-model-tm/labels.md)

@@ -18,7 +18,9 @@ Once these components are identified, the model calculates and visualizes **Proj
 
 ### **2. Pre-Invalidation**
 
-A model enters the Pre-Invalidation phase when the body of the next candle closes above the sweep, but the high that created the sweep remains intact. In such cases, the model is typically considered unreliable, as it suggests a likely failure. However, the high of the original sweep still holds importance, implying the model is close to being invalidated but not yet fully. In most cases, these models do not result in successful trades.
+A model enters the Pre-Invalidation phase when the body of the next candle closes above the sweep line, but the high that created the sweep remains intact. In such cases, the model is typically considered unreliable, as it suggests a likely failure.&#x20;
+
+However, the high of the original sweep still holds importance, implying the model is close to being invalidated but not yet fully. In most cases, these models do not result in successful trades.
 
 ### **3. Invalidation**
 
