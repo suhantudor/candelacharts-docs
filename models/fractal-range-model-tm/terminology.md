@@ -1,5 +1,5 @@
 ---
-description: Fractal Range Model Model Terminology
+description: Fractal Range Model Terminology
 icon: spell-check
 ---
 
