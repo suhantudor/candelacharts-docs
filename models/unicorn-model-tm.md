@@ -1,6 +1,5 @@
 ---
 description: Unicorn Model
-hidden: true
 icon: alicorn
 ---
 
