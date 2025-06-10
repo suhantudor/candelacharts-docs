@@ -7,6 +7,8 @@ icon: diamonds-4
 
 The **ICT Unicorn Model** is an intraday liquidity-based setup taught by the Inner Circle Trader (ICT). It aims to capitalize on engineered liquidity grabs and sharp market structure shifts during key trading sessions, particularly the **London** and **New York killzones**. This model targets the moment when smart money takes out obvious highs or lows (liquidity pools) and then quickly reverses direction, signaling a shift in institutional order flow.
 
+<figure><img src="../../.gitbook/assets/docs-unicorn-005.png" alt=""><figcaption></figcaption></figure>
+
 Below are the key components that make up the algorithm:
 
 * **Sweep**

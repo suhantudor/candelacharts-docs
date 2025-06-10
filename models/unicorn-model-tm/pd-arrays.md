@@ -7,6 +7,8 @@ icon: frame
 
 The Unicorn Model leverages two tiers of PD Arrays—Higher Time Frame (HTF) and Lower Time Frame (LTF)—to structure both macro-level bias and precise trade entries.
 
+<figure><img src="../../.gitbook/assets/docs-unicorn-009.png" alt=""><figcaption></figcaption></figure>
+
 These arrays, referred to as:
 
 * **FVG** (Fair Value Gap)

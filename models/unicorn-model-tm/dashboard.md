@@ -7,7 +7,15 @@ icon: game-board-simple
 
 The Unicorn Model Dashboard provides traders with essential, real-time information to support decision-making and enhance market analysis.
 
-Designed to present key data points, the dashboard offers a comprehensive overview of current market conditions and the chart’s status, enabling traders to make informed and timely decisions.
+The dashboard offers two distinct display modes to optimize your viewing experience:&#x20;
+
+* **Stack Mode:** This mode arranges indicator panels vertically, one above the other, each with its own scale, providing distinct views of various data points below the main chart.
+
+<figure><img src="../../.gitbook/assets/docs-unicorn-012.png" alt=""><figcaption></figcaption></figure>
+
+* **Flat Mode:** In this mode, indicators are displayed **horizontally aligned**, often directly on the main price chart, sharing a unified perspective without vertical separation.
+
+<figure><img src="../../.gitbook/assets/docs-unicorn-011.png" alt=""><figcaption></figcaption></figure>
 
 ### **Bias**
 

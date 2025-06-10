@@ -11,6 +11,8 @@ These time-based intervals represent key moments when institutional algorithms a
 
 By aligning trade setups with these macro windows, the Unicorn Model increases precision, offering clearer context for potential entries, mitigations, and reversals.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-unicorn-006.png" alt=""><figcaption></figcaption></figure>
+
 Each time slot listed below is optimized for **intra-day execution**, structured around the **New York timezone (EST)**, and organized by global session activity: **London, New York, and Asia**.
 
 ### Midnight to Pre-London
@@ -46,5 +48,7 @@ Each time slot listed below is optimized for **intra-day execution**, structured
 <table><thead><tr><th width="218.63671875">Macro</th><th>Description</th></tr></thead><tbody><tr><td>(Asia) 20:50–21:10</td><td>Early Asia session trap or setup zone.</td></tr><tr><td>(Asia) 21:50–22:10</td><td>Momentum starts to build with Asia data/events.</td></tr><tr><td>(Asia) 22:50–23:10</td><td>Final Asia volatility before tapering off.</td></tr><tr><td>(Asia) 23:50–00:10</td><td>Rebalancing or preparation for next day liquidity cycle.</td></tr></tbody></table>
 
 Understanding and integrating ICT Macro Times within the Unicorn Model helps traders avoid low-probability setups and time their entries with greater intent.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-unicorn-008.png" alt=""><figcaption></figcaption></figure>
 
 These windows are not signals by themselves—but when combined with structural elements like breaker blocks, fair value gaps, and liquidity sweeps, they provide critical context for precision trading. Always align macro times with your model phase, directional bias, and surrounding price action for optimal execution.
