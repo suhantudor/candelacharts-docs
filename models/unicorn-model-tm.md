@@ -12,3 +12,7 @@ Among ICT's vast library of trading concepts, the **Unicorn Model** stands out a
 <figure><img src="../.gitbook/assets/docs-unicorn-002.jpeg" alt=""><figcaption></figcaption></figure>
 
 Explore the **structure, components, logic, and application** of the ICT Unicorn Model, offering a roadmap for traders looking to implement it within a broader smart money framework.
+
+{% hint style="warning" %}
+This model does not provide Buy/Sell signals.
+{% endhint %}

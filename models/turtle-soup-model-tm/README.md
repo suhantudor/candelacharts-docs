@@ -14,3 +14,7 @@ Unlike traditional breakout systems that assume continuation, the Turtle Soup se
 This pattern is often a sign that large institutions, or "smart money," have engineered a liquidity run to trigger retail stop orders and enter positions at more favorable prices.&#x20;
 
 The ICT version enhances the original Turtle Soup concept by incorporating market timing elements, such as specific trading sessions (e.g., London or New York), time-of-day sensitivity, and higher timeframe context.
+
+{% hint style="warning" %}
+This model does not provide Buy/Sell signals.
+{% endhint %}
