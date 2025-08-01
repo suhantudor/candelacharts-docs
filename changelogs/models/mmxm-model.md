@@ -1,6 +1,0 @@
----
-hidden: true
----
-
-# MMXM Model
-
