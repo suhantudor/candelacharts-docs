@@ -1,7 +1,6 @@
 ---
-hidden: true
 icon: bolt
 ---
 
-# OHLC Volatile Range Map 🔜
+# OHLC Depth Range Map 🔜
 

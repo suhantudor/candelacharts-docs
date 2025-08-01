@@ -171,12 +171,16 @@
   * [Visualization](statistics/ohlc-volatility-range-map-tm/visualization.md)
   * [Calculation](statistics/ohlc-volatility-range-map-tm/calculation.md)
   * [Statistics](statistics/ohlc-volatility-range-map-tm/statistics.md)
-* [OHLC Volatile Range Map 🔜](statistics/ohlc-volatile-range-map.md)
+* [OHLC Depth Range Map 🔜](statistics/ohlc-volatile-range-map.md)
 * [OHLC StDev Range Map 🔜](statistics/ohlc-stdev-range-map.md)
 * [Killzones Statistics 🔜](statistics/killzones-statistics.md)
 * [Pivots Statistics 🔜](statistics/pivots-statistics.md)
 * [Day Open Statistics 🔜](statistics/day-open-statistics.md)
 * [Macros Statistics 🔜](statistics/macros-statistics.md)
+
+## Investments
+
+* [Dip Index 🔜](investments/dip-index.md)
 
 ## Changelogs
 
