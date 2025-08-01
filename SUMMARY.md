@@ -178,7 +178,7 @@
 * [Day Open Statistics 🔜](statistics/day-open-statistics.md)
 * [Macros Statistics 🔜](statistics/macros-statistics.md)
 
-## Investments
+## Investments  🔜
 
 * [Dip Index 🔜](investments/dip-index.md)
 

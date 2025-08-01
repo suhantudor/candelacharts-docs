@@ -23,6 +23,10 @@ Welcome to the CandelaCharts knowledge hub! Dive in by clicking the buttons belo
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 #### FAQs
 
 Looking for fast answers to common questions about our website, products, or billing? Click the button below to explore our FAQ.
