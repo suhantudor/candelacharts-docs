@@ -129,7 +129,6 @@
 * [PO3 Model 🔜](models/po3-model.md)
 * [Premium Discount Model 🔜](toolkits/premium-discount-pro.md)
 * [IFVG Model 🔜](models/ifvg-model.md)
-* [News Model 🔜](models/news-model.md)
 * [Son Model 🔜](models/son-model.md)
 * [Calub's Model 🔜](models/calubs-model.md)
 * [Silver Bullet Model 🔜](models/silver-bullet-model.md)
