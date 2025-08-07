@@ -180,7 +180,6 @@
 ## Investments  🔜
 
 * [Dip Index 🔜](investments/dip-index.md)
-* [Contango Slope Index 🔜](investments/contango-slope-index.md)
 
 ## Changelogs
 
