@@ -6,6 +6,7 @@
 * [What is CandelaCharts?](get-started/what-is-candelacharts.md)
 * [FAQs](get-started/faqs.md)
 * [Community](get-started/community.md)
+* [Markets](get-started/markets.md)
 
 ## Toolkits
 
