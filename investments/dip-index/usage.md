@@ -39,7 +39,7 @@ Divergence occurs when the **price trend** and **DIPX trend** disagree — often
 
 ### **3. Signal-Based Entries/Exits**
 
-When enabled (`Signals Show = true`), DIPX generates **triangle markers** when exiting extreme zones:
+When enabled (`Signals = true`), DIPX generates **triangle markers** when exiting extreme zones:
 
 | Signal                   | Condition                                             | Visual                |
 | ------------------------ | ----------------------------------------------------- | --------------------- |
