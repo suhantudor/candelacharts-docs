@@ -1,5 +1,5 @@
 ---
-description: SMC quick specs
+description: PAT Quick Specs
 icon: list-ol
 ---
 

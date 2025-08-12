@@ -180,7 +180,12 @@
 
 ## Investments  🔜
 
-* [Dip Index 🔜](investments/dip-index.md)
+* [Dip Index 🔜](investments/dip-index/README.md)
+  * [Overview](investments/dip-index/overview.md)
+  * [Features](investments/dip-index/features.md)
+  * [Usage](investments/dip-index/usage.md)
+  * [Confluences](investments/dip-index/confluences.md)
+  * [FAQs](investments/dip-index/faqs.md)
 
 ## Changelogs
 
