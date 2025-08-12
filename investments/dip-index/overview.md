@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-The **Dip Index (DIPX)** is a market breadth oscillator that tracks the percentage of stocks within a selected index trading above their specified moving average (e.g., 50, 100, 150, or 200-day).&#x20;
+The **Dip Index (DIPX)** is a market breadth oscillator that measures the percentage of assets within a selected index trading above a specified moving average, such as the 50, 100, 150, or 200-day average.
 
 {% content-ref url="features.md" %}
 [features.md](features.md)
@@ -13,6 +13,10 @@ The **Dip Index (DIPX)** is a market breadth oscillator that tracks the percenta
 
 {% content-ref url="usage.md" %}
 [usage.md](usage.md)
+{% endcontent-ref %}
+
+{% content-ref url="confluences.md" %}
+[confluences.md](confluences.md)
 {% endcontent-ref %}
 
 {% content-ref url="faqs.md" %}
