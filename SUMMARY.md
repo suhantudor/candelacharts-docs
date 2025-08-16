@@ -128,7 +128,7 @@
   * [Alerts](models/x-model-tm/alerts.md)
 * [Forever Model 🔜](models/forever-model.md)
 * [PO3 Model 🔜](models/po3-model.md)
-* [Premium Discount Model 🔜](toolkits/premium-discount-pro.md)
+* [Premium & Discount Model 🔜](toolkits/premium-discount-pro.md)
 * [IFVG Model 🔜](models/ifvg-model.md)
 * [Son Model 🔜](models/son-model.md)
 * [Calub's Model 🔜](models/calubs-model.md)
