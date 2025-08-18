@@ -110,3 +110,11 @@ Think of neutral DIPX like a coiled spring — direction isn't clear yet, but a 
 By understanding these core aspects of DIPX, you can apply it more effectively across timeframes and markets — turning breadth analysis into a powerful edge in your trading system.
 
 </details>
+
+<details>
+
+<summary>Is DIPX suitable for intraday trading?</summary>
+
+No.
+
+</details>

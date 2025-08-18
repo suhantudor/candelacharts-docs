@@ -191,7 +191,12 @@
   * [Usage](investments/contango-slope-index/usage.md)
   * [Confluences](investments/contango-slope-index/confluences.md)
   * [FAQs](investments/contango-slope-index/faqs.md)
-* [Macro Sentiment Index 🔜](investments/macro-sentiment-index.md)
+* [Macro Sentiment Index 🔜](investments/macro-sentiment-index/README.md)
+  * [Overview](investments/macro-sentiment-index/overview.md)
+  * [Features](investments/macro-sentiment-index/features.md)
+  * [Usage](investments/macro-sentiment-index/usage.md)
+  * [Confluences](investments/macro-sentiment-index/confluences.md)
+  * [FAQs](investments/macro-sentiment-index/faqs.md)
 
 ## Changelogs
 
