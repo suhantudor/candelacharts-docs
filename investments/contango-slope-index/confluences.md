@@ -9,7 +9,7 @@ While the **Contango Slope Index (CSI)** provides valuable insights into volatil
 
 Below are several **high-impact technical confluences** that align with the CSI's logic and improve signal accuracy.
 
-### **200-Day Moving Average (Price Filter)**
+### **1. 200-Day Moving Average (Price Filter)**
 
 **Confluence Logic**: Use the **S\&P 500 (SPX) 200-day SMA** as a macro trend filter. The CSI performs best when aligned with the broader market trend.
 
