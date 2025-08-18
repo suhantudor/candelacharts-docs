@@ -185,6 +185,8 @@
   * [Usage](investments/dip-index/usage.md)
   * [Confluences](investments/dip-index/confluences.md)
   * [FAQs](investments/dip-index/faqs.md)
+* [Contango Slope Index 🔜](investments/contango-slope-index.md)
+* [Macro Sentiment Index 🔜](investments/macro-sentiment-index.md)
 
 ## Changelogs
 

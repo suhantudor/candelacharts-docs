@@ -7,6 +7,8 @@ icon: sparkle
 
 Tools like the **Dip Index (DIPX)** offer a way to assess market breadth by showing the percentage of assets trading above key moving averages—highlighting overbought or oversold conditions, spotting divergences, and signaling potential reversals.&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-dipx-001.png" alt=""><figcaption></figcaption></figure>
+
 These insights are not limited to a single asset class; they apply wherever trends form and sentiment shifts.
 
 * **Multiple Indices**: Supports SP500, Nasdaq, DJI, Russel2000, and sector-specific S\&P indices.

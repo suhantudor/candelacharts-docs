@@ -13,12 +13,16 @@ DIPX outputs values from **0% to 100%**, reflecting how widely participation ext
 
 ### **1. Assessing Market Health**
 
+<figure><img src="../../.gitbook/assets/docs-dipx-002.png" alt=""><figcaption></figcaption></figure>
+
 Use DIPX to evaluate whether price moves are supported by broad participation:
 
 * In a **bull trend**, confirm strength by checking if DIPX stays above 50%.
 * In a **bear trend**, watch for rebounds in DIPX to spot temporary relief rallies.
 
 ### **2. Detecting Divergences**
+
+<figure><img src="../../.gitbook/assets/docs-dipx-003.png" alt=""><figcaption></figcaption></figure>
 
 Divergence occurs when the **price trend** and **DIPX trend** disagree — often a precursor to reversal.
 
@@ -39,12 +43,14 @@ Divergence occurs when the **price trend** and **DIPX trend** disagree — often
 
 ### **3. Signal-Based Entries/Exits**
 
+<figure><img src="../../.gitbook/assets/docs-dipx-004.png" alt=""><figcaption></figcaption></figure>
+
 When enabled (`Signals = true`), DIPX generates **triangle markers** when exiting extreme zones:
 
-| Signal                   | Condition                                             | Visual                |
-| ------------------------ | ----------------------------------------------------- | --------------------- |
-| **Bullish Triangle (▲)** | DIPX crosses **above** `Oversold Value` (e.g., 20%)   | Green upward triangle |
-| **Bearish Triangle (▼)** | DIPX crosses **below** `Overbought Value` (e.g., 80%) | Red downward triangle |
+| Signal                   | Condition                                                  | Visual                |
+| ------------------------ | ---------------------------------------------------------- | --------------------- |
+| **Bullish Triangle (▲)** | DIPX crosses **above** `Oversold Value` (e.g., 20%, 30%)   | Green upward triangle |
+| **Bearish Triangle (▼)** | DIPX crosses **below** `Overbought Value` (e.g., 80%, 70%) | Red downward triangle |
 
 These signals represent **exits from overextended conditions**, not immediate reversals. They highlight moments when sentiment may be shifting.
 
