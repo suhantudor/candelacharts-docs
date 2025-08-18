@@ -31,7 +31,7 @@ MSI and volatility instruments often move together, but their relationship chang
 * When **VIX spikes** and **MSI drops sharply**: Systemic stress — often seen during Fed surprises or geopolitical shocks.
 * Watch **VVIX** and **MOVE**: If both rise while MSI falls, expect extended chop or drawdown.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note: MSI reacts _after_ volatility shocks. It won't predict a 5-sigma event — but it will confirm when risk-off conditions have taken hold.
 {% endhint %}
 
@@ -43,7 +43,7 @@ Fixed income trends often lead equity sentiment.
 * If **TED Spread** or **MOVE Index** rises while MSI falls: Banking or bond market stress, not just equity fear.
 * When **SOFR/ED futures** shift expectations of rate cuts _before_ MSI turns up: Early signal of coming risk-on rotation.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Real-world use: In Q4 2023, rising SOFR futures (betting on cuts) preceded the MSI recovery by 2–3 weeks — an early clue that positioning was shifting.
 {% endhint %}
 
@@ -87,7 +87,7 @@ So while MSI won’t spike on NFP day, it _will_ reflect the cumulative impact o
 * **Asset-specific moves**: A tech blowoff in QQQ can lift MSI temporarily, even if macro conditions are deteriorating.
 * **Flash crashes**: VIX spikes, but other inputs don’t confirm — MSI may not drop immediately.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Key insight: **MSI filters the noise, but only after the fact.** That’s okay — its job is not to catch the first tick of a move, but to tell you whether you’re trading _with_ or _against_ the macro wind.
 {% endhint %}
 
