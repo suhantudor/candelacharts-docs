@@ -19,11 +19,15 @@ Each contract is normalized and forward-filled to ensure continuity in the term 
 
 ### **2. Dynamic Slope Calculation**
 
+<figure><img src="../../.gitbook/assets/docs-csi-004.png" alt=""><figcaption></figcaption></figure>
+
 The indicator calculates the **slope of the VIX term structure** using linear regression on time-to-maturity (TTM) vs. volatility levels. This approach captures the overall shape of the curve more accurately than pairwise spreads.
 
 When fewer than two tenors are active, the CSI defaults to measuring the trend of the single active series over a user-defined lookback window.
 
 ### **3. Moving Average Overlay**
+
+<figure><img src="../../.gitbook/assets/docs-csi-002.png" alt=""><figcaption></figcaption></figure>
 
 A configurable moving average (SMA, EMA, RMA, WMA, VWMA) is applied to the smoothed slope to identify trend direction and momentum shifts:
 
@@ -46,6 +50,8 @@ Based on the slope value and its relationship to the moving average, the CSI cla
 | **Normal**                         | Slope ≤ 0.0232 and below MA |
 
 ### **5. Visual Enhancements**
+
+<figure><img src="../../.gitbook/assets/docs-csi-003.png" alt=""><figcaption></figcaption></figure>
 
 * **Color-coded slope line**: Blue when positive, orange when negative
 * **Fill between slope and MA**: Green when slope > MA, red when slope < MA

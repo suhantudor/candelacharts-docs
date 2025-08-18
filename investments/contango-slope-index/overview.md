@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/docs-csi-001.png" alt=""><figcaption></figcaption></figure>
+
 The **Contango Slope Index (CSI)** is a volatility term structure analysis tool designed to quantify the slope of the VIX futures curve over time.&#x20;
 
 By measuring the rate of change in implied volatility across multiple tenors—such as VIX1D, VIX (1M), VIX3M, VIX6M, and VIX1Y—the CSI provides traders and analysts with real-time insights into market sentiment, risk appetite, and potential turning points in equity markets.
