@@ -10,5 +10,4 @@ While commonly applied to equities, the indicator is adaptable to various financ
 
 * Assess the overall health of a market by measuring internal participation in price moves.
 * Detect overbought or oversold conditions when momentum becomes concentrated or overly extended.
-* Identify divergences between price trends and underlying breadth, which may precede reversals.
 * Generate actionable signals when the index exits extreme levels, suggesting renewed momentum or potential exhaustion.
