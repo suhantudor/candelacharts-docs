@@ -47,10 +47,10 @@ Divergence occurs when the **price trend** and **DIPX trend** disagree — often
 
 When enabled (`Signals = true`), DIPX generates **triangle markers** when exiting extreme zones:
 
-| Signal                   | Condition                                                  | Visual                |
-| ------------------------ | ---------------------------------------------------------- | --------------------- |
-| **Bullish Triangle (▲)** | DIPX crosses **above** `Oversold Value` (e.g., 20%, 30%)   | Green upward triangle |
-| **Bearish Triangle (▼)** | DIPX crosses **below** `Overbought Value` (e.g., 80%, 70%) | Red downward triangle |
+| Signal                   | Condition                                                  | Visual                   |
+| ------------------------ | ---------------------------------------------------------- | ------------------------ |
+| **Bullish Triangle (▲)** | DIPX crosses **above** `Oversold Value` (e.g., 20%, 30%)   | Blue upward triangle     |
+| **Bearish Triangle (▼)** | DIPX crosses **below** `Overbought Value` (e.g., 80%, 70%) | Orange downward triangle |
 
 These signals represent **exits from overextended conditions**, not immediate reversals. They highlight moments when sentiment may be shifting.
 
