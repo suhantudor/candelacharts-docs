@@ -177,21 +177,21 @@
 * [Day Open Statistics 🔜](statistics/day-open-statistics.md)
 * [Macros Statistics 🔜](statistics/macros-statistics.md)
 
-## Investments  🔜
+## Investments
 
-* [Dip Index 🔜](investments/dip-index/README.md)
+* [Dip Index](investments/dip-index/README.md)
   * [Overview](investments/dip-index/overview.md)
   * [Features](investments/dip-index/features.md)
   * [Usage](investments/dip-index/usage.md)
   * [Confluences](investments/dip-index/confluences.md)
   * [FAQs](investments/dip-index/faqs.md)
-* [Contango Slope Index 🔜](investments/contango-slope-index/README.md)
+* [Contango Slope Index](investments/contango-slope-index/README.md)
   * [Overview](investments/contango-slope-index/overview.md)
   * [Features](investments/contango-slope-index/features.md)
   * [Usage](investments/contango-slope-index/usage.md)
   * [Confluences](investments/contango-slope-index/confluences.md)
   * [FAQs](investments/contango-slope-index/faqs.md)
-* [Macro Sentiment Index 🔜](investments/macro-sentiment-index/README.md)
+* [Macro Sentiment Index](investments/macro-sentiment-index/README.md)
   * [Overview](investments/macro-sentiment-index/overview.md)
   * [Features](investments/macro-sentiment-index/features.md)
   * [Usage](investments/macro-sentiment-index/usage.md)
