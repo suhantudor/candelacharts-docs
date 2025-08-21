@@ -197,6 +197,7 @@
   * [Usage](investments/macro-sentiment-index/usage.md)
   * [Confluences](investments/macro-sentiment-index/confluences.md)
   * [FAQs](investments/macro-sentiment-index/faqs.md)
+* [Vertex Oscillator 🔜](investments/vertex-oscillator.md)
 
 ## Changelogs
 
