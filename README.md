@@ -1,8 +1,25 @@
 ---
 description: Begin exploring how CandelaCharts works in just minutes.
 icon: play
-cover: .gitbook/assets/quick-start-001.png
-coverY: 345
+cover: .gitbook/assets/bear-market-001.png
+coverY: 69.85969387755108
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Quick Start
