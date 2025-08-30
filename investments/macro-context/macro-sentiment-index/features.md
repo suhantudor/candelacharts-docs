@@ -35,7 +35,7 @@ The final index is a **weighted average** of all active component scores.
 
 ### **4. Smoothing & Visualization Modes**
 
-<figure><img src="../../.gitbook/assets/docs-msi-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-msi-002.png" alt=""><figcaption></figcaption></figure>
 
 * Optional **moving average** (SMA, EMA, RMA, VWMA) with user-defined length and type
 * Multiple display styles: **Columns**, **Histogram**, **Area**, or **Line**
@@ -47,7 +47,7 @@ A dynamic **price vs. sentiment correlation table** appears on-chart, calculatin
 
 ### **6. Customizable UI**
 
-<figure><img src="../../.gitbook/assets/docs-msi-003.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-msi-003.png" alt=""><figcaption></figcaption></figure>
 
 * Adjustable text size and font (Monospace or Default)
 * Optional branding toggle

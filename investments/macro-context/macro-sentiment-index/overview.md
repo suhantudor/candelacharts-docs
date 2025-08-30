@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-msi-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-msi-001.png" alt=""><figcaption></figcaption></figure>
 
 The **Macro Sentiment Index (MSI)** is a comprehensive, multi-asset indicator that synthesizes global financial market sentiment into a single, actionable metric. By aggregating and normalizing data from equities, bonds, commodities, currencies, volatility indices, and macroeconomic proxies, MSI provides traders and investors with a real-time pulse of risk appetite across markets.
 

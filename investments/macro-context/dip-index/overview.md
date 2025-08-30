@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-dipx-005.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-dipx-005.png" alt=""><figcaption></figcaption></figure>
 
 The **Dip Index (DIPX)** is a market breadth oscillator that measures the percentage of assets within a selected index trading above a specified moving average, such as the 50, 100, 150, or 200-day average.
 

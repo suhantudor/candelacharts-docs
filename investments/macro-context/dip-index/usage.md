@@ -13,7 +13,7 @@ DIPX outputs values from **0% to 100%**, reflecting how widely participation ext
 
 ### **1. Assessing Market Health**
 
-<figure><img src="../../.gitbook/assets/docs-dipx-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-dipx-002.png" alt=""><figcaption></figcaption></figure>
 
 Use DIPX to evaluate whether price moves are supported by broad participation:
 
@@ -22,7 +22,7 @@ Use DIPX to evaluate whether price moves are supported by broad participation:
 
 ### **2. Detecting Divergences**
 
-<figure><img src="../../.gitbook/assets/docs-dipx-003.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-dipx-003.png" alt=""><figcaption></figcaption></figure>
 
 Divergence occurs when the **price trend** and **DIPX trend** disagree — often a precursor to reversal.
 
@@ -43,7 +43,7 @@ Divergence occurs when the **price trend** and **DIPX trend** disagree — often
 
 ### **3. Signal-Based Entries/Exits**
 
-<figure><img src="../../.gitbook/assets/docs-dipx-004.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docs-dipx-004.png" alt=""><figcaption></figcaption></figure>
 
 When enabled (`Signals = true`), DIPX generates **triangle markers** when exiting extreme zones:
 
