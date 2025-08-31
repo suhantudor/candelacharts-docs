@@ -172,10 +172,6 @@
   * [Calculation](statistics/ohlc-volatility-range-map-tm/calculation.md)
   * [Statistics](statistics/ohlc-volatility-range-map-tm/statistics.md)
 * [OHLC StDev Range Map 🔜](statistics/ohlc-stdev-range-map.md)
-* [Killzones Statistics 🔜](statistics/killzones-statistics.md)
-* [Pivots Statistics 🔜](statistics/pivots-statistics.md)
-* [Day Open Statistics 🔜](statistics/day-open-statistics.md)
-* [Macros Statistics 🔜](statistics/macros-statistics.md)
 
 ## Investments
 
@@ -197,7 +193,12 @@
   * [Usage](investments/macro-sentiment-index/usage.md)
   * [Confluences](investments/macro-sentiment-index/confluences.md)
   * [FAQs](investments/macro-sentiment-index/faqs.md)
-* [Vertex Oscillator 🔜](investments/vertex-oscillator.md)
+* [Vertex Oscillator 🔜](investments/vertex-oscillator/README.md)
+  * [Overview](investments/vertex-oscillator/overview.md)
+  * [Features](investments/vertex-oscillator/features.md)
+  * [Usage](investments/vertex-oscillator/usage.md)
+  * [Confluences](investments/vertex-oscillator/confluences.md)
+  * [FAQs](investments/vertex-oscillator/faqs.md)
 
 ## Changelogs
 
