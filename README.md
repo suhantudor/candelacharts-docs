@@ -2,7 +2,7 @@
 description: Begin exploring how CandelaCharts works in just minutes.
 icon: play
 cover: .gitbook/assets/bear-market-001.png
-coverY: 69.85969387755108
+coverY: 665.2104591836734
 layout:
   width: default
   cover:
