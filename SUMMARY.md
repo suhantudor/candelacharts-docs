@@ -193,7 +193,7 @@
   * [Usage](investments/macro-sentiment-index/usage.md)
   * [Confluences](investments/macro-sentiment-index/confluences.md)
   * [FAQs](investments/macro-sentiment-index/faqs.md)
-* [Vertex Oscillator 🔜](investments/vertex-oscillator/README.md)
+* [Vertex Oscillator](investments/vertex-oscillator/README.md)
   * [Overview](investments/vertex-oscillator/overview.md)
   * [Features](investments/vertex-oscillator/features.md)
   * [Usage](investments/vertex-oscillator/usage.md)
