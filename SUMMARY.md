@@ -199,6 +199,12 @@
   * [Usage](investments/vertex-oscillator/usage.md)
   * [Confluences](investments/vertex-oscillator/confluences.md)
   * [FAQs](investments/vertex-oscillator/faqs.md)
+* [Mean Reversion Oscillator 🔜](investments/mean-reversion-oscillator/README.md)
+  * [Overview](investments/mean-reversion-oscillator/overview.md)
+  * [Features](investments/mean-reversion-oscillator/features.md)
+  * [Usage](investments/mean-reversion-oscillator/usage.md)
+  * [Confluences](investments/mean-reversion-oscillator/confluences.md)
+  * [FAQs](investments/mean-reversion-oscillator/faqs.md)
 
 ## Changelogs
 
