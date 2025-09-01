@@ -1,5 +1,5 @@
 ---
-icon: rotate-reverse
+icon: bars
 ---
 
 # Mean Reversion Oscillator 🔜
