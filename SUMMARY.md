@@ -211,6 +211,12 @@
   * [Usage](investments/ath-drawdown/usage.md)
   * [Confluences](investments/ath-drawdown/confluences.md)
   * [FAQs](investments/ath-drawdown/faqs.md)
+* [Bitcoin Dominance Trend](investments/bitcoin-dominance-trend/README.md)
+  * [Overview](investments/bitcoin-dominance-trend/overview.md)
+  * [Features](investments/bitcoin-dominance-trend/features.md)
+  * [Usage](investments/bitcoin-dominance-trend/usage.md)
+  * [Confluences](investments/bitcoin-dominance-trend/confluences.md)
+  * [FAQs](investments/bitcoin-dominance-trend/faqs.md)
 
 ## Changelogs
 
