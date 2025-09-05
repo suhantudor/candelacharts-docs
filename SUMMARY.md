@@ -217,6 +217,12 @@
   * [Usage](investments/bitcoin-dominance-trend/usage.md)
   * [Confluences](investments/bitcoin-dominance-trend/confluences.md)
   * [FAQs](investments/bitcoin-dominance-trend/faqs.md)
+* [Global M2 🔜](investments/global-m2/README.md)
+  * [Overview](investments/global-m2/overview.md)
+  * [Features](investments/global-m2/features.md)
+  * [Usage](investments/global-m2/usage.md)
+  * [Confluences](investments/global-m2/confluences.md)
+  * [FAQs](investments/global-m2/faqs.md)
 
 ## Changelogs
 
