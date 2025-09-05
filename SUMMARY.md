@@ -229,6 +229,12 @@
   * [Usage](investments/investor-tool/usage.md)
   * [Confluences](investments/investor-tool/confluences.md)
   * [FAQs](investments/investor-tool/faqs.md)
+* [Major Assets](investments/major-assets/README.md)
+  * [Overview](investments/major-assets/overview.md)
+  * [Features](investments/major-assets/features.md)
+  * [Usage](investments/major-assets/usage.md)
+  * [Confluences](investments/major-assets/confluences.md)
+  * [FAQs](investments/major-assets/faqs.md)
 
 ## Changelogs
 
