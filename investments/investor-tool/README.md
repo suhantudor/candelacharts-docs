@@ -1,5 +1,5 @@
 ---
-icon: earth-oceania
+icon: seedling
 ---
 
 # Investor Tool 🔜
