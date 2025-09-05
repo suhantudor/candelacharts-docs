@@ -223,6 +223,12 @@
   * [Usage](investments/global-m2/usage.md)
   * [Confluences](investments/global-m2/confluences.md)
   * [FAQs](investments/global-m2/faqs.md)
+* [Investor Tool 🔜](investments/investor-tool/README.md)
+  * [Overview](investments/investor-tool/overview.md)
+  * [Features](investments/investor-tool/features.md)
+  * [Usage](investments/investor-tool/usage.md)
+  * [Confluences](investments/investor-tool/confluences.md)
+  * [FAQs](investments/investor-tool/faqs.md)
 
 ## Changelogs
 
