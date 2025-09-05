@@ -2,7 +2,7 @@
 icon: bitcoin
 ---
 
-# Bitcoin Dominance Trend
+# Bitcoin Dominance Trend 🔜
 
 The **CandelaCharts - Bitcoin Dominance Trend** indicator provides traders with a clear visualization of Bitcoin’s dominance trend against the overall cryptocurrency market.&#x20;
 
