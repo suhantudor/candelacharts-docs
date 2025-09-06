@@ -253,6 +253,12 @@
   * [Usage](investments/monthly-price-momentum/usage.md)
   * [Confluences](investments/monthly-price-momentum/confluences.md)
   * [FAQs](investments/monthly-price-momentum/faqs.md)
+* [MVRV Ratio](investments/mvrv-ratio/README.md)
+  * [Overview](investments/mvrv-ratio/overview.md)
+  * [Features](investments/mvrv-ratio/features.md)
+  * [Usage](investments/mvrv-ratio/usage.md)
+  * [Confluences](investments/mvrv-ratio/confluences.md)
+  * [FAQs](investments/mvrv-ratio/faqs.md)
 
 ## Changelogs
 
