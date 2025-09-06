@@ -241,6 +241,12 @@
   * [Usage](investments/mayer-multiple-z-score/usage.md)
   * [Confluences](investments/mayer-multiple-z-score/confluences.md)
   * [FAQs](investments/mayer-multiple-z-score/faqs.md)
+* [Momentum Pulse](investments/momentum-pulse/README.md)
+  * [Overview](investments/momentum-pulse/overview.md)
+  * [Features](investments/momentum-pulse/features.md)
+  * [Usage](investments/momentum-pulse/usage.md)
+  * [Confluences](investments/momentum-pulse/confluences.md)
+  * [FAQs](investments/momentum-pulse/faqs.md)
 
 ## Changelogs
 

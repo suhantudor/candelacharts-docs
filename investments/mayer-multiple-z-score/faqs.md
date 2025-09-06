@@ -9,7 +9,7 @@ icon: square-question
 
 <summary>What is the Mayer Multiple here?</summary>
 
-It’s \[b]price ÷ SMA\[/b] using your chosen length (default 200). The script then converts that ratio into a Z-Score based on your undervalue/overvalued mapping.
+It’s `price ÷ SMA` using your chosen length (default 200). The script then converts that ratio into a Z-Score based on your undervalue/overvalued mapping.
 
 </details>
 
@@ -41,6 +41,6 @@ Keep the span at roughly **6σ** for comparability; move the endpoints to match 
 
 <summary>Will bar coloring affect performance or visibility of other indicators?</summary>
 
-Barcolor is purely visual; if it clashes, disable \[b]Bar Color\[/b] and keep the Z-Score/EMA plots and fills as your primary cues.
+Barcolor is purely visual; if it clashes, disable `Bar Color` and keep the Z-Score/EMA plots and fills as your primary cues.
 
 </details>
