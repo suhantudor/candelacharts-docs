@@ -247,6 +247,12 @@
   * [Usage](investments/momentum-pulse/usage.md)
   * [Confluences](investments/momentum-pulse/confluences.md)
   * [FAQs](investments/momentum-pulse/faqs.md)
+* [Monthly Price Momentum](investments/monthly-price-momentum/README.md)
+  * [Overview](investments/monthly-price-momentum/overview.md)
+  * [Features](investments/monthly-price-momentum/features.md)
+  * [Usage](investments/monthly-price-momentum/usage.md)
+  * [Confluences](investments/monthly-price-momentum/confluences.md)
+  * [FAQs](investments/monthly-price-momentum/faqs.md)
 
 ## Changelogs
 
