@@ -1,5 +1,5 @@
 ---
-description: Investor Tool FAQs
+description: Major Assets FAQs
 icon: square-question
 ---
 

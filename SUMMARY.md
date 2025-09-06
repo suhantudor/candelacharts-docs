@@ -235,6 +235,12 @@
   * [Usage](investments/major-assets/usage.md)
   * [Confluences](investments/major-assets/confluences.md)
   * [FAQs](investments/major-assets/faqs.md)
+* [Mayer Multiple Z-score](investments/mayer-multiple-z-score/README.md)
+  * [Overview](investments/mayer-multiple-z-score/overview.md)
+  * [Features](investments/mayer-multiple-z-score/features.md)
+  * [Usage](investments/mayer-multiple-z-score/usage.md)
+  * [Confluences](investments/mayer-multiple-z-score/confluences.md)
+  * [FAQs](investments/mayer-multiple-z-score/faqs.md)
 
 ## Changelogs
 

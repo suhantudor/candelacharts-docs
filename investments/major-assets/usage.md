@@ -5,6 +5,8 @@ icon: circle-chevron-right
 
 # Usage
 
+<figure><img src="../../.gitbook/assets/docs-major-assets-002.png" alt=""><figcaption></figcaption></figure>
+
 Turn the indexed panel into decisions with a clear setup, focused comparisons, and repeatable checks.
 
 What to look for:

@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/docs-major-assets-001.png" alt=""><figcaption></figcaption></figure>
+
 The **CandelaCharts – Major Assets** indicator rebases multiple markets to **100** from a chosen date so you can compare performance cleanly.&#x20;
 
 {% content-ref url="features.md" %}
