@@ -259,6 +259,12 @@
   * [Usage](investments/mvrv-ratio/usage.md)
   * [Confluences](investments/mvrv-ratio/confluences.md)
   * [FAQs](investments/mvrv-ratio/faqs.md)
+* [Omega Ratio](investments/omega-ratio/README.md)
+  * [Overview](investments/omega-ratio/overview.md)
+  * [Features](investments/omega-ratio/features.md)
+  * [Usage](investments/omega-ratio/usage.md)
+  * [Confluences](investments/omega-ratio/confluences.md)
+  * [FAQs](investments/omega-ratio/faqs.md)
 
 ## Changelogs
 
