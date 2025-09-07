@@ -4,7 +4,8 @@ icon: omega
 
 # Omega Ratio
 
-Quality of returns compounds; the **Omega Ratio** tells you whether gains above your hurdle outpace misses below it.\
+Quality of returns compounds; the **Omega Ratio** tells you whether gains above your hurdle outpace misses below it.
+
 Instead of averaging returns or assuming a normal distribution, Omega evaluates the _entire return distribution_ relative to a user-defined **target return per bar**. For each bar, it counts how much you beat the target (**excess gains**) and how much you fell short (**shortfalls**). Over a rolling window, **Omega = Σ(excess gains) / Σ(shortfalls)**.
 
 * **Intuition:** An Omega of **1.0** means gains above your hurdle roughly match the losses below it (breakeven quality). **> 1.5** suggests favorable conditions; **> 2.0** signals strong quality. **< 1.0** means setbacks dominate.

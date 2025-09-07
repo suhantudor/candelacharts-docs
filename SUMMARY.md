@@ -265,6 +265,12 @@
   * [Usage](investments/omega-ratio/usage.md)
   * [Confluences](investments/omega-ratio/confluences.md)
   * [FAQs](investments/omega-ratio/faqs.md)
+* [Period ROI](investments/period-roi/README.md)
+  * [Overview](investments/period-roi/overview.md)
+  * [Features](investments/period-roi/features.md)
+  * [Usage](investments/period-roi/usage.md)
+  * [Confluences](investments/period-roi/confluences.md)
+  * [FAQs](investments/period-roi/faqs.md)
 
 ## Changelogs
 
