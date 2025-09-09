@@ -277,6 +277,12 @@
   * [Usage](investments/sharpe-ratio/usage.md)
   * [Confluences](investments/sharpe-ratio/confluences.md)
   * [FAQs](investments/sharpe-ratio/faqs.md)
+* [Sortino Ratio](investments/sortino-ratio/README.md)
+  * [Overview](investments/sortino-ratio/overview.md)
+  * [Features](investments/sortino-ratio/features.md)
+  * [Usage](investments/sortino-ratio/usage.md)
+  * [Confluences](investments/sortino-ratio/confluences.md)
+  * [FAQs](investments/sortino-ratio/faqs.md)
 
 ## Changelogs
 
