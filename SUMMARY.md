@@ -271,6 +271,12 @@
   * [Usage](investments/period-roi/usage.md)
   * [Confluences](investments/period-roi/confluences.md)
   * [FAQs](investments/period-roi/faqs.md)
+* [Sharpe Ratio](investments/sharpe-ratio/README.md)
+  * [Overview](investments/sharpe-ratio/overview.md)
+  * [Features](investments/sharpe-ratio/features.md)
+  * [Usage](investments/sharpe-ratio/usage.md)
+  * [Confluences](investments/sharpe-ratio/confluences.md)
+  * [FAQs](investments/sharpe-ratio/faqs.md)
 
 ## Changelogs
 

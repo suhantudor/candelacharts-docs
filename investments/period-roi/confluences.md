@@ -1,5 +1,5 @@
 ---
-description: Omega Ratio Confluences
+description: Period ROI Confluences
 icon: object-intersect
 ---
 
