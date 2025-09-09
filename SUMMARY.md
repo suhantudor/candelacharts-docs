@@ -283,6 +283,12 @@
   * [Usage](investments/sortino-ratio/usage.md)
   * [Confluences](investments/sortino-ratio/confluences.md)
   * [FAQs](investments/sortino-ratio/faqs.md)
+* [Z-Deviation Waves](investments/z-deviation-waves/README.md)
+  * [Overview](investments/z-deviation-waves/overview.md)
+  * [Features](investments/z-deviation-waves/features.md)
+  * [Usage](investments/z-deviation-waves/usage.md)
+  * [Confluences](investments/z-deviation-waves/confluences.md)
+  * [FAQs](investments/z-deviation-waves/faqs.md)
 
 ## Changelogs
 
