@@ -289,6 +289,12 @@
   * [Usage](investments/z-deviation-waves/usage.md)
   * [Confluences](investments/z-deviation-waves/confluences.md)
   * [FAQs](investments/z-deviation-waves/faqs.md)
+* [Hydra Momentum](investments/hydra-momentum/README.md)
+  * [Overview](investments/hydra-momentum/overview.md)
+  * [Features](investments/hydra-momentum/features.md)
+  * [Usage](investments/hydra-momentum/usage.md)
+  * [Confluences](investments/hydra-momentum/confluences.md)
+  * [FAQs](investments/hydra-momentum/faqs.md)
 
 ## Changelogs
 
