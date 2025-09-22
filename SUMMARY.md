@@ -116,6 +116,7 @@
   * [Projections](models/crt-model-tm/projections.md)
   * [Dashboard](models/crt-model-tm/dashboard.md)
   * [Alerts](models/crt-model-tm/alerts.md)
+* [Candle Range Theory Model 🔜](models/candle-range-theory-model.md)
 * [X Model™](models/x-model-tm/README.md)
   * [Overview](models/x-model-tm/overview.md)
   * [Terminology](models/x-model-tm/terminology.md)
