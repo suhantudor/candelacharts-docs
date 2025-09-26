@@ -11,6 +11,10 @@ These points provide insight into potential reversals and momentum changes, allo
 
 Recognizing these swings is critical in anticipating future price movements and understanding the market’s underlying structure.
 
+{% content-ref url="features.md" %}
+[features.md](features.md)
+{% endcontent-ref %}
+
 {% content-ref url="terminology.md" %}
 [terminology.md](terminology.md)
 {% endcontent-ref %}

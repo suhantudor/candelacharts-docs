@@ -7,6 +7,10 @@ icon: list-ol
 
 The **Candle Range Theory (CRT)** is an advanced trading methodology that delves into the structural analysis of candlestick formations to decipher market dynamics and forecast future price movements.
 
+{% content-ref url="features.md" %}
+[features.md](features.md)
+{% endcontent-ref %}
+
 {% content-ref url="terminology.md" %}
 [terminology.md](terminology.md)
 {% endcontent-ref %}
