@@ -106,6 +106,7 @@
   * [Alerts](models/unicorn-model-tm/alerts.md)
 * [CRT Model™](models/crt-model-tm/README.md)
   * [Overview](models/crt-model-tm/overview.md)
+  * [Features](models/crt-model-tm/features.md)
   * [Terminology](models/crt-model-tm/terminology.md)
   * [Timeframe Alignment](models/crt-model-tm/timeframe-alignment.md)
   * [Components](models/crt-model-tm/components.md)

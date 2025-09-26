@@ -1,5 +1,5 @@
 ---
-description: Fractal Range Model Features
+description: CRT Model Features
 icon: alien-8bit
 ---
 
@@ -14,10 +14,7 @@ These features work together to turn raw price action into a repeatable plan. Ea
 * **Sweeps**
 * **Double‑Purge Sweeps**
 * **CISD**&#x20;
-* **HTF PD Arrays**
-* **LTF PD Arrays**
 * **Projections**
-* **SMT**
 * **Autobias**
 * **Realtime Models**
 * **History**
