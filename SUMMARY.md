@@ -65,6 +65,7 @@
 
 * [Fractal Range Model™](models/fractal-range-model-tm/README.md)
   * [Overview](models/fractal-range-model-tm/overview.md)
+  * [Features](models/fractal-range-model-tm/features.md)
   * [Terminology](models/fractal-range-model-tm/terminology.md)
   * [Timeframe Pairing](models/fractal-range-model-tm/timeframe-pairing.md)
   * [Components](models/fractal-range-model-tm/components.md)
