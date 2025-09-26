@@ -42,6 +42,8 @@ This brief overview describes how expansions behave and how to set realistic exp
 
 ### Phases of Price&#x20;
 
+<figure><img src="../../.gitbook/assets/docs-frm-019.png" alt=""><figcaption></figcaption></figure>
+
 Typical cycle elements you’ll observe include:
 
 * **Reversal** – the initial turn that shifts delivery.
@@ -54,6 +56,8 @@ Typical cycle elements you’ll observe include:
 {% endhint %}
 
 ### Understanding Mean
+
+<figure><img src="../../.gitbook/assets/docs-frm-020.png" alt=""><figcaption></figcaption></figure>
 
 When the market is expanding, pullbacks are typically shallow. So rather than waiting for deep discount/premium tests, we read 0.5 as a midline:
 
@@ -71,11 +75,11 @@ If the respected half fails, we can **flip bias** and anticipate the opposite si
 
 The **C-area** is a rules‑based zone derived from higher‑timeframe (HTF) structure that highlights where the next HTF candle is likely to wick during **expansions**. It blends **Mean** (equilibrium) logic, decisive candle closures, and trend shifts to give a clean, repeatable focus area.
 
+<figure><img src="../../.gitbook/assets/docs-frm-018.png" alt=""><figcaption></figcaption></figure>
+
 **Definition**
 
 The **C-area** is the price zone between the current candle's open and the previous candle's midpoint (0.5 of its range). It highlights early positioning relative to the prior candle's balance and acts as a contextual reference for potential intraday continuation or rejection.
-
-<figure><img src="../../.gitbook/assets/docs-frm-018.png" alt=""><figcaption></figcaption></figure>
 
 **Formation**
 
@@ -104,3 +108,24 @@ Inside the C-area, locate a **Fair Value Gap (FVG)**, **Order Block (OB)**, **Br
 ### Candle Wicks
 
 Candlestick wicks often carry more signal than the body. Read correctly, they reveal rejection from key levels and can mark turning points—especially when you align higher and lower timeframes.
+
+#### What Wicks Indicate
+
+* A **lower wick** shows an aggressive drive down that was bought back up before close → a **bullish** hint.
+* An **upper wick** shows an aggressive drive up that was sold back down before close → a **bearish** hint. In short, wicks are **mini‑reversals on lower timeframes**.
+
+{% hint style="info" %}
+**Pro tip:** A strong reversal candle with a large wick usually prints a clear **“V”** shape on the lower timeframe.
+{% endhint %}
+
+#### The 50% Rule of a Wick
+
+* **Mark the wick midpoint:** From body → high (upper wick) or body → low (lower wick).
+* **Respect:** If price **holds** the 0.5 of the wick, continuation is favored **against** the wick’s direction (i.e., lower‑wick → up; upper‑wick → down).
+* **Disrespect:** If price **closes through** the 0.5 of the wick, the wick is likely invalidated and price may continue **with** the original impulse.
+
+{% hint style="info" %}
+**Pro tip:** Prioritize wicks that tag a **Fair Value Gap (FVG)** or **take a key high/low**. De‑prioritize wicks that form entirely inside a noisy internal range.
+{% endhint %}
+
+### Trading Candle 2

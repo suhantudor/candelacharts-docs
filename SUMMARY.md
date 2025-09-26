@@ -68,7 +68,6 @@
   * [Terminology](models/fractal-range-model-tm/terminology.md)
   * [Timeframe Pairing](models/fractal-range-model-tm/timeframe-pairing.md)
   * [Components](models/fractal-range-model-tm/components.md)
-  * [C-area](models/fractal-range-model-tm/c-area.md)
   * [Labels](models/fractal-range-model-tm/labels.md)
   * [Statuses](models/fractal-range-model-tm/statuses.md)
   * [Framework](models/fractal-range-model-tm/framework.md)
