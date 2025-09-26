@@ -5,44 +5,102 @@ icon: diagram-venn
 
 # Framework
 
-The **Fractal Range Model** is an advanced trading framework that programmatically detects, visualizes, and invalidates key market concepts such as **Sweeps**, **CISD**, **Projections**, **Liquidity Levels**, **SMT Divergences**, **PD Arrays**, and more.
+The **Fractal Range Model** is a mechanical, repeatable pattern in the market. Where many traders go wrong is trying to pattern-trade every occurrence they see. That shotgun approach isn’t sustainable and will fail over the long run.
 
-Designed to streamline the trading process, this model integrates multiple components to offer a comprehensive view of the market, helping traders identify key entry and exit points.
+To use the model effectively, trade only with a **clear higher-timeframe bias**. You can establish that bias by either:
 
-## **When to Enter a Trade**
+* **Framing within a higher-timeframe Fractal Range Model:** Identify the larger structure and execute inside it.
+* **Applying supporting concepts:** Use phases of price, equilibrium, and candle closures to define direction and confirm context.
 
-After the **Fractal Range Model** has formed and key components like **Sweep** and **CISD** have been detected, traders can look for entry opportunities based on additional technical signals. The goal is to align the model's formation with other structural clues to optimize the timing of trade entries. Here's a breakdown of when to enter:
+In short: the pattern is mechanical—your edge comes from context.
 
-### **1. Entry Based on LTF PD Arrays**
+### Top Down Analysis
 
-Once the model is formed and **Sweep** and **CISD** have been established, the next step is to check for **Low-Timeframe (LTF) PD Arrays**. These arrays are key areas of liquidity or price structure that can give further confirmation for an entry.
+This quick walkthrough gives you a clean, repeatable way to align bias, planning, and execution.
 
-<figure><img src="../../.gitbook/assets/docs-frm-007.png" alt=""><figcaption></figcaption></figure>
+#### Higher timeframe sets direction (1D / 1W / 1M)
 
-If a **LTF PD Array** is present, traders can place their position in line with this array, as it serves as a strong zone of potential price reversal or continuation.
+Pick the daily, weekly, or monthly—whatever matches your style—to define directional bias. Do this by either mapping a higher-timeframe **Fractal Range Model** you’ll trade inside, or by using supporting concepts (price phases, equilibrium, and candle closures) to lock in a clear bias.
 
-* **Action**: Look for LTF PD Arrays that align with the Fractal Range Model’s structure.
-* **Entry**: If the array provides confluence, place the position near the array with a stop loss below the array zone.
+#### Intermediate timeframe builds the plan (4H / 1H)
 
-### **2. Entry Using CISD**
+Move down to 4H/1H to sketch structure and validate the bias. Confirm with a **Change in the State of Delivery (CISD)**, mark **points of interest (POIs)** that align with the bias, and wait for proof at the level—a reaction, decisive candle close, or formation of a **protected swing**.
 
-If no **LTF PD Arrays** are present, the next best entry signal comes from the **CISD**.&#x20;
+#### Lower timeframe executes with precision (15M / 5M)
 
-<figure><img src="../../.gitbook/assets/docs-frm-015.png" alt=""><figcaption></figcaption></figure>
+Use 15M/5M to refine entries and improve your risk-to-reward. After the intermediate reaction/close, look for a confirming **CISD** so all three timeframes speak the same language. Trigger entries on **new protected highs/lows** or **continuation order blocks** in your direction, place stops beyond the protected high/low, and target higher-timeframe objectives.
 
-When the **CISD** aligns with the model's structure, it can serve as an entry point, signaling that the market is likely to follow the predicted path set by the Fractal Range Model.
+<figure><img src="../../.gitbook/assets/docs-frm-017.png" alt=""><figcaption></figcaption></figure>
 
-* **Action**: Look for a **CISD** that aligns with the broader model and the price structure.
-* **Entry**: Place a position near the **CISD** zone, ensuring that the stop loss is set appropriately based on the model's invalidation rules.
+### Expansion Candles
 
-### **3. Missed Entries: First C-Area Level**
+This brief overview describes how expansions behave and how to set realistic expectations.
 
-If a trader misses an entry at the **CISD** or **LTF PD Array**, the next opportunity for entry is at the **first C-Area level**.&#x20;
+* **Shallow pullbacks, fast legs:** Expansion phases often retrace only lightly and move aggressively in the trend direction.
+* **Half‑range tendency:** In a bullish expansion, price frequently operates in the **upper half** of the range; in a bearish expansion, in the **lower half**.
+* **Context first:** The goal is to trade **with** the higher‑timeframe bias, not to chase every pattern print.
 
-<figure><img src="../../.gitbook/assets/docs-frm-016.png" alt=""><figcaption></figcaption></figure>
+### Phases of Price&#x20;
 
-The **C-Area** represents a critical zone where price action is likely to consolidate, and traders should look for volume confirmation and a lack of divergences for a valid entry.
+Typical cycle elements you’ll observe include:
 
-* **Action**: Wait for price to approach the **first C-Area** level, ensuring that there is consolidation and strong volume present.
-* **Confirmation**: Confirm that there are no divergences (e.g., no bearish or bullish divergences that would contradict the price movement). This ensures that the price action is in alignment with the model’s projection.
-* **Entry**: If the above conditions are met, place the entry with a stop loss at the end of the **C-Area** zone.
+* **Reversal** – the initial turn that shifts delivery.
+* **Expansion** – the impulsive leg in the new direction.
+* **Retracement** – a pause or pullback that often remains shallow in expansions.
+* **Consolidation** – a range‑bound phase that can precede the next move.
+
+{% hint style="info" %}
+**Mean or Equilibrium (0.5):** The midpoint of your chosen range is a key reference. During expansions, reactions frequently occur around this level without deep discount (bullish) or premium (bearish) retracements.
+{% endhint %}
+
+### Understanding Mean
+
+When the market is expanding, pullbacks are typically shallow. So rather than waiting for deep discount/premium tests, we read 0.5 as a midline:
+
+* **Upper half respected →** bias to trade **higher**.
+* **Lower half respected →** bias to trade **lower**.&#x20;
+
+If the respected half fails, we can **flip bias** and anticipate the opposite side of the range to be taken.
+
+#### Applying Equilibrium in Expansions
+
+* In a **bullish** expansion, the **upper half** of the candle/range often acts as **support** for continuation.
+* In a **bearish** expansion, the **lower half** often acts as **resistance** for continuation. If these levels do not respect, reassess the bias.
+
+### Understanding C-area
+
+The **C-area** is a rules‑based zone derived from higher‑timeframe (HTF) structure that highlights where the next HTF candle is likely to wick during **expansions**. It blends **Mean** (equilibrium) logic, decisive candle closures, and trend shifts to give a clean, repeatable focus area.
+
+**Definition**
+
+The **C-area** is the price zone between the current candle's open and the previous candle's midpoint (0.5 of its range). It highlights early positioning relative to the prior candle's balance and acts as a contextual reference for potential intraday continuation or rejection.
+
+<figure><img src="../../.gitbook/assets/docs-frm-018.png" alt=""><figcaption></figcaption></figure>
+
+**Formation**
+
+* **Bullish C-area:** The C-area spans from the current open **down** to previous candle equilibrium.
+* **Bearish C-area:** The C-area spans from the current open **up** to previous candle equilibrium.
+
+{% hint style="success" %}
+The C-areas can also be interpreted as the MMXM Model, as they often emphasize MMSM and MMBM accumulation zones.
+{% endhint %}
+
+**Interpretation**
+
+* When price trades into the C-area and **respects** the prior midpoint (rejects or consolidates without violating it), it supports the respective MMXM directional model.
+  * In a **bullish C-area**, holding **above** the prior midpoint often precedes upward continuation.
+  * In a **bearish C-area**, rejection **from** the prior midpoint typically signals renewed downside pressure.
+
+{% hint style="info" %}
+Inside the C-area, locate a **Fair Value Gap (FVG)**, **Order Block (OB)**, **Breaker**, or a comparable point of interest that can serve as entry.
+{% endhint %}
+
+**Invalidation**
+
+* **Bullish C-area:** A decisive close **below** the previous candle's midpoint (loss of mean support).
+* **Bearish C-area:** A decisive close **above** the previous candle's midpoint (loss of mean resistance).
+
+### Candle Wicks
+
+Candlestick wicks often carry more signal than the body. Read correctly, they reveal rejection from key levels and can mark turning points—especially when you align higher and lower timeframes.
