@@ -115,7 +115,7 @@ Candlestick wicks often carry more signal than the body. Read correctly, they re
 * An **upper wick** shows an aggressive drive up that was sold back down before close → a **bearish** hint. In short, wicks are **mini‑reversals on lower timeframes**.
 
 {% hint style="info" %}
-**Pro tip:** A strong reversal candle with a large wick usually prints a clear **“V”** shape on the lower timeframe.
+A strong reversal candle with a large wick usually prints a clear **“V”** shape on the lower timeframe.
 {% endhint %}
 
 #### The 50% Rule of a Wick
@@ -125,7 +125,7 @@ Candlestick wicks often carry more signal than the body. Read correctly, they re
 * **Disrespect:** If price **closes through** the 0.5 of the wick, the wick is likely invalidated and price may continue **with** the original impulse.
 
 {% hint style="info" %}
-**Pro tip:** Prioritize wicks that tag a **Fair Value Gap (FVG)** or **take a key high/low**. De‑prioritize wicks that form entirely inside a noisy internal range.
+Prioritize wicks that tag a **Fair Value Gap (FVG)** or **take a key high/low**. De‑prioritize wicks that form entirely inside a noisy internal range.
 {% endhint %}
 
 ### Trading Candle 2
@@ -162,3 +162,36 @@ Use related instruments for confirmation and confluence. If one market sits at a
 * Continuations frequently follow the day **after** a large‑wick reversal.
 
 ### Trading Candle 3
+
+Candle 2 is the **reversal**, Candle 3 is the **continuation**, and Candle 4 often acts as a **secondary continuation**. Candle 3 aims to capture the directional move **after** the reversal has set the bias.
+
+<figure><img src="../../.gitbook/assets/docs-frm-023.png" alt=""><figcaption></figcaption></figure>
+
+#### The Key Concept: Wick Size & Expansion
+
+Wick size on **Candle 2** determines whether you trade the reversal itself or wait for continuation.
+
+* **Small wick on Candle 2 →** more expansion potential → you can trade **Candle 2** directly.
+* **Large wick on Candle 2 →** range already consumed → let Candle 2 **close** and trade **Candle 3** instead.
+
+{% hint style="danger" %}
+Small wick → trade Candle 2.\
+Large wick → wait for Candle 3.
+{% endhint %}
+
+#### When Candle 3 Isn’t Ideal
+
+Avoid low‑quality continuations:
+
+* If **Candle 2** was already a strong **expansion**, Candle 3 may be a **chase** into retrace or chop.
+* In such cases, demand extra confluence on LTF: protected swings, **SMT** divergence, or multiple continuation cues aligning.
+
+#### Key Takeaways
+
+* **Wick size** decides: trade **Candle 2** (small wick) vs. **Candle 3** (large wick).
+* Candle 3 captures **expansion** after the reversal.
+* Always confirm with **CISD**, **FVG/OB**, and **protected swings**.
+* Don’t chase Candle 3 after a big Candle 2 expansion—wait for cleaner continuation context.
+* The best setups come from **multi‑timeframe continuation alignment**.
+
+Context over pattern: establish a clear higher-timeframe bias, then align the intermediate and lower timeframes so they’re speaking the same language. Let equilibrium (0.5) and the C-area frame where you expect reaction or follow-through, and use CISD, wick-50% respect, and PD arrays to time entries—if alignment breaks, honor invalidation and wait for the next clean continuation.
