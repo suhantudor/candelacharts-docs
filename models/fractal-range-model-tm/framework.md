@@ -42,7 +42,7 @@ This brief overview describes how expansions behave and how to set realistic exp
 
 ### Phases of Price&#x20;
 
-<figure><img src="../../.gitbook/assets/docs-frm-019.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-frm-021.png" alt=""><figcaption></figcaption></figure>
 
 Typical cycle elements you’ll observe include:
 
@@ -66,7 +66,7 @@ When the market is expanding, pullbacks are typically shallow. So rather than wa
 
 If the respected half fails, we can **flip bias** and anticipate the opposite side of the range to be taken.
 
-#### Applying Equilibrium in Expansions
+#### Applying Mean in Expansions
 
 * In a **bullish** expansion, the **upper half** of the candle/range often acts as **support** for continuation.
 * In a **bearish** expansion, the **lower half** often acts as **resistance** for continuation. If these levels do not respect, reassess the bias.
@@ -129,3 +129,36 @@ Candlestick wicks often carry more signal than the body. Read correctly, they re
 {% endhint %}
 
 ### Trading Candle 2
+
+Timing and structure matter as much as direction. In the **Fractal Range Model**, **Candle 2** is the reversal candle whose wick, body, and context tell you whether the next leg is likely to **trend** or merely **retrace**. When specific criteria are present, Candle 2 can also be traded directly.
+
+<figure><img src="../../.gitbook/assets/docs-frm-022.png" alt=""><figcaption></figcaption></figure>
+
+#### Expansion vs. Reversal Candles
+
+* **Expansion candle:** Small wicks on both ends, a strong body, and clear one‑way momentum during its period.
+* **Reversal candle (Candle 2):** Opens, drives strongly the other way (creating a long opposing wick), and closes near its open—hinting at a shift in direction. Not every reversal is tradeable; context decides.
+
+{% hint style="info" %}
+**Key takeaway:** Small wicks favor continued expansion; large wicks often cap expansion because much of the range was already consumed creating the wick.
+{% endhint %}
+
+#### Why Wick Size Matters
+
+* **Small‑wick reversal:** Price hasn’t used much range to print the wick, so there’s room to run. Consider deeper targets: prior highs/lows, liquidity pools, and standard‑deviation projections.
+* **Large‑wick reversal:** Much of the candle’s range was spent forming the wick. Expect mean‑reversion style movement (toward the open or session extremes) rather than a long trend leg.
+
+_Think of wick size as a fuel gauge: less wick → more runway._
+
+#### Correlated Markets & SMT
+
+Use related instruments for confirmation and confluence. If one market sits at a clean reversal area but a correlated market is clearly stronger/weaker, prioritize the one that **aligns with your bias**. This helps avoid false CISD and improves signal quality.
+
+#### Key takeaways
+
+* **Small wick →** more potential for **range expansion**.
+* **Large wick →** less potential; use tighter targets.
+* Always size expectations by **wick size** and **session context**.
+* Continuations frequently follow the day **after** a large‑wick reversal.
+
+### Trading Candle 3
