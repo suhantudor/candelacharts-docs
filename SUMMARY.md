@@ -119,7 +119,7 @@
   * [Projections](models/crt-model-tm/projections.md)
   * [Dashboard](models/crt-model-tm/dashboard.md)
   * [Alerts](models/crt-model-tm/alerts.md)
-* [Candle Range Theory Model™](models/candle-range-theory-model-tm/README.md)
+* [Candle Range Theory Model™ 🔜](models/candle-range-theory-model-tm/README.md)
   * [Overview](models/candle-range-theory-model-tm/overview.md)
   * [Features](models/candle-range-theory-model-tm/features.md)
   * [Terminology](models/candle-range-theory-model-tm/terminology.md)

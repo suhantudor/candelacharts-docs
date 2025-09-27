@@ -3,7 +3,7 @@ description: Candle Range Theory Model
 icon: road-barrier
 ---
 
-# Candle Range Theory Model™
+# Candle Range Theory Model™ 🔜
 
 **Candle Range Theory (CRT)** is a framework that treats **every candle as a tradable range**.&#x20;
 
