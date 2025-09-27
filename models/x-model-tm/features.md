@@ -1,5 +1,5 @@
 ---
-description: CRT Model Features
+description: X Model Features
 icon: alien-8bit
 ---
 
@@ -8,17 +8,16 @@ icon: alien-8bit
 These features work together to turn raw price action into a repeatable plan.&#x20;
 
 * **HTF Candles**
-* **Mean (Equilibrium 0.5)**
-* **C‑area**
 * **Liquidity Levels**
 * **Sweeps**
 * **Double‑Purge Sweeps**
 * **CISD**&#x20;
+* **PD Arrays**
 * **Projections**
+* **SMT**
 * **Autobias**
 * **Realtime Models**
 * **History**
-* **Time Filters**
 * **Alerts**
 
-These features work in harmony to unify bias, context, and execution into a single, consistent routine—empowering you to read the range, time the shift, and capitalize on the expansion.
+Together, these features map bias, context, and execution into one consistent routine—so you can read the range, time the shift, and ride the expansion.
