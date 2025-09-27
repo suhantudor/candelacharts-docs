@@ -7,6 +7,10 @@ icon: list-ol
 
 This trading model is built on Smart Money Concepts and time-based precision. It leverages key liquidity levels from the previous day, institutional reference points like Fair Value Gaps, and lower timeframe confirmations such as SMT divergence and Change in State of Delivery (CISD).
 
+{% content-ref url="features.md" %}
+[features.md](features.md)
+{% endcontent-ref %}
+
 {% content-ref url="terminology.md" %}
 [terminology.md](terminology.md)
 {% endcontent-ref %}

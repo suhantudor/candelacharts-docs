@@ -7,6 +7,10 @@ icon: list-ol
 
 The **ICT Unicorn Model** represents a refined intraday trading strategy grounded in smart money principles. It leverages time-of-day precision, liquidity runs, and institutional order flow to offer compelling trade opportunities.
 
+{% content-ref url="features.md" %}
+[features.md](features.md)
+{% endcontent-ref %}
+
 {% content-ref url="terminology.md" %}
 [terminology.md](terminology.md)
 {% endcontent-ref %}
