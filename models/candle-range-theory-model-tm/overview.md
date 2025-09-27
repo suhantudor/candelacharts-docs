@@ -39,8 +39,8 @@ Candle Range Theory (CRT) is applied **fractally**: choose an anchor candle (ses
 [time-filter.md](time-filter.md)
 {% endcontent-ref %}
 
-{% content-ref url="projections.md" %}
-[projections.md](projections.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="dashboard.md" %}
@@ -51,4 +51,4 @@ Candle Range Theory (CRT) is applied **fractally**: choose an anchor candle (ses
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-CRT treats each candle as a tradable **range**, most often using a simple, repeatable model where (1) one candle defines the range, (2) the next candle “sweeps” one side of that range (often a turtle-soup style liquidity grab), and (3) price then drives toward the opposite side of the range; many traders use the 50% of that range as a first target.
+Candle Range Theory treats each candle as a tradable **range**, most often using a simple, repeatable model where (1) one candle defines the range, (2) the next candle “sweeps” one side of that range (often a turtle-soup style liquidity grab), and (3) price then drives toward the opposite side of the range; many traders use the 50% of that range as a first target.

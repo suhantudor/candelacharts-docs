@@ -7,7 +7,7 @@ icon: hourglass-start
 
 The Candle Range Theory (CRT) Model incorporates various times when the CRT can occur, each designed to analyze market trends at different levels of granularity.
 
-<figure><img src="../../.gitbook/assets/docs-crt-003.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-007.png" alt=""><figcaption></figcaption></figure>
 
 These specific times enable traders and investors to capture key price movements and shifts in market dynamics, offering insights across both short-term and long-term perspectives.
 

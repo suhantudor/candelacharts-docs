@@ -7,7 +7,9 @@ icon: game-board-simple
 
 The **Candle Range Theory (CRT) Model** Dashboard provides traders with essential, real-time information to support decision-making and improve market analysis.
 
-<figure><img src="../../.gitbook/assets/docs-crt-005.png" alt=""><figcaption></figcaption></figure>
+The dashboard offers two modes:
+
+<div><figure><img src="../../.gitbook/assets/docs-candle-range-theory-008.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/docs-candle-range-theory-009.png" alt=""><figcaption></figcaption></figure></div>
 
 Designed to present key data points, the dashboard offers a comprehensive view of current market conditions and the chart's state.
 
@@ -27,7 +29,7 @@ The dashboard displays a countdown showing the remaining time until the higher t
 
 It’s particularly useful for traders focusing on higher timeframes who need to make decisions based on the closure of key candles.
 
-### **Sessions Filter**
+### **Time Filter**
 
 This filter allows users to view trading data within specific market sessions (Killzones).
 

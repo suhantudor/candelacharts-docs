@@ -7,7 +7,7 @@ icon: diamonds-4
 
 This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.
 
-<figure><img src="../../.gitbook/assets/docs-crt-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-002.png" alt=""><figcaption></figcaption></figure>
 
 Below are the key components that make up the algorithm:
 
@@ -15,7 +15,6 @@ Below are the key components that make up the algorithm:
 * **D-purge**
 * **CISD**
 * **Mean**
-* **Projections**
 
 ## **Components**
 
@@ -79,12 +78,4 @@ Real-time models remove the sweep when the model is invalidated and the candle i
 
 * **Bullish:** Invalidated if a bullish candle closes above the midpoint of the previous candle.
 * **Bearish:** Invalidated if a bearish candle closes above the midpoint of the previous candle.
-
-### **5. Projections**
-
-**Definition:** Projections measures the variation or dispersion of price from a mean, often used to project price swings.
-
-**Formation:** It’s calculated from the CISD level to the price point of a swing manipulation.
-
-**Invalidation:** Once the price reaches the 2 standard deviation level.
 

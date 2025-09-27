@@ -28,9 +28,3 @@ For example, a Bullish CISD happens when the price closes above the open of a be
 ### **Mean**
 
 The Mean is the midpoint price of the previous candle, calculated as the average of its high and low. It serves as a reference point or baseline against which current price action is measured. The Mean helps traders identify balance areas or fair value zones from which price may either revert or continue trending. If price consistently respects or reacts around this midpoint, it can indicate equilibrium between buyers and sellers, making the Mean a useful level for anticipating support or resistance.
-
-### **Projections**
-
-Projections are estimates or forecasts of future price movement derived from the dispersion or deviation of price relative to a key reference point, such as the CISD level. They typically use statistical measures like standard deviations to predict the likely extent of price swings or targets.&#x20;
-
-Projections help traders anticipate where price may reach in terms of potential support or resistance and assess whether the current price movement is extreme or sustainable. When price reaches a high-probability projection level (e.g., two standard deviations away), it may signal exhaustion or a turning point.

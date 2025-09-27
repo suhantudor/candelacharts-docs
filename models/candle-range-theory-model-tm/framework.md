@@ -53,6 +53,8 @@ Label where you are so your actions stay consistent.
 
 Use the midpoint to keep bias simple and objective.
 
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-006.png" alt=""><figcaption></figcaption></figure>
+
 #### Understanding the Mean
 
 During expansions, pullbacks are usually shallow—treat **0.5** as the midline:
@@ -88,7 +90,7 @@ Prioritize wicks that tag an **FVG** or sweep a key high/low; de-prioritize wick
 
 Use Candle 2’s wick, body, and context to judge whether the next leg trends or mean-reverts.
 
-<figure><img src="../../.gitbook/assets/docs-crt-007.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-005.png" alt=""><figcaption></figcaption></figure>
 
 #### Expansion vs. reversal
 
@@ -118,7 +120,7 @@ Use related instruments for confirmation. If one market sits at a clean reversal
 
 Candle 2 flips bias; Candle 3 aims to capture the follow-through (Candle 4 often offers secondary continuation).
 
-<figure><img src="../../.gitbook/assets/docs-crt-006.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-004.png" alt=""><figcaption></figcaption></figure>
 
 #### The key concept: wick size & expansion
 
