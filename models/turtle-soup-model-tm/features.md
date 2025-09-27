@@ -15,7 +15,7 @@ Turning raw price action into a repeatable plan—powered by these features.
 * **HTF PD Arrays**
 * **LTF PD Arrays**
 * **Projections**
-* **Autobias**
+* **Auto-bias**
 * **Realtime Models**
 * **History**
 * **Killzone Filters**

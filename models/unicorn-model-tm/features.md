@@ -15,7 +15,7 @@ These features work together to turn raw price action into a repeatable plan.&#x
 * **LTF PD Arrays**
 * **Projections**
 * **Macros**
-* **Autobias**
+* **Auto-bias**
 * **Realtime Models**
 * **History**
 * **Killzone Filters**

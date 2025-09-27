@@ -15,7 +15,7 @@ These features work together to turn raw price action into a repeatable plan.&#x
 * **Double‑Purge Sweeps**
 * **CISD**&#x20;
 * **Projections**
-* **Autobias**
+* **Auto-bias**
 * **Realtime Models**
 * **History**
 * **Time Filters**
