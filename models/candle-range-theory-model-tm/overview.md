@@ -39,10 +39,6 @@ Candle Range Theory (CRT) is applied **fractally**: choose an anchor candle (ses
 [time-filter.md](time-filter.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="dashboard.md" %}
 [dashboard.md](dashboard.md)
 {% endcontent-ref %}
