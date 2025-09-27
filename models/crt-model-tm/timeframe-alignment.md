@@ -5,7 +5,7 @@ icon: chess-clock-flip
 
 # Timeframe Alignment
 
-The **Candle Range Theory (CRT)** Model supports a variety of timeframe alignment, each designed to analyze market trends at different levels of granularity.
+The Candle Range Theory (CRT) Model accommodates multiple timeframe alignments, each tailored to examine market trends at varying levels of detail.&#x20;
 
 The CRT Model supports the following timeframe alignments:
 
@@ -15,4 +15,4 @@ The popular CRT timeframes:
 
 <table><thead><tr><th width="388.6796875">Timeframe</th><th width="579.51171875">CRT Type</th></tr></thead><tbody><tr><td>15m - 4H</td><td>4H</td></tr><tr><td>5m - 1H</td><td>1H</td></tr></tbody></table>
 
-These timeframes help traders and investors capture key price movements and market shifts, offering insights from short-term fluctuations to long-term trends.
+These timeframes enable traders and investors to identify significant price movements and market shifts, providing insights that range from short-term volatility to long-term trends.

@@ -7,7 +7,7 @@ icon: diamonds-4
 
 This CRT Model is designed to analyze and interpret price action patterns through various components, each of which plays a critical role in identifying market trends and providing actionable insights.
 
-<figure><img src="../../.gitbook/assets/docs-crt-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-002.png" alt=""><figcaption></figcaption></figure>
 
 Below are the key components that make up the algorithm:
 
@@ -15,9 +15,6 @@ Below are the key components that make up the algorithm:
 * **D-purge**
 * **CISD**
 * **Mean**
-* **C-area**
-* **Projections**
-* **Liquidity**
 
 ## **Components**
 
@@ -82,32 +79,3 @@ Real-time models remove the sweep when the model is invalidated and the candle i
 * **Bullish:** Invalidated if a bullish candle closes above the midpoint of the previous candle.
 * **Bearish:** Invalidated if a bearish candle closes above the midpoint of the previous candle.
 
-### **5. C-Area**
-
-**Definition:** C-area represents the region between the open of the current candle and the midpoint of the previous candle.
-
-**Formation:**
-
-* **Bullish C-area:** The distance between the current candle’s open and the previous candle’s midpoint.
-* **Bearish C-area:** The same as above, but for a bearish candle.
-
-**Invalidation:**
-
-* **Bullish:** Invalidated if a bullish candle closes above the midpoint of the previous candle.
-* **Bearish:** Invalidated if a bearish candle closes above the midpoint of the previous candle.
-
-### **6. Projections**
-
-**Definition:** Projections measures the variation or dispersion of price from a mean, often used to project price swings.
-
-**Formation:** It’s calculated from the CISD level to the price point of a swing manipulation.
-
-**Invalidation:** Once the price reaches the 2 standard deviation level.
-
-### **7. Liquidity**
-
-**Definition:** Liquidity refers to areas of concentrated buy and sell orders at significant price levels, often where price reversals occur (e.g., swing highs and lows).
-
-**Formation:** Liquidity zones are typically formed at swing points, PDH/PDL, PWH/PWL, and similar levels.
-
-**Invalidation:** Once the price hits the liquidity zone.

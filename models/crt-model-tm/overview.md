@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-The **Candle Range Theory (CRT)** is an advanced trading methodology that delves into the structural analysis of candlestick formations to decipher market dynamics and forecast future price movements.
+Candle Range Theory (CRT) is applied **fractally**: choose an anchor candle (session or higher‑timeframe), let the next candle test or sweep a boundary, and trade the reclaim in alignment with broader bias.
 
 {% content-ref url="features.md" %}
 [features.md](features.md)
@@ -39,10 +39,6 @@ The **Candle Range Theory (CRT)** is an advanced trading methodology that delves
 [time-filter.md](time-filter.md)
 {% endcontent-ref %}
 
-{% content-ref url="projections.md" %}
-[projections.md](projections.md)
-{% endcontent-ref %}
-
 {% content-ref url="dashboard.md" %}
 [dashboard.md](dashboard.md)
 {% endcontent-ref %}
@@ -51,4 +47,4 @@ The **Candle Range Theory (CRT)** is an advanced trading methodology that delves
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-This approach emphasizes the significance of liquidity and institutional trading behaviors, providing traders with a nuanced understanding of market sentiment and potential trend directions.
+Candle Range Theory treats each candle as a tradable **range**, most often using a simple, repeatable model where (1) one candle defines the range, (2) the next candle “sweeps” one side of that range (often a turtle-soup style liquidity grab), and (3) price then drives toward the opposite side of the range; many traders use the 50% of that range as a first target.

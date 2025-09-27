@@ -53,6 +53,8 @@ Label where you are so your actions stay consistent.
 
 Use the midpoint to keep bias simple and objective.
 
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-006.png" alt=""><figcaption></figcaption></figure>
+
 #### Understanding the Mean
 
 During expansions, pullbacks are usually shallow—treat **0.5** as the midline:
@@ -64,35 +66,6 @@ During expansions, pullbacks are usually shallow—treat **0.5** as the midline:
 #### Applying the Mean in Expansions
 
 In bullish expansions, the **upper half** often acts as support; in bearish expansions, the **lower half** often acts as resistance. If that behavior breaks, reassess your bias.
-
-### The C-Area
-
-A rules-based zone to anticipate where the next HTF candle may wick during expansions.
-
-<figure><img src="../../.gitbook/assets/docs-crt-008.png" alt=""><figcaption></figcaption></figure>
-
-#### Definition
-
-The **C-area** spans between the **current candle’s open** and the **previous candle’s midpoint (0.5)**. It shows early positioning relative to prior balance and offers a clean reference for continuation or rejection.
-
-#### Formation
-
-* **Bullish C-area:** From current **open** **down** to prior 0.5.
-* **Bearish C-area:** From current **open** **up** to prior 0.5.
-* Often aligns with **MMXM** logic, highlighting **MMSM** / **MMBM** accumulation zones.
-
-#### Interpretation
-
-Respecting the prior midpoint inside the C-area supports the corresponding **MMXM** directional model.
-
-* **Bullish:** Holding above prior 0.5 often precedes continuation up.
-* **Bearish:** Rejecting from prior 0.5 often renews downside pressure.
-* Inside the C-area, anchor to an **FVG**, **OB**, **Breaker**, or similar POI for entries.
-
-#### Invalidation
-
-* **Bullish C-area:** Decisive **close below** prior 0.5 (mean support lost).
-* **Bearish C-area:** Decisive **close above** prior 0.5 (mean resistance lost).
 
 ### Candle Wicks
 
@@ -117,7 +90,7 @@ Prioritize wicks that tag an **FVG** or sweep a key high/low; de-prioritize wick
 
 Use Candle 2’s wick, body, and context to judge whether the next leg trends or mean-reverts.
 
-<figure><img src="../../.gitbook/assets/docs-crt-007.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-005.png" alt=""><figcaption></figcaption></figure>
 
 #### Expansion vs. reversal
 
@@ -147,7 +120,7 @@ Use related instruments for confirmation. If one market sits at a clean reversal
 
 Candle 2 flips bias; Candle 3 aims to capture the follow-through (Candle 4 often offers secondary continuation).
 
-<figure><img src="../../.gitbook/assets/docs-crt-006.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-candle-range-theory-004.png" alt=""><figcaption></figcaption></figure>
 
 #### The key concept: wick size & expansion
 

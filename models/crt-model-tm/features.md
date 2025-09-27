@@ -9,8 +9,6 @@ These features work together to turn raw price action into a repeatable plan.&#x
 
 * **HTF Candles**
 * **Mean (Equilibrium 0.5)**
-* **C‑area**
-* **Liquidity Levels**
 * **Sweeps**
 * **Double‑Purge Sweeps**
 * **CISD**&#x20;

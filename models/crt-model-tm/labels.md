@@ -16,4 +16,3 @@ The model assigns specific labels based on certain conditions. Below is an expla
 {% hint style="warning" %}
 Models generated on the LFT for the same HTF candle, even if they reach 2 standard deviations or the first liquidity level, may be invalidated later within the same candle if it hasn't closed yet. These are marked as "real-time invalidated models." Be cautious when using these models, as their status could change once the candle closes.
 {% endhint %}
-

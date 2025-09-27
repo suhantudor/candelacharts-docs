@@ -5,7 +5,7 @@ icon: battery-quarter
 
 # Statuses
 
-The CRT Model operates through a defined lifecycle that outlines its current state and determines whether a trade opportunity is valid.&#x20;
+The Candle Range Theory Model operates through a defined lifecycle that outlines its current state and determines whether a trade opportunity is valid.
 
 The lifecycle includes the following phases:
 
@@ -16,7 +16,7 @@ The lifecycle includes the following phases:
 
 ### **1. Formation**
 
-The Formation phase marks the initiation of the CRT Model. During this stage, the model identifies and plots critical components like:
+The Formation phase marks the initiation of the Candle Range Theory Model. During this stage, the model identifies and plots critical components like:
 
 * **Sweeps**: Market movements signaling potential trend reversals or shifts.
 * **CISD (Change In State of Delivery)**: Structural changes that reveal potential trend shifts.
@@ -25,32 +25,29 @@ Once these components are detected, the model calculates and visualizes Projecti
 
 ### **2. Pre-Invalidation**
 
-A CRT Model is considered pre-invalidated when the body of the subsequent candle closes above the sweep, yet the high that formed the sweep remains intact.&#x20;
+A Candle Range Theory Model is considered pre-invalidated when the body of the subsequent candle closes above the sweep, yet the high that formed the sweep remains intact.
 
-In such cases, the model is typically deemed unreliable, as it suggests a potential failure in most instances.&#x20;
+In such cases, the model is typically deemed unreliable, as it suggests a potential failure in most instances.
 
-Despite this, the high from the original sweep continues to hold significance, indicating that the model has not yet been fully invalidated but is on the brink of doing so.&#x20;
+Despite this, the high from the original sweep continues to hold significance, indicating that the model has not yet been fully invalidated but is on the brink of doing so.
 
 Most of the time, these models do not result in successful outcomes.
 
 ### **3. Invalidation**
 
-The CRT Model is considered invalid when the price fails to meet key conditions, signaling that the initial setup is no longer reliable.&#x20;
+The Candle Range Theory Model is considered invalid when the price fails to meet key conditions, signaling that the initial setup is no longer reliable.
 
 Invalidation occurs when:
 
-* The price fails to reach the **2 Standard Deviation** level.
-* The price fails to reach the **first identified liquidity** level.
-* The price breaks above the high that initiated the Sweep.
+* The price fails to reach the **opposing** CRT level (CRT-H or CRT-L).
 
 When invalidated, the original trade setup is no longer valid, and traders should refrain from acting on it.
 
 ### **4. Success**
 
-The CRT Model is deemed successful when the price meets one of the following criteria:
+The Candle Range Theory Model is deemed successful when the price meets one of the following criteria:
 
-* The price reaches the **2 Standard Deviation** level.
-* The price reaches the **first identified liquidity** level.
+* The price reaches the **opposing** CRT level, CRT-H for bullish models or CRT-L for bearish models.
 
 When success is achieved, the model's predictions align with market movements, confirming the validity of the trade setup and providing a potential signal to execute a trade.
 
