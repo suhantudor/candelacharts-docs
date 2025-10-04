@@ -23,6 +23,7 @@
   * [Scanners](toolkits/price-action-toolkit-tm/scanners.md)
   * [Alerts](toolkits/price-action-toolkit-tm/alerts.md)
   * [FAQs](toolkits/price-action-toolkit-tm/faqs.md)
+* [Oscillator Concepts™ 🔜](toolkits/oscillator-concepts.md)
 * [Imbalance Concepts™](toolkits/imbalance-concepts-tm/README.md)
   * [Overview](toolkits/imbalance-concepts-tm/overview.md)
   * [Fair Value Gaps](toolkits/imbalance-concepts-tm/fair-value-gaps.md)
@@ -58,7 +59,6 @@
 * [Institutional Concepts 🔜](toolkits/institutional-concepts.md)
 * [Killzones, Macros, Pivots Concepts 🔜](toolkits/killzones-macros-pivots-concepts.md)
 * [Support, Resistance Concepts 🔜](toolkits/supply-and-demand-concepts.md)
-* [Oscillator Concepts 🔜](toolkits/oscillator-concepts.md)
 * [Pivotal Concepts 🔜](toolkits/pivotal-concepts.md)
 
 ## Models
