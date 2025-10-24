@@ -1,8 +1,9 @@
 ---
+hidden: true
 icon: rotate-reverse
 ---
 
-# Vertex Oscillator 🔜
+# Vertex Oscillator
 
 The **Vertex Oscillator** by CandelaCharts is a momentum indicator that combines price deviation, relative volume, and adaptive volatility scaling.&#x20;
 
