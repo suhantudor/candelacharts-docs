@@ -1,11 +1,11 @@
 ---
-description: Order Blocks settings
+description: Order Blocks
 icon: block
 ---
 
 # Order Blocks
 
-Order Blocks are categorized into two types: Bullish Order Blocks and Bearish Order Blocks. Bullish Order Blocks typically form near swing lows and are considered potential support zones.&#x20;
+Order Blocks are categorized into two types: Bullish Order Blocks and Bearish Order Blocks. Bullish Order Blocks typically form near swing lows and are considered potential support zones.
 
 Conversely, Bearish Order Blocks usually appear near swing highs and are regarded as potential resistance areas.
 

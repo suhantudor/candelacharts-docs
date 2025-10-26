@@ -1,5 +1,5 @@
 ---
-description: Blocks settings
+description: Blocks
 icon: list-ol
 ---
 

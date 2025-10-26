@@ -1,5 +1,5 @@
 ---
-description: Alerts settings
+description: Alerts
 icon: bell
 coverY: 0
 ---

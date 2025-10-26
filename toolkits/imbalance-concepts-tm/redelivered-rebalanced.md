@@ -1,5 +1,5 @@
 ---
-description: RDRB settings
+description: RDRB
 hidden: true
 icon: scale-balanced
 ---

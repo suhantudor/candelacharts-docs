@@ -1,5 +1,5 @@
 ---
-description: Imbalances settings
+description: Overview
 icon: list-ol
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: NDOG settings
+description: NDOG
 icon: distribute-spacing-horizontal
 ---
 

@@ -1,11 +1,11 @@
 ---
-description: Opening Gaps settings
+description: Opening Gaps
 icon: brackets-square
 ---
 
 # Opening Gaps
 
-Opening Gaps are market imbalances identified by two consecutive candles with non-overlapping wicks, creating a visible gap or empty area.&#x20;
+Opening Gaps are market imbalances identified by two consecutive candles with non-overlapping wicks, creating a visible gap or empty area.
 
 <figure><img src="../../.gitbook/assets/docs-og-002.png" alt=""><figcaption></figcaption></figure>
 

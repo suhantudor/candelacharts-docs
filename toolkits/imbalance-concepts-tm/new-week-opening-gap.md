@@ -1,5 +1,5 @@
 ---
-description: NWOG settings
+description: NWOG
 icon: distribute-spacing-vertical
 ---
 
