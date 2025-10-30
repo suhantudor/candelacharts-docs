@@ -104,7 +104,7 @@
   * [SMT](models/turtle-soup-model-tm/smt.md)
   * [Dashboard](models/turtle-soup-model-tm/dashboard.md)
   * [Alerts](models/turtle-soup-model-tm/alerts.md)
-* [Unicorn Model™](models/unicorn-model-tm.md)
+* [Unicorn Model™](models/unicorn-model-tm/README.md)
   * [Overview](models/unicorn-model-tm/overview.md)
   * [Features](models/unicorn-model-tm/features.md)
   * [Terminology](models/unicorn-model-tm/terminology.md)
