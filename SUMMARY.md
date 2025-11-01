@@ -23,7 +23,7 @@
   * [Scanners](toolkits/price-action-toolkit-tm/scanners.md)
   * [Alerts](toolkits/price-action-toolkit-tm/alerts.md)
   * [FAQs](toolkits/price-action-toolkit-tm/faqs.md)
-* [Oscillator Concepts™ 🔜](toolkits/oscillator-concepts-tm/README.md)
+* [Oscillator Concepts™](toolkits/oscillator-concepts-tm/README.md)
   * [Overview](toolkits/oscillator-concepts-tm/overview.md)
   * [The Line](toolkits/oscillator-concepts-tm/the-line.md)
   * [Trading Profiles](toolkits/oscillator-concepts-tm/trading-profiles.md)
