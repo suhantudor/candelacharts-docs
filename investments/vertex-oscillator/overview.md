@@ -1,5 +1,6 @@
 ---
 description: Vertex Oscillator Quick Specs
+icon: list-ol
 ---
 
 # Overview

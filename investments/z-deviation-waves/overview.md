@@ -7,23 +7,7 @@ icon: list-ol
 
 <figure><img src="../../.gitbook/assets/docs-z-deviation-waves-001.png" alt=""><figcaption></figcaption></figure>
 
-Think of this indicator as a **statistical speedometer**. It computes a rolling mean and standard deviation over a window you choose (the **Period**), then expresses current price as a **Z-score**: negative values are below average, positive values above.&#x20;
-
-{% content-ref url="features.md" %}
-[features.md](features.md)
-{% endcontent-ref %}
-
-{% content-ref url="usage.md" %}
-[usage.md](usage.md)
-{% endcontent-ref %}
-
-{% content-ref url="confluences.md" %}
-[confluences.md](confluences.md)
-{% endcontent-ref %}
-
-{% content-ref url="faqs.md" %}
-[faqs.md](faqs.md)
-{% endcontent-ref %}
+Think of this indicator as a **statistical speedometer**. It computes a rolling mean and standard deviation over a window you choose (the **Period**), then expresses current price as a **Z-score**: negative values are below average, positive values above.
 
 The wave is color-graded—cooler near zero, hotter at extremes—so intensity is obvious at a glance.
 

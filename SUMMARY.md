@@ -297,6 +297,12 @@
   * [Usage](investments/vertex-oscillator/usage.md)
   * [Confluences](investments/vertex-oscillator/confluences.md)
   * [FAQs](investments/vertex-oscillator/faqs.md)
+* [Z-Deviation Waves](investments/z-deviation-waves/README.md)
+  * [Overview](investments/z-deviation-waves/overview.md)
+  * [Features](investments/z-deviation-waves/features.md)
+  * [Usage](investments/z-deviation-waves/usage.md)
+  * [Confluences](investments/z-deviation-waves/confluences.md)
+  * [FAQs](investments/z-deviation-waves/faqs.md)
 
 ## Changelogs
 
