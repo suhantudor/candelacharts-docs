@@ -40,7 +40,7 @@ Set expectations so you don’t fight the tape.
 
 ### Phases of Price
 
-<figure><img src="../../.gitbook/assets/docs-crt-009.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-crt-009 (1).png" alt=""><figcaption></figcaption></figure>
 
 Label where you are so your actions stay consistent.
 

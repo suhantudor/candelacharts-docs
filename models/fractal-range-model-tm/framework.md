@@ -40,9 +40,9 @@ This brief overview describes how expansions behave and how to set realistic exp
 * **Half‑range tendency:** In a bullish expansion, price frequently operates in the **upper half** of the range; in a bearish expansion, in the **lower half**.
 * **Context first:** The goal is to trade **with** the higher‑timeframe bias, not to chase every pattern print.
 
-### Phases of Price&#x20;
+### Phases of Price
 
-<figure><img src="../../.gitbook/assets/docs-frm-021.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-crt-009 (1).png" alt=""><figcaption></figcaption></figure>
 
 Typical cycle elements you’ll observe include:
 
@@ -62,7 +62,7 @@ Typical cycle elements you’ll observe include:
 When the market is expanding, pullbacks are typically shallow. So rather than waiting for deep discount/premium tests, we read 0.5 as a midline:
 
 * **Upper half respected →** bias to trade **higher**.
-* **Lower half respected →** bias to trade **lower**.&#x20;
+* **Lower half respected →** bias to trade **lower**.
 
 If the respected half fails, we can **flip bias** and anticipate the opposite side of the range to be taken.
 

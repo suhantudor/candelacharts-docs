@@ -1,6 +1,5 @@
 ---
 description: Vertex Oscillator FAQs
-icon: square-question
 ---
 
 # FAQs

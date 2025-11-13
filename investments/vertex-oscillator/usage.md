@@ -1,6 +1,5 @@
 ---
 description: Vertex Oscillator Usage
-icon: circle-chevron-right
 ---
 
 # Usage

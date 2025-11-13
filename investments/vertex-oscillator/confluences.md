@@ -1,6 +1,5 @@
 ---
 description: Vertex Oscillator Confluences
-icon: object-intersect
 ---
 
 # Confluences

@@ -1,6 +1,5 @@
 ---
 description: Vertex Oscillator Features
-icon: sparkle
 ---
 
 # Features
