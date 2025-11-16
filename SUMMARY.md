@@ -36,7 +36,7 @@
   * [Signals](toolkits/oscillator-concepts-tm/signals.md)
   * [Themes](toolkits/oscillator-concepts-tm/themes.md)
   * [Alerts](toolkits/oscillator-concepts-tm/alerts.md)
-* [Trend Concepts™ 🔜](toolkits/trend-concepts-tm/README.md)
+* [Trend Concepts™](toolkits/trend-concepts-tm/README.md)
   * [Overview](toolkits/trend-concepts-tm/overview.md)
   * [Trading Profiles](toolkits/trend-concepts-tm/trading-profiles.md)
   * [Bias Magnet](toolkits/trend-concepts-tm/bias-magnet.md)
