@@ -19,14 +19,14 @@ The indicator tracks when price enters and exits these zones, providing signals 
 
 #### Key Features
 
-#### Dynamic Trend Bands
+### Dynamic Trend Bands
 
 Flux Trend creates two bands:
 
 * **Main Band (Band 1)**: The primary trend line that flips position based on trend direction
 * **Secondary Band (Band 2)**: Creates a zone with the main band for entry/exit detection
 
-#### Gradient-Filled Zones
+### Gradient-Filled Zones
 
 The area between the two bands is filled with a gradient that:
 
@@ -35,7 +35,7 @@ The area between the two bands is filled with a gradient that:
 
 These zones act as support in bullish trends and resistance in bearish trends.
 
-#### Trend Flip Signals
+### Trend Flip Signals
 
 When the trend changes direction, Flux Trend displays:
 
@@ -44,7 +44,7 @@ When the trend changes direction, Flux Trend displays:
 
 A connecting line shows the transition between the old and new band positions.
 
-#### Exit Signals
+### Exit Signals
 
 Flux Trend detects when price leaves the zone after touching it:
 
