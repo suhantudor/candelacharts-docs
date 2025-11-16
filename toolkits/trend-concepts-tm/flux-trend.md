@@ -4,7 +4,9 @@ icon: chart-scatter-bubble
 
 # Flux Trend
 
-Flux Trend uses ATR-based bands to identify trend reversals and continuation setups. It creates dynamic zones that flip between bullish and bearish regimes, providing clear visual signals for trend changes and exit opportunities.
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-006.png" alt=""><figcaption></figcaption></figure>
+
+**Flux Trend** uses ATR-based bands to identify trend reversals and continuation setups. It creates dynamic zones that flip between bullish and bearish regimes, providing clear visual signals for trend changes and exit opportunities.
 
 ### How It Works
 

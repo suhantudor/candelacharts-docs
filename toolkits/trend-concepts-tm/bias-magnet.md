@@ -4,7 +4,9 @@ icon: compass
 
 # Bias Magnet
 
-Bias Magnet is an adaptive baseline component that tracks trend direction using half-trend style logic. It provides a clean, responsive line that hugs price without whipsaws, making it ideal for identifying trend direction and strength.
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-005.png" alt=""><figcaption></figcaption></figure>
+
+**Bias Magnet** is an adaptive baseline component that tracks trend direction using half-trend style logic. It provides a clean, responsive line that hugs price without whipsaws, making it ideal for identifying trend direction and strength.
 
 ### How It Works
 

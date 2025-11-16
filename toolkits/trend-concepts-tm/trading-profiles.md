@@ -8,11 +8,15 @@ icon: list-check
 
 ### Scalping
 
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-001.png" alt=""><figcaption></figcaption></figure>
+
 **Settings:** Flux Trend: 30, Surge Waves: 30, Velocity Bands: 300
 
 Designed for fast, responsive trading on lower timeframes. The Scalping profile uses shorter periods to catch quick price movements and provide faster signals. Ideal for 1m, 5m, and 15m charts where speed is essential.
 
 ### Intraday
+
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-002.png" alt=""><figcaption></figcaption></figure>
 
 **Settings:** Flux Trend: 50, Surge Waves: 50, Velocity Bands: 500
 
@@ -20,11 +24,15 @@ The default balanced profile for day trading. Provides a good balance between re
 
 ### Swing
 
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-003.png" alt=""><figcaption></figcaption></figure>
+
 **Settings:** Flux Trend: 80, Surge Waves: 70, Velocity Bands: 800
 
 Optimized for swing trading with slower, more stable parameters. Reduces noise and false signals while maintaining trend-following capabilities. Best suited for 4h, daily, and weekly charts for multi-day positions.
 
 ### Investment
+
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-004.png" alt=""><figcaption></figcaption></figure>
 
 **Settings:** Flux Trend: 100, Surge Waves: 100, Velocity Bands: 1200
 
