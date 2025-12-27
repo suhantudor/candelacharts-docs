@@ -29,6 +29,10 @@ Elevate your TradingView toolkit with the **OHLC Session Range Map**—an advanc
 [statistical-levels.md](statistical-levels.md)
 {% endcontent-ref %}
 
+{% content-ref url="framework.md" %}
+[framework.md](framework.md)
+{% endcontent-ref %}
+
 {% content-ref url="panel.md" %}
 [panel.md](panel.md)
 {% endcontent-ref %}
