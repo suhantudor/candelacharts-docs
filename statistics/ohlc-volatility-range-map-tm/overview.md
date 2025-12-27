@@ -21,8 +21,20 @@ Enhance your TradingView toolkit with the **OHLC Volatility Range Map**—a soph
 [calculation.md](calculation.md)
 {% endcontent-ref %}
 
-{% content-ref url="statistical-zones.md" %}
-[statistical-zones.md](statistical-zones.md)
+{% content-ref url="pd-arrays.md" %}
+[pd-arrays.md](pd-arrays.md)
+{% endcontent-ref %}
+
+{% content-ref url="statistics.md" %}
+[statistics.md](statistics.md)
+{% endcontent-ref %}
+
+{% content-ref url="framework.md" %}
+[framework.md](framework.md)
+{% endcontent-ref %}
+
+{% content-ref url="alerts.md" %}
+[alerts.md](alerts.md)
 {% endcontent-ref %}
 
 Breaking away from traditional OHLC visualizations, this advanced tool harnesses volatility principles and Inner Circle Trader (ICT) concepts to analyze accumulation, manipulation, and distribution dynamics.
