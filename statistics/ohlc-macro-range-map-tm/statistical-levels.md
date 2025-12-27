@@ -1,5 +1,5 @@
 ---
-description: OHLC Macro Range Map Statistics
+description: OHLC Macro Range Map Statistical Levels
 icon: chart-bar
 ---
 

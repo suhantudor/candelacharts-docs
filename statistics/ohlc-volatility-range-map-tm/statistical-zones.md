@@ -1,11 +1,11 @@
 ---
-description: OHLC Volatility Range Map Statistics
+description: OHLC Volatility Range Map Statistical Zones
 icon: chart-bar
 ---
 
-# Statistics
+# Statistical Zones
 
-The **OHLC Volatility Range Map** is a sophisticated tool that enhances candlestick analysis by incorporating statistical levels based on the Open, High, Low, and Close values of each candle.&#x20;
+The **OHLC Volatility Range Map** is a sophisticated tool that enhances candlestick analysis by incorporating statistical levels based on the Open, High, Low, and Close values of each candle.
 
 <figure><img src="../../.gitbook/assets/docs-volatility-rangemap-002.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,6 +39,6 @@ By continuously identifying and analyzing high and low volatility zones, this to
 * **Enhance Risk Management**: Adjust strategies based on volatility conditions.
 * **Adapt to Market Dynamics**: Stay ahead of market shifts by understanding volatility trends.
 
-The **OHLC Volatility Range Map** empowers traders to navigate complex market environments with precision, providing actionable insights for both trending and ranging markets.&#x20;
+The **OHLC Volatility Range Map** empowers traders to navigate complex market environments with precision, providing actionable insights for both trending and ranging markets.
 
 Whether the goal is to capture breakout opportunities in high volatility or secure stable trades in low volatility zones, this tool is an essential addition to any trader’s arsenal.

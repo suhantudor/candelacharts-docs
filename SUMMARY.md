@@ -196,9 +196,10 @@
   * [Themes](statistics/ohlc-volatility-range-map-tm/themes.md)
   * [Visualization](statistics/ohlc-volatility-range-map-tm/visualization.md)
   * [Calculation](statistics/ohlc-volatility-range-map-tm/calculation.md)
-  * [PD Arrays 🔜](statistics/ohlc-volatility-range-map-tm/pd-arrays.md)
-  * [Statistics](statistics/ohlc-volatility-range-map-tm/statistics.md)
+  * [Statistical PD Arrays](statistics/ohlc-volatility-range-map-tm/statistical-pd-arrays.md)
+  * [Statistical Zones](statistics/ohlc-volatility-range-map-tm/statistical-zones.md)
   * [Framework 🔜](statistics/ohlc-volatility-range-map-tm/framework.md)
+  * [Alerts](statistics/ohlc-volatility-range-map-tm/alerts.md)
 * [OHLC StDev Range Map 🔜](statistics/ohlc-stdev-range-map.md)
 
 ## Investing
