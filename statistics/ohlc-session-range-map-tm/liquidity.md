@@ -5,14 +5,22 @@ icon: window-minimize
 
 # Liquidity
 
-<figure><img src="../../.gitbook/assets/docs-session-rangemap-003.png" alt=""><figcaption></figcaption></figure>
+The **OHLC Session Range Map** features a sophisticated liquidity detection system designed to pinpoint and highlight areas of strong market interest. These zones represent regions where buy and sell orders tend to cluster, increasing the likelihood of price reactions—particularly when they align with key Manipulation and Distribution levels.
 
-**The OHLC Session Range Map is equipped with a sophisticated liquidity detection system that identifies and highlights key liquidity levels aligned with Manipulation and Distribution zones.**
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-006.png" alt=""><figcaption></figcaption></figure>
 
-These zones often mark areas of concentrated market interest—where institutional orders are likely to accumulate and where price reactions are frequently observed. By visually illustrating the overlap between liquidity clusters and high-impact market zones, the tool helps traders pinpoint areas where price is most likely to reverse or accelerate.
+By visually displaying the confluence between liquidity pools and manipulation or distribution zones, the tool helps traders anticipate potential reversals and market turning points. Liquidity sensitivity is fully adjustable through a customizable threshold, enabling traders to fine-tune the level of detail to match their strategy and timeframe.
 
-**Users have full control over the granularity of liquidity detection** through an adjustable **threshold setting**, enabling them to tailor the display according to their specific strategy, risk appetite, and preferred timeframe.
+When price moves into a Manipulation or Distribution level that overlaps with a liquidity zone, it often marks a high-probability reversal area. Such confluences frequently indicate deliberate actions by larger market participants, including stop hunts or liquidity sweeps, followed by strong directional moves. Identifying these setups can significantly enhance entry precision, trade validation, and risk control.
 
-In many instances, when price approaches a Manipulation or Distribution level that coincides with a notable liquidity zone, it forms a **high-probability reversal point**. These intersections often signal deliberate actions by larger market participants—such as stop hunts or liquidity sweeps—followed by swift directional moves.
+The **OHLC Session Range Map** categorizes liquidity into two distinct types:
 
-**Recognizing these confluences provides traders with a strategic advantage**, allowing for more precise entries, improved risk management, and alignment with the flow of institutional activity.
+* **Liquidity Levels** – Active zones where liquidity remains present and price is likely to react.
+
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-004 (1).png" alt=""><figcaption></figcaption></figure>
+
+* **Invalidated Liquidity Levels** – Areas where liquidity has already been absorbed or cleared.
+
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-005.png" alt=""><figcaption></figcaption></figure>
+
+Traders can choose to display or hide invalidated liquidity levels, allowing them to focus on untouched liquidity while still accessing historical liquidity information for deeper market insight.

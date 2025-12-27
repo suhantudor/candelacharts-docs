@@ -177,7 +177,7 @@
   * [PO3](statistics/ohlc-session-range-map-tm/po3.md)
   * [Calculation](statistics/ohlc-session-range-map-tm/calculation.md)
   * [Liquidity](statistics/ohlc-session-range-map-tm/liquidity.md)
-  * [Statistics](statistics/ohlc-session-range-map-tm/statistics.md)
+  * [Statistical Levels](statistics/ohlc-session-range-map-tm/statistical-levels.md)
   * [Framework 🔜](statistics/ohlc-session-range-map-tm/framework.md)
   * [Panel](statistics/ohlc-session-range-map-tm/panel.md)
   * [Alerts](statistics/ohlc-session-range-map-tm/alerts.md)

@@ -25,8 +25,8 @@ Elevate your TradingView toolkit with the **OHLC Session Range Map**—an advanc
 [liquidity.md](liquidity.md)
 {% endcontent-ref %}
 
-{% content-ref url="statistics.md" %}
-[statistics.md](statistics.md)
+{% content-ref url="statistical-levels.md" %}
+[statistical-levels.md](statistical-levels.md)
 {% endcontent-ref %}
 
 {% content-ref url="panel.md" %}
