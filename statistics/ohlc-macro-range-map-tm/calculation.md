@@ -9,9 +9,8 @@ The **OHLC Macro Range Map** is an advanced tool designed to provide deeper insi
 
 * **Mean**
 * **Median**
-* **KDE**
 
-These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.&#x20;
+These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
 ### **1. Mean Method**
 
@@ -30,14 +29,6 @@ The **Median** method focuses on the middle value within the OHLC dataset, offer
 
 When paired with manipulation and distribution phases, the **Median** highlights stable zones and reliable price levels for potential trade entries or exits.
 
-### 3. Kernel Density Estimation
-
-The **Kernel Density Estimation (KDE)** method focuses on identifying the most probable price levels within the OHLC dataset by estimating the underlying distribution of price action. Unlike simple averages or medians, KDE provides a smoothed view of the data, capturing subtle patterns and price clusters while minimizing the impact of outliers.&#x20;
-
-By modeling the distribution with a continuous curve, KDE is particularly effective in volatile markets, as it highlights zones of price stability even amidst rapid fluctuations.&#x20;
-
-When applied in conjunction with manipulation and distribution phases, KDE reveals densely populated price areas, offering reliable zones for potential trade entries or exits.
-
 ### **Period Options**
 
 The algorithm includes several customizable period options, allowing traders to adjust statistical calculations to suit different market conditions. These periods determine how data is aggregated and how the **Mean** and **Median** are calculated over time for each specific session or "killzone."
@@ -55,8 +46,8 @@ The selected period directly influences the statistical outputs and traders' int
 * **Long Periods** (e.g., 40, 60): Smooth out short-term fluctuations, providing a clearer view of underlying trends and significant liquidity levels within each session.
 * **Custom and Maximum Periods:** Offer flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
 
-By combining the **Mean,** **Median and KDE** methods with dynamic period options, the **OHLC Macro Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
+By combining the **Mean,** **Median** methods with dynamic period options, the **OHLC Macro Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.
 
-Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.&#x20;
+Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.
 
 Integrated with manipulation and distribution insights, this tool provides a comprehensive framework for understanding and navigating price action effectively across all key market sessions.

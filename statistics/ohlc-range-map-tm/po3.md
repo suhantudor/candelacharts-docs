@@ -21,4 +21,6 @@ Following accumulation, prices are deliberately moved to trigger retail traders'
 
 In the final phase, smart money drives the market in the intended direction, capitalizing on the liquidity created during the manipulation phase. This phase often results in strong price movements that align with the initial accumulation, leading to significant profits for those who correctly identify the preceding phases.
 
+<figure><img src="../../.gitbook/assets/docs-rangemap-008.png" alt=""><figcaption></figcaption></figure>
+
 The PO3 strategy is typically applied on shorter timeframes, such as 5 to 15 minutes, to capture intraday price movements. By understanding and identifying these phases, traders can align their positions with institutional activities, potentially improving their trading outcomes.

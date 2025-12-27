@@ -28,20 +28,20 @@ layout:
 
 Welcome to the CandelaCharts knowledge hub! Dive in by clicking the buttons below to discover how to get started, master our toolkits, and supercharge your trading journey with CandelaCharts.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/1iOhRHCRRh9U3cH2Su0h" %}
+[Broken link](/broken/pages/1iOhRHCRRh9U3cH2Su0h)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/TQxlpkkIsEwjKg765TEX" %}
+[Broken link](/broken/pages/TQxlpkkIsEwjKg765TEX)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/Att5cdIIsmSFV4gPEv8z" %}
+[Broken link](/broken/pages/Att5cdIIsmSFV4gPEv8z)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/DOpeUOKQ3XymD7G3pwNd" %}
+[Broken link](/broken/pages/DOpeUOKQ3XymD7G3pwNd)
 {% endcontent-ref %}
 
 #### FAQs

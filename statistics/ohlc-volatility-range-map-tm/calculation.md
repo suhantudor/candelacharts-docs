@@ -5,7 +5,7 @@ icon: sigma
 
 # Calculation
 
-The **OHLC Volatility Range Map** is a cutting-edge tool designed to provide deeper insights into market dynamics by incorporating candlestick data analysis with a focus on volatility.&#x20;
+The **OHLC Volatility Range Map** is a cutting-edge tool designed to provide deeper insights into market dynamics by incorporating candlestick data analysis with a focus on volatility.
 
 It utilizes two core statistical methods—Mean and Median—to deliver actionable insights into price behavior, especially during periods of heightened market activity.
 
@@ -28,14 +28,6 @@ When combined with volatility insights:
 
 * The Median pinpoints key price levels less affected by sharp fluctuations.
 * It helps traders find potential entry and exit points even in unpredictable market conditions.
-
-### 3. Kernel Density Estimation
-
-The **Kernel Density Estimation (KDE)** method focuses on identifying the most probable price levels within the OHLC dataset by estimating the underlying distribution of price action. Unlike simple averages or medians, KDE provides a smoothed view of the data, capturing subtle patterns and price clusters while minimizing the impact of outliers.&#x20;
-
-By modeling the distribution with a continuous curve, KDE is particularly effective in volatile markets, as it highlights zones of price stability even amidst rapid fluctuations.&#x20;
-
-When applied in conjunction with manipulation and distribution phases, KDE reveals densely populated price areas, offering reliable zones for potential trade entries or exits.
 
 ### Volatility-Driven Insights
 

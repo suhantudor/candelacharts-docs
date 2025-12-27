@@ -9,13 +9,12 @@ The **OHLC Session Range Map** is an advanced tool designed to provide deeper in
 
 * **Mean**
 * **Median**
-* **KDE**
 
 These methods, alongside insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
 ### 1. **Mean Method**
 
-The **Mean** method calculates the average of the Open, High, Low, and Close values of a candlestick. This approach offers a balanced representation of price action, helping traders identify central tendencies and equilibrium levels.&#x20;
+The **Mean** method calculates the average of the Open, High, Low, and Close values of a candlestick. This approach offers a balanced representation of price action, helping traders identify central tendencies and equilibrium levels.
 
 When combined with manipulation and distribution insights, the **Mean** provides a clear understanding of price movement within a candlestick, specific to each session.
 
@@ -31,14 +30,6 @@ When combined with manipulation and distribution insights, the **Mean** provides
 The **Median** method focuses on the middle value within the OHLC dataset, offering a robust measure of price action that minimizes the influence of outliers. By isolating the most central data point, the **Median** is especially effective in volatile markets, ensuring analysis remains unaffected by extreme wicks or spikes.
 
 When paired with manipulation and distribution phases, the **Median** highlights stable zones and reliable price levels for potential trade entries or exits.
-
-### 3. Kernel Density Estimation
-
-The **Kernel Density Estimation (KDE)** method focuses on identifying the most probable price levels within the OHLC dataset by estimating the underlying distribution of price action. Unlike simple averages or medians, KDE provides a smoothed view of the data, capturing subtle patterns and price clusters while minimizing the impact of outliers.&#x20;
-
-By modeling the distribution with a continuous curve, KDE is particularly effective in volatile markets, as it highlights zones of price stability even amidst rapid fluctuations.&#x20;
-
-When applied in conjunction with manipulation and distribution phases, KDE reveals densely populated price areas, offering reliable zones for potential trade entries or exits.
 
 ### **Period Options**
 
@@ -57,8 +48,8 @@ The selected period directly influences the statistical outputs and traders' int
 * **Long Periods** (e.g., 40, 60): Smooth out short-term fluctuations, providing a clearer view of underlying trends and significant liquidity levels within each session.
 * **Custom and Maximum Periods**: Offer flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
 
-By combining the **Mean,** **Median and KDE** methods with dynamic period options, the **OHLC Session Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.&#x20;
+By combining the **Mean,** **Median** methods with dynamic period options, the **OHLC Session Range Map Algorithm** empowers traders to analyze market behavior with precision and flexibility.
 
-Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.&#x20;
+Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.
 
 Integrated with manipulation and distribution insights, this tool provides a comprehensive framework for understanding and navigating price action effectively across all key market sessions.
