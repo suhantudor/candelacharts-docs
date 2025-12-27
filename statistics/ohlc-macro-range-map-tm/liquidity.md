@@ -5,14 +5,22 @@ icon: window-minimize
 
 # Liquidity
 
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-004.png" alt=""><figcaption></figcaption></figure>
+The **OHLC Macro Range Map** incorporates an advanced liquidity detection system that identifies and highlights areas of concentrated market interest. These zones mark regions where buy and sell orders commonly accumulate, increasing the probability of price reactions—especially when they coincide with key Manipulation and Distribution levels.
 
-**The OHLC Macro Range Map features an advanced liquidity detection system designed to identify and highlight key liquidity levels within Manipulation and Distribution zones.**&#x20;
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-001.png" alt=""><figcaption></figcaption></figure>
 
-These zones typically represent areas of concentrated market interest, where institutional orders are likely to accumulate and where significant price reactions are often observed. By visually mapping the overlap between liquidity clusters and critical market zones, the tool helps traders pinpoint areas where price is more likely to reverse or accelerate.
+By clearly visualizing the confluence between liquidity pools and manipulation or distribution zones, the tool enables traders to anticipate potential reversals and critical market turning points. Liquidity sensitivity is fully customizable through an adjustable threshold, allowing traders to tailor the level of detail to suit their preferred strategy and timeframe.
 
-Traders have full control over the granularity of liquidity detection with an adjustable threshold setting, allowing them to customize the display based on their individual strategy, risk tolerance, and preferred timeframe.
+When price enters a Manipulation or Distribution level that overlaps with a liquidity zone, it often signals a high-probability reversal area. These confluences frequently reflect intentional activity by larger market participants, such as liquidity sweeps or stop hunts, followed by strong directional moves. Recognizing these conditions can greatly improve entry accuracy, trade confirmation, and risk management.
 
-In many cases, when price approaches a Manipulation or Distribution zone that coincides with a major liquidity area, it creates a high-probability reversal point. These intersections often indicate intentional actions by larger market participants—such as stop hunts or liquidity sweeps—followed by sharp directional movements.
+The **OHLC Macro Range Map** classifies liquidity into two categories:
 
-By recognizing these confluences, traders gain a strategic edge, enabling more precise entries, better risk management, and alignment with institutional market flows.
+* **Liquidity Levels:** Active zones where liquidity remains intact and price reactions are likely.
+
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-002.png" alt=""><figcaption></figcaption></figure>
+
+* **Invalidated Liquidity Levels:** Areas where liquidity has already been consumed or cleared.
+
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-003.png" alt=""><figcaption></figcaption></figure>
+
+Traders have the option to show or hide invalidated liquidity levels, enabling a focused view on untouched liquidity while still preserving access to historical liquidity data for deeper market analysis.

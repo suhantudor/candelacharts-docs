@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-001 (1).png" alt=""><figcaption></figcaption></figure>
 
 Elevate your TradingView toolkit with the **OHLC Macro Range Map**—an advanced indicator crafted to deliver actionable insights for more refined trading strategies.
 

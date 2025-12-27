@@ -5,7 +5,7 @@ icon: game-board-simple
 
 # Panel
 
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-003.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-003 (1).png" alt=""><figcaption></figcaption></figure>
 
 **The OHLC Macro Range Map Panel delivers a dynamic and intuitive visualization of price behavior, rendering market movement in real time based on key Manipulation and Distribution levels.**
 
