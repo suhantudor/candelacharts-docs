@@ -167,7 +167,7 @@
   * [Calculation](statistics/ohlc-range-map-tm/algorithm.md)
   * [Liquidity](statistics/ohlc-range-map-tm/liquidity.md)
   * [Statistical Levels](statistics/ohlc-range-map-tm/statistical-levels.md)
-  * [Framework](statistics/ohlc-range-map-tm/framework.md)
+  * [Framework 🔜](statistics/ohlc-range-map-tm/framework.md)
   * [Panel](statistics/ohlc-range-map-tm/panel.md)
   * [Alerts](statistics/ohlc-range-map-tm/alerts.md)
 * [OHLC Depth Range Map 🔜](statistics/ohlc-volatile-range-map.md)

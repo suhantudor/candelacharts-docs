@@ -5,7 +5,7 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-rangemap-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-rangemap-010.png" alt=""><figcaption></figcaption></figure>
 
 Enhance your TradingView toolkit by incorporating this powerful indicator into your trading strategies for actionable insights.
 
@@ -27,6 +27,10 @@ Enhance your TradingView toolkit by incorporating this powerful indicator into y
 
 {% content-ref url="statistical-levels.md" %}
 [statistical-levels.md](statistical-levels.md)
+{% endcontent-ref %}
+
+{% content-ref url="framework.md" %}
+[framework.md](framework.md)
 {% endcontent-ref %}
 
 {% content-ref url="panel.md" %}

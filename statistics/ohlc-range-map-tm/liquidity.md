@@ -16,6 +16,11 @@ When price approaches a Manipulation or Distribution level that coincides with a
 The OHLC Range Map distinguishes between two types of liquidity levels:
 
 * **Liquidity Levels** – Active zones where liquidity remains available and price is likely to respond.
+
+<figure><img src="../../.gitbook/assets/docs-rangemap-014.png" alt=""><figcaption></figcaption></figure>
+
 * **Invalidated Liquidity Levels** – Zones where liquidity has already been consumed or taken out.
+
+<figure><img src="../../.gitbook/assets/docs-rangemap-013.png" alt=""><figcaption></figcaption></figure>
 
 Users can toggle invalidated liquidity levels on or off, making it easy to focus on **untapped liquidity** while still retaining the ability to review historical liquidity events for added market context.

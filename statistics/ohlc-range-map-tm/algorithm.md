@@ -5,6 +5,8 @@ icon: sigma
 
 # Calculation
 
+<figure><img src="../../.gitbook/assets/docs-rangemap-012.png" alt=""><figcaption></figcaption></figure>
+
 The **OHLC Range Map** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:
 
 * **Mean**

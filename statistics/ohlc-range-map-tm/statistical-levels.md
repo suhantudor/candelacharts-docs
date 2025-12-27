@@ -13,15 +13,17 @@ These phases are critical for traders looking to spot potential reversals, trend
 
 ### **Statistical Manipulation Levels**
 
-**Manipulation** occurs when price is intentionally driven in a direction that misleads traders, often through large wicks or rapid moves.
+<figure><img src="../../.gitbook/assets/docs-rangemap-015.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/docs-rangemap-003.jpeg" alt=""><figcaption></figcaption></figure>
+**Manipulation** occurs when price is intentionally driven in a direction that misleads traders, often through large wicks or rapid moves.
 
 By analyzing the range between the **Open** and the **Low** for bullish candles or between the **Open** and the **High** for bearish candles, the OHLC Range Map identifies these deceptive moves.
 
 Manipulation levels are often seen as false signals intended to entice traders into taking positions in the "wrong" direction. Recognizing these manipulation levels helps traders avoid getting caught in misleading price moves and instead anticipate possible reversals.
 
 ### **Statistical Distribution Levels**
+
+<figure><img src="../../.gitbook/assets/docs-rangemap-017.png" alt=""><figcaption></figcaption></figure>
 
 **Distribution**, on the other hand, represents the true movement of price after manipulation, typically extending further in the direction of the market’s trend.
 
@@ -30,6 +32,8 @@ For bullish candles, distribution occurs when the price moves from **Open** to *
 The OHLC Range Map allows traders to track these distribution phases and adjust their strategies accordingly, whether they are looking for breakout opportunities or potential reversals based on key price levels.
 
 ### **Statistical High/Low Levels**
+
+<figure><img src="../../.gitbook/assets/docs-rangemap-016.png" alt=""><figcaption></figcaption></figure>
 
 High/Low Levels are derived by applying statistical averaging methods—most commonly the **mean (average)** or the **median**—to a selected set of previous price highs and lows over a defined lookback period. By smoothing out short-term volatility, these calculations help identify price zones that more accurately reflect where the market has historically found balance.
 

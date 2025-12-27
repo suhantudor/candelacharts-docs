@@ -5,6 +5,8 @@ icon: clock-nine
 
 # Timeframes
 
+<figure><img src="../../.gitbook/assets/docs-rangemap-011.png" alt=""><figcaption></figcaption></figure>
+
 **The OHLC Range Map is fully compatible with all timeframes available on TradingView**, including but not limited to:
 
 * 1 minute (1m)
