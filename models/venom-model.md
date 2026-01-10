@@ -1,7 +1,6 @@
 ---
-hidden: true
-icon: ram
+icon: bolt
 ---
 
-# Venom Model 🔜
+# SFP Model 🔜
 

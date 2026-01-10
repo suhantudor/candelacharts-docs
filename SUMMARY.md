@@ -141,6 +141,7 @@
   * [Time Filter](models/crt-model-tm/time-filter.md)
   * [Dashboard](models/crt-model-tm/dashboard.md)
   * [Alerts](models/crt-model-tm/alerts.md)
+* [SFP Model 🔜](models/venom-model.md)
 * [X Model™](models/x-model-tm/README.md)
   * [Overview](models/x-model-tm/overview.md)
   * [Features](models/x-model-tm/features.md)
@@ -156,7 +157,7 @@
 * [PO3 Model 🔜](models/po3-model.md)
 * [Silver Bullet Model 🔜](models/silver-bullet-model.md)
 * [MMXM Model 🔜](models/mmxm-model.md)
-* [Venom Model 🔜](models/venom-model.md)
+* [Venom Model 🔜](models/venom-model-1.md)
 
 ## Statistics
 
