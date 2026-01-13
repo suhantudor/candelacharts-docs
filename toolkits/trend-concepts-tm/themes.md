@@ -58,7 +58,7 @@ Minimalist theme with black for bearish and green for bullish. Good for traders 
 
 #### Black - Aqua
 
-<figure><img src="../../.gitbook/assets/docs-trend-concepts-015.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-015 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Colors:** Black (bearish), Light Gray (range), Aqua (bullish)
 

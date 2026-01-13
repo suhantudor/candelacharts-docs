@@ -43,6 +43,7 @@
   * [Flux Trend](toolkits/trend-concepts-tm/flux-trend.md)
   * [Surge Waves](toolkits/trend-concepts-tm/surge-waves.md)
   * [Velocity Bands](toolkits/trend-concepts-tm/velocity-bands.md)
+  * [Candle Coloring](toolkits/trend-concepts-tm/candle-coloring.md)
   * [Signals](toolkits/trend-concepts-tm/signals.md)
   * [Themes](toolkits/trend-concepts-tm/themes.md)
   * [Alerts](toolkits/trend-concepts-tm/alerts.md)
