@@ -1,5 +1,5 @@
 ---
-description: CRT Model Alerts
+description: SFP Model Alerts
 icon: bell
 coverY: 0
 layout:
@@ -27,11 +27,11 @@ layout:
 
 You can configure alerts for the following available model alerts:
 
-1. CRT Model Formation +B/-B
-2. CRT Model Successful
-3. CRT Model Invalidated
-4. CRT Model Formation Sweep
-5. CRT Model Formation D-purge
+1. SFP Model Formation +B/-B
+2. SFP Model Successful
+3. SFP Model Invalidated
+4. SFP Model Formation Sweep
+5. SFP Model Formation D-purge
 
 Set these alerts to stay on top of critical market conditions and enhance your trading strategy with timely notifications.
 
