@@ -5,6 +5,8 @@ icon: diamonds-4
 
 # Components
 
+<figure><img src="../../.gitbook/assets/docs-sf-model-002.png" alt=""><figcaption></figcaption></figure>
+
 Below is an overview of the visual and analytical components that make up the CandelaCharts SFP Model. Each element is designed to enhance clarity, context, and decision-making by combining precise SFP detection with structural, multi-timeframe, and performance-based insights.
 
 ### **SFP Labels & Lines**

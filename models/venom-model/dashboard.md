@@ -5,6 +5,8 @@ icon: game-board-simple
 
 # Dashboard
 
+<figure><img src="../../.gitbook/assets/docs-sf-model-004.png" alt=""><figcaption></figcaption></figure>
+
 The optional dashboard shows **only the most recent SFP** and can display any combination of the following fields (all configurable):
 
 * Type (Bullish or Bearish – colored accordingly)

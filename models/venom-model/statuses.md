@@ -5,6 +5,8 @@ icon: battery-quarter
 
 # Statuses
 
+<figure><img src="../../.gitbook/assets/docs-sf-model-003.png" alt=""><figcaption></figcaption></figure>
+
 The indicator uses six mutually exclusive statuses with the following priority order (highest to lowest):
 
 ### **Invalidated**
