@@ -5,18 +5,19 @@ icon: alien-8bit
 
 # Features
 
-These features work together to turn raw price action into a repeatable plan.
+**CandelaCharts – SFP Model** delivers a powerful, clean, and highly customizable toolkit for identifying and tracking high-probability Swing Failure Patterns (SFPs), enriched with higher-timeframe context, dynamic boundaries, and clear lifecycle feedback.
 
-* **HTF Candles**
-* **Mean (Equilibrium 0.5)**
-* **Sweeps**
-* **Double‑Purge Sweeps**
-* **CISD**
-* **Projections**
-* **Auto-bias**
-* **Realtime Models**
-* **History**
-* **Time Filters**
-* **Alerts**
-
-These features work in harmony to unify bias, context, and execution into a single, consistent routine—empowering you to read the range, time the shift, and capitalize on the expansion.
+* Display bullish SFPs, bearish SFPs, or both
+* Pivot length options: 9 presets, 1 custom, or Automatic multi-length scanning
+* Optional High Probability filter (wick must interact with trendline or channel boundary)
+* Two dynamic boundary systems (usable separately or together):
+  * Pivot-to-pivot trendlines
+  * 5-segment linear regression channel
+* Adjustable smoothing to reduce noise and reactivity of boundaries
+* Two independent HTF candle groups showing:
+  * Mini candles with body & wicks
+  * Valid liquidity sweeps
+  * Time-remaining label
+* Full SFP lifecycle tracking with 6 visual statuses
+* Rich tooltips on every SFP label (status, volume, prices, failure reason)
+* Optional dashboard for the latest SFP metrics

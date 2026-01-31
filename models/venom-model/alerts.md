@@ -25,15 +25,16 @@ layout:
 
 ### Available Alerts
 
-You can configure alerts for the following available model alerts:
+Four independent alert conditions are available:
 
-1. SFP Model Formation +B/-B
-2. SFP Model Successful
-3. SFP Model Invalidated
-4. SFP Model Formation Sweep
-5. SFP Model Formation D-purge
+* **SFP Formed (Bullish)** — fires when a new bullish SFP pattern is first detected
+* **SFP Formed (Bearish)** — fires when a new bearish SFP pattern is first detected
+* **SFP Confirmed (Bullish)** — fires when a bullish SFP receives confirmation close
+* **SFP Confirmed (Bearish)** — fires when a bearish SFP receives confirmation close
 
-Set these alerts to stay on top of critical market conditions and enhance your trading strategy with timely notifications.
+{% hint style="info" %}
+When “High Probability SFPs” is enabled, alerts only trigger for SFPs that pass the channel/trendline interaction filter.
+{% endhint %}
 
 ### Setup Alerts
 
