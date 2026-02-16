@@ -7,42 +7,60 @@ icon: diamonds-4
 
 The AMD Model projects several visual components onto your chart. Understanding what each line and box represents is key to using the tool effectively.
 
-### 1. The "Ghost" Candles (HTF Candles)
+### 1. AMD Phases (The Boxes)
 
-These are the large, semi-transparent candles that appear in the background. They represent the **Higher Timeframe (HTF)** you have selected.
+The core of the indicator visualizes the three phases of price delivery for each HTF candle:
 
-* **Implication:** You can instantly see if the HTF is Bullish (Green) or Bearish (Red) without switching charts.
-* **Wicks:** The thin lines extending from the ghost candle show the HTF wicks (high/low range).
+* **Accumulation (Blue Box)**: Represents the initial opening range or consolidation phase where positions are built.
+* **Manipulation (Red Box)**: The "Judas Swing" or false move designed to induce traders into the wrong side of the market and capture liquidity. This phase typically sweeps the highs/lows of the accumulation range.
+* **Distribution (Green Box)**: The true expansion move in the intended direction. This phase occurs after the manipulation is complete and structure has shifted.
 
-### 2. Phase Boxes
+### 2. HTF Candles
 
-The colored boxes highlight the specific **AMD Phase** the market is currently in (or has completed):
+The indicator overlays **Higher Timeframe Candles** onto your chart.
 
-* **Blue Box (A):** Accumulation. This marks the initial range or consolidation.
-* **Red Box (M):** Manipulation. This highlights the false move or liquidity grab.
-* **Green Box (D):** Distribution. This shows the expansion or real move.
-* **Labels (A, M, D):** Small letters inside the boxes clearly label each phase.
+* You can display up to 3 different HTF cycles (e.g., 4H, Daily, Weekly) simultaneously.
+* These "Ghost Candles" allow you to see the overall trend and wicks of the higher timeframe without leaving your trading execution timeframe.
 
-### 3. Trace Lines
+### 3. Change in State of Delivery (CISD)
 
-These are subtle lines that "trace" the path of the HTF candle as it develops.
+* **What it is**: A confirmed structural shift indicating that the Manipulation phase is likely over and the Distribution phase has begun.
+* **Visual**: Displayed as a horizontal line extending from the candle that confirmed the shift.
+* **Significance**: A CISD Confirmation (often labeled with a diamond symbol ❖/◈) is a strong signal to look for entries in the direction of the distribution.
 
-* **Open/Close Line:** A solid line connecting the HTF Open and Current Price.
-* **High/Low Line:** Dotted or solid lines tracking the highest and lowest points reached so far.
+### 4. Liquidity Grabs
 
-### 4. CISD Levels
+* **Visual**: Lines connecting the manipulated low/high to the point where liquidity was swept.
+* **Function**: explicitly highlights exactly _where_ and _when_ the stops were run during the manipulation phase.
 
-When a **Change in State of Delivery (CISD)** is confirmed:
+### 5. HTF Sweeps & Internal Sweeps
 
-* **Line:** A distinct horizontal line appears at the breakout level.
-* **Role:** This line acts as a "line in the sand." If price stays on the correct side of it, the distribution phase is valid.
+* **HTF Sweeps**: Highlights when one HTF candle sweeps the high/low of the previous HTF candle.
+* **Internal Sweeps**: Highlights smaller liquidity sweeps that occur _inside_ the formation of the current HTF candle.
 
-### 5. Liquidity Lines
+### 6. Key Open Prices (KOP)
 
-* **Sweeps:** Short lines marking where price briefly poked above/below a key level.
-* **EQH/EQL:** Dotted lines connecting equal highs or lows, warning you of potential magnets for price.
+Displays significant opening times that act as price magnets or reference points for algorithms.
 
-### 6. Information Labels
+* **00:00 (Midnight)**: True Day Open.
+* **09:30**: NY Stock Exchange Open.
+* **07:30 / 08:30**: Key data release or pre-market times.
+* **14:00**: PM Session Open.
 
-* **Index Label:** Shows which HTF candle you are looking at (e.g., "1H").
-* **Time Remaining:** A countdown timer showing how long until the current HTF candle closes.
+### 7. EQH / EQL (Equal Highs & Lows)
+
+* Automatically detects and labels "Equal Highs" and "Equal Lows".
+* These areas represent pools of resting liquidity (Stop Losses) that price is likely to gravitate towards.
+
+### 8. Lower Timeframe (LTF) Structure Traces
+
+* Draws the internal Open, High, Low, and Close paths of the HTF candle as distinct lines.
+* Helps visualize the detailed "anatomy" of the higher timeframe bar.
+
+### 9. Dashboard
+
+A panel displaying the status of the current monitored timeframe, including:
+
+* Time remaining until close.
+* Current Phase (Accumulation, Manipulation, or Distribution).
+* Trend Status (Bullish/Bearish).

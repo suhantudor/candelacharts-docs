@@ -31,6 +31,10 @@ Here is how the framework breaks down:
 * **The Tool:** Highlights this phase in a **Green Box**.
 * **Confirmation:** The transition from Manipulation to Distribution is confirmed by a **CISD (Change in State of Delivery)**—a break of structure that signals the trap is complete.
 
+{% hint style="info" %}
+By enabling the Early Models, you can visualize potential setups before price flips the weekly Open level. However, this option may generate premature or invalid signals, so it should be used cautiously and always combined with additional confluence.
+{% endhint %}
+
 ### The Power of Context
 
 By projecting this framework from a **Higher Timeframe (HTF)** onto your **Lower Timeframe (LTF)**, you can see the "story" of the candle as it forms. Instead of getting caught in the noise of a 1-minute chart, you see that the sudden drop might just be the "Manipulation" phase of the 4-hour candle, preparing for a massive rally.
