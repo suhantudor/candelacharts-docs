@@ -20,3 +20,9 @@ It combines:
 * rich status-aware labeling and a configurable information dashboard
 
 The main purpose is to help traders clearly see high-probability reversal zones created by liquidity sweeps, while providing strong contextual information through higher timeframe structure, dynamic boundaries, and model performance feedback.
+
+{% hint style="warning" %}
+* This model is designed for educational and analytical purposes to study market structure, trends, and price behavior.
+* It does not provide trading signals and should not be used as a substitute for independent analysis or proper risk management.
+* The model is timeframe - and symbol-agnostic, automatically adapting to any market, asset, or chart it is applied to.
+{% endhint %}
