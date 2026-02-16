@@ -4,9 +4,9 @@ icon: bolt
 
 # SFP Model 🔜
 
-<figure><img src="../../.gitbook/assets/docs-sf-model-001.png" alt=""><figcaption></figcaption></figure>
-
 **CandelaCharts – SFP Model** is an advanced indicator designed to detect and visualize **Swing Failure Patterns (SFP)** — also known as liquidity grabs, fakeouts or Turtle Soup setups.
+
+<figure><img src="../../.gitbook/assets/docs-sf-model-001.png" alt=""><figcaption></figcaption></figure>
 
 It combines:
 
@@ -15,6 +15,7 @@ It combines:
 * dynamic trendlines and regression-based channels
 * multi-timeframe success/failure tracking
 * optional high-probability filtering using channel or trendline interaction
+* lower timeframe imbalances like fvg and ifvg
 * automatic multi-length pivot scanning mode
 * rich status-aware labeling and a configurable information dashboard
 

@@ -21,7 +21,7 @@ Lines connecting recent pivot highs and recent pivot lows. Smoothed version used
 
 5-segment linear regression fit used to define stronger success boundaries and high-probability filtering. Enabled via Trend → Channel or Both.
 
-### **Higher Timeframe Candle Group I, II, III**
+### **Higher Timeframe Candle Group I & II**
 
 Miniature candles rendered on the chart showing selected higher timeframes. Includes body, wicks, sweep lines (when valid), timeframe label and remaining close time. Each group can be independently enabled.
 
