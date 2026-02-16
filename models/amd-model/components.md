@@ -57,7 +57,11 @@ Displays significant opening times that act as price magnets or reference points
 * Draws the internal Open, High, Low, and Close paths of the HTF candle as distinct lines.
 * Helps visualize the detailed "anatomy" of the higher timeframe bar.
 
-### 9. Dashboard
+### 9. Displacement
+
+**Displacement** refers to energetic price movement that indicates a potential shift in market structure or the presence of institutional order flow. In the AMD Model, displacement is used to identify high-momentum candles that validate the "Distribution" phase.
+
+### 10. Dashboard
 
 A panel displaying the status of the current monitored timeframe, including:
 

@@ -24,4 +24,6 @@ Here are the **recommended pairings** to get the best results:
 * **Intraday Structure:** For day trading, mapping the **4H** candle onto a **1m** chart is a favorite among professionals. It lets you see the 4-hour candle build itself bar-by-bar.
 * **Swing Trading:** Using the **Daily** or **Weekly** HTF on a **15m** chart helps you catch major market reversals.
 
-_Experiment with these pairings to find the rhythm that suits your trading style._
+{% hint style="info" %}
+Experiment with these pairings to find the rhythm that suits your trading style.
+{% endhint %}
