@@ -6,6 +6,8 @@ icon: rectangle-vertical
 
 The **AMD Model** by CandelaCharts is a powerful technical analysis tool designed to help you visualize the intricate dance of institutional price delivery. At its core, it breaks down market movements into three distinct phases: **Accumulation**, **Manipulation**, and **Distribution**.
 
+<figure><img src="../../.gitbook/assets/docs-amd-model-001.png" alt=""><figcaption></figcaption></figure>
+
 If you've ever felt like the market tricked you—moving one way to stop you out before surging in the direction you originally predicted—you've likely experienced the "Manipulation" phase.&#x20;
 
 This tool is built to turn that frustration into clarity. By mapping Higher Timeframe (HTF) price action directly onto your Lower Timeframe (LTF) charts, the AMD Model reveals the "why" behind the "what," giving you a lens to see market structure as it unfolds in real-time.

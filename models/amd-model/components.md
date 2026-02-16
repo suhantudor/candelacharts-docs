@@ -7,6 +7,8 @@ icon: diamonds-4
 
 The AMD Model projects several visual components onto your chart. Understanding what each line and box represents is key to using the tool effectively.
 
+<figure><img src="../../.gitbook/assets/docs-amd-model-002.png" alt=""><figcaption></figcaption></figure>
+
 ### 1. AMD Phases (The Boxes)
 
 The core of the indicator visualizes the three phases of price delivery for each HTF candle:
@@ -33,7 +35,7 @@ The indicator overlays **Higher Timeframe Candles** onto your chart.
 * **Visual**: Lines connecting the manipulated low/high to the point where liquidity was swept.
 * **Function**: explicitly highlights exactly _where_ and _when_ the stops were run during the manipulation phase.
 
-### 5. HTF Sweeps & Internal Sweeps
+### 5. HTF Sweeps
 
 * **HTF Sweeps**: Highlights when one HTF candle sweeps the high/low of the previous HTF candle.
 * **Internal Sweeps**: Highlights smaller liquidity sweeps that occur _inside_ the formation of the current HTF candle.

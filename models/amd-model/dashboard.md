@@ -7,6 +7,8 @@ icon: game-board-simple
 
 The **AMD Dashboard** is your mission control center. It sits neatly on your chart, giving you a real-time snapshot of what the model is seeing without cluttering your view.
 
+<figure><img src="../../.gitbook/assets/docs-amd-model-004.png" alt=""><figcaption></figcaption></figure>
+
 ### Metrics at a Glance
 
 The dashboard displays the following key information:

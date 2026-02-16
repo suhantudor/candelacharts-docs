@@ -7,6 +7,8 @@ icon: diagram-venn
 
 The AMD Model is built on a simple yet profound understanding of how institutions move price. It posits that every major move consists of three distinct phases: **Accumulation**, **Manipulation**, and **Distribution**.
 
+<figure><img src="../../.gitbook/assets/docs-amd-model-003.png" alt=""><figcaption></figcaption></figure>
+
 Here is how the framework breaks down:
 
 ### 1. Accumulation (The Setup)
