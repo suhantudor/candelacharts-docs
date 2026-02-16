@@ -17,8 +17,8 @@ The dashboard displays the following key information:
    * **No Model Yet:** Waiting for clear structure to form.
 2. **Current Phase:**
    * Tells you if the market is currently in **Accumulation**, **Manipulation**, or **Distribution**. This helps you know _when_ to trade (e.g., avoid trading during accumulation, look for entries during manipulation/distribution).
-3. **Sweep Detected:**
-   * **Yes/No:** Instantly tells you if a liquidity sweep has occurred in the current setup. A "Yes" is a strong confluence factor.
+3. **Liquidity Grab Detected:**
+   * **Yes/No:** Instantly tells you if a liquidity grab has occurred in the current setup. A "Yes" is a strong confluence factor.
 4. **CISD Status:**
    * **Confirmed/Unconfirmed:** Lets you know if the change in delivery state has been validated. A confirmed CISD is often the "green light" for entry.
 5. **Time Remaining:**
