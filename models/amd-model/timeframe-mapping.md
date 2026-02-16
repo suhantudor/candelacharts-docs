@@ -9,6 +9,10 @@ One of the most powerful features of the AMD Model is its ability to map **Highe
 
 However, not every pairing works well. You want a balance: enough detail on the LTF to see the structure form, but not so much noise that the HTF context gets lost.
 
+{% hint style="danger" %}
+The AMD Model does not provide any built-in or automatic mapping between specific timeframes. Instead, the suggested timeframes are recommendations based on practical experience and observation. They are proposed because they tend to align well with the structure, logic, and intended application of the model. However, they remain flexible guidelines rather than fixed rules. Traders and analysts are free to adapt the timeframes to suit their own strategies, markets, and objectives, as long as they preserve the underlying principles and internal coherence of the AMD framework.
+{% endhint %}
+
 Here are the **recommended pairings** to get the best results:
 
 | If your LTF (Entry) is...   | Use this HTF (Context)...          |
