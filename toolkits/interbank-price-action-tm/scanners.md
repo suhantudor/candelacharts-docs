@@ -1,5 +1,6 @@
 ---
 description: Scanners settings
+hidden: true
 icon: grid-horizontal
 ---
 
@@ -7,7 +8,7 @@ icon: grid-horizontal
 
 The Price Action Toolkit™ toolkit features a powerful scanner designed to enhance your trading analysis:
 
-1. **MTF Scanner**: This scanner analyzes multiple timeframes to identify and track trends across different periods.&#x20;
+1. **MTF Scanner**: This scanner analyzes multiple timeframes to identify and track trends across different periods.
 
 Scanners are integral tools for traders seeking to refine their strategies and enhance their market analysis.
 

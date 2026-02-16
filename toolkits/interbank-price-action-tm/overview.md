@@ -13,28 +13,28 @@ This toolkit is perfect for both beginners and seasoned traders looking to autom
 [market-structure.md](market-structure.md)
 {% endcontent-ref %}
 
-{% content-ref url="block-concepts.md" %}
-[block-concepts.md](block-concepts.md)
+{% content-ref url="blocks.md" %}
+[blocks.md](blocks.md)
 {% endcontent-ref %}
 
-{% content-ref url="imbalance-concepts.md" %}
-[imbalance-concepts.md](imbalance-concepts.md)
+{% content-ref url="imbalances.md" %}
+[imbalances.md](imbalances.md)
 {% endcontent-ref %}
 
 {% content-ref url="premium-and-discount.md" %}
 [premium-and-discount.md](premium-and-discount.md)
 {% endcontent-ref %}
 
-{% content-ref url="liquidity-concepts.md" %}
-[liquidity-concepts.md](liquidity-concepts.md)
+{% content-ref url="liquidity.md" %}
+[liquidity.md](liquidity.md)
 {% endcontent-ref %}
 
-{% content-ref url="fib-retracement.md" %}
-[fib-retracement.md](fib-retracement.md)
+{% content-ref url="fibonacci-retracement.md" %}
+[fibonacci-retracement.md](fibonacci-retracement.md)
 {% endcontent-ref %}
 
-{% content-ref url="highs-and-lows-mtf.md" %}
-[highs-and-lows-mtf.md](highs-and-lows-mtf.md)
+{% content-ref url="key-levels.md" %}
+[key-levels.md](key-levels.md)
 {% endcontent-ref %}
 
 {% content-ref url="scanners.md" %}
