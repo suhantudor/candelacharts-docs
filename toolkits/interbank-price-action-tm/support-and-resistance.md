@@ -1,5 +1,5 @@
 ---
-icon: arrow-trend-up
+icon: arrows-left-right
 ---
 
 # Support & Resistance

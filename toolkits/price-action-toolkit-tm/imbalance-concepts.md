@@ -3,7 +3,7 @@ description: Imbalance Concepts settings
 icon: chart-bullet
 ---
 
-# Imbalance Concepts
+# Imbalances
 
 Imbalance Concepts is an aggregation of ICT Imbalances like FVG, IFVG, BPR, etc. Imbalances in market prices occur when there is a significant discrepancy between supply and demand, causing the asset to deviate from its fair value. This imbalance can create inefficiencies in the market.
 
@@ -25,13 +25,13 @@ The toolkit is able to detect the following imbalances:
 
 ### Fair Value Gaps (FVG)
 
-Fair Value Gaps (FVG) are market imbalances identified within a sequence of three candles.&#x20;
+Fair Value Gaps (FVG) are market imbalances identified within a sequence of three candles.
 
 <figure><img src="../../.gitbook/assets/docs-fvg-001.png" alt=""><figcaption></figcaption></figure>
 
 These gaps occur when the wicks of the outer candles do not overlap the body of the central candle, creating a range between the wicks that marks the Fair Value Gap.
 
-A bullish Fair Value Gap forms when the current low is higher than the high two bars prior.&#x20;
+A bullish Fair Value Gap forms when the current low is higher than the high two bars prior.
 
 Conversely, a bearish Fair Value Gap occurs when the current high is lower than the low two bars prior.
 
@@ -41,13 +41,13 @@ Inverse Fair Value Gaps (FVGs) are essentially mitigated Fair Value Gaps that ca
 
 <figure><img src="../../.gitbook/assets/docs-ifvg-001.png" alt=""><figcaption></figcaption></figure>
 
-When a bullish Fair Value Gap is mitigated, it creates a bearish inverse Fair Value Gap, indicating that the price might retrace upward to retest the area.&#x20;
+When a bullish Fair Value Gap is mitigated, it creates a bearish inverse Fair Value Gap, indicating that the price might retrace upward to retest the area.
 
 Conversely, a mitigated bearish Fair Value Gap results in a bullish inverse Fair Value Gap, suggesting that the price could retrace downward to retest the area.
 
 ### Opening Gaps (OG)
 
-Opening Gaps are market imbalances identified by two consecutive candles with non-overlapping wicks, creating a visible gap or empty area.&#x20;
+Opening Gaps are market imbalances identified by two consecutive candles with non-overlapping wicks, creating a visible gap or empty area.
 
 <figure><img src="../../.gitbook/assets/docs-og-001.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@ These imbalances are frequently observed in stocks and in shorter timeframes of 
 
 ### Volume Imbalances (VI)
 
-Volume Imbalances occur when two consecutive candles have non-overlapping bodies, but their wicks do overlap.&#x20;
+Volume Imbalances occur when two consecutive candles have non-overlapping bodies, but their wicks do overlap.
 
 <figure><img src="../../.gitbook/assets/docs-vi-001.png" alt=""><figcaption></figcaption></figure>
 
@@ -63,17 +63,17 @@ These imbalances are typically observed in stocks or in shorter timeframes of cr
 
 ### Balanced Price Range (BPR)
 
-The Balanced Price Range is a key concept in understanding how price behaves around certain levels that represent equilibrium or "fair value" in the market.&#x20;
+The Balanced Price Range is a key concept in understanding how price behaves around certain levels that represent equilibrium or "fair value" in the market.
 
 <figure><img src="../../.gitbook/assets/docs-bpr-001.png" alt=""><figcaption></figcaption></figure>
 
-The idea behind BPR is to identify price ranges where both buying and selling pressures are balanced, indicating a period of consolidation or price acceptance.&#x20;
+The idea behind BPR is to identify price ranges where both buying and selling pressures are balanced, indicating a period of consolidation or price acceptance.
 
 In practice, it often shows up in areas where market makers have accumulated positions, and the price tends to oscillate around a central or equilibrium level.
 
 ### Mitigation
 
-Once the price breaches a highlighted imbalance area, it is considered "mitigated" and will automatically be removed.&#x20;
+Once the price breaches a highlighted imbalance area, it is considered "mitigated" and will automatically be removed.
 
 The Price Action Toolkit™ indicator allows users to customize the mitigation conditions through the Mitigation setting. Available options include:
 

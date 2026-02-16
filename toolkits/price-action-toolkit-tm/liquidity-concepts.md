@@ -3,7 +3,7 @@ description: Liquidity Concepts settings
 icon: window-minimize
 ---
 
-# Liquidity Concepts
+# Liquidity
 
 Price Action Toolkit™ encompasses a range of liquidity-related concepts, all accessible through the Liquidity Concepts settings section. Each concept is detailed in the sections below for your reference.
 

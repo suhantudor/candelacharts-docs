@@ -3,7 +3,7 @@ description: Highs & Lows settings
 icon: line-height
 ---
 
-# Highs & Lows MTF
+# Key Levels
 
 Traders often use the highest and lowest price values from previous days, weeks, months, or specific periods as support and resistance levels.
 

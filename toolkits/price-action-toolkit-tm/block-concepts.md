@@ -3,9 +3,9 @@ description: Block Concepts settings
 icon: rectangle
 ---
 
-# Block Concepts
+# Blocks
 
-Block Concepts is a group of ICT Blocks that allows you to identify price zones where informed market participants accumulate orders, often serving as potential support or resistance levels.&#x20;
+Block Concepts is a group of ICT Blocks that allows you to identify price zones where informed market participants accumulate orders, often serving as potential support or resistance levels.
 
 The toolkit automatically highlights these areas, and they disappear once they are mitigated.
 
@@ -25,7 +25,7 @@ Each of these block types is automatically detected and highlighted by the toolk
 
 ### Order Blocks
 
-Order Blocks are categorized into two types: Bullish Order Blocks and Bearish Order Blocks. Bullish Order Blocks typically form near swing lows and are considered potential support zones.&#x20;
+Order Blocks are categorized into two types: Bullish Order Blocks and Bearish Order Blocks. Bullish Order Blocks typically form near swing lows and are considered potential support zones.
 
 Conversely, Bearish Order Blocks usually appear near swing highs and are regarded as potential resistance areas.
 
@@ -39,34 +39,34 @@ The toolkit showcases internal activity and metrics based on volume data.
 
 ### Swing Order Blocks
 
-A swing order block represents a key area on a price chart where significant order accumulation is believed to have occurred.&#x20;
+A swing order block represents a key area on a price chart where significant order accumulation is believed to have occurred.
 
 <figure><img src="../../.gitbook/assets/docs-sob-001.png" alt=""><figcaption></figcaption></figure>
 
-These zones are critical for traders, as they suggest areas where major market participants have placed large buy or sell orders.&#x20;
+These zones are critical for traders, as they suggest areas where major market participants have placed large buy or sell orders.
 
-The accumulation of these orders can exert considerable influence on future price movements, making swing order blocks valuable for identifying potential support or resistance levels.&#x20;
+The accumulation of these orders can exert considerable influence on future price movements, making swing order blocks valuable for identifying potential support or resistance levels.
 
 Traders often base their decisions on these areas, anticipating that the presence of concentrated orders will impact the direction and strength of price trends.
 
 ### Breaker Blocks
 
-A breaker block occurs when an order block fails, resulting in a significant shift in market structure.&#x20;
+A breaker block occurs when an order block fails, resulting in a significant shift in market structure.
 
-This concept marks a critical juncture where the price reverses its previous trend direction, often indicating the potential for a new trend to emerge.&#x20;
+This concept marks a critical juncture where the price reverses its previous trend direction, often indicating the potential for a new trend to emerge.
 
 <figure><img src="../../.gitbook/assets/docs-bb-001.png" alt=""><figcaption></figcaption></figure>
 
-For traders, breaker blocks represent key moments of transition in the market, offering strategic entry points for trades based on the expected continuation of the new trend.&#x20;
+For traders, breaker blocks represent key moments of transition in the market, offering strategic entry points for trades based on the expected continuation of the new trend.
 
 By identifying breaker blocks, traders can capitalize on these shifts, positioning themselves to take advantage of the market's evolving dynamics.
 
 ### Metrics
 
-Metrics are displayed next to a block, positioned near the most recent historical price bar. These metrics reflect the accumulated volume within the interval used to create the block.&#x20;
+Metrics are displayed next to a block, positioned near the most recent historical price bar. These metrics reflect the accumulated volume within the interval used to create the block.
 
 The volume information helps assess the significance of each block, with larger volumes indicating a more substantial block.
 
-Additionally, the percentage shown indicates the proportion of the order block's volume relative to the total accumulated volume of all Volumetric Blocks on the chart.&#x20;
+Additionally, the percentage shown indicates the proportion of the order block's volume relative to the total accumulated volume of all Volumetric Blocks on the chart.
 
 This percentage provides a quick way to identify which Volumetric Blocks are more noteworthy and potentially more influential in the market.
