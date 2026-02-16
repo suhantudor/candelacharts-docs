@@ -46,3 +46,11 @@ Usually thinner (default width 2), dashed or dotted by default, green color (cus
 {% hint style="info" %}
 Noticeably thicker (default width 5), solid or dashed/dotted style (customizable), usually black or dark color for the lines themselves, drawn as straighter, smoother lines that span a wider historical window. They move more slowly and appear more “enveloping” compared to trendlines.
 {% endhint %}
+
+### **Fair Value Gap**
+
+A Fair Value Gap is a price imbalance created when the market moves strongly, leaving a gap between candles where little to no trading occurred, often acting as a zone the market may revisit.
+
+### **Inverse Fair Value Gap**
+
+An Inverse Fair Value Gap forms when a previously created FVG is invalidated in the opposite direction, signaling a potential shift in market structure or order flow.

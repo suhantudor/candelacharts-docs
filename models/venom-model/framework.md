@@ -13,7 +13,7 @@ The SFP Model follows this logical sequence for every potential setup:
 
 A recent significant high (for bearish setups) or low (for bullish setups) is identified using your chosen pivot length:
 
-* one of the 9 preset lengths
+* one of the 4 preset lengths
 * your custom length
 * or “Automatic” mode (scans multiple lengths and picks recent high-quality candidates)
 
@@ -47,7 +47,7 @@ The setup is cancelled and marked **Invalidated** (orange) if any of these occur
 * Price returns inside the original swing level without confirming
 * The pattern becomes too old (roughly >500 bars) or violates internal range rules
 
-### **High-Probability Filter (optional – enabled by default)**&#x20;
+### **Out-Of-Channel SFPs Filter (optional – enabled by default)**&#x20;
 
 When turned on, only SFPs are shown (and alerted) where at least one of the two key wicks — either the sweep wick or the formation/succession wick — actually touches or crosses the active boundary line.
 

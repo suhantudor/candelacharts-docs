@@ -21,13 +21,19 @@ Lines connecting recent pivot highs and recent pivot lows. Smoothed version used
 
 5-segment linear regression fit used to define stronger success boundaries and high-probability filtering. Enabled via Trend → Channel or Both.
 
-### **Higher Timeframe Candle Group I & II**&#x20;
+### **Higher Timeframe Candle Group I, II, III**
 
 Miniature candles rendered on the chart showing selected higher timeframes. Includes body, wicks, sweep lines (when valid), timeframe label and remaining close time. Each group can be independently enabled.
 
 ### **Liquidity Sweep Lines**&#x20;
 
 Horizontal black lines drawn from HTF sweep points forward until invalidated or the group ends. Only non-removed and non-invalidated sweeps are shown.
+
+### Imbalances (FVG & IFVG)
+
+**FVG (Fair Value Gap):** Price imbalances left by aggressive market moves, often revisited as potential retracement or continuation zones.
+
+**IFVG (Inverse Fair Value Gap):** Occurs when a previously created FVG is invalidated in the opposite direction, signaling a potential shift in market structure or order flow.
 
 ### **Dashboard**&#x20;
 

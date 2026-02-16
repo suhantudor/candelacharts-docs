@@ -9,26 +9,26 @@ icon: battery-quarter
 
 The indicator uses six mutually exclusive statuses with the following priority order (highest to lowest):
 
-### **Invalidated**
+### **Invalidated (**&#x4F;rang&#x65;**)**
 
-Orange New opposite-direction SFP formed before confirmation, or setup aged out / price violated range rules.
+The potential setup was canceled before it could ever be confirmed. This usually occurs if price continues to trend through the level instead of reversing, or if too much time passes without confirmation.
 
-### **Successful**
+### **Successful (**&#x47;ree&#x6E;**)**
 
-Green Price reached the **channel** opposing boundary after confirmation (strongest positive outcome).
+The trade has reached the full profit target. This level is calculated as **2x the risk range** (a 2:1 Reward-to-Risk ratio), targeting the -2 Standard Deviation level.
 
-### **Partial Success**
+### **Partial Success (**&#x4C;im&#x65;**)**
 
-Lime Price reached the **trendline** opposing boundary after confirmation, but has not yet reached the channel line.
+The trade is moving in your favor and has hit the first profit target. This level is calculated as **1x the risk range** (a 1:1 Reward-to-Risk ratio), targeting the -1 Standard Deviation level.
 
-### **Failed**
+### **Failed (**&#x52;ed)
 
-Red After confirmation, price violated the swing price level **or** the sweep wick extreme in the wrong direction.
+A confirmed trade setup has been stopped out. This happens if price reverses against you and breaks either the original swing point or the wick of the sweep candle (your invalidation level).
 
-### **Confirmed**
+### **Confirmed (B**lu&#x65;**)**
 
-blue Price closed beyond the opposing price in the expected reversal direction — waiting for success or failure.
+The reversal pattern is validated and the trade is active. This signal occurs when price closes back inside the range and breaks the local structure, typically marking your entry point.
 
-### **Unconfirmed**
+### **Unconfirmed (G**ra&#x79;**)**
 
-gray Pattern detected but confirmation close has not yet occurred.
+A potential setup has formed where price swept a key level but rejected it. The pattern is waiting for a candle close beyond the local structure (opposing price) to confirm the reversal.
