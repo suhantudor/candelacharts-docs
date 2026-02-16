@@ -1,6 +1,7 @@
 ---
+hidden: true
 icon: person-circle-check
 ---
 
-# Calub Model 🔜
+# 2022 Model™ 🔜
 
