@@ -22,12 +22,12 @@ Never miss a move with the AMD Model's comprehensive alert system. You can set u
 
 ### Setup Alerts
 
-To set up alerts using the CRT Model on TradingView, follow these steps:
+To set up alerts using the AMD Model on TradingView, follow these steps:
 
 1. **Create a New Alert**\
    Click the **“+ Alert”** button located at the top of your TradingView chart interface.
 2. **Set the Condition**\
-   In the **"Condition"** dropdown menu, select **CRT Model** as the indicator you want to trigger the alert.
+   In the **"Condition"** dropdown menu, select **AMD Model** as the indicator you want to trigger the alert.
 3. **Choose the Timeframe**\
    Under the **“Interval”** setting, choose your **preferred timeframe** (e.g., 1H, 4H, 1D) based on your trading strategy or the timeframe you want to monitor.
 4. **Configure Alert Expiration (Optional)**\
