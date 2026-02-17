@@ -50,6 +50,10 @@ icon: list-ol
 [momentum.md](../interbank-price-action-tm/momentum.md)
 {% endcontent-ref %}
 
+{% content-ref url="../interbank-price-action-tm/accumulation-and-distribution.md" %}
+[accumulation-and-distribution.md](../interbank-price-action-tm/accumulation-and-distribution.md)
+{% endcontent-ref %}
+
 {% content-ref url="highs-and-lows-mtf.md" %}
 [highs-and-lows-mtf.md](highs-and-lows-mtf.md)
 {% endcontent-ref %}
