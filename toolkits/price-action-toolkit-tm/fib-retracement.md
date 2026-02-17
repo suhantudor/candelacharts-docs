@@ -9,6 +9,8 @@ icon: align-justify
 
 The **Fibonacci Retracement** tool is essential for identifying potential reversal zones during a trend. Instead of drawing lines manually every time the market moves, this indicator automatically identifies the most relevant recent swing and plots key retracement levels for you.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-035.png" alt=""><figcaption></figcaption></figure>
+
 This feature is designed to help you spot "discounted" entry prices in an uptrend or "expensive" entry prices in a downtrend.
 
 ### Key Levels Explained <a href="#user-content--key-levels-explained" id="user-content--key-levels-explained"></a>
@@ -32,12 +34,16 @@ We automatically plot the most critical Fibonacci ratios used by institutional t
 
 To simplify your chart, we verify two distinct zones based on depth:
 
-#### 1. Shallow Pullback Zone (Green/Buy Zone) <a href="#user-content-1-shallow-pullback-zone-greenbuy-zone" id="user-content-1-shallow-pullback-zone-greenbuy-zone"></a>
+#### 1. Shallow Pullback Zone <a href="#user-content-1-shallow-pullback-zone-greenbuy-zone" id="user-content-1-shallow-pullback-zone-greenbuy-zone"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-037.png" alt=""><figcaption></figcaption></figure>
 
 * **Range**: **0.382 – 0.50**
 * **Meaning**: This zone represents a minor correction in a strong trend. Aggressive traders look for entries here to catch continuation moves quickly.
 
-#### 2. Deep Retracement Zone (Red/Sell Zone) <a href="#user-content-2-deep-retracement-zone-redsell-zone" id="user-content-2-deep-retracement-zone-redsell-zone"></a>
+#### 2. Deep Retracement Zone <a href="#user-content-2-deep-retracement-zone-redsell-zone" id="user-content-2-deep-retracement-zone-redsell-zone"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-036.png" alt=""><figcaption></figcaption></figure>
 
 * **Range**: **0.705 – 0.79**
 * **Meaning**: This is the "sweet spot" for high R:R trades. Price has pulled back significantly, offering a cheap entry before the trend (ideally) resumes. This area is often referred to as the "Kill Zone" or "OTE".
