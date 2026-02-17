@@ -10,6 +10,8 @@ Liquidity is the fuel of the market. Price constantly seeks areas where orders a
 
 One of the most common retail patterns is the "Double Top" or "Double Bottom". While retail traders see these as reversal patterns and place their stops just above/below them, institutions see them as liquidity pools to target.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-030.png" alt=""><figcaption></figcaption></figure>
+
 #### How It Works <a href="#user-content-how-it-works" id="user-content-how-it-works"></a>
 
 We scan for Swing Highs or Lows that are relatively equal in price.

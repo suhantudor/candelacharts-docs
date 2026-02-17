@@ -4,13 +4,13 @@ icon: transporter-7
 
 # Swing Failure Pattern
 
-### Swing Failure Pattern (SFP) <a href="#user-content--swing-failure-pattern-sfp" id="user-content--swing-failure-pattern-sfp"></a>
-
 The **Swing Failure Pattern (SFP)** is one of the most reliable reversal setups used by institutional traders. It identifies a "Stop Hunt" or "Liquidity Grab" where large players push price beyond a key level to trigger orders, only to reverse direction immediately.
+
+<figure><img src="../../.gitbook/assets/docs-ipa-029.png" alt=""><figcaption></figcaption></figure>
 
 This pattern tells you: "The breakout was a trap."
 
-#### Anatomy of an SFP <a href="#user-content--anatomy-of-an-sfp" id="user-content--anatomy-of-an-sfp"></a>
+### Anatomy of an SFP <a href="#user-content--anatomy-of-an-sfp" id="user-content--anatomy-of-an-sfp"></a>
 
 1. **The Target**: Identify a key **Swing High** or **Swing Low**. This is where retail stop-losses and breakout orders are resting.
 2. **The Sweep**: Price pushes _beyond_ this swing point, grabbing the liquidity.
