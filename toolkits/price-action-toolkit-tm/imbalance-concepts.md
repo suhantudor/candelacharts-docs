@@ -17,12 +17,16 @@ These gaps act as:
 
 #### 1. Fair Value Gap (FVG) <a href="#user-content-1-fair-value-gap-fvg" id="user-content-1-fair-value-gap-fvg"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-014.png" alt=""><figcaption></figcaption></figure>
+
 The most fundamental imbalance pattern.
 
 * **Structure**: A 3-candle sequence where the wicks of candle 1 and candle 3 do not overlap. The space between them is the gap.
 * **Usage**: Wait for price to tap into the FVG (often the 50% level) for a high-probability entry.
 
 #### 2. Inversion FVG (IFVG) <a href="#user-content-2-inversion-fvg-ifvg" id="user-content-2-inversion-fvg-ifvg"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-015.png" alt=""><figcaption></figcaption></figure>
 
 An FVG that has "flipped" its polarity.
 
@@ -32,11 +36,15 @@ An FVG that has "flipped" its polarity.
 
 #### 3. Volume Imbalance (VI) <a href="#user-content-3-volume-imbalance-vi" id="user-content-3-volume-imbalance-vi"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-016.png" alt=""><figcaption></figcaption></figure>
+
 A gap formed by the difference between the **Close** of one candle and the **Open** of the next.
 
 * **Context**: Often seen in low-liquidity environments or during high-volatility news events.
 
 #### 4. Opening Gap (OG) <a href="#user-content-4-opening-gap-og" id="user-content-4-opening-gap-og"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-017.png" alt=""><figcaption></figcaption></figure>
 
 The jump between yesterday's market **Close** and today's market **Open**.
 
@@ -44,21 +52,18 @@ The jump between yesterday's market **Close** and today's market **Open**.
 
 #### 5. Balanced Price Range (BPR) <a href="#user-content-5-balanced-price-range-bpr" id="user-content-5-balanced-price-range-bpr"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-018.png" alt=""><figcaption></figcaption></figure>
+
 A complex pattern where a Bullish FVG and a Bearish FVG overlap.
 
 * **Meaning**: The market has aggressively bought up and then sold down through the same price area. It represents a "knot" of equilibrium that price respects highly.
 
-### Smart Settings <a href="#user-content-smart-settings" id="user-content-smart-settings"></a>
+### Volume & Strength <a href="#user-content--volume--strength" id="user-content--volume--strength"></a>
 
-#### Filtering (Reduce Noise) <a href="#user-content--filtering-reduce-noise" id="user-content--filtering-reduce-noise"></a>
+<figure><img src="../../.gitbook/assets/docs-ipa-019.png" alt=""><figcaption></figcaption></figure>
 
-* **Threshold (ATR Filter)**: Don't want to see every tiny 1-pip gap? Set a threshold (e.g., 0.5 ATR). We will hide any imbalance smaller than this size.
-* **Displacement**: Only show gaps that were created by a _strong_ move (a large candle body). This separates true institutional intent from choppy noise.
+Not all imbalances are powerful. We use volume analysis to grade them for you:
 
-#### Mitigation Logic <a href="#user-content--mitigation-logic" id="user-content--mitigation-logic"></a>
-
-What happens when price fills the gap?
-
-* **Dim**: The zone fades out to show it's less significant.
-* **Hide**: The zone disappears completely to keep your chart clean.
-* **Extend**: Keep the zone active until it is fully closed.
+* **💪 Strong**: The imbalance was formed with high relative volume. Probability of holding: **High**.
+* **⚖️ Balanced**: The imbalance had average volume. Probability of holding: **Medium**.
+* **🥀 Weak**: The imbalance had low volume. Probability of holding: **Low**. Use with caution.
