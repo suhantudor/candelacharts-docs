@@ -8,6 +8,8 @@ icon: clock-eleven
 
 The opening minutes of a major financial center (like London or New York) set the tone for the entire session. The **Initial Balance** or **Opening Range** is often used by traders to define the day's bias.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-028.png" alt=""><figcaption></figcaption></figure>
+
 This tool automatically highlights this critical period and draws the key reference levels for you.
 
 ### Key Levels <a href="#user-content--key-levels" id="user-content--key-levels"></a>

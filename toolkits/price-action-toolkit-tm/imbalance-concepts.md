@@ -67,3 +67,16 @@ Not all imbalances are powerful. We use volume analysis to grade them for you:
 * **💪 Strong**: The imbalance was formed with high relative volume. Probability of holding: **High**.
 * **⚖️ Balanced**: The imbalance had average volume. Probability of holding: **Medium**.
 * **🥀 Weak**: The imbalance had low volume. Probability of holding: **Low**. Use with caution.
+
+### Displacement
+
+Displacement serves as a critical filter for identifying high-probability setups. It refers to the energetic price movement that often precedes the creation of an imbalance, signaling institutional intent.
+
+<figure><img src="../../.gitbook/assets/docs-ipa-020.png" alt=""><figcaption></figcaption></figure>
+
+**Usage:** Look for the colored bars (Displacement candles) on your chart. When an FVG is formed by one of these candles, it carries significantly more weight than a standard FVG. These are the zones you should prioritize for potential entries.
+
+**Value:**
+
+* **Confirmation**: Validates that "Smart Money" is participating in the move.
+* **Filtering**: Helps you avoid false signals in choppy or ranging markets by focusing only on moves with real conviction.
