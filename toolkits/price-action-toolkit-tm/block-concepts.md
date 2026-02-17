@@ -14,6 +14,8 @@ When price returns to these zones, institutions often defend their positions, le
 
 #### 1. Order Block (OB) <a href="#user-content-1-order-block-ob" id="user-content-1-order-block-ob"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-010.png" alt=""><figcaption></figcaption></figure>
+
 The classic reversal zone.
 
 * **Bullish OB**: The last _down-close_ candle before a massive move up that broke structure.
@@ -22,17 +24,23 @@ The classic reversal zone.
 
 #### 2. Breaker Block (BB) <a href="#user-content-2-breaker-block-bb" id="user-content-2-breaker-block-bb"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-011.png" alt=""><figcaption></figcaption></figure>
+
 A failed Order Block that creates a reversal opportunity.
 
 * **Logic**: Imagine a Bullish OB that _fails_ to hold price. Price smashes right through it.
 * **The Flip**: That failed buy zone now becomes a sell zone (Resistance). This is excellent for trading reversals or stop hunts.
 
-#### 3. Swing Order Block (SOB) <a href="#user-content-3-swing-order-block-sob" id="user-content-3-swing-order-block-sob"></a>
+#### 3. Macro Order Block (MOB) <a href="#user-content-3-swing-order-block-sob" id="user-content-3-swing-order-block-sob"></a>
 
-* **Logic**: Unlike standard OBs which can form anywhere, SOBs are strictly derived from major **Swing Points**.
+<figure><img src="../../.gitbook/assets/docs-ipa-013.png" alt=""><figcaption></figcaption></figure>
+
+* **Logic**: Unlike standard OBs which can form anywhere, MOBs are strictly derived from major **Swing Points**.
 * **Usage**: These carry significantly more weight and are ideal for Higher Timeframe (HTF) analysis.
 
 ### Volume & Strength <a href="#user-content--volume--strength" id="user-content--volume--strength"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-012.png" alt=""><figcaption></figcaption></figure>
 
 Not all blocks are powerful. We use volume analysis to grade them for you:
 
