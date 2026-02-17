@@ -1,5 +1,4 @@
 ---
-description: SMC FAQs
 icon: circle-question
 ---
 

@@ -1,24 +1,46 @@
 ---
-description: Highs & Lows settings
 icon: line-height
 ---
 
 # Key Levels
 
-Traders often use the highest and lowest price values from previous days, weeks, months, or specific periods as support and resistance levels.
+### Multi-Timeframe Analysis <a href="#user-content--multi-timeframe-analysis" id="user-content--multi-timeframe-analysis"></a>
 
-<figure><img src="../../.gitbook/assets/docs-hl-001.png" alt=""><figcaption></figcaption></figure>
+Professional traders always chart from the "Top Down." They know where the Weekly High or Monthly Open is, even when they are scalping the 1-minute chart.
 
-The toolkit can provide these levels based on:
+This module brings those critical levels onto your current timeframe, so you never lose sight of the big picture.
 
-* The previous day
-* The previous week
-* The previous month
-* Quarterly periods
-* Yearly periods
+### The Levels <a href="#user-content--the-levels" id="user-content--the-levels"></a>
 
-### Settings
+We automatically plot the **Open**, **High**, **Low**, and **Close** of the previous period for the timeframes you select.
 
-<table><thead><tr><th>Name</th><th>Default</th><th>Options<select multiple><option value="6VvdyiUL7H1x" label="Solid" color="blue"></option><option value="qHpE4LG8FW5k" label="Dotted" color="blue"></option><option value="smESmabKUdEr" label="Dashed" color="blue"></option></select></th></tr></thead><tbody><tr><td>Day</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Week</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Month</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Quarter</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Year</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Show Average</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr><tr><td>Show Open</td><td>false</td><td><span data-option="6VvdyiUL7H1x">Solid, </span><span data-option="qHpE4LG8FW5k">Dotted, </span><span data-option="smESmabKUdEr">Dashed</span></td></tr></tbody></table>
+* **PDH / PDL**: Previous Daily High / Low.
+* **PWH / PWL**: Previous Weekly High / Low.
+* **PMH / PML**: Previous Monthly High / Low.
+* **DO / WO / MO**: Daily / Weekly / Monthly Open.
 
-Each of these levels can be displayed using the HIGHS & LOWS MTF settings section.
+#### Why It Matters <a href="#user-content-why-it-matters" id="user-content-why-it-matters"></a>
+
+* **Liquidity**: The previous day's High and Low are classic liquidity targets. Price often sweeps them before reversing.
+* **Bias**: If price is above the Weekly Open, the weekly bias is Bullish. If below, it's Bearish.
+
+### Configuration <a href="#user-content-configuration" id="user-content-configuration"></a>
+
+#### 1. Timeframe Selection <a href="#user-content-1-timeframe-selection" id="user-content-1-timeframe-selection"></a>
+
+Enable only what you need to avoid "Spaghetti Charts":
+
+* **Daily**: Essential for Day Trading.
+* **Weekly**: Essential for Swing Trading.
+* **Monthly/Quarterly/Yearly**: For macro analysis and long-term investing.
+
+#### 2. Line Styles <a href="#user-content-2-line-styles" id="user-content-2-line-styles"></a>
+
+* **Pivot Lines (High/Low)**: Usually plotted solid or distinct to mark them as barriers.
+* **Open Line**: Useful to see "Green Day" vs "Red Day" status.
+* **Mid Line**: The 50% level of the previous candle. Often acts as a subtle support/resistance.
+
+#### 3. Smart Labels <a href="#user-content-3-smart-labels" id="user-content-3-smart-labels"></a>
+
+* Labels are placed on the right side of the chart to avoid obscuring price action.
+* Example: `PWH (1.23450)` = Previous Weekly High at price 1.23450.

@@ -1,13 +1,10 @@
 ---
-description: PAT Quick Specs
 icon: list-ol
 ---
 
 # Overview
 
-Price Action Toolkit™ is a unique toolkit from Candelaa that offers a comprehensive range of price action tools, including Order Blocks, Imbalances, Market Structure, Liquidity Concepts, and more.
-
-This toolkit is perfect for both beginners and seasoned traders looking to automate the essential elements of price action on their charts. Explore the pages below to see all the features this toolkit has to offer.
+**Interbank Price Action™** is your ultimate companion for dissecting market structure and understanding institutional order flow. Whether you trade Smart Money Concepts (SMC) or just want a clear view of price action, this toolkit consolidates everything you need into one precise indicator.
 
 {% content-ref url="market-structure.md" %}
 [market-structure.md](market-structure.md)
@@ -25,6 +22,14 @@ This toolkit is perfect for both beginners and seasoned traders looking to autom
 [premium-and-discount.md](premium-and-discount.md)
 {% endcontent-ref %}
 
+{% content-ref url="../interbank-price-action-tm/session-opening.md" %}
+[session-opening.md](../interbank-price-action-tm/session-opening.md)
+{% endcontent-ref %}
+
+{% content-ref url="institutional-concepts.md" %}
+[institutional-concepts.md](institutional-concepts.md)
+{% endcontent-ref %}
+
 {% content-ref url="liquidity-concepts.md" %}
 [liquidity-concepts.md](liquidity-concepts.md)
 {% endcontent-ref %}
@@ -33,16 +38,28 @@ This toolkit is perfect for both beginners and seasoned traders looking to autom
 [fib-retracement.md](fib-retracement.md)
 {% endcontent-ref %}
 
-{% content-ref url="highs-and-lows-mtf.md" %}
-[highs-and-lows-mtf.md](highs-and-lows-mtf.md)
+{% content-ref url="../interbank-price-action-tm/trend-channel.md" %}
+[trend-channel.md](../interbank-price-action-tm/trend-channel.md)
 {% endcontent-ref %}
 
-{% content-ref url="scanners.md" %}
-[scanners.md](scanners.md)
+{% content-ref url="../interbank-price-action-tm/support-and-resistance.md" %}
+[support-and-resistance.md](../interbank-price-action-tm/support-and-resistance.md)
+{% endcontent-ref %}
+
+{% content-ref url="../interbank-price-action-tm/momentum.md" %}
+[momentum.md](../interbank-price-action-tm/momentum.md)
+{% endcontent-ref %}
+
+{% content-ref url="highs-and-lows-mtf.md" %}
+[highs-and-lows-mtf.md](highs-and-lows-mtf.md)
 {% endcontent-ref %}
 
 {% content-ref url="alerts.md" %}
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-Price Action Toolkit™ offers a variety of settings that influence the appearance and behavior of the toolkit, with most settings tailored specifically to the feature they modify.
+{% content-ref url="faqs.md" %}
+[faqs.md](faqs.md)
+{% endcontent-ref %}
+
+Instead of juggling multiple scripts, you get a clean, all-in-one solution that helps you spot trends, liquidity grabs, and key reversal zones with confidence.

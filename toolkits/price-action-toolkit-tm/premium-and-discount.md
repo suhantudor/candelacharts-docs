@@ -5,24 +5,44 @@ icon: send-backward
 
 # Premium & Discount
 
-<figure><img src="../../.gitbook/assets/docs-pd-002.png" alt=""><figcaption></figcaption></figure>
+### Dealing Range Analysis <a href="#user-content--dealing-range-analysis" id="user-content--dealing-range-analysis"></a>
 
-Premium and Discount Zones identify and highlight three distinct price regions on a chart:
+To consistently make profitable trades, you need to buy low (cheap) and sell high (expensive). In institutional trading, this concept is formalized as **Premium** and **Discount** zones within a **Dealing Range**.
 
-1. **Premium Zone**: This upper area represents higher price levels where assets are considered to be overvalued. Traders often look to sell or take profits in this zone, as prices are above the perceived fair value.
-2. **Equilibrium Zone**: This central area marks the middle ground between the premium and discount zones. It reflects the fair market value where supply and demand are balanced. Traders may find it advantageous to enter trades or adjust positions in this zone.
-3. **Discount Zone**: This lower area indicates lower price levels where assets are perceived as undervalued. It is often seen as a buying opportunity, as prices are below their fair value and may present potential for upward movement.
+This tool acts as your automated "valuation" scanner, ensuring you never buy at the top or sell at the bottom.
 
-These zones help traders make informed decisions by visualizing where prices stand relative to their perceived value and can guide strategies for entry, exit, and position management.
+### The Zones <a href="#user-content--the-zones" id="user-content--the-zones"></a>
 
-### Settings
+The indicator identifies the current **Trading Range** defined by the most recent major Swing High and Swing Low.
 
-<table><thead><tr><th>Name</th><th>Default</th><th>Options<select multiple><option value="VCr45ehYrqxN" label="Area" color="blue"></option><option value="OsqWUc9HwEkO" label="Line" color="blue"></option><option value="3RsaEmBHrMG0" label="Square" color="blue"></option><option value="18pBT2E1KTDM" label="Circle" color="blue"></option><option value="eIqLzTftGA0L" label="Diamond" color="blue"></option><option value="5bgDmKiG6mfw" label="Cross" color="blue"></option><option value="MhfZUyiGXZ9g" label="xCross" color="blue"></option><option value="JOlgk7xSlREU" label="None" color="blue"></option></select></th></tr></thead><tbody><tr><td>Premium &#x26; Discount</td><td>false</td><td></td></tr><tr><td>Show Equilibrium</td><td>false</td><td></td></tr><tr><td>Show Strong/Weak High/Low</td><td>false</td><td></td></tr><tr><td>Mode</td><td>Area</td><td><span data-option="VCr45ehYrqxN">Area, </span><span data-option="OsqWUc9HwEkO">Line</span></td></tr></tbody></table>
+* **Premium Zone (Top 50%)**: 🔴
+  * _Status_: Expensive.
+  * _Action_: Prioritize **Short** setups. Institutions are looking to offload positions here.
+* **Discount Zone (Bottom 50%)**: 🟢
+  * _Status_: Cheap.
+  * _Action_: Prioritize **Long** setups. Institutions are looking to accumulate positions here.
+* **Equilibrium (50% Level)**:
+  * _Status_: Fair Value.
+  * _Action_: Price often consolidates around this level before choosing a direction.
 
-These zones help traders determine if an event is taking place in a premium, discount, or equilibrium area.
+#### Optimal Trade Entry (OTE) <a href="#user-content--optimal-trade-entry-ote" id="user-content--optimal-trade-entry-ote"></a>
 
-Additionally, each area can be used as a support or resistance.
+Within the Premium or Discount zones, we highlight a specific "sweet spot" (typically the 70-79% retracement). This is high-probability reversal area where risk-to-reward is maximized.
 
-{% hint style="info" %}
-If an uptrend signal appears within a discount zone, it is more likely to trigger a reversal. Similarly, a downtrend signal within a premium zone has a higher chance of indicating a reversal.
-{% endhint %}
+### Structure Labels <a href="#user-content-structure-labels" id="user-content-structure-labels"></a>
+
+We also annotate the boundaries of the range to give you context on the trend:
+
+* **Strong High**: A high that broke structure (made a new low). It is expected to hold as resistance. _Stop Loss placement: Safe._
+* **Weak High**: A high that failed to break structure. It is likely to be targeted as liquidity. _Take Profit target: Ideal._
+* **Strong Low**: A low that broke structure (made a new high). It is expected to hold as support.
+* **Weak Low**: A low that failed to break structure. Likely to be swept.
+
+### Visual Customization <a href="#user-content-visual-customization" id="user-content-visual-customization"></a>
+
+Choose the aesthetic that fits your charting style:
+
+* **Classic**: Distinctly colored zones (Red for Premium, Green for Discount). Best for beginners.
+* **Modern**: Sleek, minimalist shading that blends into the background.
+* **Minimalist**: Only draws the critical levels (0, 0.5, 1) without background fills.
+* **Simple**: Just the range boundaries.

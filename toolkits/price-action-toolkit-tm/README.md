@@ -2,10 +2,12 @@
 icon: chart-candlestick
 ---
 
-# Interbank Price Action™
+# Interbank Price Action™ 🔜
 
-Interbank Price Action™ and ICT (Inner Circle Trader) are pivotal in understanding market behavior.
+**Interbank Price Action™** is a professional-grade toolkit designed for traders who demand precision and clarity.
 
-Price Action Toolkit™ focus on the strategies used by institutional traders to manipulate and capitalize on liquidity, while ICT teachings delve into how these large market players operate.
+<figure><img src="../../.gitbook/assets/docs-ipa-001.png" alt=""><figcaption></figcaption></figure>
 
-By analyzing order blocks, liquidity pools, and market structure shifts, traders can align their strategies with the actions of smart money, gaining a significant edge in anticipating market movements.
+In the chaotic world of financial markets, understanding _why_ price moves is just as important as knowing _where_ it is going. This indicator strips away the noise and reveals the underlying mechanics of the market—Market Structure, Institutional Order Flow, and Liquidity.
+
+Whether you are a seasoned Smart Money Concepts (SMC) trader or just beginning to explore price action, Interbank Price Action™ consolidates tools that would normally require 5 or 6 separate indicators into one seamless, optimized package.

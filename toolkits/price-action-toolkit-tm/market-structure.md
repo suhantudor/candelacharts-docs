@@ -1,64 +1,82 @@
 ---
-description: Market Structure settings
 icon: arrow-up-arrow-down
 ---
 
 # Market Structure
 
-<figure><img src="../../.gitbook/assets/docs-ms-001.png" alt=""><figcaption></figcaption></figure>
+### The Roadmap of Price <a href="#user-content--the-roadmap-of-price" id="user-content--the-roadmap-of-price"></a>
 
-Market structure is fundamental to understanding price action. The Price Action Toolkit™ automatically detects and highlights real-time market structure on your chart, providing a clear view of market trends without relying on traditional technical analysis tools like moving averages.
+**Market Structure** is the most fundamental concept in technical analysis. It tells you "who is winning" the battle between buyers and sellers. By objectively mapping out the Highs and Lows, you can trade _with_ the dominant flow rather than fighting against it.
 
-### Settings
+This tool automates the tedious process of labeling structure, giving you a clean, objective map of the market in real-time.
 
-<table><thead><tr><th>Name</th><th>Default</th><th>Options<select multiple><option value="kBm2BuKtzFwb" label="All" color="blue"></option><option value="6ONDsS4SDjdf" label="BOS" color="blue"></option><option value="v9alclMrAmTj" label="CHoCH" color="blue"></option><option value="qT5HUAoxVfOF" label="CHoCH+" color="blue"></option><option value="HezHcalp2SGp" label="Algorithmic" color="blue"></option><option value="kTPiyDR1x2xW" label="Adjusted" color="blue"></option><option value="T6TvRnpcPWw9" label="Circle" color="blue"></option><option value="nvtdwixwb4nT" label="Square" color="blue"></option><option value="gB0VfP6zuMaK" label="Diamond" color="blue"></option><option value="EUv1d0L0Ngc3" label="Cross" color="blue"></option><option value="l4VKHp35aIUb" label="xCross" color="blue"></option><option value="pX7JtiMouFOT" label="None" color="blue"></option></select></th></tr></thead><tbody><tr><td>Window</td><td>4000</td><td></td></tr><tr><td>Swing Points</td><td>Diamond</td><td><span data-option="T6TvRnpcPWw9">Circle, </span><span data-option="nvtdwixwb4nT">Square, </span><span data-option="gB0VfP6zuMaK">Diamond, </span><span data-option="EUv1d0L0Ngc3">Cross, </span><span data-option="l4VKHp35aIUb">xCross, </span><span data-option="pX7JtiMouFOT">None</span></td></tr><tr><td>Swing</td><td>All | 50</td><td><span data-option="kBm2BuKtzFwb">All, </span><span data-option="6ONDsS4SDjdf">BOS, </span><span data-option="v9alclMrAmTj">CHoCH, </span><span data-option="qT5HUAoxVfOF">CHoCH+</span></td></tr><tr><td>Internal</td><td>All | 5</td><td><span data-option="kBm2BuKtzFwb">All, </span><span data-option="6ONDsS4SDjdf">BOS, </span><span data-option="v9alclMrAmTj">CHoCH, </span><span data-option="qT5HUAoxVfOF">CHoCH+</span></td></tr><tr><td>Mode</td><td>Adjusted</td><td><span data-option="HezHcalp2SGp">Algorithmic, </span><span data-option="kTPiyDR1x2xW">Adjusted</span></td></tr><tr><td>Plot Candle</td><td>false</td><td></td></tr><tr><td>Bar Color</td><td>false</td><td></td></tr></tbody></table>
+### Structure Types <a href="#user-content-structure-types" id="user-content-structure-types"></a>
 
-Market structure helps traders identify both trend reversals and continuations through two key signals:
+We separate structure into two distinct layers to help you see both the "Big Picture" and the "Immediate Action."
 
-* Change of Character (CHoCH)
-* Break of Structure (BOS)
+#### 1. Macro Structure (Swing) <a href="#user-content-1-macro-structure-swing" id="user-content-1-macro-structure-swing"></a>
 
-These concepts are explained in detail in the subsections below.
+* **Purpose**: Defines the overall trend bias (Daily/4H style structure).
+* **Usage**: Trade in this direction. If Macro is Bullish, look for Longs.
+* **Settings**: Controlled by `Macro Length`. A higher number (e.g., 50) filters out noise and shows main pivots.
 
-### Change Of Character (CHoCH)
+#### 2. Micro Structure (Internal) <a href="#user-content-2-micro-structure-internal" id="user-content-2-micro-structure-internal"></a>
 
-A Change of Character (CHoCH), sometimes referred to as a "market structure shift," occurs when the price breaks a previous swing low in an uptrend (bullish CHoCH) or a previous swing high in a downtrend (bearish CHoCH), signaling a potential market reversal.
+* **Purpose**: Defines the short-term momentum (15m/5m style structure).
+* **Usage**: Used for entries and early warning signals. A Micro CHoCH often precedes a Macro reversal.
+* **Settings**: Controlled by `Micro Length`. A lower number (e.g., 5) catches every minor pullback.
 
-<figure><img src="../../.gitbook/assets/docs-choch-001.png" alt=""><figcaption></figcaption></figure>
+### Structural Events <a href="#user-content--structural-events" id="user-content--structural-events"></a>
 
-The Price Action Toolkit™ identifies two types of CHoCHs:
+We automatically detect and label three key events:
 
-* **Leading CHoCH** (labeled as CHoCH): This occurs when there are no prior signs of reversal, such as a failed higher high (or lower high) in an uptrend, or a failed lower low (or higher low) in a downtrend.
-* **Supported CHoCH** (labeled as CHoCH+): This is preceded by early signs of a market reversal, like a failed higher high (or lower high) in an uptrend or a failed lower low (or higher low) in a downtrend.
+#### **BOS (Break of Structure)** <a href="#user-content-bos-break-of-structure" id="user-content-bos-break-of-structure"></a>
 
-The distinction between the two lies in the relative position of prior swing highs or lows, providing different levels of confirmation for a potential trend change.
+* **Meaning**: Trend Continuation.
+* **Bullish BOS**: Price breaks above a Higher High. The uptrend is healthy.
+* **Bearish BOS**: Price breaks below a Lower Low. The downtrend is healthy.
 
-{% hint style="info" %}
-Users can choose to display either all types of CHoCHs or select specific ones using the drop-down menus in the Market Structure settings section of the toolkit.
-{% endhint %}
+#### **CHoCH (Change of Character)** <a href="#user-content-choch-change-of-character" id="user-content-choch-change-of-character"></a>
 
-### Break Of Structure (BOS)
+* **Meaning**: The _first_ sign of a potential reversal.
+* **Bullish CHoCH**: Price breaks above the last Lower High. The downtrend might be ending.
+* **Bearish CHoCH**: Price breaks below the last Higher Low. The uptrend might be ending.
 
-A Break of Structure (BOS) primarily serves as a trend continuation signal. Unlike a CHoCH, a BOS occurs when the price breaks a previous swing high during an uptrend (bullish BOS), creating a new higher high, or breaks a previous swing low during a downtrend (bearish BOS), forming a new lower low. A BOS typically follows a CHoCH and indicates that the current trend is likely to continue.
+#### **CHoCH+ (Confirmed Change)** <a href="#user-content-choch-confirmed-change" id="user-content-choch-confirmed-change"></a>
 
-It is common to see consecutive BOSs as they reinforce the ongoing trend.
+* **Meaning**: A higher-probability reversal signal.
+* **Logic**: Standard CHoCH can be triggered by a wick. **CHoCH+** requires a **candle close** beyond the structural level to confirm the breakout.
 
-<figure><img src="../../.gitbook/assets/docs-bos-001.png" alt=""><figcaption></figcaption></figure>
+### Visualizing the Swings <a href="#user-content--visualizing-the-swings" id="user-content--visualizing-the-swings"></a>
 
-### Swing & Internal Structure
+#### Zigzag <a href="#user-content-zigzag" id="user-content-zigzag"></a>
 
-The Smart Money Concepts toolkit provides two distinct dimensions for analyzing market structure:
+Connects the Highs and Lows with a line.
 
-1. **Internal Structure**
-2. **Swing Structure**
+* **Benefit**: Instantly visualize the "Wave" of the market. See impulsive moves vs. corrective moves at a glance.
 
-**Internal Structure** is based on shorter-term swing highs and lows, while **Swing Structure** focuses on longer-term points. Users can customize the lookback period for detecting swing points in both internal and swing structures.
+#### Swing Points <a href="#user-content-swing-points" id="user-content-swing-points"></a>
 
-* **Internal Structures**: Use a lookback range of 5 to 49.
-* **Swing Structures**: Use a lookback range of 50 to 100.
+Labels the specific pivots with symbols.
 
-Internal Structures are highlighted with dashed lines and labeled in a smaller text size, differentiating them from the more prominent labels and lines used for Swing Structures.
+* **HH / HL**: Higher High / Higher Low.
+* **LH / LL**: Lower High / Lower Low.
+* **Customization**: You can change the shape (Circle, Square, Diamond) to fit your aesthetic.
 
-{% hint style="info" %}
-The size of the labels for internal and swing structure can be changed from the **Theme** settings section.
-{% endhint %}
+### Strong vs. Weak Highs/Lows <a href="#user-content--strong-vs-weak-highslows" id="user-content--strong-vs-weak-highslows"></a>
+
+This is a powerful concept for placing Stop Losses and Take Profits.
+
+#### **Strong High/Low**  <a href="#user-content-strong-highlow" id="user-content-strong-highlow"></a>
+
+* **Definition**: A pivot that **caused a Break of Structure**.
+  * _Example_: A High that pushed price down to make a new Low.
+* **Psychology**: Institutions defended this level and pushed price aggressively. It is likely to hold again.
+* **Action**: **Place your Stop Loss here.** It is a safe invalidated point.
+
+#### **Weak High/Low**  <a href="#user-content-weak-highlow" id="user-content-weak-highlow"></a>
+
+* **Definition**: A pivot that **failed to break structure**.
+  * _Example_: A High that failed to make a new Low and price reversed.
+* **Psychology**: This level failed to do its job. It is "weak." behaviorally, price often returns to "sweep" these levels for liquidity.
+* **Action**: **Target this for Take Profit.** Price is likely to trade through it.

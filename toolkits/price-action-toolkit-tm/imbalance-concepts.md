@@ -1,81 +1,64 @@
 ---
-description: Imbalance Concepts settings
 icon: chart-bullet
 ---
 
 # Imbalances
 
-Imbalance Concepts is an aggregation of ICT Imbalances like FVG, IFVG, BPR, etc. Imbalances in market prices occur when there is a significant discrepancy between supply and demand, causing the asset to deviate from its fair value. This imbalance can create inefficiencies in the market.
+### Market Inefficiencies <a href="#user-content-market-inefficiencies" id="user-content-market-inefficiencies"></a>
 
-<figure><img src="../../.gitbook/assets/docs-fvg-003.png" alt=""><figcaption></figcaption></figure>
+**Imbalances**—most commonly known as **Fair Value Gaps (FVG)**—occur when buying or selling pressure is so intense that price "skips" levels, leaving behind unfilled orders.
 
-Typically, prices will move back toward the area where the imbalance took place in an effort to restore equilibrium. These regions of imbalance often act as support and resistance levels, providing key areas of interest for traders.
+These gaps act as:
 
-### Settings
+1. **Magnets**: Price often returns to "fill" or "rebalance" the gap.
+2. **Support/Resistance**: Once filled, the zone often triggers a reversal.
 
-<table><thead><tr><th>Name</th><th>Default</th><th>Options<select multiple><option value="OxtgHGzJrNlI" label="FVG" color="blue"></option><option value="w7UGWTFczN49" label="IFVG" color="blue"></option><option value="8UhEo0yLsJwD" label="VI" color="blue"></option><option value="uG2F560to2ZM" label="OG" color="blue"></option><option value="kI56bVmk3cgq" label="BPR" color="blue"></option><option value="GiU8Rwn4gCXS" label="RDRB" color="blue"></option><option value="TNHTSnY5M7ET" label="NWOG" color="blue"></option><option value="PdkaafZeEny1" label="NDOG" color="blue"></option><option value="dN2m1ieovCJD" label="Close" color="blue"></option><option value="8C7XLfb75OxT" label="Wick" color="blue"></option><option value="dRXkNoX1t0Pq" label="Dotted" color="blue"></option><option value="REmP9k6UBjVK" label="Solid" color="blue"></option><option value="lgvuhFNIFAaZ" label="Dashed" color="blue"></option><option value="vPFCHQFUw8p8" label="None" color="blue"></option><option value="nzCXIWxtv0FP" label="Open to Close" color="blue"></option><option value="g9YfpeHJwdOp" label="High to Low" color="blue"></option></select></th></tr></thead><tbody><tr><td>Show</td><td>FVG</td><td><span data-option="OxtgHGzJrNlI">FVG, </span><span data-option="w7UGWTFczN49">IFVG, </span><span data-option="8UhEo0yLsJwD">VI, </span><span data-option="uG2F560to2ZM">OG, </span><span data-option="kI56bVmk3cgq">BPR</span></td></tr><tr><td>Show last</td><td>5</td><td></td></tr><tr><td>Length</td><td>10</td><td></td></tr><tr><td>Mitigation</td><td>None</td><td><span data-option="dN2m1ieovCJD">Close, </span><span data-option="8C7XLfb75OxT">Wick, </span><span data-option="vPFCHQFUw8p8">None</span></td></tr><tr><td>Timeframe</td><td>Chart</td><td></td></tr><tr><td>Threshold</td><td>0</td><td></td></tr><tr><td>Show mid-line</td><td>true</td><td><span data-option="dRXkNoX1t0Pq">Dotted, </span><span data-option="lgvuhFNIFAaZ">Dashed, </span><span data-option="REmP9k6UBjVK">Solid</span></td></tr><tr><td>Show border</td><td>false</td><td><span data-option="dRXkNoX1t0Pq">Dotted, </span><span data-option="lgvuhFNIFAaZ">Dashed, </span><span data-option="REmP9k6UBjVK">Solid</span></td></tr><tr><td>Hide overlap</td><td>false</td><td></td></tr><tr><td>Displacement</td><td>Open to Close</td><td><span data-option="nzCXIWxtv0FP">Open to Close, </span><span data-option="g9YfpeHJwdOp">High to Low</span></td></tr><tr><td>Displacement Length</td><td>60</td><td></td></tr><tr><td>Displacement Strength</td><td>4</td><td></td></tr><tr><td>Extend</td><td>false</td><td></td></tr><tr><td>Elongate</td><td>false</td><td></td></tr></tbody></table>
+### Gap Types Explained <a href="#user-content--gap-types-explained" id="user-content--gap-types-explained"></a>
 
-The toolkit is able to detect the following imbalances:
+#### 1. Fair Value Gap (FVG) <a href="#user-content-1-fair-value-gap-fvg" id="user-content-1-fair-value-gap-fvg"></a>
 
-* Fair Value Gaps (FVG)
-* Inversion Fair Value Gaps (IFVG)
-* Opening Gaps (OG)
-* Volume Imbalances (VI)
-* Balanced Price Range (BPR)
+The most fundamental imbalance pattern.
 
-### Fair Value Gaps (FVG)
+* **Structure**: A 3-candle sequence where the wicks of candle 1 and candle 3 do not overlap. The space between them is the gap.
+* **Usage**: Wait for price to tap into the FVG (often the 50% level) for a high-probability entry.
 
-Fair Value Gaps (FVG) are market imbalances identified within a sequence of three candles.
+#### 2. Inversion FVG (IFVG) <a href="#user-content-2-inversion-fvg-ifvg" id="user-content-2-inversion-fvg-ifvg"></a>
 
-<figure><img src="../../.gitbook/assets/docs-fvg-001.png" alt=""><figcaption></figcaption></figure>
+An FVG that has "flipped" its polarity.
 
-These gaps occur when the wicks of the outer candles do not overlap the body of the central candle, creating a range between the wicks that marks the Fair Value Gap.
+* **Scenario**: Price smashes through a Bullish FVG without stopping.
+* **Result**: That failed Support zone now becomes **Resistance**. We automatically label this as a **Bearish Inversion FVG**.
+* **Power**: These are exceptionally strong signals for trend reversals or continuations.
 
-A bullish Fair Value Gap forms when the current low is higher than the high two bars prior.
+#### 3. Volume Imbalance (VI) <a href="#user-content-3-volume-imbalance-vi" id="user-content-3-volume-imbalance-vi"></a>
 
-Conversely, a bearish Fair Value Gap occurs when the current high is lower than the low two bars prior.
+A gap formed by the difference between the **Close** of one candle and the **Open** of the next.
 
-### Inversion Fair Value Gaps (IFVG)
+* **Context**: Often seen in low-liquidity environments or during high-volatility news events.
 
-Inverse Fair Value Gaps (FVGs) are essentially mitigated Fair Value Gaps that can serve as potential retest areas.
+#### 4. Opening Gap (OG) <a href="#user-content-4-opening-gap-og" id="user-content-4-opening-gap-og"></a>
 
-<figure><img src="../../.gitbook/assets/docs-ifvg-001.png" alt=""><figcaption></figcaption></figure>
+The jump between yesterday's market **Close** and today's market **Open**.
 
-When a bullish Fair Value Gap is mitigated, it creates a bearish inverse Fair Value Gap, indicating that the price might retrace upward to retest the area.
+* **Context**: Critical for Daily bias. If price opens huge gap up, the OG often acts as support for the day.
 
-Conversely, a mitigated bearish Fair Value Gap results in a bullish inverse Fair Value Gap, suggesting that the price could retrace downward to retest the area.
+#### 5. Balanced Price Range (BPR) <a href="#user-content-5-balanced-price-range-bpr" id="user-content-5-balanced-price-range-bpr"></a>
 
-### Opening Gaps (OG)
+A complex pattern where a Bullish FVG and a Bearish FVG overlap.
 
-Opening Gaps are market imbalances identified by two consecutive candles with non-overlapping wicks, creating a visible gap or empty area.
+* **Meaning**: The market has aggressively bought up and then sold down through the same price area. It represents a "knot" of equilibrium that price respects highly.
 
-<figure><img src="../../.gitbook/assets/docs-og-001.png" alt=""><figcaption></figcaption></figure>
+### Smart Settings <a href="#user-content-smart-settings" id="user-content-smart-settings"></a>
 
-These imbalances are frequently observed in stocks and in shorter timeframes of cryptocurrencies and forex pairs.
+#### Filtering (Reduce Noise) <a href="#user-content--filtering-reduce-noise" id="user-content--filtering-reduce-noise"></a>
 
-### Volume Imbalances (VI)
+* **Threshold (ATR Filter)**: Don't want to see every tiny 1-pip gap? Set a threshold (e.g., 0.5 ATR). We will hide any imbalance smaller than this size.
+* **Displacement**: Only show gaps that were created by a _strong_ move (a large candle body). This separates true institutional intent from choppy noise.
 
-Volume Imbalances occur when two consecutive candles have non-overlapping bodies, but their wicks do overlap.
+#### Mitigation Logic <a href="#user-content--mitigation-logic" id="user-content--mitigation-logic"></a>
 
-<figure><img src="../../.gitbook/assets/docs-vi-001.png" alt=""><figcaption></figcaption></figure>
+What happens when price fills the gap?
 
-These imbalances are typically observed in stocks or in shorter timeframes of cryptocurrencies and forex pairs.
-
-### Balanced Price Range (BPR)
-
-The Balanced Price Range is a key concept in understanding how price behaves around certain levels that represent equilibrium or "fair value" in the market.
-
-<figure><img src="../../.gitbook/assets/docs-bpr-001.png" alt=""><figcaption></figcaption></figure>
-
-The idea behind BPR is to identify price ranges where both buying and selling pressures are balanced, indicating a period of consolidation or price acceptance.
-
-In practice, it often shows up in areas where market makers have accumulated positions, and the price tends to oscillate around a central or equilibrium level.
-
-### Mitigation
-
-Once the price breaches a highlighted imbalance area, it is considered "mitigated" and will automatically be removed.
-
-The Price Action Toolkit™ indicator allows users to customize the mitigation conditions through the Mitigation setting. Available options include:
-
-* **Average**: For a bullish imbalance, when the closing price is below the midpoint of the price range, it indicates that despite upward momentum, the price closed lower than the average, suggesting a potential buying opportunity. Conversely, for a bearish imbalance, if the closing price is above the midpoint, it means that despite downward pressure, the price closed higher than the average, signaling a potential selling opportunity. Identifying these conditions helps traders recognize significant market imbalances and make more informed decisions.
-* **Wick**: When the low price breaches the bottom boundary for a bullish imbalance, it signals that the price has dipped below a key support level. This breach may indicate a potential upward reversal as buyers enter the market at lower prices. Conversely, when the high price breaches the top boundary for a bearish imbalance, it means the price has exceeded a crucial resistance level. This situation could lead to a downward reversal due to increased selling pressure. Identifying these breaches helps traders spot significant market imbalances and make more informed trading decisions.
+* **Dim**: The zone fades out to show it's less significant.
+* **Hide**: The zone disappears completely to keep your chart clean.
+* **Extend**: Keep the zone active until it is fully closed.

@@ -5,16 +5,39 @@ icon: align-justify
 
 # Fibonacci Retracement
 
-Fibonacci retracements are levels derived from two price points using ratios from the Fibonacci sequence.
+### Precise Market Geometry <a href="#user-content--precise-market-geometry" id="user-content--precise-market-geometry"></a>
 
-<figure><img src="../../.gitbook/assets/docs-fib-002.png" alt=""><figcaption></figcaption></figure>
+The **Fibonacci Retracement** tool is essential for identifying potential reversal zones during a trend. Instead of drawing lines manually every time the market moves, this indicator automatically identifies the most relevant recent swing and plots key retracement levels for you.
 
-The toolkit allows users to display Fibonacci retracements, based on a range between one upper and one lower price extremity.
+This feature is designed to help you spot "discounted" entry prices in an uptrend or "expensive" entry prices in a downtrend.
 
-### Settings
+### Key Levels Explained <a href="#user-content--key-levels-explained" id="user-content--key-levels-explained"></a>
 
-<table><thead><tr><th>Name</th><th>Defaut</th><th>Options<select multiple><option value="4zBx0SdDBXNM" label="Days" color="blue"></option><option value="NraB3MBxf03z" label="Candles" color="blue"></option><option value="eYXqcSNepj0n" label="Dotted" color="blue"></option><option value="Pr7dhC3V187x" label="Dashed" color="blue"></option><option value="PhtCB63IYa7c" label="Solid" color="blue"></option></select></th></tr></thead><tbody><tr><td>Show</td><td>false</td><td></td></tr><tr><td>Loopback</td><td>5</td><td></td></tr><tr><td>Line style</td><td></td><td><span data-option="eYXqcSNepj0n">Dotted, </span><span data-option="Pr7dhC3V187x">Dashed, </span><span data-option="PhtCB63IYa7c">Solid</span></td></tr><tr><td>Current level</td><td>false</td><td></td></tr><tr><td>Show 0.886/1.113</td><td>false</td><td></td></tr><tr><td>Use dynamic coloring</td><td>true</td><td></td></tr><tr><td>Show labels</td><td>true</td><td></td></tr><tr><td>Reverse</td><td>false</td><td></td></tr><tr><td>Extend</td><td>false</td><td></td></tr></tbody></table>
+We automatically plot the most critical Fibonacci ratios used by institutional traders:
 
-Users can customize the length of the lookback period, choosing between specifying it in terms of days or the number of candles.
+* **0 (0%)**: The start of the retracement (Swing High/Low).
+* **0.382 (38.2%)**: **Shallow Retracement**.
+  * _Usage_: Strong potential trend continuation. If price bounces here, the momentum is very high.
+* **0.5 (50%)**: **Equilibrium**.
+  * _Usage_: The midpoint of the swing. Often acts as a psychological support/resistance level.
+* **0.618 (61.8%)**: **The Golden Pocket**.
+  * _Usage_: The most famous reversal ratio. A highly probable area for price to turn.
+* **0.705 (70.5%)**: **OTE (Optimal Trade Entry)**.
+  * _Usage_: A precision level often used by algorithmic traders for deep retracement entries.
+* **0.79 (79%)**: **Deep Retracement**.
+  * _Usage_: The "last line of defense" before a full reversal. Entries here offer excellent Risk/Reward ratios.
+* **1 (100%)**: The invalidation point (Swing High/Low).
 
-This flexibility allows for precise adjustments to fit different trading strategies and timeframes, ensuring that the analysis aligns with individual trading needs and preferences.
+### Zones of Interest <a href="#user-content--zones-of-interest" id="user-content--zones-of-interest"></a>
+
+To simplify your chart, we verify two distinct zones based on depth:
+
+#### 1. Shallow Pullback Zone (Green/Buy Zone) <a href="#user-content-1-shallow-pullback-zone-greenbuy-zone" id="user-content-1-shallow-pullback-zone-greenbuy-zone"></a>
+
+* **Range**: **0.382 – 0.50**
+* **Meaning**: This zone represents a minor correction in a strong trend. Aggressive traders look for entries here to catch continuation moves quickly.
+
+#### 2. Deep Retracement Zone (Red/Sell Zone) <a href="#user-content-2-deep-retracement-zone-redsell-zone" id="user-content-2-deep-retracement-zone-redsell-zone"></a>
+
+* **Range**: **0.705 – 0.79**
+* **Meaning**: This is the "sweet spot" for high R:R trades. Price has pulled back significantly, offering a cheap entry before the trend (ideally) resumes. This area is often referred to as the "Kill Zone" or "OTE".

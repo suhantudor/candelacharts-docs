@@ -23,6 +23,7 @@
   * [Trend Channel](toolkits/interbank-price-action-tm/trend-channel.md)
   * [Support & Resistance](toolkits/interbank-price-action-tm/support-and-resistance.md)
   * [Momentum](toolkits/interbank-price-action-tm/momentum.md)
+  * [Accumulation & Distribution](toolkits/interbank-price-action-tm/accumulation-and-distribution.md)
   * [Key Levels](toolkits/price-action-toolkit-tm/highs-and-lows-mtf.md)
   * [Scanners](toolkits/price-action-toolkit-tm/scanners.md)
   * [Alerts](toolkits/price-action-toolkit-tm/alerts.md)
