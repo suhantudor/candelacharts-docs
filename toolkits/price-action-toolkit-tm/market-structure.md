@@ -8,6 +8,8 @@ icon: arrow-up-arrow-down
 
 **Market Structure** is the most fundamental concept in technical analysis. It tells you "who is winning" the battle between buyers and sellers. By objectively mapping out the Highs and Lows, you can trade _with_ the dominant flow rather than fighting against it.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-008.png" alt=""><figcaption></figcaption></figure>
+
 This tool automates the tedious process of labeling structure, giving you a clean, objective map of the market in real-time.
 
 ### Structure Types <a href="#user-content-structure-types" id="user-content-structure-types"></a>
@@ -32,17 +34,23 @@ We automatically detect and label three key events:
 
 #### **BOS (Break of Structure)** <a href="#user-content-bos-break-of-structure" id="user-content-bos-break-of-structure"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-003.png" alt=""><figcaption></figcaption></figure>
+
 * **Meaning**: Trend Continuation.
 * **Bullish BOS**: Price breaks above a Higher High. The uptrend is healthy.
 * **Bearish BOS**: Price breaks below a Lower Low. The downtrend is healthy.
 
 #### **CHoCH (Change of Character)** <a href="#user-content-choch-change-of-character" id="user-content-choch-change-of-character"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-004.png" alt=""><figcaption></figcaption></figure>
+
 * **Meaning**: The _first_ sign of a potential reversal.
 * **Bullish CHoCH**: Price breaks above the last Lower High. The downtrend might be ending.
 * **Bearish CHoCH**: Price breaks below the last Higher Low. The uptrend might be ending.
 
 #### **CHoCH+ (Confirmed Change)** <a href="#user-content-choch-confirmed-change" id="user-content-choch-confirmed-change"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-005.png" alt=""><figcaption></figcaption></figure>
 
 * **Meaning**: A higher-probability reversal signal.
 * **Logic**: Standard CHoCH can be triggered by a wick. **CHoCH+** requires a **candle close** beyond the structural level to confirm the breakout.
@@ -51,11 +59,15 @@ We automatically detect and label three key events:
 
 #### Zigzag <a href="#user-content-zigzag" id="user-content-zigzag"></a>
 
+<figure><img src="../../.gitbook/assets/docs-ipa-006.png" alt=""><figcaption></figcaption></figure>
+
 Connects the Highs and Lows with a line.
 
 * **Benefit**: Instantly visualize the "Wave" of the market. See impulsive moves vs. corrective moves at a glance.
 
 #### Swing Points <a href="#user-content-swing-points" id="user-content-swing-points"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-009.png" alt=""><figcaption></figcaption></figure>
 
 Labels the specific pivots with symbols.
 
@@ -66,6 +78,8 @@ Labels the specific pivots with symbols.
 ### Strong vs. Weak Highs/Lows <a href="#user-content--strong-vs-weak-highslows" id="user-content--strong-vs-weak-highslows"></a>
 
 This is a powerful concept for placing Stop Losses and Take Profits.
+
+<figure><img src="../../.gitbook/assets/docs-ipa-007.png" alt=""><figcaption></figcaption></figure>
 
 #### **Strong High/Low**  <a href="#user-content-strong-highlow" id="user-content-strong-highlow"></a>
 
