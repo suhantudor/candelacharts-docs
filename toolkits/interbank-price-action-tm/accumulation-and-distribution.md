@@ -8,6 +8,8 @@ icon: angle
 
 Markets move in cycles of Accumulation (buying) and Distribution (selling). This tool helps you identify these consolidation phases before the markup or markdown begins.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-043.png" alt=""><figcaption></figcaption></figure>
+
 #### How It Works <a href="#user-content-how-it-works" id="user-content-how-it-works"></a>
 
 We scan for specific price patterns that match the schematic of Accumulation or Distribution.

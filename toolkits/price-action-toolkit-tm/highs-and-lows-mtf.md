@@ -8,6 +8,8 @@ icon: line-height
 
 Professional traders always chart from the "Top Down." They know where the Weekly High or Monthly Open is, even when they are scalping the 1-minute chart.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-044.png" alt=""><figcaption></figcaption></figure>
+
 This module brings those critical levels onto your current timeframe, so you never lose sight of the big picture.
 
 ### The Levels <a href="#user-content--the-levels" id="user-content--the-levels"></a>
@@ -17,6 +19,7 @@ We automatically plot the **Open**, **High**, **Low**, and **Close** of the prev
 * **PDH / PDL**: Previous Daily High / Low.
 * **PWH / PWL**: Previous Weekly High / Low.
 * **PMH / PML**: Previous Monthly High / Low.
+* **PYH / PYL**: Previous Year High / Low.
 * **DO / WO / MO**: Daily / Weekly / Monthly Open.
 
 #### Why It Matters <a href="#user-content-why-it-matters" id="user-content-why-it-matters"></a>

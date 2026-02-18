@@ -8,11 +8,15 @@ icon: arrow-trend-up
 
 The **Trend Channel** tool helps you instantly visualize the market's "flow." Whether the market is trending cleanly or drifting chaotically, these channels provide the boundaries you need to identify overbought (Premium) and oversold (Discount) conditions relative to the trend.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-038.png" alt=""><figcaption></figcaption></figure>
+
 ### Channel Types <a href="#user-content-channel-types" id="user-content-channel-types"></a>
 
 We offer two distinct methods for calculating the channel, each with its own advantages:
 
 #### 1. Trendline (Pivot-Based) <a href="#user-content-1-trendline-pivot-based" id="user-content-1-trendline-pivot-based"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-039.png" alt=""><figcaption></figcaption></figure>
 
 * **Logic**: This method finds the most recent Pivot Highs and Pivot Lows and draws dynamic trendlines to connect them.
 * **Best For**: Traders who prefer "organic" channels that adapt to Market Structure break points.
@@ -29,6 +33,8 @@ Think of it as the market's short-term "guardrails" — they show you where pric
 {% endhint %}
 
 #### 2. Channel (Linear Regression) <a href="#user-content-2-channel-linear-regression" id="user-content-2-channel-linear-regression"></a>
+
+<figure><img src="../../.gitbook/assets/docs-ipa-040.png" alt=""><figcaption></figcaption></figure>
 
 * **Logic**: Uses a 5-point linear regression algorithm to mathematically fit a channel around the price action.
 * **Best For**: Identifying the statistical "mean" of the trend and its standard deviations.

@@ -8,6 +8,8 @@ icon: road-spikes
 
 Momentum is the engine of price movement. While many indicators lag, **Momentum Impulse** identifies the _initiation_ of a move. It highlights candles that display exceptional strength relative to recent history, often signaling the arrival of institutional volume.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-042.png" alt=""><figcaption></figcaption></figure>
+
 ### Impulse Candles <a href="#user-content-impulse-candles" id="user-content-impulse-candles"></a>
 
 Not all large candles are significant. Some are just noise. We filter for true "Impulse Candles" based on specific criteria:

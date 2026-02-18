@@ -8,6 +8,8 @@ icon: arrows-left-right
 
 Drawing Support and Resistance (S/R) lines can be subjective and tedious. This tool automates the process by scanning historical price action to find "clusters" where price has reacted multiple times.
 
+<figure><img src="../../.gitbook/assets/docs-ipa-041.png" alt=""><figcaption></figcaption></figure>
+
 It doesn't just draw lines; it identifies **High-Probability Zones** where liquidity and orders are stacked.
 
 ### How It Works <a href="#user-content--how-it-works" id="user-content--how-it-works"></a>
