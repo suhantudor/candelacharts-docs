@@ -10,7 +10,7 @@
 
 ## Toolkits
 
-* [Interbank Price Action™ 🔜](toolkits/price-action-toolkit-tm/README.md)
+* [Interbank Price Action™](toolkits/price-action-toolkit-tm/README.md)
   * [Overview](toolkits/price-action-toolkit-tm/overview.md)
   * [Market Structure](toolkits/price-action-toolkit-tm/market-structure.md)
   * [Blocks](toolkits/price-action-toolkit-tm/block-concepts.md)
