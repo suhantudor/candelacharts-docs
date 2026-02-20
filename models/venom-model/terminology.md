@@ -50,7 +50,3 @@ Noticeably thicker (default width 5), solid or dashed/dotted style (customizable
 ### **Fair Value Gap**
 
 A Fair Value Gap is a price imbalance created when the market moves strongly, leaving a gap between candles where little to no trading occurred, often acting as a zone the market may revisit.
-
-### **Inverse Fair Value Gap**
-
-An Inverse Fair Value Gap forms when a previously created FVG is invalidated in the opposite direction, signaling a potential shift in market structure or order flow.

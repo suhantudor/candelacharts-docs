@@ -9,7 +9,7 @@ The **CandelaCharts SFP Model** is a structured toolkit designed to detect and m
 
 * **SFP Detection**
 * **Trendlines and Regression Channel**
-* **Lower Timeframe Imbalances (FVG, IFVG)**
+* **Lower Timeframe Imbalance (FVG)**
 * **Higher Timeframe (HTF) Candle Groups**
 * **SFP Lifecycle Tracking**
 * **Dashboard**
