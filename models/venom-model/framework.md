@@ -5,7 +5,7 @@ icon: diagram-venn
 
 # Framework
 
-<figure><img src="../../.gitbook/assets/docs-sf-model-005.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-sfp-008.png" alt=""><figcaption></figcaption></figure>
 
 The SFP Model follows this logical sequence for every potential setup:
 
