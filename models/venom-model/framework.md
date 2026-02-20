@@ -35,8 +35,8 @@ The setup waits for price to close strongly in the reversal direction:
 
 The model now watches how far price moves in the expected direction:
 
-* Price reaches the **trendline** opposing boundary first → **Partial Success** (lime color)
-* Price reaches the **channel** opposing boundary (stronger target) → **Successful** (green color)
+* Price reaches the **first stdev** level → **Partial Success** (lime color)
+* Price reaches the **second stdev** level (stronger target) → **Successful** (green color)
 * Price turns around and breaks the original swing level **or** the sweep wick extreme in the wrong direction → **Failed** (red color)
 
 ### **Invalidation (can happen at any stage before full success)**&#x20;
