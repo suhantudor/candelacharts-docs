@@ -162,6 +162,7 @@
   * [Terminology](models/venom-model/terminology.md)
   * [Components](models/venom-model/components.md)
   * [Statuses](models/venom-model/statuses.md)
+  * [Trend Channel](models/sfp-model/trend-channel.md)
   * [Framework](models/venom-model/framework.md)
   * [Dashboard](models/venom-model/dashboard.md)
   * [Alerts](models/venom-model/alerts.md)
