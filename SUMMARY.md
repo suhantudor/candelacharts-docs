@@ -141,6 +141,7 @@
   * [Terminology](models/amd-model/terminology.md)
   * [Timeframe Mapping](models/amd-model/timeframe-mapping.md)
   * [Components](models/amd-model/components.md)
+  * [Footprint](models/amd-model/footprint.md)
   * [Framework](models/amd-model/framework.md)
   * [Dashboard](models/amd-model/dashboard.md)
   * [Alerts](models/amd-model/alerts.md)
