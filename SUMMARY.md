@@ -4,9 +4,10 @@
 
 * [Quick Start](README.md)
 * [What is CandelaCharts?](get-started/what-is-candelacharts.md)
-* [FAQs](get-started/faqs.md)
-* [Community](get-started/community.md)
-* [Markets](get-started/markets.md)
+* [Frequently Asked Questions](get-started/faqs.md)
+* [Join Our Community](get-started/community.md)
+* [Markets Availability](get-started/markets.md)
+* [Trading Framework](get-started/trading-framework.md)
 
 ## Toolkits
 

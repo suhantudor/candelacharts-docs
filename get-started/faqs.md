@@ -1,11 +1,11 @@
 ---
-description: Frequently Asked Questions
+description: CandelaCharts FAQs
 icon: clipboard-question
 cover: ../.gitbook/assets/candelaa-cover.png
 coverY: 0
 ---
 
-# FAQs
+# Frequently Asked Questions
 
 <details>
 
