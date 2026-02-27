@@ -4,8 +4,6 @@ icon: frame
 
 # Trading Framework
 
-## Framework
-
 Profitable trading is not a product of pattern recognition alone. It is the consequence of a disciplined, structured methodology — one that places every decision within a precise and verifiable context. The trader who operates without such a framework is not analyzing markets; they are reacting to them.
 
 The **Where — What — When Framework** is a universal decision-making model designed to eliminate ambiguity from the trade selection process.
