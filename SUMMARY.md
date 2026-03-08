@@ -356,7 +356,7 @@
   * [Usage](investing/shiller-pe-ratio/usage.md)
   * [Confluences](investing/shiller-pe-ratio/confluences.md)
   * [FAQs](investing/shiller-pe-ratio/faqs.md)
-* [Sector Rotation Map 🔜](investing/sector-rotation-map/README.md)
+* [Sector Rotation Map](investing/sector-rotation-map/README.md)
   * [Overview](investing/sector-rotation-map/overview.md)
   * [Features](investing/sector-rotation-map/features.md)
   * [Usage](investing/sector-rotation-map/usage.md)
