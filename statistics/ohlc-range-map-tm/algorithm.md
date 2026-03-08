@@ -11,6 +11,7 @@ The **OHLC Range Map** is a sophisticated tool designed to provide deeper insigh
 
 * **Mean**
 * **Median**
+* **Both**
 
 These methods, coupled with insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
@@ -34,6 +35,12 @@ The **Median** method focuses on the middle value within the OHLC dataset, provi
 By isolating the most central data point, the **Median** is particularly effective in volatile markets, ensuring the analysis remains unaffected by extreme wicks or spikes.
 
 When applied in conjunction with manipulation and distribution phases, the **Median** highlights stable zones and reliable price levels for potential trade entries or exits.
+
+### 3. Both (Mean & Median)
+
+The "Both" method provides a hybrid analytical approach by calculating both the Mean and Median values simultaneously. This dual-layered perspective allows traders to witness the confluence between central tendency and equilibrium, offering a more comprehensive validation of range levels.
+
+By combining the strengths of both calculations, this method highlights high-conviction zones where the average price action (Mean) aligns with the most central data point (Median), reducing ambiguity during periods of high volatility and providing a clearer roadmap for manipulation and distribution phases.
 
 ### Period Options
 
