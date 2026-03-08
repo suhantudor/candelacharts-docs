@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/calmar-ratio-001.png" alt=""><figcaption></figcaption></figure>
+
 The **CandelaCharts – Calmar Ratio** is a premium risk-adjusted performance metric that evaluates an asset's efficiency by comparing its Compound Annual Growth Rate (CAGR) to its Maximum Drawdown.&#x20;
 
 {% content-ref url="features.md" %}

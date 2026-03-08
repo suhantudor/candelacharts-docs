@@ -5,6 +5,8 @@ icon: circle-chevron-right
 
 # Usage
 
+<figure><img src="../../.gitbook/assets/shiller-pe-ratio-002.png" alt=""><figcaption></figcaption></figure>
+
 Use the Shiller PE Ratio to move from tracking momentum to identifying generational value opportunities.
 
 * **Generational Investing**: Identify buying opportunities when the ratio enters the **Extreme Undervalued** (Cyan/Blue) zones.

@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/sector-rotation-003.png" alt=""><figcaption></figcaption></figure>
+
 The **CandelaCharts – Sector Rotation Map** is a strategic analysis tool designed to track capital flow across the major sectors of the US economy.&#x20;
 
 By monitoring relative performance and volume, it helps investors identify which market segments are leading, weakening, lagging, or improving.&#x20;

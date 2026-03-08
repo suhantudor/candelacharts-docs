@@ -5,6 +5,8 @@ icon: object-intersect
 
 # Confluences
 
+<figure><img src="../../.gitbook/assets/sector-rotation-001.png" alt=""><figcaption></figcaption></figure>
+
 For maximum precision, combine the sector rotation signals with these additional technical and fundamental layers.
 
 * **Price Action Correlation**: Align sector rotation signals with major index (e.g., S\&P 500) breakouts or breakdowns for higher probability trades.

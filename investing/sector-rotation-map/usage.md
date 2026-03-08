@@ -5,6 +5,8 @@ icon: circle-chevron-right
 
 # Usage
 
+<figure><img src="../../.gitbook/assets/sector-rotation-002.png" alt=""><figcaption></figcaption></figure>
+
 To get the most out of this tool, follow these strategic guidelines for identifying and acting on sector trends.
 
 * **Identify Leadership**: Look for sectors in the **Leading** phase with high Relative Volume (RV) to confirm institutional conviction.

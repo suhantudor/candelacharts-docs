@@ -5,6 +5,8 @@ icon: circle-chevron-right
 
 # Usage
 
+<figure><img src="../../.gitbook/assets/calmar-ratio-002.png" alt=""><figcaption></figcaption></figure>
+
 Integrate the Calmar Ratio into your workflow using these practical methods for monitoring and comparing assets.
 
 * **Assess Risk-Efficiency**: Use the ratio to determine if an asset's returns justify the drawdown risk. A ratio above 1.0 is generally considered a sign of a high-quality strategy.

@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/shiller-pe-ratio-001.png" alt=""><figcaption></figcaption></figure>
+
 The **CandelaCharts – Shiller PE Ratio** (also known as the Cyclically Adjusted Price-to-Earnings Ratio or CAPE) is a powerful valuation metric designed to identify long-term market bubbles and buying opportunities.&#x20;
 
 {% content-ref url="features.md" %}

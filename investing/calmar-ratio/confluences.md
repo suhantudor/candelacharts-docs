@@ -5,6 +5,8 @@ icon: object-intersect
 
 # Confluences
 
+<figure><img src="../../.gitbook/assets/calmar-ratio-003.png" alt=""><figcaption></figcaption></figure>
+
 Strengthen your conviction by looking for the Calmar Ratio to align with these other trading signals.
 
 * **Equity Curve Analysis**: Combine with your strategy's equity curve; a rising Calmar Ratio during an equity peak confirms robust growth.
