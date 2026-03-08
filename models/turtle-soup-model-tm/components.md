@@ -71,14 +71,15 @@ Real-time models remove the sweep once the model is invalidated and the candle c
 
 ### **4. PD Arrays**
 
-**Definition:** PD Arrays are models that describe how price is likely to be delivered from one liquidity point to another, based on smart money behavior.&#x20;
+**Definition:** PD Arrays are models that describe how price is likely to be delivered from one liquidity point to another, based on smart money behavior.
 
 Model supports following PD Arrays for HTF and LTF:
 
 * **Fair Value Gaps (FVGs):** Imbalances between buying and selling, often acts as a **magnet for price** or a **support/resistance zone**
 * **Inversion Fair Value Gaps (IFVGs):** Former FVGs that, once filled or mitigated, reverse roles — acting as support/resistance or continuation zones.
+* **Balanced Price Range (BPRs):** ICT Balanced price range (BPR) is the area on price chart where two opposite fair value gaps overlap.
 
-**Formation:**&#x20;
+**Formation:**
 
 #### Fair Value Gaps (FVG)
 
@@ -91,6 +92,13 @@ An FVG forms when there's a gap between Candle 1 and Candle 3 due to strong buyi
 
 An FVG that was filled and later acts as support (bullish) or resistance (bearish) after a market shift.
 
+#### Balanced Price Range (BPR)
+
+A BPR forms when a **Bullish FVG and a Bearish FVG overlap**, creating a zone where buying and selling imbalances partially cancel each other out. This overlap forms a short-term equilibrium area where price often reacts before continuing the prevailing move.
+
+* Bullish Context: Forms when a bearish FVG overlaps with a prior bullish FVG during a pullback in an uptrend.
+* Bearish Context: Forms when a bullish FVG overlaps with a prior bearish FVG during a retracement in a downtrend.
+
 **Invalidation:**
 
 #### Fair Value Gaps (FVG)
@@ -100,6 +108,10 @@ FVG is invalidated when price fully trades through (closes inside) the gap.
 #### Inversion Fair Value Gaps (IFVG)
 
 IFVG is invalidated when price breaks through and closes beyond it in the opposite direction.
+
+#### Balanced Price Range (BPR)
+
+A BPR is invalidated when **price fully trades through the entire overlapping range and closes beyond it**, showing that the equilibrium has been broken and one side has gained clear control.
 
 ### **5. SMT**
 

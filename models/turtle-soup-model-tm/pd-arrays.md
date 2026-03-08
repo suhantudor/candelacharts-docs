@@ -11,12 +11,13 @@ These arrays, referred to as:
 
 * **FVG** (Fair Value Gap)
 * **IFVG** (Inverse Fair Value Gap)
+* **BPR** (Balanced Price Range)
 
 are crucial components of market analysis and trading strategy.
 
 ### HTF PD Arrays
 
-HTF PD Arrays serve as key levels of interest, highlighting significant market zones where sharp price movements (sweeps) are likely to occur.&#x20;
+HTF PD Arrays serve as key levels of interest, highlighting significant market zones where sharp price movements (sweeps) are likely to occur.
 
 <figure><img src="../../.gitbook/assets/docs-turtle-soup-003.png" alt=""><figcaption></figcaption></figure>
 
@@ -26,11 +27,11 @@ Traders can use HTF PD Arrays to monitor for price reactions. Their role in sign
 
 ### LTF PD Arrays
 
-LTF PD Arrays are instrumental in pinpointing entry points. When a model, such as a Sweep or Market Structure Shift (MSS), forms on the chart, the Turtle Soup Model highlights nearby PD Arrays that align with the newly formed structure.&#x20;
+LTF PD Arrays are instrumental in pinpointing entry points. When a model, such as a Sweep or Market Structure Shift (MSS), forms on the chart, the Turtle Soup Model highlights nearby PD Arrays that align with the newly formed structure.
 
 <figure><img src="../../.gitbook/assets/docs-turtle-soup-004.png" alt=""><figcaption></figcaption></figure>
 
-These arrays act as reference levels for entering trades, allowing traders to make informed decisions about positioning.&#x20;
+These arrays act as reference levels for entering trades, allowing traders to make informed decisions about positioning.
 
 Whether entering in the direction of the trend or anticipating a reversal, these levels offer key insights for optimal entry timing.
 
@@ -40,9 +41,9 @@ The lower timeframe PD Arrays are essential for model formation. In the absence 
 
 ### Key Points
 
-* **HTF PD Arrays (FVG/IFVG)**: These arrays function as critical support or resistance levels. When touched by a market sweep, they suggest potential reversals or retracements. They are essential for identifying key price levels where significant market shifts may occur.
+* **HTF PD Arrays (FVG/IFVG/BPR)**: These arrays function as critical support or resistance levels. When touched by a market sweep, they suggest potential reversals or retracements. They are essential for identifying key price levels where significant market shifts may occur.
 * **LTF PD Arrays**: These arrays provide entry points, helping traders identify precise levels to enter the market once a sweep or market structure shift (MSS) occurs. The proximity of these arrays to newly formed market structures enables traders to make timely, informed entry decisions.
 
-By combining HTF PD Arrays for reversal identification and LTF PD Arrays for precise entries, the Turtle Soup Model equips traders with a comprehensive framework for both market analysis and execution.&#x20;
+By combining HTF PD Arrays for reversal identification and LTF PD Arrays for precise entries, the Turtle Soup Model equips traders with a comprehensive framework for both market analysis and execution.
 
 This dual approach ensures that traders can effectively time their entries, whether they are capitalizing on trend continuations or anticipating market reversals.

@@ -15,13 +15,13 @@ In a Bullish Sweep, price briefly breaks above the prior candle’s high but fai
 
 ### **Double Purge (D-purge)**
 
-A D-Purge is a more complex form of Sweep where price action aggressively tests both the high and low extremes of the previous candle through its wicks before closing inside that candle’s range. This pattern implies a comprehensive clearing or "purging" of orders on both sides of the market, often signaling a strong liquidity hunt or shakeout.&#x20;
+A D-Purge is a more complex form of Sweep where price action aggressively tests both the high and low extremes of the previous candle through its wicks before closing inside that candle’s range. This pattern implies a comprehensive clearing or "purging" of orders on both sides of the market, often signaling a strong liquidity hunt or shakeout.
 
 The last side swept in this process (either the high or the low) indicates the likely direction of market interest or momentum following the purge. D-Purges help reveal hidden liquidity and potential shifts in market control between buyers and sellers.
 
 ### Market Structure Shift (MSS)
 
-Market Structure Shift (MSS) refers to a change in the underlying market trend or price action behavior that signals a potential reversal or significant shift in momentum.&#x20;
+Market Structure Shift (MSS) refers to a change in the underlying market trend or price action behavior that signals a potential reversal or significant shift in momentum.
 
 In ICT trading, a Market Structure Shift occurs when the market breaks its previous structure by failing to make a new high or low, then reverses and breaks the opposite side’s structure, indicating a shift from, for example, a bullish to a bearish trend or vice versa.
 
@@ -33,7 +33,7 @@ For example, while one asset forms a higher low, the other forms a lower low—i
 
 ### PD Arrays
 
-ICT PD Arrays refer to a group of price action concepts - such as Fair Value Gaps, Order Blocks, Breaker Blocks, Propulsion Blocks, Volume Imbalances, Opening Gaps - within the Inner Circle Trader (ICT) framework that identify areas of price inefficiency, imbalance, or displacement on the chart.&#x20;
+ICT PD Arrays refer to a group of price action concepts - such as Fair Value Gaps, Inversion Fair Value Gaps, Balanced Price Range - within the Inner Circle Trader (ICT) framework that identify areas of price inefficiency, imbalance, or displacement on the chart.
 
 ### **Standard Deviations**
 
@@ -41,4 +41,4 @@ Standard Deviations measure the expected variability of price movement from a ke
 
 ### **Liquidity**
 
-Liquidity refers to price zones where a large concentration of buy and sell orders accumulates, generating significant market interest and often attracting price action. These zones typically align with key levels such as swing highs and lows, previous day or week highs and lows, or other important structural points where traders place orders.&#x20;
+Liquidity refers to price zones where a large concentration of buy and sell orders accumulates, generating significant market interest and often attracting price action. These zones typically align with key levels such as swing highs and lows, previous day or week highs and lows, or other important structural points where traders place orders.
