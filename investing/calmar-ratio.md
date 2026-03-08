@@ -1,0 +1,6 @@
+---
+icon: squid
+---
+
+# Calmar Ratio 🔜
+

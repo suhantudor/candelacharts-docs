@@ -344,6 +344,9 @@
   * [Usage](investing/z-deviation-waves/usage.md)
   * [Confluences](investing/z-deviation-waves/confluences.md)
   * [FAQs](investing/z-deviation-waves/faqs.md)
+* [Calmar Ratio 🔜](investing/calmar-ratio.md)
+* [Shiller PE Ratio 🔜](investing/shiller-pe-ratio.md)
+* [Sector Rotation Map 🔜](investing/sector-rotation-map.md)
 
 ## Changelogs
 
