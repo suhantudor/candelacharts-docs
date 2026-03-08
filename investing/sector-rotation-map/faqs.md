@@ -7,40 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>“Z-score (σ)” vs “Price @ σ” vs “Price @ Z”—which should I use?</summary>
+<summary>What is the "Rotation" column in the dashboard?</summary>
 
-Start with **Z-score (σ)** to build intuition. Use **Price @ σ** when you want **tradable levels** and alert prices. Use **Price @ Z** when you need **consistent-looking charts** across different tickers for presentations.
-
-</details>
-
-<details>
-
-<summary>How do I pick the right Period?</summary>
-
-Match it to your timeframe and the asset’s personality. Daily swing traders often like **50**. Go **20–30** for tactical/intraday, **80–100** for calmer HTF context.
+It classifies sectors based on their Relative Strength momentum. **Leading** means strong and accelerating; **Weakening** means strong but slowing; **Lagging** means weak and decelerating; **Improving** means weak but accelerating.
 
 </details>
 
 <details>
 
-<summary>Does it repaint?</summary>
+<summary>How does the tool anchor sectors to the economic cycle?</summary>
 
-No. The calculations update intrabar like any rolling indicator and **lock on bar close**.
-
-</details>
-
-<details>
-
-<summary>Can I use this intraday?</summary>
-
-Yes. Expect **more frequent ±2σ tags** on lower timeframes—consider a **longer Period** or a touch of **Smoothing** to cut noise.
+Each sector is historically linked to a specific phase. For example, Financials typically lead in **Early Recovery**, while Energy often leads in the **Late Cycle**.
 
 </details>
 
 <details>
 
-<summary>Are ±2σ/±3σ guaranteed reversal zones?</summary>
+<summary>Can I customize the sectors being tracked?</summary>
 
-No. Markets aren’t perfectly normal. Treat σ as **stretch context**, not a promise. Wait for structure/momentum confirmation and always manage risk.
+Yes, the settings allow you to toggle individual sectors on or off and even change the symbols (e.g., tracking specific industries instead of broad sectors).
+
+</details>
+
+<details>
+
+<summary>What does a high Relative Volume (RV) signify?</summary>
+
+A high RV indicates that the sector is trading at significantly higher volume than its 20-day average, suggesting strong institutional interest and conviction.
+
+</details>
+
+<details>
+
+<summary>Why should I use the Line Plots instead of just the Dashboard?</summary>
+
+The Dashboard gives you a snapshot of current data, while the Line Plots provide historical context and let you visualize the _path_ of the rotation over time.
 
 </details>

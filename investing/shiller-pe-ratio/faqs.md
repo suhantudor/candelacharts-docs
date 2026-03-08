@@ -7,40 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>“Z-score (σ)” vs “Price @ σ” vs “Price @ Z”—which should I use?</summary>
+<summary>Where does the data for this ratio come from?</summary>
 
-Start with **Z-score (σ)** to build intuition. Use **Price @ σ** when you want **tradable levels** and alert prices. Use **Price @ Z** when you need **consistent-looking charts** across different tickers for presentations.
-
-</details>
-
-<details>
-
-<summary>How do I pick the right Period?</summary>
-
-Match it to your timeframe and the asset’s personality. Daily swing traders often like **50**. Go **20–30** for tactical/intraday, **80–100** for calmer HTF context.
+The tool pulls the official CAPE10 series from Multpl, which is based on the research of Yale Professor Robert Shiller.
 
 </details>
 
 <details>
 
-<summary>Does it repaint?</summary>
+<summary>Why is the "Historical Mean" set to 17.0?</summary>
 
-No. The calculations update intrabar like any rolling indicator and **lock on bar close**.
-
-</details>
-
-<details>
-
-<summary>Can I use this intraday?</summary>
-
-Yes. Expect **more frequent ±2σ tags** on lower timeframes—consider a **longer Period** or a touch of **Smoothing** to cut noise.
+The long-term average of the Shiller PE since 1881 is approximately 17.0. Some investors prefer to use a higher mean (e.g., 19-20) for the post-WWII era.
 
 </details>
 
 <details>
 
-<summary>Are ±2σ/±3σ guaranteed reversal zones?</summary>
+<summary>Does a high Shiller PE mean the market will crash immediately?</summary>
 
-No. Markets aren’t perfectly normal. Treat σ as **stretch context**, not a promise. Wait for structure/momentum confirmation and always manage risk.
+No. Valuations are not timing tools; markets can stay overvalued for years. It is a measure of long-term risk and future return expectations.
+
+</details>
+
+<details>
+
+<summary>What is the difference between Monthly and Yearly resolution?</summary>
+
+Monthly provides more tactical data points, while Yearly is better for high-level secular trend analysis and historical backtesting.
+
+</details>
+
+<details>
+
+<summary>How should I interpret the "Deviation" stat in the dashboard?</summary>
+
+It shows how far the current ratio is from the Historical Mean. A +50% deviation suggests the market is significantly stretched relative to its historical norm.
 
 </details>
