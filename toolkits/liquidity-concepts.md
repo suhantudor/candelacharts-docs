@@ -1,6 +1,7 @@
 ---
-icon: wave-pulse
+hidden: true
+icon: objects-align-top
 ---
 
-# Momentum Concepts 🔜
+# Liquidity Concepts 🔜
 
