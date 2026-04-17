@@ -15,6 +15,10 @@ Welcome to the CandelaCharts knowledge hub! Dive in by clicking the buttons belo
 [Broken link](/broken/pages/1iOhRHCRRh9U3cH2Su0h)
 {% endcontent-ref %}
 
+{% content-ref url="/broken/pages/xCeUQf5VSGJPaR3Y0fMy" %}
+[Broken link](/broken/pages/xCeUQf5VSGJPaR3Y0fMy)
+{% endcontent-ref %}
+
 {% content-ref url="/broken/pages/TQxlpkkIsEwjKg765TEX" %}
 [Broken link](/broken/pages/TQxlpkkIsEwjKg765TEX)
 {% endcontent-ref %}
