@@ -92,7 +92,7 @@
   * [Themes](oscillators/oscillator-concepts-tm/themes.md)
   * [Alerts](oscillators/oscillator-concepts-tm/alerts.md)
 * [Momentum Concepts™ 🔜](oscillators/liquidity-concepts.md)
-* [Oscillator Matrix™ 🔜](oscillators/liquidity-concepts-1.md)
+* [Volume Matrix™ 🔜](oscillators/liquidity-concepts-1.md)
 
 ## Models
 
