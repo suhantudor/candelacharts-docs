@@ -1,5 +1,5 @@
 ---
-icon: objects-align-left
+icon: sign-hanging
 ---
 
 # Divergences

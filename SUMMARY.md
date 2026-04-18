@@ -91,8 +91,21 @@
   * [Signals](oscillators/oscillator-concepts-tm/signals.md)
   * [Themes](oscillators/oscillator-concepts-tm/themes.md)
   * [Alerts](oscillators/oscillator-concepts-tm/alerts.md)
-* [Momentum Concepts™ 🔜](oscillators/liquidity-concepts.md)
-* [Volume Matrix™ 🔜](oscillators/liquidity-concepts-1.md)
+* [Momentum Concepts™ 🔜](oscillators/liquidity-concepts/README.md)
+  * [Overview](oscillators/liquidity-concepts/overview.md)
+  * [Momentum Wave](oscillators/liquidity-concepts/momentum-wave.md)
+  * [Money Flow Index](oscillators/liquidity-concepts/money-flow-index.md)
+  * [Confidence Meter](oscillators/liquidity-concepts/confidence-meter.md)
+  * [Reversals](oscillators/liquidity-concepts/reversals.md)
+  * [Divergences](oscillators/liquidity-concepts/divergences.md)
+  * [Signals](oscillators/liquidity-concepts/signals.md)
+  * [Alerts](oscillators/liquidity-concepts/alerts.md)
+* [Volume Matrix™ 🔜](oscillators/volume-matrix/README.md)
+  * [Overview](oscillators/volume-matrix/overview.md)
+  * [Volume Line](oscillators/volume-matrix/volume-line.md)
+  * [Overbought & Oversold](oscillators/volume-matrix/overbought-and-oversold.md)
+  * [Volatility Bands](oscillators/volume-matrix/volatility-bands.md)
+  * [Alerts](oscillators/volume-matrix/alerts.md)
 
 ## Models
 
