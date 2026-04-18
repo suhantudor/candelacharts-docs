@@ -9,24 +9,6 @@
 * [Markets Availability](get-started/markets.md)
 * [Trading Framework](get-started/trading-framework.md)
 
-## Oscillators
-
-* [Oscillator Concepts™](oscillators/oscillator-concepts-tm/README.md)
-  * [Overview](oscillators/oscillator-concepts-tm/overview.md)
-  * [The Line](oscillators/oscillator-concepts-tm/the-line.md)
-  * [Trading Profiles](oscillators/oscillator-concepts-tm/trading-profiles.md)
-  * [Overbought & Oversold](oscillators/oscillator-concepts-tm/overbought-and-oversold.md)
-  * [Participation Analysis](oscillators/oscillator-concepts-tm/participation-analysis.md)
-  * [Trend Radar](oscillators/oscillator-concepts-tm/trend-radar.md)
-  * [Velocity Pulse](oscillators/oscillator-concepts-tm/velocity-pulse.md)
-  * [Fractal Map](oscillators/oscillator-concepts-tm/fractal-map.md)
-  * [Divergences](oscillators/oscillator-concepts-tm/divergences.md)
-  * [Signals](oscillators/oscillator-concepts-tm/signals.md)
-  * [Themes](oscillators/oscillator-concepts-tm/themes.md)
-  * [Alerts](oscillators/oscillator-concepts-tm/alerts.md)
-* [Momentum Concepts™ 🔜](oscillators/liquidity-concepts.md)
-* [Oscillator Matrix™ 🔜](oscillators/liquidity-concepts-1.md)
-
 ## Toolkits
 
 * [Interbank Price Action™](toolkits/price-action-toolkit-tm/README.md)
@@ -93,6 +75,24 @@
 * [Killzones, Macros, Pivots Concepts 🔜](toolkits/killzones-macros-pivots-concepts.md)
 * [Support, Resistance Concepts 🔜](toolkits/supply-and-demand-concepts.md)
 * [Pivotal Concepts 🔜](toolkits/pivotal-concepts.md)
+
+## Oscillators
+
+* [Oscillator Concepts™](oscillators/oscillator-concepts-tm/README.md)
+  * [Overview](oscillators/oscillator-concepts-tm/overview.md)
+  * [The Line](oscillators/oscillator-concepts-tm/the-line.md)
+  * [Trading Profiles](oscillators/oscillator-concepts-tm/trading-profiles.md)
+  * [Overbought & Oversold](oscillators/oscillator-concepts-tm/overbought-and-oversold.md)
+  * [Participation Analysis](oscillators/oscillator-concepts-tm/participation-analysis.md)
+  * [Trend Radar](oscillators/oscillator-concepts-tm/trend-radar.md)
+  * [Velocity Pulse](oscillators/oscillator-concepts-tm/velocity-pulse.md)
+  * [Fractal Map](oscillators/oscillator-concepts-tm/fractal-map.md)
+  * [Divergences](oscillators/oscillator-concepts-tm/divergences.md)
+  * [Signals](oscillators/oscillator-concepts-tm/signals.md)
+  * [Themes](oscillators/oscillator-concepts-tm/themes.md)
+  * [Alerts](oscillators/oscillator-concepts-tm/alerts.md)
+* [Momentum Concepts™ 🔜](oscillators/liquidity-concepts.md)
+* [Oscillator Matrix™ 🔜](oscillators/liquidity-concepts-1.md)
 
 ## Models
 
