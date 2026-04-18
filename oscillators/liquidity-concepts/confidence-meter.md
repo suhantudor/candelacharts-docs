@@ -1,6 +1,0 @@
----
-icon: thermometer
----
-
-# Confidence Meter
-

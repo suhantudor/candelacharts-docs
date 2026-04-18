@@ -1,6 +1,0 @@
----
-icon: wave
----
-
-# Momentum Wave
-

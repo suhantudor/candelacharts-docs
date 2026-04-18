@@ -1,6 +1,0 @@
----
-icon: wifi-fair
----
-
-# Signals
-

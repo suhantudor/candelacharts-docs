@@ -1,6 +1,0 @@
----
-icon: sign-hanging
----
-
-# Divergences
-
