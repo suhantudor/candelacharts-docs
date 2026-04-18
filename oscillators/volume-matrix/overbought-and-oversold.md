@@ -30,10 +30,7 @@ The indicator defines two primary zones for both Overbought (OB) and Oversold (O
 
 To provide immediate visual feedback without checking the level numbers, the Volume Matrix uses stylized icons:
 
-* **Intensity Stars (✦/❖)**: These appear near the ±1.0 lines.
-  * **Teal Star (✦)**: Indicates the market has entered the standard Overbought Intensity zone.
-  * **Red Diamond (❖)**: Indicates the market has entered the standard Oversold Intensity zone.
-* **Exhaustion Crosses (✖)**: These appear at the extreme ±1.5 lines.
-  * They signify **Statistical Exhaustion**, where the momentum has reached a level that is historically difficult to sustain without a correction or reversal.
+* **Intensity Gradients**: Dynamic vertical fills that activate at the ±1.0 thresholds, growing more opaque as the market becomes increasingly over-extended.
+* **Exhaustion Markers** (✦/❖): Stylized star and diamond icons that appear at the ±1.5 statistical boundaries to signal deep trend exhaustion.
 
 These symbols can be toggled on or off in the **Oscillator Zones** settings group.
