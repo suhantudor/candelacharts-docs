@@ -10,7 +10,11 @@ The **Volume Line** is the primary signal generator within the Volume Matrix. It
 
 ### The Normalization Process
 
-The Volume Line doesn't just show price; it shows price **relative to its environment**. It uses the following normalization logic:
+The Volume Line doesn't just show price; it shows price **relative to its environment**.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-007.png" alt=""><figcaption></figcaption></figure>
+
+It uses the following normalization logic:
 
 * **The Baseline**: The indicator calculates the distance between the **Upper Band (ub\_x2)** and **Lower Band (bb\_x2)**.
 * **The Position**: It then determines where the current Close price sits within that range.
@@ -21,7 +25,7 @@ The Volume Line doesn't just show price; it shows price **relative to its enviro
 
 This means that a Volume Line at 0.5 tells you that the price is halfway between the fair-value mean and the upper extreme, regardless of the asset's actual price in dollars.
 
-### Smoothing & Signal Clarity
+### Smoothing
 
 <figure><img src="../../.gitbook/assets/docs-volume-matrix-006.png" alt=""><figcaption></figcaption></figure>
 
