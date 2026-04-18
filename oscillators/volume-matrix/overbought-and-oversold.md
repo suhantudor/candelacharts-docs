@@ -6,6 +6,8 @@ icon: overline
 
 In the Volume Matrix, Overbought and Oversold conditions are not static levels but are dynamically generated based on the current market's statistical distribution.
 
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-004.png" alt=""><figcaption></figcaption></figure>
+
 ### Understanding the Zones
 
 The indicator defines two primary zones for both Overbought (OB) and Oversold (OS):
@@ -27,6 +29,8 @@ The indicator defines two primary zones for both Overbought (OB) and Oversold (O
 * **Leaving OS (> -1.0)**: A sign that the selling climax has passed and buyers are potentially stepping in.
 
 ### Visual Symbols for State Awareness
+
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-005.png" alt=""><figcaption></figcaption></figure>
 
 To provide immediate visual feedback without checking the level numbers, the Volume Matrix uses stylized icons:
 

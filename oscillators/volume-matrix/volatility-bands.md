@@ -6,6 +6,8 @@ icon: waves-sine
 
 The Volume Matrix uses **Elastic Bands** on the price pane to visualize the statistical boundaries used for the oscillator calculation.
 
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-003.png" alt=""><figcaption></figcaption></figure>
+
 ### Band Types
 
 There are four bands plotted on the chart:

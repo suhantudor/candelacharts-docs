@@ -6,6 +6,8 @@ icon: slider
 
 The **Volume Line** is the primary signal generator within the Volume Matrix. It tracks the real-time relative momentum of price, heavily influenced by volume participation. It is designed to act as a "Single Source of Truth" for where price sits within the current volatility context.
 
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-001.png" alt=""><figcaption></figcaption></figure>
+
 ### The Normalization Process
 
 The Volume Line doesn't just show price; it shows price **relative to its environment**. It uses the following normalization logic:
@@ -20,6 +22,8 @@ The Volume Line doesn't just show price; it shows price **relative to its enviro
 This means that a Volume Line at 0.5 tells you that the price is halfway between the fair-value mean and the upper extreme, regardless of the asset's actual price in dollars.
 
 ### Smoothing & Signal Clarity
+
+<figure><img src="../../.gitbook/assets/docs-volume-matrix-006.png" alt=""><figcaption></figcaption></figure>
 
 To ensure the signal is usable for traders, the Volume Line includes an optional **Smoothing** feature:
 
