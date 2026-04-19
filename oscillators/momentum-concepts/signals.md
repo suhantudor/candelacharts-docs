@@ -6,6 +6,8 @@ icon: wifi-fair
 
 Momentum Concepts classifies signals into three levels of conviction based on the synergy between the Momentum Wave, MFI, and the Confidence Engine.
 
+<figure><img src="../../.gitbook/assets/docs-momentum-concepts-006.png" alt=""><figcaption></figcaption></figure>
+
 ### Signal Levels
 
 1. **Standard (L1) - Circle Marker**:

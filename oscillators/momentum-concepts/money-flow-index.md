@@ -6,6 +6,8 @@ icon: diagram-sankey
 
 The **Money Flow Index** tracks the amount of capital entering or leaving an asset. Unlike the standard TradingView MFI, this version focuses on identifying **Absolute Strength Zones**.
 
+<figure><img src="../../.gitbook/assets/docs-momentum-concepts-002.png" alt=""><figcaption></figcaption></figure>
+
 ### MFI Columns
 
 * **Logic**: Typical Price multiplied by Volume, smoothed to show the net capital flow.

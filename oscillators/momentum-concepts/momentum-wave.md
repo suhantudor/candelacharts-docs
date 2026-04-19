@@ -6,6 +6,8 @@ icon: wave
 
 The **Momentum Wave** is the heartbeat of the indicator. It uses Ehlers SuperSmoother technology and Exponential Smoothing to create a "Lag-Less" momentum line.
 
+<figure><img src="../../.gitbook/assets/docs-momentum-concepts-001.png" alt=""><figcaption></figcaption></figure>
+
 ### Calculation Logic
 
 1. **ESA Baseline**: Calculates an Exponential Smoothed Average of the Typical Price.

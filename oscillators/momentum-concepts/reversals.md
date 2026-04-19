@@ -6,6 +6,8 @@ icon: arrow-u-turn-left-up
 
 The **Reversal Engine** is one of the most advanced components of Momentum Concepts. It uses a **K-Nearest Neighbors (KNN)** algorithm to calculate the statistical probability of a top or bottom.
 
+<figure><img src="../../.gitbook/assets/docs-momentum-concepts-005.png" alt=""><figcaption></figcaption></figure>
+
 ### How KNN Works
 
 1. **Feature Extraction**: It tracks 8 dimensions of momentum (CCI over multiple timeframes).

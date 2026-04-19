@@ -6,6 +6,8 @@ icon: thermometer
 
 The **Confidence Meter** is the brain of Momentum Concepts. It aggregates all data into a single readability gauge that scores the current market's conviction.
 
+<figure><img src="../../.gitbook/assets/docs-momentum-concepts-004.png" alt=""><figcaption></figcaption></figure>
+
 ### Score Calculation
 
 The meter scores from **-100% (Maximum Bearish)** to **+100% (Maximum Bullish)**.
