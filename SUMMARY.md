@@ -103,6 +103,7 @@
 * [Volume Matrix™](oscillators/volume-matrix/README.md)
   * [Overview](oscillators/volume-matrix/overview.md)
   * [Volume Line](oscillators/volume-matrix/volume-line.md)
+  * [The Math](oscillators/volume-matrix/the-math.md)
   * [Overbought & Oversold](oscillators/volume-matrix/overbought-and-oversold.md)
   * [Volatility Bands](oscillators/volume-matrix/volatility-bands.md)
   * [Alerts](oscillators/volume-matrix/alerts.md)
