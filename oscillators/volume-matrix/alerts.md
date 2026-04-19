@@ -4,7 +4,7 @@ icon: bell
 
 # Alerts
 
-The Volume Matrix includes a comprehensive suite of alerts to keep you updated on market shifts and extreme conditions.
+The Volume Concepts includes a comprehensive suite of alerts to keep you updated on market shifts and extreme conditions.
 
 ### Available Alert Types
 
@@ -21,7 +21,7 @@ The Volume Matrix includes a comprehensive suite of alerts to keep you updated o
 ### Setting Up Alerts
 
 * **Alert Dialog**: Open the alert dialog, select the indicator, and choose the specific condition from the list.
-* **Any Alert() function call**: If you want to receive all Volume Matrix alerts in a single configuration, select "Any Alert() function call" in the Condition dropdown.
+* **Any Alert() function call**: If you want to receive all Volume Concepts alerts in a single configuration, select "Any Alert() function call" in the Condition dropdown.
 
 ### Frequency
 

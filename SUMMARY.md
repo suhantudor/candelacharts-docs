@@ -100,7 +100,7 @@
   * [Divergences](oscillators/momentum-concepts/divergences.md)
   * [Signals](oscillators/momentum-concepts/signals.md)
   * [Alerts](oscillators/momentum-concepts/alerts.md)
-* [Volume Matrix™](oscillators/volume-matrix/README.md)
+* [Volume Concepts™](oscillators/volume-matrix/README.md)
   * [Overview](oscillators/volume-matrix/overview.md)
   * [Volume Line](oscillators/volume-matrix/volume-line.md)
   * [The Math](oscillators/volume-matrix/the-math.md)

@@ -4,7 +4,7 @@ icon: slider
 
 # Volume Line
 
-The **Volume Line** is the primary signal generator within the Volume Matrix. It tracks the real-time relative momentum of price, heavily influenced by volume participation.
+The **Volume Line** is the primary signal generator within the Volume Concepts. It tracks the real-time relative momentum of price, heavily influenced by volume participation.
 
 <figure><img src="../../.gitbook/assets/docs-volume-matrix-001.png" alt=""><figcaption></figcaption></figure>
 

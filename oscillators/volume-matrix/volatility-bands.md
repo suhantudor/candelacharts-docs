@@ -4,7 +4,7 @@ icon: waves-sine
 
 # Volatility Bands
 
-The Volume Matrix uses **Elastic Bands** on the price pane to visualize the statistical boundaries used for the oscillator calculation.
+The Volume Concepts uses **Elastic Bands** on the price pane to visualize the statistical boundaries used for the oscillator calculation.
 
 <figure><img src="../../.gitbook/assets/docs-volume-matrix-003.png" alt=""><figcaption></figcaption></figure>
 

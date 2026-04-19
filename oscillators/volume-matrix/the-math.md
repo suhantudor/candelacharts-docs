@@ -4,7 +4,7 @@ icon: function
 
 # The Math
 
-The **Volume Matrix** is a sophisticated, non-linear oscillator designed to measure the synergy between price action and volume intensity. Unlike traditional oscillators that treat every price change with equal weight, the Volume Matrix uses an **Elastic Volume-Weighting** engine and a **Student-T Distribution** model to filter market noise and identify high-probability exhaustion points.
+The **Volume Concepts** is a sophisticated, non-linear oscillator designed to measure the synergy between price action and volume intensity. Unlike traditional oscillators that treat every price change with equal weight, the Volume Concepts uses an **Elastic Volume-Weighting** engine and a **Student-T Distribution** model to filter market noise and identify high-probability exhaustion points.
 
 <figure><img src="../../.gitbook/assets/docs-volume-matrix-012.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ By understanding the logic behind its volume weighting and visual area plotting,
 
 ### 01. Elastic Volume Weighting&#x20;
 
-The core of the Volume Matrix is its adaptive responsiveness. It uses a dynamic "Alpha" factor to determine how much the current bar should influence the fair value mean.
+The core of the Volume Concepts is its adaptive responsiveness. It uses a dynamic "Alpha" factor to determine how much the current bar should influence the fair value mean.
 
 #### The Calculation
 
@@ -34,7 +34,7 @@ The "Alpha" (or responsiveness) is then calculated as: **Alpha = Current Volume 
 
 ### 02. Area Plotting & Normalization&#x20;
 
-The Volume Matrix visualizes market data as a "Mountain" or "Cloud" in the indicator pane using the **Area Plot** style.
+The Volume Concepts visualizes market data as a "Mountain" or "Cloud" in the indicator pane using the **Area Plot** style.
 
 #### Normalization Logic
 
@@ -58,7 +58,7 @@ The indicator plots the **High** and **Low** range as solid areas expanding from
 
 Most traditional indicators assume a "Normal Distribution" (the Bell Curve). However, financial markets are known for **"Fat Tails"**—extreme events happen far more frequently than a normal curve predicts.
 
-The Volume Matrix leverages the **Student-T Distribution**, which is more robust and less prone to being skewed by outliers.
+The Volume Concepts leverages the **Student-T Distribution**, which is more robust and less prone to being skewed by outliers.
 
 * **Degrees of Freedom (DoF)**: The indicator dynamically adjusts its shape. When the market is quiet, it mimics a normal distribution. When volatility spikes and the data becomes "heavy-tailed" (High Kurtosis), the DoF decreases, making the bands more "elastic" and harder to breach without significant volume support.
 * **Robust Sigma**: Unlike standard deviation which can be "tricked" by one massive spike, the robust scale calculation looks at the absolute deviation, ensuring the bands remain stable even during chaotic news events.
