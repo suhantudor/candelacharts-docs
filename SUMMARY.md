@@ -100,13 +100,13 @@
   * [Divergences](oscillators/momentum-concepts/divergences.md)
   * [Signals](oscillators/momentum-concepts/signals.md)
   * [Alerts](oscillators/momentum-concepts/alerts.md)
-* [Volume Concepts™](oscillators/volume-matrix/README.md)
-  * [Overview](oscillators/volume-matrix/overview.md)
-  * [Volume Line](oscillators/volume-matrix/volume-line.md)
-  * [The Math](oscillators/volume-matrix/the-math.md)
-  * [Overbought & Oversold](oscillators/volume-matrix/overbought-and-oversold.md)
-  * [Volatility Bands](oscillators/volume-matrix/volatility-bands.md)
-  * [Alerts](oscillators/volume-matrix/alerts.md)
+* [Volume Concepts™](oscillators/volume-concepts/README.md)
+  * [Overview](oscillators/volume-concepts/overview.md)
+  * [Volume Line](oscillators/volume-concepts/volume-line.md)
+  * [The Math](oscillators/volume-concepts/the-math.md)
+  * [Overbought & Oversold](oscillators/volume-concepts/overbought-and-oversold.md)
+  * [Volatility Bands](oscillators/volume-concepts/volatility-bands.md)
+  * [Alerts](oscillators/volume-concepts/alerts.md)
 
 ## Models
 
