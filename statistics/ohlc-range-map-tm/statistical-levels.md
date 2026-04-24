@@ -39,8 +39,6 @@ High/Low Levels are derived by applying statistical averaging methods—most com
 
 Once calculated, these averaged high and low values are plotted on the chart as **key horizontal levels**. Traders use them as potential **areas of support and resistance**, where price may **stall, reject, or reverse direction** due to prior market reactions and order flow concentration. Because these levels are based on aggregated historical data rather than a single price point, they often provide more reliable reaction zones than individual highs or lows.
 
-***
-
 By continuously analyzing these manipulation and distribution levels over varying time periods, the OHLC Range Map allows traders to gain deeper insights into market structure, increasing their ability to make informed, data-driven decisions.
 
 Understanding where manipulation and distribution occur on each candlestick enhances the trader’s ability to spot opportunities and manage risk more effectively.

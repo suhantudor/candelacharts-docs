@@ -5,12 +5,12 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-rangemap-010.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ohlc-rangemap-021.png" alt=""><figcaption></figcaption></figure>
 
 Enhance your TradingView toolkit by incorporating this powerful indicator into your trading strategies for actionable insights.
 
-{% content-ref url="timeframes.md" %}
-[timeframes.md](timeframes.md)
+{% content-ref url="ohlc-and-olhc.md" %}
+[ohlc-and-olhc.md](ohlc-and-olhc.md)
 {% endcontent-ref %}
 
 {% content-ref url="po3.md" %}
@@ -21,8 +21,16 @@ Enhance your TradingView toolkit by incorporating this powerful indicator into y
 [algorithm.md](algorithm.md)
 {% endcontent-ref %}
 
+{% content-ref url="premium-and-discount.md" %}
+[premium-and-discount.md](premium-and-discount.md)
+{% endcontent-ref %}
+
 {% content-ref url="liquidity.md" %}
 [liquidity.md](liquidity.md)
+{% endcontent-ref %}
+
+{% content-ref url="timeframes.md" %}
+[timeframes.md](timeframes.md)
 {% endcontent-ref %}
 
 {% content-ref url="statistical-levels.md" %}

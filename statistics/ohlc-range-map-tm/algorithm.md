@@ -5,8 +5,6 @@ icon: sigma
 
 # Calculation
 
-<figure><img src="../../.gitbook/assets/docs-rangemap-012.png" alt=""><figcaption></figcaption></figure>
-
 The **OHLC Range Map** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:
 
 * **Mean**
@@ -15,52 +13,33 @@ The **OHLC Range Map** is a sophisticated tool designed to provide deeper insigh
 
 These methods, coupled with insights into manipulation and distribution phases, empower traders to make more informed decisions based on price action.
 
-### 1. **Mean Method**
+<figure><img src="../../.gitbook/assets/ohlc-rangemap-021.jpg" alt=""><figcaption></figcaption></figure>
 
-The **Mean** method calculates the average of the Open, High, Low, and Close values of a candlestick. This approach provides a balanced representation of price action, helping traders identify central tendencies and equilibrium levels.
+### **Mean vs. Median**
 
-Combined with manipulation and distribution insights, the **Mean** offers a clear understanding of price movement within a candlestick.
+When building a statistical picture of market behavior — say, tracking daily point ranges on NQ — mean and median tell you different things. Knowing which to trust in a given context is what separates clean analysis from misleading data.
 
-* **Bullish Candle**:
-  * **Manipulation**: Defined as the range between the Open and the Low, representing deceptive price movements intended to mislead traders before the upward trend.
-  * **Distribution**: Defined as the range between the Open and the High, representing the true extension of price in the bullish direction.
-* **Bearish Candle**:
-  * **Manipulation**: Defined as the range between the Open and the High, indicating misleading price movements intended to lure traders before the downward trend.
-  * **Distribution**: Defined as the range between the Open and the Low, showing the actual extension of price in the bearish direction.
+### **Mean — The Overall Average**&#x20;
 
-### 2. **Median Method**
+Add all values, divide by the count:
 
-The **Median** method focuses on the middle value within the OHLC dataset, providing a robust measure of price action that minimizes the influence of outliers.
+* Values: 132, 197, 198, 210, 350
+* Sum = 1087
+* Mean = 1087 / 5 = **217.4**
 
-By isolating the most central data point, the **Median** is particularly effective in volatile markets, ensuring the analysis remains unaffected by extreme wicks or spikes.
+Simple enough — but the problem is sensitivity. That 350-point session, likely driven by a high-impact catalyst like NFP, FOMC, or CPI, pulls the average up and makes the "typical" day look bigger than it actually is.
 
-When applied in conjunction with manipulation and distribution phases, the **Median** highlights stable zones and reliable price levels for potential trade entries or exits.
+### **Median — The True Middle**&#x20;
 
-### 3. Both (Mean & Median)
+Sort the same values and take the center figure:
 
-The "Both" method provides a hybrid analytical approach by calculating both the Mean and Median values simultaneously. This dual-layered perspective allows traders to witness the confluence between central tendency and equilibrium, offering a more comprehensive validation of range levels.
+* Sorted Values: 132, 197, **198**, 210, 350
+* Median = **198**
 
-By combining the strengths of both calculations, this method highlights high-conviction zones where the average price action (Mean) aligns with the most central data point (Median), reducing ambiguity during periods of high volatility and providing a clearer roadmap for manipulation and distribution phases.
+No weighting, no distortion. The outlier exists in the data set, but it no longer dominates the result. What you're left with is a number that better represents what a normal session actually looks like.
 
-### Period Options
 
-The algorithm includes a range of configurable period options, allowing traders to adapt statistical calculations to different market conditions. These periods determine how data is aggregated and how the **Mean** and **Median** are calculated over time.
 
-* **5 Candles**: Short-term analysis, ideal for intraday traders seeking immediate price action insights.
-* **20 Candles**: Medium-term perspective, suitable for swing traders looking to capture broader trends.
-* **40 Candles**: Balanced timeframe for detecting intermediate trends and price levels.
-* **60 Candles**: Longer-term view for assessing significant market phases and identifying major support/resistance levels.
-* **Custom**: Fully customizable period, enabling traders to tailor the algorithm to specific strategies or unique market conditions.
-* **Maximum**: Includes all available candlesticks, offering a comprehensive view of the market's historical behavior.
+### **The Practical Takeaway**&#x20;
 
-The chosen period directly affects the statistical outputs and how traders interpret key levels:
-
-* **Short Periods (e.g., 5, 20)**: Highlight recent market activity, making them highly responsive to current trends but more sensitive to noise. Useful for identifying immediate manipulation and distribution ranges.
-* **Long Periods (e.g., 40, 60)**: Smooth out short-term fluctuations, offering a clearer picture of underlying trends and significant liquidity levels.
-* **Custom and Maximum Periods**: Provide flexibility to capture unique patterns or analyze market behavior over extended durations, enhancing strategy customization.
-
-By integrating the **Mean,** **Median** methods with dynamic period options, the OHLC Range Map Algorithm empowers traders to analyze market behavior with precision and adaptability.
-
-Shorter periods cater to fast-moving markets, while longer and customizable options ensure relevance across varying strategies.
-
-Combined with manipulation and distribution insights, this tool offers a comprehensive framework for understanding and navigating price action effectively.
+The mean gives you a broad sense of market behavior over time. The median gives you a realistic baseline for what to expect on any given day. When news events are in play, the mean inflates to 217.4 — the median holds steady at 198. For setting your statistical manipulation and distribution targets, the median is the more reliable anchor. Use the mean to understand the full range of possibilities; use the median to plan your trades.
