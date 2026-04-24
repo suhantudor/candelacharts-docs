@@ -74,7 +74,3 @@ StatMap allows traders to switch between measuring in points or percentages, dep
 
 * **Percent**: Ideal for assets that have grown substantially over time, like indices or cryptocurrencies. It provides a better sense of relative movement, especially when analyzing long-term data using features like Maximum Lookback.
 * **Points**: More suitable for markets with relatively stable price ranges, such as forex pairs. It can also be useful for short-term volatility analysis with smaller lookback periods.
-
-### **The Practical Takeaway**&#x20;
-
-The mean gives you a broad sense of market behavior over time. The median gives you a realistic baseline for what to expect on any given day. When news events are in play, the mean inflates to 217.4 — the median holds steady at 198. For setting your statistical manipulation and distribution targets, the median is the more reliable anchor. Use the mean to understand the full range of possibilities; use the median to plan your trades.
