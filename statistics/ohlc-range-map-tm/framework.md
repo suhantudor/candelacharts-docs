@@ -5,8 +5,6 @@ icon: film
 
 # Framework
 
-## The Cause-and-Effect Model
-
 This framework combines OHLC Range Map, OHLC Volatility Range Map, Liquidity Concepts, Breaker Blocks, Fair Value Gaps, and the Unicorn Setup into a single structured approach to reading the market.
 
 It is not a collection of indicators or patterns. It is a **cause-and-effect model** of how price behaves through liquidity, inefficiency, and timing.
