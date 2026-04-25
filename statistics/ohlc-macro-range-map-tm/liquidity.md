@@ -16,11 +16,6 @@ When price enters a Manipulation or Distribution level that overlaps with a liqu
 The **OHLC Macro Range Map** classifies liquidity into two categories:
 
 * **Liquidity Levels:** Active zones where liquidity remains intact and price reactions are likely.
-
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-002.png" alt=""><figcaption></figcaption></figure>
-
 * **Invalidated Liquidity Levels:** Areas where liquidity has already been consumed or cleared.
-
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-003.png" alt=""><figcaption></figcaption></figure>
 
 Traders have the option to show or hide invalidated liquidity levels, enabling a focused view on untouched liquidity while still preserving access to historical liquidity data for deeper market analysis.

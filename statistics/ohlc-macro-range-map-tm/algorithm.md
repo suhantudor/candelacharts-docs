@@ -1,11 +1,11 @@
 ---
-description: OHLC Session Range Map Calculation
+description: OHLC Macro Range Map Calculation
 icon: sigma
 ---
 
 # Calculation
 
-The **OHLC Session Range Map** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:
+The **OHLC Range Map** is a sophisticated tool designed to provide deeper insights into market dynamics by analyzing candlestick data using two core statistical methods:
 
 * **Mean**
 * **Median**

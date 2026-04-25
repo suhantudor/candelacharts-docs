@@ -41,8 +41,6 @@ High/Low Levels are calculated by applying statistical averaging techniques—ty
 
 After calculation, these averaged highs and lows are displayed on the chart as horizontal reference levels. Traders interpret them as potential support and resistance zones, where price may hesitate, reverse, or react due to previous market responses and concentrated order flow. Since these levels are derived from combined historical data rather than isolated price points, they tend to offer more dependable reaction areas than single highs or lows.
 
-***
-
 By continuously analyzing these manipulation and distribution levels across varying time periods and trading sessions, the **OHLC Session Range Map** provides deeper insights into market structure. This helps traders make more informed, data-driven decisions.
 
 Understanding where manipulation and distribution occur within each candlestick, and across different trading sessions, enhances a trader’s ability to spot opportunities and manage risk more effectively.

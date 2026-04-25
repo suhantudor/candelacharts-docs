@@ -47,8 +47,6 @@ Once calculated, these averaged highs and lows are plotted on the chart as horiz
 
 Because these levels are based on aggregated historical data rather than single price extremes, they generally provide more reliable and structurally significant reaction zones than isolated highs or lows.
 
-***
-
 By continuously analyzing manipulation and distribution levels over varying time periods, the **OHLC Macro Range Map** offers deeper insights into market structure, enhancing traders' ability to make informed, data-driven decisions.
 
 Understanding where manipulation and distribution occur within each candlestick improves the trader’s ability to identify opportunities and manage risk effectively.

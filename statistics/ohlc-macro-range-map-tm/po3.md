@@ -1,22 +1,35 @@
 ---
-description: OHLC Macro Range Map PO3
+description: OHLC Macro Range Map AMD (PO3)
 icon: square-3
 ---
 
-# PO3
+# AMD (PO3)
 
 <figure><img src="../../.gitbook/assets/docs-rangemap-005.png" alt=""><figcaption></figcaption></figure>
 
-The ICT Power of Three (PO3/AMD) is a strategic market framework developed by Michael Huddleston, also known as The Inner Circle Trader (ICT). This framework is designed to help traders gain a deeper understanding of institutional trading behavior, often referred to as "smart money." It highlights three key phases that drive price movement: Accumulation, Manipulation, and Distribution.
+The ICT Power of Three (PO3/AMD) is a trading strategy developed by Michael Huddleston, also known as "The Inner Circle Trader" (ICT). It aims to help traders identify and capitalize on market movements driven by institutional investors, often referred to as "smart money." The strategy is structured around three distinct phases: Accumulation, Manipulation, and Distribution.
 
 ### **1. Accumulation Phase**
 
-This phase marks the start of the cycle, during which institutional traders—smart money—slowly accumulate positions within a narrow, low-volatility price range. This often occurs during quieter market sessions, such as the Asian trading hours, where the price moves sideways, consolidating. During this time, liquidity builds up above and below the range, primarily through retail stop-loss orders and pending trades, creating a trap for less-experienced market participants.
+In this initial phase, smart money quietly builds positions within a narrow price range, often during low-volatility periods such as the Asian trading session. This consolidation creates liquidity on both sides of the market, setting the stage for future price movements.
 
 ### **2. Manipulation Phase**
 
-Once sufficient liquidity has been generated, smart money triggers sharp price movements to activate retail stop-losses or lure traders into false breakouts. This manipulation phase is designed to push the market in the wrong direction, prompting emotional reactions and poor trading decisions from retail traders. It provides institutions with an opportunity to refine their positions at more favorable prices by countering these erratic moves.
+Following accumulation, prices are deliberately moved to trigger retail traders' stop-loss orders, creating false breakouts. This manipulation misleads traders into entering positions that are later reversed, allowing smart money to accumulate more favorable positions.
 
 ### **3. Distribution Phase**
 
-After the accumulation of positions and the clearing out of retail participants, smart money drives the market in its intended direction. The distribution phase is characterized by strong, directional price movements that follow the initial accumulation phase. In this phase, institutions sell off their positions into the liquidity generated during the manipulation phase, capturing the majority of the price movement and realizing their profits.
+In the final phase, smart money drives the market in the intended direction, capitalizing on the liquidity created during the manipulation phase. This phase often results in strong price movements that align with the initial accumulation, leading to significant profits for those who correctly identify the preceding phases.
+
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-008.png" alt=""><figcaption></figcaption></figure>
+
+### **Applying It Practically with OHLC** Macro **Range Map**&#x20;
+
+The OHLC Macro Range Map overlays a statistical framework directly onto the Power of Three cycle, giving each phase a defined price boundary to trade against. The key levels are:
+
+* **MAC + D / MAC − D** — The outer distribution bands. Price reaching these extremes signals maximum extension and a likely reversal or exhaustion zone.
+* **MAC Avg H / MAC Avg L** — The average high and low zones. These are the most common targets for the distribution leg — where smart money typically completes its move.
+* **MAC + M / MAC − M** — The manipulation bands. A sweep into these zones is the classic manipulation signature — stops are hunted here before the real move begins.
+* **MAC + O** — The macro open level. Price frequently returns to the open during accumulation before the directional leg kicks off.&#x20;
+
+**In practice**, when price sweeps into the **MAC ± M** zone and stalls, that's the manipulation phase completing. The distribution leg then typically targets the **MAC Avg H** or **Avg L**, with the **MAC ± D** acting as the extreme scenario extension. Trading this way means you're not chasing — you're waiting for price to reach a statistically defined level, confirming the trap, and entering ahead of the real move.

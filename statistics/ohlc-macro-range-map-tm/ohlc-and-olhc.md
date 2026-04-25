@@ -1,5 +1,5 @@
 ---
-description: OHLC Session Range Map OHLC & OLHC
+description: OHLC Macro Range Map OHLC & OLHC
 icon: i
 ---
 

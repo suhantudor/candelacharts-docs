@@ -1,5 +1,5 @@
 ---
-description: OHLC Session Range Map Premium & Discount
+description: OHLC Macro Range Map Premium & Discount
 icon: distribute-spacing-vertical
 ---
 

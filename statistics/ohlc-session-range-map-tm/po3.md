@@ -1,5 +1,5 @@
 ---
-description: OHLC Session Range Map PO3
+description: OHLC Session Range Map AMD (PO3)
 icon: square-3
 ---
 
@@ -23,13 +23,13 @@ In the final phase, smart money drives the market in the intended direction, cap
 
 <figure><img src="../../.gitbook/assets/docs-session-rangemap-008.png" alt=""><figcaption></figcaption></figure>
 
-### **Applying It Practically with OHLC Range Map**&#x20;
+### **Applying It Practically with OHLC Session Range Map**&#x20;
 
-The OHLC Range Map overlays a statistical framework directly onto the Power of Three cycle, giving each phase a defined price boundary to trade against. The key levels are:
+The OHLC Session Range Map overlays a statistical framework directly onto the Power of Three cycle, giving each phase a defined price boundary to trade against. The key levels are:
 
-* **1D + D / 1D − D** — The outer distribution bands. Price reaching these extremes signals maximum extension and a likely reversal or exhaustion zone.
-* **1D Avg H / 1D Avg L** — The average high and low zones. These are the most common targets for the distribution leg — where smart money typically completes its move.
-* **1D + M / 1D − M** — The manipulation bands. A sweep into these zones is the classic manipulation signature — stops are hunted here before the real move begins.
-* **1D + O** — The session open level. Price frequently returns to the open during accumulation before the directional leg kicks off.
+* **SES + D / SES − D** — The outer distribution bands. Price reaching these extremes signals maximum extension and a likely reversal or exhaustion zone.
+* **SES Avg H / SES Avg L** — The average high and low zones. These are the most common targets for the distribution leg — where smart money typically completes its move.
+* **SES + M / SES − M** — The manipulation bands. A sweep into these zones is the classic manipulation signature — stops are hunted here before the real move begins.
+* **SES + O** — The session open level. Price frequently returns to the open during accumulation before the directional leg kicks off.&#x20;
 
-In practice, when price sweeps into the **1D ± M zone** and stalls, that's the manipulation phase completing. The distribution leg then typically targets the **1D Avg H or Avg L**, with the **1D ± D** acting as the extreme scenario extension. Trading this way means you're not chasing — you're waiting for price to reach a statistically defined level, confirming the trap, and entering ahead of the real move.
+**In practice**, when price sweeps into the **SES ± M** zone and stalls, that's the manipulation phase completing. The distribution leg then typically targets the **SES Avg H** or **Avg L**, with the **SES ± D** acting as the extreme scenario extension. Trading this way means you're not chasing — you're waiting for price to reach a statistically defined level, confirming the trap, and entering ahead of the real move.
