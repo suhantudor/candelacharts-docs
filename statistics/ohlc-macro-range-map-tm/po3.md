@@ -21,7 +21,7 @@ Following accumulation, prices are deliberately moved to trigger retail traders'
 
 In the final phase, smart money drives the market in the intended direction, capitalizing on the liquidity created during the manipulation phase. This phase often results in strong price movements that align with the initial accumulation, leading to significant profits for those who correctly identify the preceding phases.
 
-<figure><img src="../../.gitbook/assets/docs-session-rangemap-008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-010.png" alt=""><figcaption></figcaption></figure>
 
 ### **Applying It Practically with OHLC** Macro **Range Map**&#x20;
 

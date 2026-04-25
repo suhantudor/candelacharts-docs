@@ -49,4 +49,8 @@ Enhance your TradingView toolkit by incorporating this powerful indicator into y
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
+{% content-ref url="faqs.md" %}
+[faqs.md](faqs.md)
+{% endcontent-ref %}
+
 Going beyond traditional OHLC visuals, this advanced tool applies Inner Circle Trader (ICT) principles to analyze accumulation, manipulation, and distribution on a candle-by-candle basis.

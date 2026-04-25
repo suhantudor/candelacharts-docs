@@ -7,7 +7,7 @@ icon: window-minimize
 
 The **OHLC Macro Range Map** incorporates an advanced liquidity detection system that identifies and highlights areas of concentrated market interest. These zones mark regions where buy and sell orders commonly accumulate, increasing the probability of price reactions—especially when they coincide with key Manipulation and Distribution levels.
 
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-011.png" alt=""><figcaption></figcaption></figure>
 
 By clearly visualizing the confluence between liquidity pools and manipulation or distribution zones, the tool enables traders to anticipate potential reversals and critical market turning points. Liquidity sensitivity is fully customizable through an adjustable threshold, allowing traders to tailor the level of detail to suit their preferred strategy and timeframe.
 

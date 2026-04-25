@@ -36,6 +36,6 @@ The OHLC structure provides a detailed view of price movement and highlights key
 
 While OHLC offers a solid foundation, combining it with Statistical Mapping can provide deeper insight. This approach highlights average price zones where manipulation and distribution tend to occur, helping you align these levels with real-time price action.
 
-<figure><img src="../../.gitbook/assets/docs-session-rangemap-007.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-macro-rangemap-009.png" alt=""><figcaption></figcaption></figure>
 
 For instance, OHLC shows you where price opened, closed, and reached its extremes, but Statistical Mapping helps identify where these turning points are most likely to happen based on historical behavior. This added layer can help you anticipate reversals or recognize when a trend is likely to continue.
