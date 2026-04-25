@@ -1,5 +1,5 @@
 ---
-description: OHLC Range Map PO3
+description: OHLC Range Map AMD (PO3)
 icon: square-3
 ---
 

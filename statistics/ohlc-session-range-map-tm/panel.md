@@ -5,7 +5,7 @@ icon: game-board-simple
 
 # Panel
 
-<figure><img src="../../.gitbook/assets/docs-session-rangemap-004.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-010.png" alt=""><figcaption></figcaption></figure>
 
 **The OHLC Session Range Map Panel delivers a dynamic and intuitive visualization of price behavior, rendering market movement in real time based on key Manipulation and Distribution levels.**
 

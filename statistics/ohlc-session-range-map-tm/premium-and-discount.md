@@ -1,5 +1,4 @@
 ---
-description: OHLC Range Map Premium & Discount
 icon: distribute-spacing-vertical
 ---
 

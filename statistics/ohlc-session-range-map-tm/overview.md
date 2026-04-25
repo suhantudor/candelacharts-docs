@@ -5,24 +5,32 @@ icon: list-ol
 
 # Overview
 
-<figure><img src="../../.gitbook/assets/docs-macro-rangemap-001 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-session-rangemap-011.png" alt=""><figcaption></figcaption></figure>
 
 Elevate your TradingView toolkit with the **OHLC Session Range Map**—an advanced indicator crafted to deliver actionable insights for more refined trading strategies.
 
-{% content-ref url="sessions.md" %}
-[sessions.md](sessions.md)
+{% content-ref url="ohlc-and-olhc.md" %}
+[ohlc-and-olhc.md](ohlc-and-olhc.md)
 {% endcontent-ref %}
 
 {% content-ref url="po3.md" %}
 [po3.md](po3.md)
 {% endcontent-ref %}
 
-{% content-ref url="calculation.md" %}
-[calculation.md](calculation.md)
+{% content-ref url="algorithm.md" %}
+[algorithm.md](algorithm.md)
+{% endcontent-ref %}
+
+{% content-ref url="premium-and-discount.md" %}
+[premium-and-discount.md](premium-and-discount.md)
 {% endcontent-ref %}
 
 {% content-ref url="liquidity.md" %}
 [liquidity.md](liquidity.md)
+{% endcontent-ref %}
+
+{% content-ref url="sessions.md" %}
+[sessions.md](sessions.md)
 {% endcontent-ref %}
 
 {% content-ref url="statistical-levels.md" %}
