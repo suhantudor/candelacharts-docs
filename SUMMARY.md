@@ -352,6 +352,7 @@
     * [Usage](investing/momentum-and-oscillators/z-deviation-waves/usage.md)
     * [Confluences](investing/momentum-and-oscillators/z-deviation-waves/confluences.md)
     * [FAQs](investing/momentum-and-oscillators/z-deviation-waves/faqs.md)
+  * [Sequential Exhaustion 🔜](investing/momentum-and-oscillators/sequential-exhaustion.md)
 * [Risk & Portfolio Management](investing/risk-and-portfolio-management/README.md)
   * [ATH Drawdown](investing/risk-and-portfolio-management/ath-drawdown/README.md)
     * [Overview](investing/risk-and-portfolio-management/ath-drawdown/overview.md)
