@@ -5,50 +5,31 @@ icon: clock-nine
 
 # Macros
 
-**The OHLC Expansion Map is engineered to deliver precise and targeted market analysis by focusing on key institutional timing windows—known as trading macros.**
+ICT Macros are specific, short time windows during which institutional algorithms are programmed to deliver price to specific targets or seek liquidity. The **Macros** component maps these critical windows with high precision.
 
-These macros represent strategically defined micro-periods within major trading sessions where significant liquidity shifts, volatility spikes, and institutional order flow are most likely to occur.
+### Predefined Macros
 
-By aligning its calculations with these high-impact windows, the OHLC Macro Range Map allows traders to isolate moments of potential smart money activity with exceptional clarity.
+The OHLC Expansion Map includes over 18+ predefined macros, including:
 
-The tool analyzes the following key macro timeframes:
+* **London Macros:** 02:33-03:00, 03:00-04:00 (Silver Bullet), 04:03-04:30, 04:15-05:00.
+* **NY AM Macros:** 08:15-08:45, 08:50-09:10, 09:15-09:45, 09:50-10:10, 10:00-11:00 (Silver Bullet).
+* **NY PM Macros:** 13:10-13:40, 13:45-14:15, 14:00-15:00 (Silver Bullet), 15:15-15:45.
 
-#### London Session
+### How to use Macros
 
-* (London) 02:33 – 03:00
-* (London Silver Bullet) 03:00 – 04:00
-* (London) 03:15 – 03:45
-* (London) 04:03 – 04:30
-* (London) 04:15 – 05:00
+1. **Enable Macro Slots:** You have 5 dedicated macro slots that can be enabled independently.
+2. **Select from Dropdown:** Each slot has a dropdown menu with all standard ICT macros.
+3. **Visual Confirmation:** The indicator will draw a vertical time-window and project behavioral levels (Manipulation/Distribution) specifically for that macro.
 
-#### New York AM Session
+### Why Macros Matter?
 
-* (NY AM) 08:15 – 08:45
-* (NY AM) 08:50 – 09:10
-* (NY AM) 09:15 – 09:45
-* (NY AM) 09:50 – 10:10
-* (NY AM Silver Bullet) 10:00 – 11:00
-* (NY AM) 10:15 – 10:45
-* (NY AM) 10:50 – 11:10
+Macros often act as the "catalyst" for a session's expansion. By viewing the historical behavioral ranges for a specific macro (e.g., the 09:50-10:10 NY AM Macro), you can anticipate exactly how much "fake-out" (Manipulation) or "target" (Distribution) to expect within that 20-minute window.
 
-#### New York Lunch Session
+### Custom Macros
 
-* (NY Launch) 11:50 – 12:10
+Need a custom time window? Use the **Custom Macro** slot to define any time period (e.g., `0930-1000` for the opening 30 minutes of the NY session).
 
-#### New York PM Session
+### Visual Customization
 
-* (NY PM) 13:10 – 13:40
-* (NY PM) 13:45 – 14:15
-* (NY PM Silver Bullet) 14:00 – 15:00
-* (NY PM) 14:45 – 15:15
-* (NY PM) 15:15 – 15:45
-
-#### **Custom**
-
-* (Custom) 11:00 – 11:30
-
-These time intervals are not arbitrary—they are derived from historical patterns of institutional engagement, where price manipulation, liquidity grabs, and major directional moves often originate.
-
-By tailoring its calculations to these specific moments, the OHLC Macro Range Map helps traders identify **high-probability setups**, **anticipate market reversals**, and **better align with the underlying narrative of smart money behavior**.
-
-Whether you're scalping intraday or looking to refine your entry timing, this macro-focused approach offers a valuable edge by revealing where and when the most meaningful price action is likely to unfold.
+* **Abbreviated Labels:** Enable "Abbreviate Labels" in settings to keep your chart clean (e.g., `[-M]` instead of `[-M] Manipulation`).
+* **Open Price:** Each macro displays its own unique opening price line.

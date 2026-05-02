@@ -5,42 +5,40 @@ icon: bell
 
 # Alerts
 
-The **OHLC Expansion Map** provides real-time notifications when price interacts with key statistical boundaries. These alerts are designed to help traders identify the completion of manipulation phases and the reach of distribution targets without needing to constantly monitor the chart.
+Stay on top of every institutional move with real-time **Alerts**. The OHLC Expansion Map allows you to monitor critical behavioral levels even when you are away from your screen.
 
-### Available Alert Types
+### Alert Conditions
 
-The following alert conditions can be enabled within the **Alerts** settings group:
+The indicator is programmed to trigger alerts when price crosses any of the following key levels:
 
-| Alert                       | Condition                                                            | Statistical Context                                                  |
-| --------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Cross Open (+O)**         | Price crosses the opening level of the current session or timeframe. | Signifies a return to the accumulation baseline.                     |
-| **Cross Manipulation (±M)** | Price reaches the Manipulation High or Manipulation Low levels.      | Indicates a potential stop-hunt or trap is in progress.              |
-| **Cross Distribution (±D)** | Price reaches the extreme Distribution expansion bands.              | Signals maximum statistical extension and potential exhaustion.      |
-| **Cross Avg H/L**           | Price reaches the Average High or Average Low zones.                 | Marks the most common mathematical targets for the distribution leg. |
+#### 1. Manipulation Zone Entry
 
-### Dynamic Alert Logic
+Triggered when price enters the Resistance 1 (\[-M]) or Support 1 (\[+M]) zones. This notifies you that a "fake-out" or institutional accumulation/manipulation phase is potentially starting.
 
-The indicator uses advanced logic to ensure alert accuracy based on your chosen calculation settings:
+#### 2. Distribution Target Hit
 
-#### 1. Algorithm Adaptability
+Triggered when price reaches the Resistance 2 (\[+D]) or Support 2 (\[-D]) extremes. These are your primary targets or potential reversal areas.
 
-If you are using the **"Both"** algorithm (Mean + Median), the system automatically identifies the **"Inner Level"** (the boundary closest to the Open). The alert will trigger as soon as price touches this inner boundary to ensure you are notified at the earliest possible confluence.
+#### 3. Open Price Cross
 
-#### 2. Multi-Timeframe Integration
+Notifies you when price returns to the "equilibrium" (the opening price) after an expansion or manipulation phase.
 
-Alerts can be configured for up to three different timeframes simultaneously (TF1, TF2, and TF3). Each alert message will explicitly state which timeframe triggered the condition (e.g., `(1D)` for Daily or `(1W)` for Weekly).
+#### 4. Volatility Expansion
 
-#### 3. Execution Frequency
+Alerts for price entering the ATR-based Volatility Box, signaling potential exhaustion.
 
-All alerts use the `alert.freq_once_per_bar` protocol. This means:
+### Setting up Alerts in TradingView
 
-* You receive the notification immediately upon the price cross.
-* You will not receive multiple notifications for the same level within the same bar, preventing "spam" during volatile moves.
+1. Click the **Alerts** icon in the TradingView sidebar.
+2. Select **CandelaCharts - OHLC Expansion Map** as the "Condition."
+3. Choose the specific alert message from the dropdown (e.g., `{{strategy.order.alert_message}}` or use the default message).
+4. Set your notification preferences (Pop-up, Email, Webhook, Mobile app).
 
-### Alert Configuration Settings
+### Dynamic Placeholders
 
-To ensure your alerts function correctly, verify the following settings:
+The indicator uses dynamic strings to provide detailed information in your alert messages:
 
-* **Style Visibility**: Alerts are hard-linked to the visual plots. A level must be toggled **ON** in the **Style** menu to trigger an alert.
-* **Timezone Anchor**: Ensure your **Timezone** is set correctly (default is `America/New_York`), as this determines the anchor point for the opening price and subsequent levels.
-* **Weighting**: If **Volume** or **Volatility** weighting is enabled, your alert levels will adjust dynamically to market conditions, and notifications will trigger based on these adjusted zones.
+* **Timeframe:** Identifies which timeframe (1D, 4H, etc.) triggered the alert.
+* **Session/Macro Name:** Identifies the specific session or macro (e.g., "London Open").
+* **Level Type:** Clearly states whether it was a Manipulation or Distribution level.
+* **Price:** Includes the exact price level at the time of the trigger.

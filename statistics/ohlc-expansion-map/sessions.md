@@ -5,17 +5,34 @@ icon: clock-nine
 
 # Sessions
 
-**The OHLC Expansion Map performs calculations that are specifically tailored to distinct trading sessions—commonly referred to as "killzones"—to deliver more focused and context-aware market analysis.**
+The market moves in cycles of time. The **Sessions** component of the OHLC Expansion Map provides precision mapping for specific trading windows where institutional volatility is highest.
 
-By aligning with the natural rhythm of institutional activity across global financial centers, the script offers enhanced insight into price behavior during each key period:
+### Predefined Sessions
 
-* **Asia Session:** 20:00 – 00:00 (UTC)
-* **London Session:** 02:00 – 05:00 (UTC)
-* **New York AM Session:** 09:30 – 11:00 (UTC)
-* **New York Lunch Session:** 12:00 – 13:00 (UTC)
-* **New York PM Session:** 13:30 – 16:00 (UTC)
-* **Custom**
+The indicator comes with several industry-standard sessions pre-configured:
 
-Each session is treated as a distinct phase, allowing traders to observe how price interacts with liquidity and manipulation levels during specific windows of high institutional activity.
+* **Asia Session (AS):** 20:00 - 00:00 (NY Time). Often characterized by accumulation or consolidation.
+* **London Open (LO):** 02:00 - 05:00 (NY Time). The "Killzone" where the daily high or low is often formed.
+* **NY AM Session (NYAM):** 09:30 - 11:00 (NY Time). High-intensity expansion following the equities open.
+* **NY Lunch (NY LA):** 12:00 - 13:00 (NY Time). Typically a period of retracement or consolidation.
+* **NY PM Session (NYPM):** 13:30 - 16:00 (NY Time). Late-day distribution or trend continuation.
 
-This session-based approach helps users identify patterns, anticipate market behavior, and refine entry or exit strategies with greater precision.
+### Custom Sessions
+
+If you trade specific markets (like London Equities, Crypto, or Forex pairs with specific news events), you can use the **Custom Session** slot. Simply enter the time in `HHMM-HHMM` format.
+
+### Features
+
+#### NY Midnight Open
+
+For all session-based statistics, you have the option to anchor the "Daily Open" to the New York Midnight price. This is critical for ICT-based trading strategies where the "True Day" begins at 00:00 EST.
+
+#### Dynamic Zone Extension
+
+* **End of Period:** Zones extend from the session start to the calculated session end time.
+* **Current Bar:** Zones extend dynamically to the current time, providing a live "real-time" view of the expansion.
+
+### Best Practices
+
+* **Color Coding:** Use distinct colors for each session to quickly identify which "Killzone" you are currently trading in.
+* **Overlap Analysis:** Look for instances where a Higher Timeframe (TF2) Distribution zone overlaps with a Session (LO) Manipulation zone—these are often high-probability reversal points.

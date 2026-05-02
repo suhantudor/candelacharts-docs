@@ -219,7 +219,7 @@
   * [Panel](statistics/ohlc-range-map-tm/panel.md)
   * [Alerts](statistics/ohlc-range-map-tm/alerts.md)
   * [FAQs](statistics/ohlc-range-map-tm/faqs.md)
-* [OHLC Expansion Map 🔜](statistics/ohlc-expansion-map/README.md)
+* [OHLC Expansion Map](statistics/ohlc-expansion-map/README.md)
   * [Overview](statistics/ohlc-expansion-map/overview.md)
   * [OHLC & OLHC](statistics/ohlc-expansion-map/ohlc-and-olhc.md)
   * [AMD (PO3)](statistics/ohlc-expansion-map/po3.md)

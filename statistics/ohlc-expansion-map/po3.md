@@ -21,15 +21,25 @@ Following accumulation, prices are deliberately moved to trigger retail traders'
 
 In the final phase, smart money drives the market in the intended direction, capitalizing on the liquidity created during the manipulation phase. This phase often results in strong price movements that align with the initial accumulation, leading to significant profits for those who correctly identify the preceding phases.
 
-<figure><img src="../../.gitbook/assets/docs-rangemap-008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-003.png" alt=""><figcaption></figcaption></figure>
 
-### **Applying It Practically with OHLC Range Map**&#x20;
+### **Applying It Practically with OHLC Expansion Map**&#x20;
 
-The OHLC Range Map overlays a statistical framework directly onto the Power of Three cycle, giving each phase a defined price boundary to trade against. The key levels are:
+The **OHLC Expansion Map** overlays a statistical framework directly onto the Power of Three cycle, giving each phase a defined price boundary to trade against. This logic applies across all timeframes, from the Daily (1D) macro view down to specific intraday windows.
 
-* **1D + D / 1D − D** — The outer distribution bands. Price reaching these extremes signals maximum extension and a likely reversal or exhaustion zone.
-* **1D Avg H / 1D Avg L** — The average high and low zones. These are the most common targets for the distribution leg — where smart money typically completes its move.
-* **1D + M / 1D − M** — The manipulation bands. A sweep into these zones is the classic manipulation signature — stops are hunted here before the real move begins.
-* **1D + O** — The session open level. Price frequently returns to the open during accumulation before the directional leg kicks off.
+#### Institutional Signatures
+
+The key levels identify where institutional algorithms typically transition from one phase to the next:
+
+* **Open (+ O):** The anchor for the cycle. Price frequently returns to this level during accumulation before the expansion begins.
+* **Manipulation Bands (± M):** These zones represent the high-probability area for the "fake-out" move. A sweep into these levels is where liquidity is hunted before the real distribution kicks off.
+* **Distribution Bands (± D):** The ultimate targets for the move. Price reaching these extremes signals maximum expansion and a likely reversal or exhaustion point.
+
+#### Sessions and Macros
+
+The Power of Three is fractal, meaning it repeats within smaller time windows throughout the day:
+
+* **Session PO3:** The indicator tracks specific sessions (Asia, London, NY AM/PM). You can observe an **Asia Accumulation** phase leading into a **London Manipulation** (sweep of the ±M zones) and a **New York Distribution**.
+* **Macro PO3:** Within high-intensity 20-60 minute **Macros**, algorithms often deliver a mini-AMD cycle. The map provides dedicated behavioral levels for each macro, allowing you to catch the manipulation phase within these specific institutional windows.
 
 In practice, when price sweeps into the **1D ± M zone** and stalls, that's the manipulation phase completing. The distribution leg then typically targets the **1D Avg H or Avg L**, with the **1D ± D** acting as the extreme scenario extension. Trading this way means you're not chasing — you're waiting for price to reach a statistically defined level, confirming the trap, and entering ahead of the real move.
