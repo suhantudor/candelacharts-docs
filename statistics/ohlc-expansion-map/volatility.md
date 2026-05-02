@@ -5,6 +5,8 @@ icon: chart-bar
 
 # Volatility
 
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-008.png" alt=""><figcaption></figcaption></figure>
+
 The **Volatility** component of the OHLC Expansion Map is a dynamic filter that identifies zones where price is expected to move with high velocity. It doesn't just show potential distance; it identifies the "speed lanes" of the market.
 
 ### The Volatility Box

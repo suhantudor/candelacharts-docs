@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-004.png" alt=""><figcaption></figcaption></figure>
+
 The **OHLC Expansion Map** is a comprehensive suite of tools designed to provide a 360-degree view of market statistics. It operates by layering multiple layers of data on your chart, all calculated relative to specific "Opening Prices."
 
 {% content-ref url="ohlc-and-olhc.md" %}
@@ -23,8 +25,8 @@ The **OHLC Expansion Map** is a comprehensive suite of tools designed to provide
 [premium-and-discount.md](premium-and-discount.md)
 {% endcontent-ref %}
 
-{% content-ref url="sessions.md" %}
-[sessions.md](sessions.md)
+{% content-ref url="sessions-1.md" %}
+[sessions-1.md](sessions-1.md)
 {% endcontent-ref %}
 
 {% content-ref url="macros.md" %}

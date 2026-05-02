@@ -1,38 +1,39 @@
 ---
-description: OHLC Expansion Map Sessions
-icon: clock-nine
+description: OHLC Expansion Map Timeframes
+icon: calendar
 ---
 
-# Sessions
+# Timeframes
 
-The market moves in cycles of time. The **Sessions** component of the OHLC Expansion Map provides precision mapping for specific trading windows where institutional volatility is highest.
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-010.png" alt=""><figcaption></figcaption></figure>
 
-### Predefined Sessions
+The **OHLC Expansion Map** is built on the principle of market fractality. Institutional algorithmic price delivery follows the same behavioral patterns whether you are looking at a Yearly, Monthly, Daily, or 15-minute timeframe.
 
-The indicator comes with several industry-standard sessions pre-configured:
+### Multi-Timeframe
 
-* **Asia Session (AS):** 20:00 - 00:00 (NY Time). Often characterized by accumulation or consolidation.
-* **London Open (LO):** 02:00 - 05:00 (NY Time). The "Killzone" where the daily high or low is often formed.
-* **NY AM Session (NYAM):** 09:30 - 11:00 (NY Time). High-intensity expansion following the equities open.
-* **NY Lunch (NY LA):** 12:00 - 13:00 (NY Time). Typically a period of retracement or consolidation.
-* **NY PM Session (NYPM):** 13:30 - 16:00 (NY Time). Late-day distribution or trend continuation.
+The indicator provides four dedicated timeframe slots (**TF1 through TF4**) that can be enabled and configured independently. This allows you to project Higher Timeframe (HTF) behavioral levels directly onto your trading timeframe.
 
-### Custom Sessions
+#### Available Timeframe Inputs
 
-If you trade specific markets (like London Equities, Crypto, or Forex pairs with specific news events), you can use the **Custom Session** slot. Simply enter the time in `HHMM-HHMM` format.
+You can select from any of the standard TradingView timeframes, including:
 
-### Features
+* **12M** (Yearly)
+* **3M / 1M** (Quarterly / Monthly)
+* **1W** (Weekly)
+* **1D** (Daily)
+* **240 / 60** (4-Hour / 1-Hour)
+* **15 / 5 / 1** (Intraday minutes)
 
-#### NY Midnight Open
+{% hint style="info" %}
+You are not limited to these defaults. You can manually type in **any custom timeframe** supported by TradingView (e.g., `2D`, `3H`, `90m`, `2W`) into the timeframe input field.
+{% endhint %}
 
-For all session-based statistics, you have the option to anchor the "Daily Open" to the New York Midnight price. This is critical for ICT-based trading strategies where the "True Day" begins at 00:00 EST.
+### Common Configurations
 
-#### Dynamic Zone Extension
+* **The Swing Trader:** TF1: 1M | TF2: 1W | TF3: 1D
+* **The Day Trader:** TF1: 1W | TF2: 1D | TF3: 4H | TF4: 1H
+* **The Scalper:** TF1: 1D | TF2: 4H | TF3: 1H | TF4: 15m
 
-* **End of Period:** Zones extend from the session start to the calculated session end time.
-* **Current Bar:** Zones extend dynamically to the current time, providing a live "real-time" view of the expansion.
+### Visual Abbreviation
 
-### Best Practices
-
-* **Color Coding:** Use distinct colors for each session to quickly identify which "Killzone" you are currently trading in.
-* **Overlap Analysis:** Look for instances where a Higher Timeframe (TF2) Distribution zone overlaps with a Session (LO) Manipulation zone—these are often high-probability reversal points.
+To keep your chart clean while using all 4 TF slots, enable the **"Abbreviate Labels"** setting. This will change long labels like `[1D] Distribution` to shorter codes like `[1D] +D`, providing more room for price action analysis.

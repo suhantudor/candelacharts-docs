@@ -7,7 +7,7 @@
 * [Frequently Asked Questions](get-started/faqs.md)
 * [Join Our Community](get-started/community.md)
 * [Markets Availability](get-started/markets.md)
-* [Trading Styles Availability](get-started/markets-1.md)
+* [Supported Trading Styles](get-started/markets-1.md)
 * [Trading Framework](get-started/trading-framework.md)
 
 ## Toolkits
@@ -225,7 +225,8 @@
   * [AMD (PO3)](statistics/ohlc-expansion-map/po3.md)
   * [Calculation](statistics/ohlc-expansion-map/algorithm.md)
   * [Premium & Discount](statistics/ohlc-expansion-map/premium-and-discount.md)
-  * [Sessions](statistics/ohlc-expansion-map/sessions.md)
+  * [Timeframes](statistics/ohlc-expansion-map/sessions.md)
+  * [Sessions](statistics/ohlc-expansion-map/sessions-1.md)
   * [Macros](statistics/ohlc-expansion-map/macros.md)
   * [Volatility](statistics/ohlc-expansion-map/volatility.md)
   * [Volume Profile](statistics/ohlc-expansion-map/volatility-1.md)

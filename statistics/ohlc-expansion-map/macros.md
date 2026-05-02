@@ -1,9 +1,11 @@
 ---
 description: OHLC Expansion Map Macros
-icon: clock-nine
+icon: square-dashed
 ---
 
 # Macros
+
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-012.png" alt=""><figcaption></figcaption></figure>
 
 ICT Macros are specific, short time windows during which institutional algorithms are programmed to deliver price to specific targets or seek liquidity. The **Macros** component maps these critical windows with high precision.
 

@@ -5,6 +5,8 @@ icon: layer-group
 
 # Volume Profile
 
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-009.png" alt=""><figcaption></figcaption></figure>
+
 The **Real Volume Profile** component provides a deep look into the historical volume distribution across specific timeframes or sessions. Unlike standard volume bars, this profile shows "Where" the volume was traded, not just "When."
 
 ### Key Components

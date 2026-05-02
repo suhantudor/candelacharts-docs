@@ -5,6 +5,8 @@ icon: distribute-spacing-vertical
 
 # Premium & Discount
 
+<figure><img src="../../.gitbook/assets/docs-ohlc-expansion-map-005.png" alt=""><figcaption></figcaption></figure>
+
 The **Premium & Discount** display mode is a simplified visual framework that allows traders to quickly identify whether price is in a "Buy Zone" or a "Sell Zone" relative to its historical expansion behavior.
 
 ### How it Works
