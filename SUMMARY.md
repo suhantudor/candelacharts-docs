@@ -36,6 +36,7 @@
   * [Bias Magnet](toolkits/trend-concepts-tm/bias-magnet.md)
   * [Flux Trend](toolkits/trend-concepts-tm/flux-trend.md)
   * [Surge Waves](toolkits/trend-concepts-tm/surge-waves.md)
+  * [Trend Rails](toolkits/trend-concepts-tm/trend-rails.md)
   * [Velocity Bands](toolkits/trend-concepts-tm/velocity-bands.md)
   * [Candle Coloring](toolkits/trend-concepts-tm/candle-coloring.md)
   * [Signals](toolkits/trend-concepts-tm/signals.md)

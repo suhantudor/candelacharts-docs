@@ -73,3 +73,17 @@ Trend Concepts provides alert options for each component's key signals. All aler
 **Triggers when:** Price enters the upper band but rejects back below it (bearish reversal signal)
 
 **Alert message:** `[SYMBOL TIMEFRAME] Velocity Bands — Rejection from Upper Band [bearish]`
+
+### Trend Rails Alerts
+
+Trend Rails provides dedicated alert options for trend transitions. All alerts fire once per bar close and include the symbol and timeframe in the message format: `[SYMBOL TIMEFRAME] Signal Description`.
+
+#### **TR Bull**
+
+* **Triggers when**: Price breaks above the upper Trend Rail and flips the trend to bullish.
+* **Alert message**: `[SYMBOL TIMEFRAME] Trend Rails — Trend Up [bullish flip]`
+
+#### **TR Bear**
+
+* **Triggers when**: Price breaks below the lower Trend Rail and flips the trend to bearish.
+* **Alert message**: `[SYMBOL TIMEFRAME] Trend Rails — Trend Down [bearish flip]`
