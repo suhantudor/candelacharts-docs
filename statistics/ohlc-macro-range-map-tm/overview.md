@@ -49,8 +49,8 @@ Elevate your TradingView toolkit with the **OHLC Macro Range Map**—an advanced
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-{% content-ref url="faqs.md" %}
-[faqs.md](faqs.md)
+{% content-ref url="/broken/pages/QAkL4eXPstl94DnvoRCM" %}
+[Broken link](/broken/pages/QAkL4eXPstl94DnvoRCM)
 {% endcontent-ref %}
 
 Going beyond traditional OHLC visualizations, this powerful tool leverages Inner Circle Trader (ICT) principles to analyze accumulation, manipulation, and distribution dynamics. It offers a detailed, candle-by-candle breakdown, enabling a deeper understanding of market behavior.

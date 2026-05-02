@@ -49,8 +49,8 @@ Elevate your TradingView toolkit with the **OHLC Session Range Map**—an advanc
 [alerts.md](alerts.md)
 {% endcontent-ref %}
 
-{% content-ref url="faqs.md" %}
-[faqs.md](faqs.md)
+{% content-ref url="/broken/pages/373TyA8Ann1hoRHaRJRp" %}
+[Broken link](/broken/pages/373TyA8Ann1hoRHaRJRp)
 {% endcontent-ref %}
 
 Going beyond traditional OHLC visualizations, this powerful tool leverages Inner Circle Trader (ICT) principles to analyze accumulation, manipulation, and distribution dynamics. It offers a detailed, candle-by-candle breakdown, enabling a deeper understanding of market behavior.
