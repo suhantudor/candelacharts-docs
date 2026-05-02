@@ -4,6 +4,8 @@ icon: chart-sine
 
 # Trend Rails
 
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-010 (1).png" alt=""><figcaption></figcaption></figure>
+
 **Trend Rails** is a sophisticated momentum-tracking component designed to identify high-energy price movements while filtering out market noise. It utilizes an **Adaptive Engine** that adjusts its sensitivity in real-time based on market efficiency.
 
 ### The Concept
