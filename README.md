@@ -3,6 +3,27 @@ description: Begin exploring how CandelaCharts works in just minutes.
 icon: play
 cover: .gitbook/assets/bear-market-001.png
 coverY: 665.2104591836734
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Quick Start
@@ -11,24 +32,24 @@ coverY: 665.2104591836734
 
 Welcome to the CandelaCharts knowledge hub! Dive in by clicking the buttons below to discover how to get started, master our toolkits, and supercharge your trading journey with CandelaCharts.
 
-{% content-ref url="/broken/pages/1iOhRHCRRh9U3cH2Su0h" %}
-[Broken link](/broken/pages/1iOhRHCRRh9U3cH2Su0h)
+{% content-ref url="https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/toolkits" %}
+[Toolkits](https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/toolkits)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/xCeUQf5VSGJPaR3Y0fMy" %}
-[Broken link](/broken/pages/xCeUQf5VSGJPaR3Y0fMy)
+{% content-ref url="https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/oscillators" %}
+[Oscillators](https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/oscillators)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/TQxlpkkIsEwjKg765TEX" %}
-[Broken link](/broken/pages/TQxlpkkIsEwjKg765TEX)
+{% content-ref url="https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/models" %}
+[Models](https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/models)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/Att5cdIIsmSFV4gPEv8z" %}
-[Broken link](/broken/pages/Att5cdIIsmSFV4gPEv8z)
+{% content-ref url="https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/statistics" %}
+[Statistics](https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/statistics)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/DOpeUOKQ3XymD7G3pwNd" %}
-[Broken link](/broken/pages/DOpeUOKQ3XymD7G3pwNd)
+{% content-ref url="https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/investing" %}
+[Investing](https://app.gitbook.com/s/CBVnUk5c5TVytimjy972/investing)
 {% endcontent-ref %}
 
 #### FAQs
