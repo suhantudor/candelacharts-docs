@@ -1,6 +1,7 @@
 ---
-icon: tenge-sign
+hidden: true
+icon: infinity
 ---
 
-# Price Action Model 🔜
+# Forever Model 🔜
 
