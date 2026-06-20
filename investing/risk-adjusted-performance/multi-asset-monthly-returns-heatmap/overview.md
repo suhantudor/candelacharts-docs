@@ -7,6 +7,8 @@ icon: list-ol
 
 Operating on the Monthly (1M) timeframe, this heatmap allows you to analyze the average historical performance of up to 28 different customizable assets at once.&#x20;
 
+<figure><img src="../../../.gitbook/assets/docs-multi-asset-monthly-returns-heatmap-007.png" alt=""><figcaption></figcaption></figure>
+
 It goes beyond simple returns by offering multiple statistical calculation modes—including Mean, Median, Volatility, Max, Min, and Sum.&#x20;
 
 {% content-ref url="features.md" %}
