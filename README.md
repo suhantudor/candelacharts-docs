@@ -1,8 +1,13 @@
 ---
 description: Begin exploring how CandelaCharts works in just minutes.
 icon: play
+cover: .gitbook/assets/docs-header-006.png
+coverY: 191.63803234676055
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
