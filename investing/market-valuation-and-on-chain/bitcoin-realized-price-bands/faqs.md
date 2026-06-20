@@ -7,40 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary><strong>What exactly is the "Realized Price"?</strong></summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+The Realized Price is an on-chain metric. Instead of valuing each Bitcoin at the current spot price, it values each Bitcoin at the price it last moved on the blockchain. This effectively calculates the average cost basis of all holders.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary><strong>Can I use this indicator on Altcoins?</strong></summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+No, this specific indicator fetches Bitcoin's specific on-chain Realized Cap data. It is only accurate for Bitcoin (BTCUSD, BTCUSDT).
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary><strong>What does the MVRV Oscillator show?</strong></summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+The MVRV (Market Value to Realized Value) ratio compares the current spot price to the Realized Price. A high MVRV indicates the market is holding large unrealized profits (bubble risk), while a low MVRV indicates aggregate unrealized losses (bottoming territory).
+
+</details>
+
+<details>
+
+<summary><strong>How do I turn off the candle coloring if it conflicts with my chart?</strong></summary>
+
+You can disable the custom candle coloring via the indicator's settings panel under the "Style" tab.
+
+</details>
+
+<details>
+
+<summary><strong>How do I set up alerts for the signals?</strong></summary>
+
+You can create standard TradingView alerts on the indicator and select the Long and Short crossover conditions to be notified when Bitcoin crosses critical macro valuation thresholds.
 
 </details>

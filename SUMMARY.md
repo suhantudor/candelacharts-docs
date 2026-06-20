@@ -336,7 +336,7 @@
     * [Usage](investing/market-valuation-and-on-chain/shiller-pe-ratio/usage.md)
     * [Confluences](investing/market-valuation-and-on-chain/shiller-pe-ratio/confluences.md)
     * [FAQs](investing/market-valuation-and-on-chain/shiller-pe-ratio/faqs.md)
-  * [Bitcoin Realized Price Bands 🔜](investing/market-valuation-and-on-chain/bitcoin-realized-price-bands/README.md)
+  * [Bitcoin Realized Price Bands](investing/market-valuation-and-on-chain/bitcoin-realized-price-bands/README.md)
     * [Overview](investing/market-valuation-and-on-chain/bitcoin-realized-price-bands/overview.md)
     * [Features](investing/market-valuation-and-on-chain/bitcoin-realized-price-bands/features.md)
     * [Usage](investing/market-valuation-and-on-chain/bitcoin-realized-price-bands/usage.md)
