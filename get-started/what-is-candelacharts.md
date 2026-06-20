@@ -2,7 +2,28 @@
 description: Premier provider of advanced trading indicators
 icon: seal-question
 cover: ../.gitbook/assets/what-is-candela-001.png
-coverY: 260
+coverY: 478.2559460455215
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # What is CandelaCharts?
