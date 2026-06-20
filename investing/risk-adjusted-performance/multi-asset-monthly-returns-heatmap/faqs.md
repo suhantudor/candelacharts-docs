@@ -7,40 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary><strong>Why is the heatmap not loading or showing a timeframe error?</strong></summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+The indicator requires your chart to be set to the 1M (Monthly) timeframe to accurately pull and calculate the monthly data for all 28 assets. Please switch your chart to the 1M timeframe.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary><strong>Can I change the assets displayed in the heatmap?</strong></summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+Yes, all 28 assets are fully customizable. You can change the ticker symbol and the display name for each slot in the indicator's settings menu.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary><strong>What does the "Calc Mode" setting do?</strong></summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+The Calc Mode determines which statistical metric is calculated and displayed for each month. For example, "Mean" shows the average historical return for that month, while "Max" shows the single highest return ever recorded for that month.
+
+</details>
+
+<details>
+
+<summary><strong>Why do the color intensities change when I switch Calc Modes?</strong></summary>
+
+The indicator features dynamic heatmap scaling. Because different metrics have different typical ranges (e.g., the 'Sum' of all returns will be much larger than the 'Mean'), the indicator automatically adjusts its color intensity thresholds so the heatmap remains visually readable and useful.
+
+</details>
+
+<details>
+
+<summary><strong>Does this indicator slow down TradingView?</strong></summary>
+
+Because it pulls historical data for up to 28 different assets simultaneously and performs complex statistical calculations, it can take a moment to load upon initial application or when changing settings. This is normal and expected behavior for heavy data-aggregation scripts.
 
 </details>

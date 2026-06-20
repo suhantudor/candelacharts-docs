@@ -311,7 +311,7 @@
     * [Usage](investing/risk-adjusted-performance/monthly-return-heatmap/usage.md)
     * [Confluences](investing/risk-adjusted-performance/monthly-return-heatmap/confluences.md)
     * [FAQs](investing/risk-adjusted-performance/monthly-return-heatmap/faqs.md)
-  * [Multi-Asset Monthly Returns Heatmap 🔜](investing/risk-adjusted-performance/multi-asset-monthly-returns-heatmap/README.md)
+  * [Multi-Asset Monthly Returns Heatmap](investing/risk-adjusted-performance/multi-asset-monthly-returns-heatmap/README.md)
     * [Overview](investing/risk-adjusted-performance/multi-asset-monthly-returns-heatmap/overview.md)
     * [Features](investing/risk-adjusted-performance/multi-asset-monthly-returns-heatmap/features.md)
     * [Usage](investing/risk-adjusted-performance/multi-asset-monthly-returns-heatmap/usage.md)
