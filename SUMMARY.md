@@ -7,7 +7,7 @@
 * [Frequently Asked Questions](get-started/faqs.md)
 * [Join Our Community](get-started/community.md)
 * [Markets Availability](get-started/markets.md)
-* [Supported Trading Styles](get-started/markets-1.md)
+* [Supported Trading Styles](get-started/trading-styles.md)
 * [Trading Framework](get-started/trading-framework.md)
 
 ## Toolkits
