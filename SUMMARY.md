@@ -127,7 +127,7 @@
   * [SMT](models/fractal-range-model-tm/smt.md)
   * [Dashboard](models/fractal-range-model-tm/dashboard.md)
   * [Alerts](models/fractal-range-model-tm/alerts.md)
-* [Price Action Model™ 🔜](models/price-action-model-tm/README.md)
+* [Price Action Model™](models/price-action-model-tm/README.md)
   * [Overview](models/price-action-model-tm/overview.md)
   * [Features](models/price-action-model-tm/features.md)
   * [Terminology](models/price-action-model-tm/terminology.md)
