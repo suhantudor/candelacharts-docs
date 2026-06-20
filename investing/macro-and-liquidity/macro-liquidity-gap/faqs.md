@@ -7,40 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary><strong>Why is the indicator not loading on intraday charts?</strong></summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+The Macro Liquidity Gap requires a Daily (1D) or higher timeframe. Central bank money supply data is only updated weekly or monthly, making intraday calculations impossible.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary><strong>How does the Fed Net Liquidity blend work?</strong></summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+The indicator allows you to blend standard US M2 with the more precise Fed Net Liquidity formula (Balance Sheet - TGA - Reverse Repo). You can use the slider in the settings to adjust the weighting based on your preference.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary><strong>Why is China's M2 weight discounted?</strong></summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+China operates with strict capital controls, meaning a significant portion of its printed money cannot easily flow into global asset markets like the S\&P 500. We discount it by 50% to provide a more realistic picture of "exportable" liquidity.
+
+</details>
+
+<details>
+
+<summary><strong>Can I change the asset the liquidity is compared against?</strong></summary>
+
+Yes, by default it compares against the S\&P 500 (SP:SPX), but you can change the target index or asset in the indicator settings to analyze how liquidity affects Bitcoin, Gold, or other indices.
+
+</details>
+
+<details>
+
+<summary><strong>Does it repaint?</strong></summary>
+
+No, the indicator calculates based on closed data. However, be aware that central bank M2 data is sometimes subject to slight historical revisions by the issuing banks themselves.
 
 </details>

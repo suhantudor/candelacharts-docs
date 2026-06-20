@@ -361,7 +361,7 @@
     * [Usage](investing/macro-and-liquidity/bitcoin-dominance-trend/usage.md)
     * [Confluences](investing/macro-and-liquidity/bitcoin-dominance-trend/confluences.md)
     * [FAQs](investing/macro-and-liquidity/bitcoin-dominance-trend/faqs.md)
-  * [Macro Liquidity Gap 🔜](investing/macro-and-liquidity/macro-liquidity-gap/README.md)
+  * [Macro Liquidity Gap](investing/macro-and-liquidity/macro-liquidity-gap/README.md)
     * [Overview](investing/macro-and-liquidity/macro-liquidity-gap/overview.md)
     * [Features](investing/macro-and-liquidity/macro-liquidity-gap/features.md)
     * [Usage](investing/macro-and-liquidity/macro-liquidity-gap/usage.md)
