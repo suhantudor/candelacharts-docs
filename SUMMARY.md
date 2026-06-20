@@ -435,7 +435,7 @@
     * [Usage](investing/risk-and-portfolio-management/period-roi/usage.md)
     * [Confluences](investing/risk-and-portfolio-management/period-roi/confluences.md)
     * [FAQs](investing/risk-and-portfolio-management/period-roi/faqs.md)
-  * [Volatility Regime Model 🔜](investing/risk-and-portfolio-management/volatility-regime-model/README.md)
+  * [Volatility Regime Model](investing/risk-and-portfolio-management/volatility-regime-model/README.md)
     * [Overview](investing/risk-and-portfolio-management/volatility-regime-model/overview.md)
     * [Features](investing/risk-and-portfolio-management/volatility-regime-model/features.md)
     * [Usage](investing/risk-and-portfolio-management/volatility-regime-model/usage.md)

@@ -7,41 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary><strong>Can I change the VIX thresholds for the different regimes?</strong></summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+Yes, you can fully customize the threshold levels for Low, Mid, High, and Crisis Cluster zones in the settings menu to fit different assets or historical periods.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary><strong>What is VIX Smoothing and should I use it?</strong></summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+VIX Smoothing applies a Hull Moving Average (HMA) to the raw VIX data. This filters out intraday noise and prevents rapid switching of states during volatile, choppy sessions.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary><strong>Which tickers are used for Cross-Asset Validation?</strong></summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+By default, it uses the MOVE Index for bond volatility and the High-Yield vs Investment Grade corporate bond spread for credit validation. You can customize these tickers in the settings.
 
 </details>
 
+<details>
+
+<summary><strong>How do I interpret the "Fade Noise" vs "Defensive" bias?</strong></summary>
+
+"Fade Noise" appears early in a volatility spike (Days 1-2), suggesting a high probability of mean reversion. "Defensive" appears when the spike persists (Day 6+), indicating a genuine regime shift where fading the volatility is dangerous.
+
+</details>
+
+<details>
+
+<summary><strong>How do I move the dashboard if it blocks price action?</strong></summary>
+
+You can easily adjust the positioning of the real-time summary dashboard to any corner of the chart via the settings panel.
+
+</details>
