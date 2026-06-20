@@ -7,41 +7,40 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary><strong>Why does the indicator show an error or warning on my chart?</strong></summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+This indicator requires the chart to be set to the 1M (Monthly) timeframe to calculate returns correctly. If you are on a Daily, Weekly, or intraday timeframe, a warning will be displayed. Change your chart timeframe to 1M.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary><strong>What is the difference between Geo YTD and Ari YTD?</strong></summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+Geo YTD (Geometric Year-to-Date) calculates the compounded return over the year, which is the true return on investment. Ari YTD (Arithmetic Year-to-Date) simply adds the percentage returns of each month together. Geo YTD is generally more accurate for measuring actual portfolio performance.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary><strong>Can I use this indicator on any asset?</strong></summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+Yes, the Monthly Returns Heatmap can be applied to any asset available on TradingView, including stocks, cryptocurrencies, forex, and commodities, provided there is enough historical data.
 
 </details>
 
+<details>
+
+<summary><strong>How far back does the heatmap look?</strong></summary>
+
+You can configure the indicator to display up to 30 years of historical monthly data, depending on the data availability for the specific asset on TradingView.
+
+</details>
+
+<details>
+
+<summary><strong>Does this indicator provide buy or sell signals?</strong></summary>
+
+No, this indicator is a visual analysis tool designed to show historical seasonality and performance. It does not provide automated buy or sell alerts and should be used as part of a broader trading strategy.
+
+</details>

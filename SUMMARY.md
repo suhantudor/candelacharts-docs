@@ -305,7 +305,7 @@
     * [Usage](investing/risk-adjusted-performance/calmar-ratio/usage.md)
     * [Confluences](investing/risk-adjusted-performance/calmar-ratio/confluences.md)
     * [FAQs](investing/risk-adjusted-performance/calmar-ratio/faqs.md)
-  * [Monthly Return Heatmap 🔜](investing/risk-adjusted-performance/monthly-return-heatmap/README.md)
+  * [Monthly Return Heatmap](investing/risk-adjusted-performance/monthly-return-heatmap/README.md)
     * [Overview](investing/risk-adjusted-performance/monthly-return-heatmap/overview.md)
     * [Features](investing/risk-adjusted-performance/monthly-return-heatmap/features.md)
     * [Usage](investing/risk-adjusted-performance/monthly-return-heatmap/usage.md)
