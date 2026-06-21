@@ -1,5 +1,5 @@
 ---
-description: BTC ETF Flows Confluences
+description: Altseason Index Confluences
 icon: object-intersect
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: BTC ETF Flows Usage
+description: Bitcoin ETF Flows Usage
 icon: circle-chevron-right
 ---
 
