@@ -5,6 +5,8 @@ icon: circle-chevron-right
 
 # Usage
 
+<figure><img src="../../../.gitbook/assets/docs-altseason-index-002.png" alt=""><figcaption></figcaption></figure>
+
 The Altseason Index is designed to clearly identify accumulation and distribution phases in the altcoin market. It utilizes a 0-100 scale, making it simple to interpret and actionable for both short-term and long-term trading strategies.
 
 ### How it works

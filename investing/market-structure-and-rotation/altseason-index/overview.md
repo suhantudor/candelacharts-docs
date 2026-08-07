@@ -7,6 +7,8 @@ icon: list-ol
 
 The **CandelaCharts - Altseason Index** is a robust, multi-metric composite oscillator designed to gauge whether capital is flowing toward Bitcoin or Altcoins.
 
+<figure><img src="../../../.gitbook/assets/docs-altseason-index-001.png" alt=""><figcaption></figcaption></figure>
+
 By aggregating momentum (RSI), mean-reversion (Mayer Multiple), and relative asset performance (Altcoins vs BTC, Altcoins vs NVDA) into a single unified 0-100 index, it helps traders easily identify periods of extreme undervaluation or overextension in the altcoin market.
 
 {% content-ref url="features.md" %}

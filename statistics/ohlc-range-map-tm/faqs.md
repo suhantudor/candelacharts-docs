@@ -18,7 +18,7 @@ No. You only need to create **one** alert in the TradingView "Create Alert" dial
 <summary><strong>What does the alert message look like?</strong></summary>
 
 A typical message follows this format: `[Ticker] ([Timeframe]): Price reached [Level Name] Level`.\
-&#xNAN;_&#x45;xample:_ `EURUSD (1D): Price reached Manipulation (+M) Level`
+_&#x45;xample:_ `EURUSD (1D): Price reached Manipulation (+M) Level`
 
 </details>
 
