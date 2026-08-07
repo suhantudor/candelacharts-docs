@@ -307,7 +307,7 @@
     * [Usage](investing/risk-adjusted-performance/calmar-ratio/usage.md)
     * [Confluences](investing/risk-adjusted-performance/calmar-ratio/confluences.md)
     * [FAQs](investing/risk-adjusted-performance/calmar-ratio/faqs.md)
-  * [Tail Ratio 🔜](investing/risk-adjusted-performance/tail-ratio/README.md)
+  * [Tail Ratio](investing/risk-adjusted-performance/tail-ratio/README.md)
     * [Overview](investing/risk-adjusted-performance/tail-ratio/overview.md)
     * [Features](investing/risk-adjusted-performance/tail-ratio/features.md)
     * [Usage](investing/risk-adjusted-performance/tail-ratio/usage.md)
