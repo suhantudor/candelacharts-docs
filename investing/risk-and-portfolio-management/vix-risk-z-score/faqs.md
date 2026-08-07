@@ -7,41 +7,41 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary>Why does the indicator use FRED data instead of the standard VIX ticker?</summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+Using the `FRED:VIXCLS` ticker ensures the data is strictly daily closing data, which provides a cleaner, more robust dataset for calculating long-term statistical standard deviations without the noise of intraday gaps and wicks.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary>Can I use this indicator on intraday timeframes?</summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+Because the underlying FRED data is updated daily, this indicator is strictly designed for the Daily (1D) timeframe and higher. It will not display accurate data on lower timeframes like 1H or 5m.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary>Why is the "Panic" zone colored Blue and "Complacency" colored Orange?</summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+This contrarian color scheme is deliberate. Blue (cool) reminds you to stay calm and look for buying opportunities when everyone else is panicking. Orange (warm/warning) reminds you to be cautious and alert when everyone else feels perfectly safe. You can change these in the settings.
+
+</details>
+
+<details>
+
+<summary>What does the "Z-Score Length" setting do?</summary>
+
+This determines how many days of history the indicator uses to calculate the average VIX and its standard deviation. The default of 365 days gives a solid 1-year rolling window, ensuring the Z-Score adapts to the current macro environment rather than comparing today's volatility to a completely different market decade.
+
+</details>
+
+<details>
+
+<summary>Does a Z-Score of +2.0 mean I should buy immediately?</summary>
+
+Not necessarily. In a severe crisis (like 2008 or 2020), the VIX can stay elevated for weeks, pushing the Z-Score extremely high. A reading > 2.0 tells you that capitulation is occurring; you should use technical triggers (like a bullish engulfing candle or a break of market structure) to time the actual entry.
 
 </details>
 
