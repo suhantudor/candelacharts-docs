@@ -7,41 +7,41 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary>What exactly does the Altseason Index measure?</summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+The Altseason Index measures the flow of capital and relative momentum between Altcoins, Bitcoin, and traditional tech markets. It uses a composite model comprising RSI, Mayer Multiple, and cross-asset performance ratios to output a single 0-100 value indicating altcoin undervaluation or overextension.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary>What does a value below 20 indicate?</summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+A value below 20 indicates a "Deep Opportunity" zone. Historically, when the index drops to this level, altcoins are heavily undervalued, downside risk is compressed, and it marks a prime area for long-term accumulation.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary>How do I know when the market is overextended?</summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+When the index crosses above the 80 level, it enters the "Extreme Risk" zone. This suggests that altcoin valuations are stretched and capital is highly likely to rotate back into Bitcoin or stablecoins. It is generally viewed as a signal to take profits.
+
+</details>
+
+<details>
+
+<summary>Can I customize the indicator for different assets?</summary>
+
+Yes. From the settings panel, you can customize the base symbol, the comparator symbols (like TOTAL3 or NVDA), the lookback timeframes, and the relative weights of each component metric to fit your specific trading strategy.
+
+</details>
+
+<details>
+
+<summary>Does the indicator provide alerts?</summary>
+
+Yes, the Altseason Index includes built-in alert conditions. You can set up TradingView alerts to notify you automatically whenever the index enters the Deep Opportunity zone (crosses under 20) or the Extreme Risk zone (crosses over 80).
 
 </details>
 
