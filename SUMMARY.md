@@ -498,7 +498,7 @@
     * [Usage](investing/market-structure-and-rotation/investor-tool/usage.md)
     * [Confluences](investing/market-structure-and-rotation/investor-tool/confluences.md)
     * [FAQs](investing/market-structure-and-rotation/investor-tool/faqs.md)
-  * [Altseason Index 🔜](investing/market-structure-and-rotation/altseason-index/README.md)
+  * [Altseason Index](investing/market-structure-and-rotation/altseason-index/README.md)
     * [Overview](investing/market-structure-and-rotation/altseason-index/overview.md)
     * [Features](investing/market-structure-and-rotation/altseason-index/features.md)
     * [Usage](investing/market-structure-and-rotation/altseason-index/usage.md)
