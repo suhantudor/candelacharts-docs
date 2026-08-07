@@ -7,41 +7,41 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary>Why does the indicator require a 1D timeframe or higher?</summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+Spot Bitcoin ETFs report their balances and flows at the end of the trading day. Therefore, intraday data is not available or accurate. The indicator enforces a minimum 1D timeframe to ensure the data is displayed correctly.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary>Where does the ETF data come from?</summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+The indicator utilizes professional-grade Glassnode metrics natively integrated into TradingView to pull the exact underlying balances for each specific ETF.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary>What is the difference between Money and Coins data formats?</summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+"Money" displays the flows in USD value, which is influenced by the current price of Bitcoin. "Coins" displays the flows in raw BTC amounts, isolating the actual accumulation/distribution behavior regardless of fiat price fluctuations.
+
+</details>
+
+<details>
+
+<summary>How should I use the Z-Score format?</summary>
+
+The Z-Score measures how many standard deviations a recent flow is from the historical average (defined by the Z-Score Length). A Z-Score above +2.0 or below -2.0 indicates a statistically extreme inflow or outflow event, which often marks a point of exhaustion or capitulation.
+
+</details>
+
+<details>
+
+<summary>Can I turn off specific ETFs if I only want to track a few?</summary>
+
+Yes. The settings menu allows you to individually toggle each of the 10 supported ETFs on or off, allowing you to create custom aggregate views or track specific funds in isolation.
 
 </details>
 
