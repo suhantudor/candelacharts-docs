@@ -7,41 +7,41 @@ icon: square-question
 
 <details>
 
-<summary>How is the CAGR calculated in this tool?</summary>
+<summary>What does the "Lookback (Bars)" setting do?</summary>
 
-It uses the exact number of seconds elapsed between the start of the lookback period and the current bar, providing a more accurate annualized figure than simple bar counting.
-
-</details>
-
-<details>
-
-<summary>Why use Calmar instead of the Sharpe Ratio?</summary>
-
-Sharpe uses standard deviation (volatility), which treats "good" upward volatility as risk. Calmar uses drawdown, focusing specifically on the risk of losing capital.
+The lookback period determines the historical window used to calculate the Z-Score. The default is 730 bars, which represents roughly 2 years of daily trading data in traditional markets. This ensures the indicator has enough historical context to accurately determine what constitutes a "rare" extreme.
 
 </details>
 
 <details>
 
-<summary>What is a "good" Calmar Ratio?</summary>
+<summary>Can I use this on intraday timeframes?</summary>
 
-Generally, a ratio > 1.0 is considered strong. Exceptional traders or assets often maintain a ratio > 3.0, though this is rare over long periods.
-
-</details>
-
-<details>
-
-<summary>Does the lookback setting affect the calculation?</summary>
-
-Yes. A shorter lookback (e.g., 60 days) captures tactical performance, while the default 252 days (one trading year) provides a comprehensive view of annual efficiency.
+Yes, but you will need to adjust your settings. A 200-period MA on a 5-minute chart represents less than one day of price action. For intraday use, you may want to increase the MA Length and adjust the Lookback to reflect the specific micro-cycle you are trying to trade.
 
 </details>
 
 <details>
 
-<summary>What does the "Risk Visuals" setting do?</summary>
+<summary>Why did the price keep falling after it entered the Buy Zone?</summary>
 
-It enables a background heatmap where the intensity of the color corresponds to the current drawdown percentage, allowing you to see "pain points" historically.
+A Z-Score below -2σ simply means the move is a statistical outlier (occurring roughly 2.5% of the time in a normal distribution). It does not mean the price must reverse instantly. During severe market panics, price can ride the extreme bands for days or weeks. This is why confluences are necessary for exact timing.
+
+</details>
+
+<details>
+
+<summary>What is the Fractal Map?</summary>
+
+The Fractal Map is a visual tool that tracks the time (in bars) between significant peaks or troughs in the oscillator. By displaying the historical cycle lengths, it helps you identify temporal patterns and estimate when the next major mean reversion event might occur.
+
+</details>
+
+<details>
+
+<summary>How do I enable the Buy Zone on my main chart?</summary>
+
+In the settings menu under "Settings," simply check the box labeled "Show Buy Zones". This will cast the Buy Zone background color directly onto your main price chart whenever the indicator drops below the -2σ threshold, making it impossible to miss.
 
 </details>
 

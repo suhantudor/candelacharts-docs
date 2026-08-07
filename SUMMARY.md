@@ -436,7 +436,7 @@
     * [Usage](investing/momentum-and-oscillators/sequential-exhaustion/usage.md)
     * [Confluences](investing/momentum-and-oscillators/sequential-exhaustion/confluences.md)
     * [FAQs](investing/momentum-and-oscillators/sequential-exhaustion/faqs.md)
-  * [Mean Reversion Index 🔜](investing/momentum-and-oscillators/mean-reversion-index/README.md)
+  * [Mean Reversion Index](investing/momentum-and-oscillators/mean-reversion-index/README.md)
     * [Overview](investing/momentum-and-oscillators/mean-reversion-index/overview.md)
     * [Features](investing/momentum-and-oscillators/mean-reversion-index/features.md)
     * [Usage](investing/momentum-and-oscillators/mean-reversion-index/usage.md)
