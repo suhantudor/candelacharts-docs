@@ -4,6 +4,8 @@ icon: bars-staggered
 
 # Volume Profiles
 
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-002.png" alt=""><figcaption></figcaption></figure>
+
 The Volume Profiles component visualizes Higher Timeframe (HTF) volume distribution directly on your chart, helping you identify where the most trading activity has occurred over a specified period.
 
 ### Profile Type

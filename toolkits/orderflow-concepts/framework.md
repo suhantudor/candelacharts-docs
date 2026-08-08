@@ -4,7 +4,9 @@ icon: diagram-venn
 
 # Framework
 
-This page outlines how to actively read and trade using the Order Flow Concepts toolkit. Unlike structural models (like the FVG or Breaker models) that wait for a specific pattern, this toolkit provides a continuous read of market mechanics. You use it to build context and anticipate moves before the structural patterns even form.
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-008.png" alt=""><figcaption></figcaption></figure>
+
+This page outlines how to actively read and trade using the Order Flow Concepts toolkit. You use it to build context and anticipate moves before the structural patterns even form.
 
 ### Step 1 - Assess the Liquidity Landscape
 

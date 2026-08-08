@@ -7,7 +7,7 @@ icon: alien-8bit
 The Order Flow Concepts toolkit is packed with advanced analytical tools designed to uncover institutional activity.
 
 * **HTF Volume Profiles**: Overlays Higher Timeframe volume distributions directly on your chart. Supports both Continuous (macro POC) and Spaced (shifting value) profiles, complete with customizable Value Area (VA) percentages and Initial Range highlighting.
-* **Liquidity Mappings**: Tracks and visualizes historical resting liquidity pools across three time horizons (Fast, Mid, Slow). Choose to view liquidity density via an advanced Heatmap Block system or clean Dotted Lines.
+* **Liquidity Pools**: Tracks and visualizes historical resting liquidity pools across three time horizons (Fast, Mid, Slow). Choose to view liquidity density via an advanced Heatmap Block system or clean Dotted Lines.
 * **Volume vs Money Calculation**: Choose whether liquidity pools and aggregations calculate raw traded Volume or total traded Money (Volume \* Price).
 * **Stacked Imbalances**: Automatically highlights zones where consecutive, one-sided volume imbalances occur, indicating aggressive market order execution.
 * **Volume Anomalies**: Flags specific institutional footprints on individual candles, including:

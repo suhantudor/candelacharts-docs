@@ -4,6 +4,8 @@ icon: claw-marks
 
 # Volume Anomalies
 
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-005.png" alt=""><figcaption></figcaption></figure>
+
 Volume Anomalies are visual markers that highlight candles exhibiting abnormal volume behavior relative to their price progress. These anomalies often precede significant reversals and are critical for confirming when a liquidity sweep is genuine.
 
 ### Core Concepts

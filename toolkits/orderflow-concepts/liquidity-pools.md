@@ -4,6 +4,8 @@ icon: blinds-raised
 
 # Liquidity Pools
 
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-004.png" alt=""><figcaption></figcaption></figure>
+
 The Liquidity Pools component tracks historical and active liquidity pools. It identifies key swing highs and lows across multiple time horizons, calculates the volume or money accumulated at those levels, and visualizes them on your chart so you can see exactly where price is likely to be drawn.
 
 ### Visualizing Liquidity

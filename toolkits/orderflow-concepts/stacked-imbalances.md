@@ -6,6 +6,8 @@ icon: objects-column
 
 Stacked Imbalances are powerful visual confirmations of aggressive institutional participation. They occur when market participants execute large market orders in a single direction, overwhelming the limit orders and leaving behind a "stack" of consecutive price levels with one-sided volume.
 
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-003.png" alt=""><figcaption></figcaption></figure>
+
 When the toolkit detects a stacked imbalance, it highlights the zone on your chart, providing a clear visual representation of aggressive buying or selling pressure. These zones often act as strong support or resistance on subsequent retracements.
 
 ### Configuration

@@ -6,6 +6,8 @@ icon: soap
 
 Big Order Bubbles (BOBs) provide a simple but highly effective way to visualize exceptionally large, single-bar volume injections directly on your chart.
 
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-006.png" alt=""><figcaption></figcaption></figure>
+
 While the Volume Anomalies feature looks for specific behaviors (like absorption or exhaustion), Big Order Bubbles simply highlight raw, massive participation. When a bubble appears, you know that significant institutional money has just stepped into the market.
 
 ### Configuration

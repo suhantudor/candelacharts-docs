@@ -4,7 +4,11 @@ icon: grip-dots
 
 # Dashboard
 
-The Order Flow Concepts Dashboard is an on-chart panel that aggregates all the raw order flow and liquidity data into a single, easy-to-read summary. It provides a real-time read on market context, helping you establish a directional bias before looking for entries.
+The Order Flow Concepts Dashboard is an on-chart panel that aggregates all the raw order flow and liquidity data into a single, easy-to-read summary.&#x20;
+
+<figure><img src="../../.gitbook/assets/docs-orderflow-concepts-007.png" alt=""><figcaption></figcaption></figure>
+
+It provides a real-time read on market context, helping you establish a directional bias before looking for entries.
 
 ### Configuration
 
