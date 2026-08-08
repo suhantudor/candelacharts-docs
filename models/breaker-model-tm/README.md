@@ -2,5 +2,5 @@
 icon: arrows-left-right-to-line
 ---
 
-# Breaker Model™ 🔜
+# Breaker Model™
 
