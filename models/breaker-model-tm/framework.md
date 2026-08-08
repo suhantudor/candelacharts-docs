@@ -9,7 +9,7 @@ This page walks you through the step-by-step process of trading with the Breaker
 
 <figure><img src="../../.gitbook/assets/docs-breaker-model-004.png" alt=""><figcaption></figcaption></figure>
 
-### Step 1 — Identify HTF Liquidity
+### Step 1 - Identify HTF Liquidity
 
 The first thing you want to do is look at the liquidity levels the model has drawn on your chart. The Breaker Model tracks up to 4 HTF sources (Source A through D), each pulling in key levels from a different timeframe. These levels represent untouched highs and lows where stop-losses are resting — the fuel that institutions need to engineer reversals.
 
@@ -17,7 +17,7 @@ Spend a moment reading the levels. Which ones are closest to the current price? 
 
 Understanding where liquidity sits is the foundation. Without this context, every setup is just a coin flip.
 
-### Step 2 — Wait for the Liquidity Sweep
+### Step 2 - Wait for the Liquidity Sweep
 
 Now you wait. This is the hardest part for most traders, but it's where the edge comes from.
 
@@ -25,7 +25,7 @@ A sweep happens when price pushes through one of those HTF levels — even by a 
 
 Don't react to the sweep itself. The sweep is just step one. Price can (and often does) continue through a level for several candles before reversing. The sweep tells you that liquidity has been taken; it doesn't tell you the reversal has started.
 
-### Step 3 — Wait for the Breaker Block
+### Step 3 - Wait for the Breaker Block
 
 This is where the model does the heavy lifting.
 
@@ -40,7 +40,7 @@ The indicator draws a box around this Breaker Block in your active color. That's
 
 If you have **Unicorn Mode** turned on, the model goes one step further — it checks whether a Fair Value Gap (FVG) was created during the same displacement move that formed the Breaker. If the FVG overlaps with the Breaker Block, the setup is validated as a Unicorn. If there's no overlap, the setup is skipped entirely. This is the strictest filter available and produces the highest-probability entries.
 
-### Step 4 — Plan Your Entry
+### Step 4 - Plan Your Entry
 
 The Breaker Box is your entry zone. Wait for price to retrace back into it before entering.
 
@@ -50,7 +50,7 @@ For a **Unicorn** setup, the entry zone is even more precise — it's the overla
 
 A practical approach many traders use: set a limit order at the midpoint of the Breaker Box (or the Unicorn zone) and walk away. Either price comes to you, or it doesn't — and if it doesn't, you've lost nothing.
 
-### Step 5 — Define Your Risk
+### Step 5 - Define Your Risk
 
 Where you place your stop-loss depends on your **Invalidation** setting:
 
@@ -59,7 +59,7 @@ Where you place your stop-loss depends on your **Invalidation** setting:
 
 Choose based on the context. On volatile instruments or during high-impact news, the swing-based stop is usually worth the extra width. On clean, technical setups in quiet markets, the Breaker edge stop often works perfectly.
 
-### Step 6 — Manage to Target
+### Step 6 - Manage to Target
 
 Once you're in, the R:R Projection lines are already on your chart. These are your take-profit levels based on the targets you've configured (e.g., `1, 2, 2.5`).
 

@@ -9,7 +9,7 @@ icon: diagram-venn
 
 This page walks you through the step-by-step process of trading with the FVG Model — from reading the chart all the way to managing your position. Think of it as your playbook.
 
-### Step 1 — Read the HTF Candles
+### Step 1 - Read the HTF Candles
 
 Before anything else, take a moment to look at the HTF candles the model has drawn on the right side of your chart. These candles show you the bigger picture — the macro trend, the recent swing structure, and most importantly, where liquidity is sitting.
 
@@ -17,7 +17,7 @@ You're looking for untouched HTF candle highs and lows. These are the levels whe
 
 Don't rush into the chart the moment it loads. Let the HTF candles tell you the story first. Are we in a range? Are we trending? Is there a clear pool of liquidity sitting just below or above the current price? Once you've identified the target, you wait.
 
-### Step 2 — Wait for the Sweep
+### Step 2 - Wait for the Sweep
 
 This is where patience matters most. You know where liquidity is resting, but you need the market to actually go and take it before you can act.
 
@@ -25,7 +25,7 @@ A sweep happens when price pushes past a previous HTF candle's high or low — e
 
 The key here is to not jump in the moment you see a wick beyond the level. The sweep is just the first piece of the puzzle. It tells you that liquidity has been taken, but it doesn't yet confirm that the market is ready to reverse.
 
-### Step 3 — Confirm the Structure Shift
+### Step 3 - Confirm the Structure Shift
 
 This is the confirmation step, and it's what separates this model from blindly fading every wick.
 
@@ -42,7 +42,7 @@ If you don't get a structure shift after the sweep, there's no trade. Simple as 
 One critical factor that directly impacts your success rate is the **Length** setting. Length controls the maximum distance (in HTF candles) allowed between the FVG and the sweep. The tighter this value, the stronger the confluence — a sweep that happens right next to the FVG means the imbalance is fresh and the institutional footprint is immediate. Setting Length to `2` or `3` will significantly reduce the number of models that appear, but the ones that do appear will have a noticeably higher completion rate. Conversely, a Length of `8` or `10` will produce more setups, but many of them will be weaker because the FVG and the sweep are too far apart structurally. Start tight and loosen only if you're not getting enough setups on your instrument.
 {% endhint %}
 
-### Step 4 — Identify Your Entry
+### Step 4 - Identify Your Entry
 
 Now that the model is confirmed, the HTF Fair Value Gap is mapped directly onto your LTF chart as a colored box. This is your entry zone.
 
@@ -52,7 +52,7 @@ If you've enabled the **CE line** (Consequent Encroachment), the midpoint of the
 
 Don't chase the initial move. Let price come to you. The FVG is the zone where you want to be positioned.
 
-### Step 5 — Define Your Risk
+### Step 5 - Define Your Risk
 
 Your stop-loss is handled by the Standard Deviation projection, and it's placed at 1 standard deviation from the anchor point.
 
@@ -65,7 +65,7 @@ The anchor depends on your setting:
 
 Place your actual stop just beyond the projection level. The model has already done the math for you — the projection line on the chart is exactly where your risk is defined.
 
-### Step 6 — Manage the Trade
+### Step 6 - Manage the Trade
 
 Once you're in, the take-profit target is already plotted on the chart as a Standard Deviation projection at your configured multiplier (e.g., -2.5 means 2.5x the risk distance).
 
