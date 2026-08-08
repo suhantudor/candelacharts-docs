@@ -5,6 +5,8 @@ icon: diagram-venn
 
 # Framework
 
+<figure><img src="../../.gitbook/assets/docs-fvg-model-003.png" alt=""><figcaption></figcaption></figure>
+
 This page walks you through the step-by-step process of trading with the FVG Model — from reading the chart all the way to managing your position. Think of it as your playbook.
 
 ### Step 1 — Read the HTF Candles
