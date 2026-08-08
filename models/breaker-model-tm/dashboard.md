@@ -5,6 +5,8 @@ icon: game-board-simple
 
 # Dashboard
 
+<figure><img src="../../.gitbook/assets/docs-breaker-model-003.png" alt=""><figcaption></figcaption></figure>
+
 The Breaker Model includes a dynamic, on-chart dashboard that acts as your trade assistant.
 
 ### Dashboard Overview

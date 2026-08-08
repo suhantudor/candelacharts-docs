@@ -5,6 +5,8 @@ icon: rectangle-vertical-history
 
 # Projections
 
+<figure><img src="../../.gitbook/assets/docs-breaker-model-002.png" alt=""><figcaption></figcaption></figure>
+
 The Breaker Model automatically handles trade management visuals by plotting dynamic Risk-to-Reward (R:R) projections as soon as a setup is confirmed.
 
 ### R:R Target Projection
