@@ -513,7 +513,7 @@
     * [Usage](investing/risk-and-portfolio-management/vix-risk-z-score/usage.md)
     * [Confluences](investing/risk-and-portfolio-management/vix-risk-z-score/confluences.md)
     * [FAQs](investing/risk-and-portfolio-management/vix-risk-z-score/faqs.md)
-  * [Composite Risk Index 🔜](investing/risk-and-portfolio-management/composite-risk-index/README.md)
+  * [Composite Risk Index](investing/risk-and-portfolio-management/composite-risk-index/README.md)
     * [Overview](investing/risk-and-portfolio-management/composite-risk-index/overview.md)
     * [Features](investing/risk-and-portfolio-management/composite-risk-index/features.md)
     * [Usage](investing/risk-and-portfolio-management/composite-risk-index/usage.md)

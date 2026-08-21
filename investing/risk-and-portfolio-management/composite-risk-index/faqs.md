@@ -7,41 +7,41 @@ icon: square-question
 
 <details>
 
-<summary>Why does the indicator use FRED data instead of the standard VIX ticker?</summary>
+<summary>Does the indicator repaint?</summary>
 
-Using the `FRED:VIXCLS` ticker ensures the data is strictly daily closing data, which provides a cleaner, more robust dataset for calculating long-term statistical standard deviations without the noise of intraday gaps and wicks.
-
-</details>
-
-<details>
-
-<summary>Can I use this indicator on intraday timeframes?</summary>
-
-Because the underlying FRED data is updated daily, this indicator is strictly designed for the Daily (1D) timeframe and higher. It will not display accurate data on lower timeframes like 1H or 5m.
+No. The Composite Risk Index is strictly coded to execute on the bar close and uses non-repainting historical data referencing. It does not look into the future. All regime shifts are confirmed once the candle closes.
 
 </details>
 
 <details>
 
-<summary>Why is the "Panic" zone colored Blue and "Complacency" colored Orange?</summary>
+<summary>Which timeframes does it work best on?</summary>
 
-This contrarian color scheme is deliberate. Blue (cool) reminds you to stay calm and look for buying opportunities when everyone else is panicking. Orange (warm/warning) reminds you to be cautious and alert when everyone else feels perfectly safe. You can change these in the settings.
-
-</details>
-
-<details>
-
-<summary>What does the "Z-Score Length" setting do?</summary>
-
-This determines how many days of history the indicator uses to calculate the average VIX and its standard deviation. The default of 365 days gives a solid 1-year rolling window, ensuring the Z-Score adapts to the current macro environment rather than comparing today's volatility to a completely different market decade.
+It is designed as a macro compass, meaning it performs best on the **Daily (1D)** and **Weekly (1W)** timeframes. Intraday timeframes (like 15m or 1H) will be too noisy for evaluating structural market regimes.
 
 </details>
 
 <details>
 
-<summary>Does a Z-Score of +2.0 mean I should buy immediately?</summary>
+<summary>Does it work on both Crypto and Stocks?</summary>
 
-Not necessarily. In a severe crisis (like 2008 or 2020), the VIX can stay elevated for weeks, pushing the Z-Score extremely high. A reading > 2.0 tells you that capitulation is occurring; you should use technical triggers (like a bullish engulfing candle or a break of market structure) to time the actual entry.
+Yes! The indicator automatically detects the asset class you are trading. If you are on an equity, forex, or index chart, it uses CBOE:VIX for external volatility referencing. If you are on a crypto asset, it uses Deribit DVOL.
+
+</details>
+
+<details>
+
+<summary>What exactly do the "Buy Zone" backgrounds mean?</summary>
+
+When the index enters a deep Crisis state (Score below -1.0), the chart background is highlighted. This indicates a period of extreme, irrational market fear—often characterized by capitulation volume. Historically, buying solid spot assets during these specific windows yields the highest long-term returns. It is an accumulation signal, not a shorting signal.
+
+</details>
+
+<details>
+
+<summary>How do I set up alerts for a regime change?</summary>
+
+Simply click the Alert icon in TradingView, select the Composite Risk Index from the dropdown, and choose the "Any alert() function call" condition. This single alert will trigger a dynamic notification containing the ticker, the new regime, and the score every time the regime shifts.
 
 </details>
 
