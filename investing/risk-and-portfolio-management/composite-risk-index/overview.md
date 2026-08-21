@@ -5,6 +5,8 @@ icon: list-ol
 
 # Overview
 
+<figure><img src="../../../.gitbook/assets/docs-composite-risk-index-001.png" alt=""><figcaption></figcaption></figure>
+
 Market regimes change constantly, shifting from aggressive bull markets to highly volatile crisis states. The Composite Risk Index operates by tracking internal realized volatility and external implied volatility (VIX/DVOL), grading the strength of long-term moving average structures, and measuring momentum breadth (RSI/ROC).
 
 {% content-ref url="features.md" %}
