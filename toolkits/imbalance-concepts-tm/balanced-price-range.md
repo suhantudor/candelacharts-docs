@@ -7,7 +7,7 @@ icon: scale-unbalanced-flip
 
 The Balanced Price Range is a key concept in understanding how price behaves around certain levels that represent equilibrium or "fair value" in the market.
 
-<figure><img src="../../.gitbook/assets/docs-bpr-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-ic-003.png" alt=""><figcaption></figcaption></figure>
 
 The idea behind BPR is to identify price ranges where both buying and selling pressures are balanced, indicating a period of consolidation or price acceptance.
 

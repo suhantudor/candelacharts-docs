@@ -7,7 +7,7 @@ icon: distribute-spacing-vertical
 
 The ICT New Week Opening Gap (NWOG) refers to the price gap between the closing price on Friday at 4:59 PM EST and the opening price on Sunday at 6:00 PM EST. This gap typically forms due to external factors such as geopolitical events, economic news, or unexpected developments over the weekend, which can lead to significant price shifts when the market reopens.
 
-<figure><img src="../../.gitbook/assets/docs-nwog-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-ic-008.png" alt=""><figcaption></figcaption></figure>
 
 The NWOG highlights a period where **no trading activity occurs**—from the Friday market close to the Sunday market open—creating a **liquidity void**. This gap represents a disconnection in price action and is considered a **fair value gap** by ICT (Inner Circle Trader) standards.
 

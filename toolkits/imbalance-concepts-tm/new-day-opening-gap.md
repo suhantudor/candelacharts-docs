@@ -1,5 +1,4 @@
 ---
-description: NDOG
 icon: distribute-spacing-horizontal
 ---
 
@@ -7,7 +6,7 @@ icon: distribute-spacing-horizontal
 
 The ICT New Day Opening Gap (NDOG) refers to the price gap between the closing price at 5:00 PM EST and the opening price at 6:00 PM EST in the New York trading session. This one-hour break occurs daily from Monday through Thursday due to a temporary halt in trading activity.
 
-<figure><img src="../../.gitbook/assets/docs-ndog-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-ic-009.png" alt=""><figcaption></figcaption></figure>
 
 These opening gaps are significant because they often act like a magnet for price action—meaning the market tends to revisit and "fill" these gaps. This behavior is rooted in the concept of fair value gaps, as introduced by ICT (Inner Circle Trader), making NDOGs valuable for identifying high-probability trading setups.
 

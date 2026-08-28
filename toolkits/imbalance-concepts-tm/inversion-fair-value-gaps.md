@@ -7,7 +7,7 @@ icon: reflect-horizontal
 
 Inverse Fair Value Gaps (FVGs) are essentially mitigated Fair Value Gaps that can serve as potential retest areas.
 
-<figure><img src="../../.gitbook/assets/docs-ifvg-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-ic-002.png" alt=""><figcaption></figcaption></figure>
 
 When a bullish Fair Value Gap is mitigated, it creates a bearish Inverse Fair Value Gap, indicating that the price might retrace upward to retest the area.
 
