@@ -11,8 +11,8 @@ The toolkit is able to detect the following blocks:
 [order-blocks.md](order-blocks.md)
 {% endcontent-ref %}
 
-{% content-ref url="swing-order-blocks.md" %}
-[swing-order-blocks.md](swing-order-blocks.md)
+{% content-ref url="/broken/pages/Jm16ueYNvxmx1gWTAzsE" %}
+[Broken link](/broken/pages/Jm16ueYNvxmx1gWTAzsE)
 {% endcontent-ref %}
 
 {% content-ref url="breaker-blocks.md" %}
