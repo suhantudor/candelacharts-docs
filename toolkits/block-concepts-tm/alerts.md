@@ -7,6 +7,7 @@ layout:
   cover:
     visible: false
     size: full
+    mask: none
   title:
     visible: true
   description:
@@ -21,6 +22,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Alerts
@@ -31,6 +34,7 @@ You can configure alerts for the following key market events and conditions:
 
 1. Order Block Formed +B/-B
 2. Breaker Block Formed +B/-B
-3. Swing Order Block Formed +B/-B
+3. Suspension Block Formed +B/-B
+4. Rejection Block Formed +B/-B
 
 Set these alerts to stay on top of critical market conditions and enhance your trading strategy with timely notifications.

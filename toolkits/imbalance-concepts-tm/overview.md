@@ -9,8 +9,6 @@ Market price imbalances arise when there is a sharp discrepancy between supply a
 
 Generally, prices tend to return to these imbalanced areas in an attempt to restore equilibrium.
 
-The toolkit is able to detect the following imbalances:
-
 {% content-ref url="features.md" %}
 [features.md](features.md)
 {% endcontent-ref %}
@@ -51,6 +49,12 @@ The toolkit is able to detect the following imbalances:
 [rth-gaps.md](rth-gaps.md)
 {% endcontent-ref %}
 
+{% content-ref url="visuals.md" %}
+[visuals.md](visuals.md)
+{% endcontent-ref %}
 
+{% content-ref url="alerts.md" %}
+[alerts.md](alerts.md)
+{% endcontent-ref %}
 
 These zones often act as support and resistance levels, marking significant points of interest for traders.

@@ -1,15 +1,14 @@
 ---
-description: Breaker Blocks
 icon: cube
 ---
 
 # Breaker Blocks
 
-A breaker block occurs when an order block fails, resulting in a significant shift in market structure.
+A **Breaker Block** occurs when an order block fails, resulting in a significant shift in market structure.
 
 This concept marks a critical juncture where the price reverses its previous trend direction, often indicating the potential for a new trend to emerge.
 
-<figure><img src="../../.gitbook/assets/docs-bb-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-bc-002.png" alt=""><figcaption></figcaption></figure>
 
 For traders, breaker blocks represent key moments of transition in the market, offering strategic entry points for trades based on the expected continuation of the new trend.
 
