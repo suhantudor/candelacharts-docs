@@ -16,6 +16,10 @@ The indicator features **Bias Magnet**—an adaptive baseline that tracks trend 
 [bias-magnet.md](bias-magnet.md)
 {% endcontent-ref %}
 
+{% content-ref url="polarity-bars.md" %}
+[polarity-bars.md](polarity-bars.md)
+{% endcontent-ref %}
+
 {% content-ref url="flux-trend.md" %}
 [flux-trend.md](flux-trend.md)
 {% endcontent-ref %}
@@ -24,8 +28,16 @@ The indicator features **Bias Magnet**—an adaptive baseline that tracks trend 
 [surge-waves.md](surge-waves.md)
 {% endcontent-ref %}
 
+{% content-ref url="trend-map.md" %}
+[trend-map.md](trend-map.md)
+{% endcontent-ref %}
+
 {% content-ref url="velocity-bands.md" %}
 [velocity-bands.md](velocity-bands.md)
+{% endcontent-ref %}
+
+{% content-ref url="candle-coloring.md" %}
+[candle-coloring.md](candle-coloring.md)
 {% endcontent-ref %}
 
 {% content-ref url="signals.md" %}
