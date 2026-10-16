@@ -4,7 +4,7 @@ icon: grid-2-minus
 
 # Trend Map
 
-<figure><img src="../../.gitbook/assets/docs-trend-concepts-017.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-028.png" alt=""><figcaption></figcaption></figure>
 
 **Trend Map** projects higher-timeframe trend context directly onto your current chart, keeping the broader market swing in view without the need to switch tabs. It plots the running average of the higher timeframe's highs and lows, coloured by whether that average is rising or falling, so your lower-timeframe trades stay aligned with the macro trend.
 

@@ -4,7 +4,7 @@ icon: wave-sine
 
 # Velocity Bands
 
-<figure><img src="../../.gitbook/assets/docs-trend-concepts-008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-027.png" alt=""><figcaption></figcaption></figure>
 
 **Velocity Bands** creates dynamic deviation-based support and resistance levels that adapt to market conditions. Using outlier-filtered standard deviation calculations, it identifies extreme price conditions and provides signals for mean reversion and reversal setups.
 

@@ -4,7 +4,7 @@ icon: wave
 
 # Surge Waves
 
-<figure><img src="../../.gitbook/assets/docs-trend-concepts-007.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-trend-concepts-026.png" alt=""><figcaption></figcaption></figure>
 
 **Surge Waves** uses a two-pole filter to smooth price action and detect sustained momentum runs. It identifies when price is making strong directional moves by tracking consecutive bars in the same direction, making it ideal for catching momentum-based trading opportunities.
 
