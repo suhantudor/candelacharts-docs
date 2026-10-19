@@ -7,6 +7,8 @@ icon: diagram-venn
 
 The TPO Model is not a mechanical signal generator; it is a structured decision-making framework built around Auction Market Theory (AMT). Rather than guessing where price might go, the model analyzes where the market has found fair value, where it has rejected price, and how institutional capital is delivering orders in real time.
 
+<figure><img src="../../.gitbook/assets/docs-tpo-004.png" alt=""><figcaption></figcaption></figure>
+
 This page explains how the model's components work together in practice and provides a repeatable workflow for navigating each trading session.
 
 ### How the Components Interact

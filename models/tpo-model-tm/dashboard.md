@@ -5,6 +5,8 @@ icon: game-board-simple
 
 # Dashboard
 
+<figure><img src="../../.gitbook/assets/docs-tpo-003.png" alt=""><figcaption></figcaption></figure>
+
 The dashboard is a compact four-row heads-up display anchored to your chart. Its job is to provide real-time situational awareness at a glance, answering two questions without cluttering your screen:
 
 1. _How is price interacting with fair value right now?_

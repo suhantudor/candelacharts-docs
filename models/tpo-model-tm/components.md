@@ -13,6 +13,8 @@ Each component handles a specific job on the chart, and you can run all of them 
 
 The TPO (Time Price Opportunity) profile is the core of the model. It records how much time the market spent at each price level by stacking time blocks horizontally across the session. The resulting shape shows where buyers and sellers found balance and where price was quickly rejected.
 
+<figure><img src="../../.gitbook/assets/docs-tpo-011.png" alt=""><figcaption></figcaption></figure>
+
 The profile produces several key structural levels and zones:
 
 * **Point of Control (T-POC)** — The price row with the highest number of TPOs. This is the fairest price of the session, where the market spent the most time negotiating.
@@ -26,6 +28,8 @@ The profile produces several key structural levels and zones:
 ### Volume Profile
 
 While the TPO profile measures time, the Volume Profile measures actual business. It tracks the total volume of contracts or shares traded at each price row during the same session.
+
+<figure><img src="../../.gitbook/assets/docs-tpo-012.png" alt=""><figcaption></figcaption></figure>
 
 * **Volume Point of Control (V-POC)** — The exact price row where the largest volume traded. This marks peak capital commitment rather than peak time.
 * **Volume Value Area (V-VAH & V-VAL)** — The price band containing 70% of the total session volume.
@@ -44,6 +48,8 @@ Running both profiles side by side lets you compare time acceptance against capi
 
 Volume Bubbles are bar-by-bar anomaly detectors. They flag individual candles whose volume stands out against the recent 50-bar baseline, highlighting aggressive effort that might not be obvious from candlestick shapes alone.
 
+<figure><img src="../../.gitbook/assets/docs-tpo-013.png" alt=""><figcaption></figcaption></figure>
+
 * **Relative Volume** — Compares a bar's raw volume to its 50-bar average. It highlights sudden bursts of market participation.
 * **Concentrated Volume** — Normalizes volume by the bar's price range ($\frac{\text{Volume\}}{\text{Range\}}$). This uncovers stealth absorption—heavy volume traded inside a narrow, compressed bar where passive limit orders are soaking up aggressive market orders.
 * **Sizing Tiers** — Bubbles scale across four tiers based on how extreme the anomaly is, so you can tell an ordinary volume bump apart from true institutional participation.
@@ -53,6 +59,8 @@ In practice, a large bubble appearing as price tests a Value Area edge or an old
 ### Projected Higher Timeframe (HTF) Canvas
 
 The HTF Canvas solves the hassle of jumping between chart tabs. It projects developing and recent higher-timeframe candles right into the margin on the right side of your execution chart.
+
+<figure><img src="../../.gitbook/assets/docs-tpo-014.png" alt=""><figcaption></figcaption></figure>
 
 * **Model HTF** — The primary anchor group paired with your profile session (for example, 1-hour candles paired with a daily profile).
 * **Secondary HTF Groups (HTF I, II, III)** — Extra macro layers (like 4-hour or daily candles) so you can keep multiple higher-timeframe horizons in view at the same time.
@@ -64,6 +72,8 @@ Watching higher-timeframe candles form alongside your intraday profile lets you 
 
 Liquidity Sweeps mark when the market raids resting orders above a high or below a low but fails to sustain price discovery.
 
+<figure><img src="../../.gitbook/assets/docs-tpo-015.png" alt=""><figcaption></figcaption></figure>
+
 * **Sweep Markers (`❖` / `✦`)** — Drawn when an HTF candle probes beyond a previous candle's high or low and closes back inside its range. Bullish sweeps at lows are marked with `❖`, and bearish sweeps at highs are marked with `✦`, followed by the timeframe that produced them.
 * **Institutional Context** — Sweeps highlight where price ran into liquidity pools and was rejected, setting up the prerequisite condition for a structural shift.
 * **Invalidation** — If price closes beyond the extreme swing point of the sweep candle, the sweep is invalidated and removed.
@@ -71,6 +81,8 @@ Liquidity Sweeps mark when the market raids resting orders above a high or below
 ### Market Structure
 
 Once a valid sweep occurs, this component tracks the change in delivery direction and maps the exact level required to confirm a reversal.
+
+<figure><img src="../../.gitbook/assets/docs-tpo-016.png" alt=""><figcaption></figcaption></figure>
 
 * **Delivery Leg** — The sequence of candles that drove price into the swept high or low. The model anchors its reversal levels to this leg.
 * **Change in State of Delivery (CISD)** — Anchored to the open of the delivery candle. A close beyond this level confirms that the prior delivery move has ended and a reversal is underway.
