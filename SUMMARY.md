@@ -209,7 +209,7 @@
   * [Alerts](models/fvg-model-tm/alerts.md)
 * [2022 Model™ 🔜](models/son-model.md)
 * [IFVG Model™ 🔜](models/ifvg-model.md)
-* [TPO Model™ 🔜](models/tpo-model-tm/README.md)
+* [TPO Model™](models/tpo-model-tm/README.md)
   * [Overview](models/tpo-model-tm/overview.md)
   * [Features](models/tpo-model-tm/features.md)
   * [Terminology](models/tpo-model-tm/terminology.md)
