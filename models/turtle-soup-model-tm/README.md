@@ -1,5 +1,6 @@
 ---
 description: Turtle Soup Model
+hidden: true
 icon: pot-food
 ---
 
