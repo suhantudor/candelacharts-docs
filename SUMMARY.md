@@ -566,6 +566,11 @@
     * [Confluences](investing/market-structure-and-rotation/trend-heatmap-matrix/confluences.md)
     * [FAQs](investing/market-structure-and-rotation/trend-heatmap-matrix/faqs.md)
 
+## Algorithms
+
+* [Macro & Regime Models 🔜](algorithms/macro-and-regime-models.md)
+* [Risk & Return Ratios 🔜](algorithms/risk-and-return-ratios.md)
+
 ## Changelogs
 
 * [Toolkits](changelogs/toolkits/README.md)
