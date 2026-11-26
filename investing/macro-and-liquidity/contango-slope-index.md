@@ -14,95 +14,93 @@ The Contango Slope Index is available on the <a href="https://www.candelacharts.
 
 ### Introduction
 
-Spot VIX alone only shows what options traders are paying for 30-day volatility right now—it does not tell you how near-term fear compares with longer-term expectations. When short-term implied volatility surges above longer-dated volatility (backwardation), markets are pricing acute panic; when longer-dated volatility trades steadily above short-term volatility (contango), markets are calm and risk-seeking.
+Spot volatility alone only tells part of the story—it shows current fear, not whether options markets expect stress to fade or worsen over time. When near-term volatility jumps above longer-term expectations (**backwardation**), traders are pricing acute panic; when longer-term volatility stays above near-term volatility (**contango**), markets are calm and risk appetite is intact.
 
-The **CandelaCharts – Contango Slope Index** quantifies the annualized slope of the VIX term structure in percentage points per year (`%/yr`) across up to five toggleable CBOE VIX tenors (`VIX1D`, `VIX`, `VIX3M`, `VIX6M`, and `VIX1Y`), defaulting to `VIX6M` and `VIX1Y`. Combined with an optional Moving Average filter and six clear regime classifications, it turns volatility curve dynamics into an actionable macro gauge.
+The **CandelaCharts – Contango Slope Index** turns the shape and steepness of the VIX volatility curve into a clean, readable oscillator. Instead of monitoring multiple volatility contracts separately, you get one continuous reading paired with trend context and clear regime labels.
 
-Built for **equity index traders, volatility analysts, and macro allocators**, the oscillator helps distinguish routine contango carry from excessive complacency above **+2.32%/yr** or acute backwardation below **0%**.
+Built for **equity index traders, volatility analysts, and macro allocators**, it helps you spot excessive complacency before pullbacks and recognize panic-driven capitulation zones that historically precede market rebounds.
 
-{% hint style="info" %}
-**TL;DR:** Positive readings indicate **contango** (calm, upward-sloping volatility curve), while negative readings below **0%** indicate **backwardation** (near-term panic exceeding longer-dated volatility, historically a contrarian equity bottoming signal).
-{% endhint %}
+> **TL;DR:** Readings above zero (**Blue**) signal a calm contango environment; drops below zero (**Orange**) signal backwardation (near-term panic), where a shift from **Capitulation** to **Recovery** often marks major equity bottoming windows.
 
 ### How It Works
 
-**CandelaCharts – Contango Slope Index** pulls daily implied volatility across whichever CBOE VIX tenors you enable (`VIX1D`, `VIX`, `VIX3M`, `VIX6M`, and `VIX1Y`) and tracks the annualized steepness of the curve over your `Slope Lookback` window (default `5` days). If only a single tenor is enabled, it smoothly falls back to tracking that single tenor's directional change over the lookback period.
+**CandelaCharts – Contango Slope Index** evaluates the steepness of the volatility term structure across your selected VIX contracts and compares that slope against a configurable Moving Average trend filter. Positive values reflect normal upward-sloping contango, while negative values reflect an inverted curve during acute market fear.
 
-When the optional Moving Average (`MA`, defaulting to `200 SMA`) is evaluated alongside the smoothed slope, the indicator classifies conditions into six distinct regimes—comparing both the curve's sign (contango vs. backwardation) and whether volatility structure is steepening above or flattening below its longer-term trend.
+By tracking both the level of the curve and whether volatility structure is improving or weakening relative to its trend, the indicator automatically classifies the market into six intuitive regimes with live right-edge labels and optional background shading.
 
 #### Reading the Indicator
 
-The plotted slope line changes color at zero (**Blue** for `>= 0%` contango, **Orange** for `< 0%` backwardation), framed by three dashed reference lines (**+2.32%/yr** Avg Contango, **0** Flat Curve, and **-2.0%/yr** Mild Backwardation) and a subtle **Neutral Zone** band between `-2.0%/yr` and `+2.32%/yr`:
+The plotted slope switches between **Blue** (contango) and **Orange** (backwardation) around a flat zero line, framed by a shaded neutral zone and an elevated contango reference line:
 
-| Regime Label         | Slope Condition     | Trend vs. MA | Right-Edge Badge | Interpretation                                                   |
-| -------------------- | ------------------- | ------------ | ---------------- | ---------------------------------------------------------------- |
-| **Elevated Risk**    | `> +2.32%/yr`       | Above MA     | Orange           | Steep contango above historical average; rising complacency risk |
-| **Cooling Phase**    | `> +2.32%/yr`       | Below MA     | Blue             | Steep contango starting to flatten toward normal                 |
-| **Bullish Contango** | `0%` to `+2.32%/yr` | Above MA     | Green            | Healthy upward-sloping curve with improving structure            |
-| **Normal**           | `0%` to `+2.32%/yr` | Below MA     | Gray             | Balanced contango with mild softening momentum                   |
-| **Recovery**         | `< 0%`              | Above MA     | Green            | Curve still inverted, but steepening out of panic                |
-| **Capitulation**     | `< 0%`              | Below MA     | Red              | Deepening backwardation and acute near-term fear                 |
+| Regime Label         | Curve State       | Trend Direction       | Badge Color | How to Read It                                                       |
+| -------------------- | ----------------- | --------------------- | ----------- | -------------------------------------------------------------------- |
+| **Elevated Risk**    | Steep Contango    | Improving above trend | Orange      | High complacency; markets may be vulnerable to a volatility spike    |
+| **Cooling Phase**    | Steep Contango    | Weakening below trend | Blue        | Elevated complacency starting to normalize toward neutral            |
+| **Bullish Contango** | Moderate Contango | Improving above trend | Green       | Healthy risk-on volatility backdrop supporting uptrends              |
+| **Normal**           | Moderate Contango | Weakening below trend | Gray        | Balanced volatility structure with mild softening                    |
+| **Recovery**         | Backwardation     | Improving above trend | Green       | Near-term fear remains, but panic is receding—classic bottoming zone |
+| **Capitulation**     | Backwardation     | Weakening below trend | Red         | Deepening curve inversion and acute near-term market stress          |
 
-A live label at the latest bar displays the active regime icon, regime name, annualized slope (`%/yr`), and—when `MA` is enabled—the Moving Average value and structural trend direction.
+A live badge on the latest bar shows the active regime icon, regime name, annualized slope readout, and—when the Moving Average overlay is enabled—the trend direction.
 
 ### Features
 
-* **Multi-Tenor VIX Coverage:** Independently toggle `VIX1D`, `VIX` (1M), `VIX3M`, `VIX6M`, and `VIX1Y` (defaulting to `VIX6M` + `VIX1Y`), with automatic single-tenor trend fallback if only one is selected.
-* **Annualized Slope Output:** Expresses term-structure steepness in clear annualized percentage points (`%/yr`) alongside the `+2.32%/yr` historical average contango benchmark.
-* **Six-Regime Classification:** Combines slope level with Moving Average context (`SMA`, `EMA`, `RMA`, `WMA`, or `VWMA` across lengths `20` to `200`) to distinguish _Capitulation_ from _Recovery_ and _Bullish Contango_ from _Elevated Risk_.
-* **Optional MA & Background Shading:** Toggle the Moving Average line, trend-vs-MA fill shading, and full-pane regime background tinting (`Bg`).
-* **Six Built-In Alerts:** Covers backwardation entry/exit, elevated complacency above `+2.32%/yr`, and slope-vs-MA momentum crossovers.
+* **Flexible VIX Tenor Selection:** Toggle which VIX curve contracts you want to track depending on whether you prefer slow macro structure or fast front-month sensitivity.
+* **Six Real-Time Regimes:** Combines curve steepness with Moving Average trend context to separate _Capitulation_ from _Recovery_ and _Bullish Contango_ from _Elevated Risk_.
+* **Optional Trend Overlay & Fill:** Display the Moving Average line directly on the oscillator with subtle green and red trend fills.
+* **Custom Regime Background Shading:** Optionally tint the oscillator pane by active regime for fast visual scanning.
+* **Six Built-In Alerts:** Receive instant notifications on backwardation flips, contango exits, complacency spikes, and trend crossovers.
 
 ### How To Use
 
-#### 1. Spotting Fear Extremes & Capitulation Bottoms (< 0%)
+#### 1. Identifying Panic Extremes & Bottoming Windows
 
-Watch for **Backwardation** when the slope drops below the **0** dashed line into orange territory:
+Watch for the slope line turning **Orange** below the zero line into backwardation:
 
-* **Capitulation (Red):** Slope is negative and falling below its Moving Average—near-term fear is still intensifying.
-* **Recovery (Green):** Slope remains negative (`< 0%`) but crosses back above its Moving Average, signaling that acute panic is beginning to subside—historically an early inflection point for equity market rebounds.
+* **Capitulation (Red):** Fear is actively accelerating. Avoid catching falling knives blindly while the curve continues inverting downward.
+* **Recovery (Green):** As soon as the slope turns back above its trend while still in backwardation, panic is subsiding—historically a strong confirmation window for contrarian long setups and equity index rebounds.
 
-#### 2. Monitoring Complacency Above +2.32%/yr
+#### 2. Spotting Excessive Complacency
 
-When contango expands above the **+2.32%/yr** historical average benchmark into **Elevated Risk**:
+When the slope pushes above the upper reference line into **Elevated Risk**:
 
-* Markets are pricing unusually low near-term risk relative to longer-dated maturities.
-* While calm trends can persist, sustained readings above `+2.32%/yr` warn that complacency is elevated and equity pullbacks can unwind quickly if volatility spikes.
+* Options markets are pricing very little near-term risk compared with longer-term maturities.
+* Treat sustained **Elevated Risk** and **Cooling Phase** transitions as a prompt to tighten trailing stops or avoid chasing extended rallies.
 
-#### 3. Customizing Tenors & Moving Average Context
+#### 3. Adapting to Your Trading Horizon
 
-* **Long-End Macro View (Default):** Keeping `VIX6M` and `VIX1Y` enabled filters out brief daily noise and highlights broader institutional volatility regimes.
-* **Tactical / Short-Term View:** Enable `VIX` (`1M`) and `VIX3M` (or `VIX1D`) when you want faster sensitivity to sudden front-month volatility shocks, and enable `MA` (`200` or `50` period) to visualize the structural trend line and fill directly on the pane.
+* **Macro & Swing Context:** Use the default long-end VIX selection on Daily or Weekly equity index charts to filter broader market regimes without reacting to every intraday headline.
+* **Faster Sensitivity:** Enable shorter-term VIX contracts in settings if you want quicker reactions to sudden short-term volatility shocks, and toggle the Moving Average line on to visualize momentum crossovers clearly.
 
 ### Alerts
 
 **CandelaCharts – Contango Slope Index** includes six built-in TradingView alert conditions:
 
-1. **Backwardation Detected (Bullish Signal):** Fires while the smoothed slope is below `0` (inverted VIX curve).
-2. **Exit Backwardation:** Fires when the slope crosses back above `0` (re-entering contango).
-3. **Elevated Complacency:** Fires when the slope crosses above `+2.32%/yr` (above historical average contango).
-4. **Potential Bullish Setup:** Fires when the slope crosses below `0` into backwardation.
-5. **Slope Crosses Above 200EMA:** Fires when the smoothed slope crosses above its configured Moving Average.
-6. **Slope Crosses Below 200EMA:** Fires when the smoothed slope crosses below its configured Moving Average.
+1. **Backwardation Detected (Bullish Signal):** Fires when the volatility curve is inverted in backwardation.
+2. **Exit Backwardation:** Fires when the curve shifts back above zero into contango.
+3. **Elevated Complacency:** Fires when contango steepens above its historical benchmark into elevated complacency.
+4. **Potential Bullish Setup:** Fires when the slope crosses below zero into backwardation.
+5. **Slope Crosses Above 200EMA:** Fires when curve momentum crosses above its Moving Average trend, signaling improving structure.
+6. **Slope Crosses Below 200EMA:** Fires when curve momentum crosses below its Moving Average trend, signaling rising stress.
 
 ### FAQs
 
 #### 1. What is the difference between contango and backwardation?
 
-**Contango** (positive slope) means longer-dated VIX expectations are higher than near-term volatility—the normal state during stable or rising markets. **Backwardation** (negative slope) means immediate volatility exceeds longer-term expectations, reflecting acute fear or hedging demand during market sell-offs.
+**Contango** means longer-dated volatility expectations are higher than near-term volatility, which is typical during calm or rising markets. **Backwardation** means immediate fear exceeds longer-term expectations, typically occurring during sharp sell-offs and market stress.
 
-#### 2. Why are VIX6M and VIX1Y enabled by default instead of all five tenors?
+#### 2. Why are the longer-term VIX contracts enabled by default?
 
-`VIX6M` and `VIX1Y` capture clean, structural institutional risk pricing without reacting to every single-day options expiration spike. Enabling `VIX1D`, `VIX`, or `VIX3M` increases responsiveness to fast front-end panics; if you enable only one tenor, the indicator switches to tracking that tenor's change over your `Slope Lookback`.
+Focusing on longer-dated VIX contracts filters out noisy short-term expirations and highlights broader institutional risk appetite. You can toggle shorter-term VIX contracts on at any time for faster reaction speed.
 
-#### 3. What does the +2.32%/yr reference line represent?
+#### 3. Why can backwardation act as a bullish signal for equities?
 
-`+2.32%/yr` marks the long-run average contango slope benchmark. Readings above this line indicate an unusually steep upward curve where near-term fear is heavily discounted relative to long-dated volatility—flagging elevated complacency.
+Peak backwardation usually coincides with maximum hedging demand and investor panic. Once the curve stops worsening and shifts from **Capitulation** into **Recovery**, forced selling often subsides and equity indices frequently stage strong rebounds.
 
-#### 4. How does the Moving Average setting affect the indicator?
+#### 4. Does the Moving Average setting affect the regime badge even if the MA line is hidden?
 
-Even when the `MA` line display is toggled off, the configured Moving Average (default `200 SMA`) is used under the hood to separate improving structure (slope above MA) from weakening structure (slope below MA) in the six-regime badge. Turning `MA` on plots the line and subtle green/red trend fill directly on the pane.
+Yes. The Moving Average trend comparison powers the six-regime classification (such as distinguishing _Capitulation_ from _Recovery_) at all times. Turning the MA display toggle on lets you also see that trend line and fill directly on the pane.
 
-#### 5. Which chart timeframes work best?
+#### 5. Which markets and timeframes work best?
 
-All VIX tenor feeds are pulled on daily resolution, making **Daily (`1D`)** and **Weekly (`1W`)** equity index charts (such as `SP:SPX`, `AMEX:SPY`, or `NASDAQ:IXIC`) ideal for consistent macro regime context.
+The indicator is designed primarily for **Daily** and **Weekly** equity index charts (such as the S\&P 500 or Nasdaq) as a macro sentiment and risk-regime filter.
