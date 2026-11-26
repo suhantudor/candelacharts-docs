@@ -52,13 +52,9 @@ Raw Sharpe        = (Mean Return - Risk-Free Rate) / Standard Deviation
 Annualized Sharpe = Raw Sharpe * sqrt(Periods)
 ```
 
-Mean return and standard deviation are calculated over the `Lookback` window (default `126`, with `Periods` defaulting to `252`). When `EMA smoothing` is greater than `1`, an EMA of that length is applied to the final output.
+Mean return and standard deviation are calculated over the `Lookback` window (default `126`, with `Periods` defaulting to `252`), using cumulative-sum windowing that ramps smoothly from bar 1 without cold-start `na` gaps. When `EMA smoothing` is greater than `1`, an EMA of that length is applied to the final output.
 
-#### Adaptive Start-Ramp
-
-Traditional rolling windows output blank (`na`) values until the full `Lookback` bar count has elapsed. **CandelaCharts – Sharpe Ratio** uses cumulative-sum windowing so the mean and standard deviation dynamically ramp from the first available bar up to `Lookback`—eliminating cold-start data gaps on younger tickers or higher timeframes while behaving identically to a standard rolling window once `Lookback` bars are reached.
-
-#### Visual Scale & Benchmark Guide
+#### Visual Guide
 
 The plotted oscillator uses a continuous piecewise color gradient paired with five horizontal institutional reference lines:
 
@@ -80,7 +76,7 @@ The plotted oscillator uses a continuous piecewise color gradient paired with fi
 * **Continuous Gradient & Benchmark Guides:** Instantly evaluate trend quality with piecewise gradient coloring (`Orange → Red → Gray → Green → Blue`) across five institutional thresholds (`0`, `0.5`, `1.0`, `2.0`, `3.0`).
 * **Live Readout & Clean UI:** Displays a right-anchored value badge with the latest Sharpe Ratio alongside customizable typography (`Default` or `Monospace`, `Tiny` to `Auto`) and a brand watermark toggle.
 
-### How to Use
+### How To Use
 
 #### 1. Regime Gating & Position Sizing
 

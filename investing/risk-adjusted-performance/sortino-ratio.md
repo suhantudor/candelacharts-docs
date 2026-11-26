@@ -58,18 +58,11 @@ Raw Sortino        = Mean(Excess Return) / Downside Deviation
 Annualized Sortino = Raw Sortino * sqrt(Periods per Year)
 ```
 
-Mean excess return and downside deviation are computed over `Lookback Length` (default `126`, with `Periods per Year` defaulting to `252`).
+Mean excess return and downside deviation are computed over `Lookback Length` (default `126`, with `Periods per Year` defaulting to `252`), using cumulative-sum windowing that ramps smoothly from bar 1 without cold-start `na` gaps.
 
-#### Adaptive Start-Ramp & Dual Display Modes
+#### Visual Guide
 
-Traditional rolling statistics remain blank (`na`) until the full `Lookback Length` has elapsed. **CandelaCharts – Sortino Ratio** uses cumulative-sum windowing so the mean and downside deviation dynamically ramp from the earliest bars without cold-start gaps, then behave identically to a classic rolling window once `Lookback Length` is reached.
-
-You can visualize readings in two distinct modes:
-
-* **Fixed Levels (Default):** Plots customizable horizontal guides at `0`, `0.5`, `1.0`, `2.0`, and `3.0` with optional shaded zone fills between bands.
-* **Percentile Bands:** Computes rolling `P50`, `P75`, and `P90` (plus optional `P25` and `P10`) over an expanding `Calibration Window` (default `200` bars) with translucent upper and lower quantile fills.
-
-#### Visual Scale & Benchmark Guide
+You can visualize readings in **Fixed Levels** mode (default, with customizable horizontal guides at `0`, `0.5`, `1.0`, `2.0`, and `3.0` plus optional zone fills) or **Percentile Bands** mode (rolling `P50`, `P75`, and `P90`, plus optional `P25` and `P10`, over an expanding `Calibration Window` defaulting to `200` bars).
 
 In **Fixed Levels** mode, the plotted line transitions smoothly from **Orange** through **Gray** to **Blue** across five customizable dotted guide levels (`Gray` at `0` and `0.5`, `Teal` at `1.0`, `Green` at `2.0`, and `Purple` at `3.0`):
 
@@ -92,7 +85,7 @@ In **Percentile Bands** mode, the line blends from **Orange** (`<= P25`) through
 * **Dual Display Modes:** Switch between classic **Fixed Levels** (`0 / 0.5 / 1 / 2 / 3` with optional shaded bands) and adaptive **Percentile Bands** (`P10` through `P90`).
 * **Adaptive Start-Ramp & Live Readout:** Eliminates cold-start `na` gaps on early chart history and displays the live Sortino value alongside its current Fixed Level or Percentile bucket.
 
-### How to Use
+### How To Use
 
 #### 1. Downside-Aware Regime Gating & Sizing
 
