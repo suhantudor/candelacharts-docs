@@ -6,7 +6,7 @@ icon: omega
 
 > Measure return quality without normality assumptions by comparing cumulative excess gains above your target hurdle against cumulative shortfalls below it.
 
-<figure><img src="../../../.gitbook/assets/docs-omega-ratio-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docs-omega-ratio-002.png" alt=""><figcaption></figcaption></figure>
 
 ### Introduction
 
@@ -22,42 +22,13 @@ Designed for **active traders, momentum followers, and portfolio allocators**, i
 
 ### How It Works
 
-#### Calculation
+On every bar, **CandelaCharts – Omega Ratio** compares all gains above your per-bar `Target Return` against all shortfalls below it across your chosen `Period` window (default `20` bars). Instead of summarizing risk with standard deviation, it evaluates the full balance of upside vs. downside outcomes and maps the resulting score onto an intuitive color gradient.
 
-On every bar, the indicator computes the Omega Ratio across your rolling `Period` window (default `20` bars):
+{% hint style="success" %}
+**General Formula:** Omega Ratio = Total Gains Above Target / Total Shortfalls Below Target
+{% endhint %}
 
-1. **Return & Target Alignment:** Computes per-bar **Simple** (default) or **Log** returns and converts your per-bar `Target Return` (default `0.0`) into the same return space.
-2. **Gain vs. Shortfall Separation:** On each bar, any return above the target is recorded as an **Excess Gain**, while any return below the target is recorded as a **Shortfall**.
-3. **Rolling Ratio & Thermal Gradient:** Sums excess gains and shortfalls across `Period`, divides total gains by total shortfalls, and colors the line along a smooth **Orange → Gray → Blue** scale up to your `Gradient` ceiling (default `2.0`).
-
-#### Mathematical Formula
-
-**1. Per-Bar Return & Target Adjustment**
-
-```
-Simple Return = (Close / Previous Close) - 1
-Log Return    = ln(Close / Previous Close)
-
-Target (Simple) = Target Return
-Target (Log)    = ln(1 + Target Return)
-```
-
-**2. Excess Gains & Shortfalls**
-
-```
-Excess Gain = max(Return - Target, 0)
-Shortfall   = max(Target - Return, 0)
-```
-
-**3. Rolling Omega Ratio**
-
-```
-Omega Ratio = Sum(Excess Gain over Period) / Sum(Shortfall over Period)
-```
-
-If `Sum(Shortfall)` equals zero across the entire lookback window (meaning every bar met or beat the target), the indicator avoids division by zero and outputs `na` until a shortfall occurs.
-
-#### Visual Guide
+#### Reading the Indicator
 
 The plotted line shifts continuously from **Orange** (`0.0`) through **Gray** (midpoint, default `1.0`) to **Blue** (at or above `Gradient`, default `2.0`), framed by four horizontal reference lines:
 
@@ -72,7 +43,7 @@ The plotted line shifts continuously from **Orange** (`0.0`) through **Gray** (m
 
 ### Features
 
-* **True Distribution-Free Omega:** Computes exact rolling sums of excess gains divided by shortfalls relative to your per-bar target hurdle.
+* **Distribution-Free Quality Score:** Evaluates the balance of gains above your target hurdle against shortfalls below it without assuming normal return distributions.
 * **Simple & Log Return Support:** Toggle between arithmetic percentage returns (default) and logarithmic returns for symmetric handling of large swings.
 * **Dynamic Thermal Gradient:** Smooth **Orange → Gray → Blue** color mapping scaled to a customizable `Gradient` upper bound (default `2.0`).
 * **Four Benchmark Guides:** Pre-configured reference lines at `0.5` (Poor), `1.0` (Breakeven), `1.5` (Good), and `2.0` (Strong) for instant visual grading.
@@ -118,7 +89,7 @@ An Omega Ratio of **1.0** is the exact breakeven threshold relative to your `Tar
 
 #### 2. Why does the Omega line occasionally disappear for a few bars?
 
-If every single bar inside your `Period` window beats `Target Return`, then total shortfalls equal zero (`Sum(Shortfall) = 0`). Because dividing by zero is undefined, the indicator cleanly outputs `na` on those rare bars rather than plotting an infinite spike, and resumes as soon as any bar finishes below the target.
+If every single bar inside your `Period` window meets or beats `Target Return`, there are no shortfalls below the target to compare against. In those rare stretches, the line pauses cleanly rather than plotting an extreme spike, and resumes as soon as a bar finishes below your target.
 
 #### 3. How should I choose Target Return for daily vs. intraday charts?
 
@@ -130,4 +101,4 @@ Shorter values (default `20` bars) make Omega responsive to rapid momentum flips
 
 #### 5. What does the Gradient setting control?
 
-`Gradient` (default `2.0`) sets the upper ceiling for the line's color scale—not the math itself. The indicator maps `0.0` to **Orange**, the midpoint (`Gradient * 0.5`) to **Gray**, and values at or above `Gradient` to **Blue**. Raise `Gradient` (for example to `3.0`) if your asset or timeframe frequently stays above `2.0`.
+`Gradient` (default `2.0`) sets the upper ceiling for the line's color scale—not the scoring itself. The indicator maps `0.0` to **Orange**, the midpoint (halfway to `Gradient`) to **Gray**, and values at or above `Gradient` to **Blue**. Raise `Gradient` (for example to `3.0`) if your asset or timeframe frequently stays above `2.0`.

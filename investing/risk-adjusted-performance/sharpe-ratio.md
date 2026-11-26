@@ -22,39 +22,13 @@ Designed for **swing traders, position traders, and long-term investors**, the i
 
 ### How It Works
 
-#### Calculation
+On every bar, **CandelaCharts – Sharpe Ratio** converts your chosen price series into bar-by-bar returns, compares them against your risk-free benchmark over the configured `Lookback` window, and evaluates excess return relative to total volatility. You can toggle between logarithmic and simple percentage returns, optionally annualize the reading to match your market's calendar (`Periods`), and apply EMA smoothing to filter short-term noise.
 
-On every bar, the indicator runs a three-step statistical pipeline:
+{% hint style="success" %}
+**General Formula:** Sharpe Ratio = (Average Return - Risk-Free Rate) / Total Volatility (Standard Deviation)
+{% endhint %}
 
-1. **Return Conversion:** Converts the selected price source into bar-by-bar **logarithmic returns** (default) or **simple percentage returns**.
-2. **Rolling Excess Return & Volatility:** Computes the rolling mean return and rolling population standard deviation over your `Lookback` window, then subtracts the per-period risk-free hurdle from the mean return and divides by the standard deviation.
-3. **Annualization & Smoothing:** Optionally scales the raw ratio to an annual equivalent using the square root of `Periods` and applies optional EMA smoothing to filter high-frequency noise.
-
-#### Mathematical Formula
-
-**1. Per-Period Return**
-
-```
-Log Return    = ln(Price / Previous Price)
-Simple Return = (Price / Previous Price) - 1
-```
-
-**2. Per-Period Risk-Free Hurdle**
-
-```
-Risk-Free Rate (per period) = (Annual Risk-Free Rate % / 100) / Periods
-```
-
-**3. Raw & Annualized Sharpe Ratio**
-
-```
-Raw Sharpe        = (Mean Return - Risk-Free Rate) / Standard Deviation
-Annualized Sharpe = Raw Sharpe * sqrt(Periods)
-```
-
-Mean return and standard deviation are calculated over the `Lookback` window (default `126`, with `Periods` defaulting to `252`), using cumulative-sum windowing that ramps smoothly from bar 1 without cold-start `na` gaps. When `EMA smoothing` is greater than `1`, an EMA of that length is applied to the final output.
-
-#### Visual Guide
+#### Reading the Indicator
 
 The plotted oscillator uses a continuous piecewise color gradient paired with five horizontal institutional reference lines:
 
@@ -72,7 +46,7 @@ The plotted oscillator uses a continuous piecewise color gradient paired with fi
 * **Dual Return Models:** Switch seamlessly between **Log returns** (symmetric for compounding and volatile assets) and **Simple percentage returns**.
 * **Custom Risk-Free Hurdle:** Enter any annual risk-free rate (such as current Treasury yields, e.g., `4.5%`)—automatically scaled to the exact per-period hurdle.
 * **Flexible Annualization:** Toggle annualization on or off and calibrate `Periods` to match equities (`252`), 24/7 crypto (`365`), weekly (`52`), or monthly (`12`) bars.
-* **EMA Noise Filtering:** Apply optional post-calculation EMA smoothing (`EMA smoothing > 1`) to isolate sustained regime shifts from short-term volatility spikes.
+* **EMA Noise Filtering:** Apply optional EMA smoothing to isolate sustained regime shifts from short-term volatility spikes.
 * **Continuous Gradient & Benchmark Guides:** Instantly evaluate trend quality with piecewise gradient coloring (`Orange → Red → Gray → Green → Blue`) across five institutional thresholds (`0`, `0.5`, `1.0`, `2.0`, `3.0`).
 * **Live Readout & Clean UI:** Displays a right-anchored value badge with the latest Sharpe Ratio alongside customizable typography (`Default` or `Monospace`, `Tiny` to `Auto`) and a brand watermark toggle.
 

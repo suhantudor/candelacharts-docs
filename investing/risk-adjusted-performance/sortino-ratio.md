@@ -22,45 +22,13 @@ Built for **swing traders, portfolio managers, and long-term investors**, the in
 
 ### How It Works
 
-#### Calculation
+On every bar, **CandelaCharts – Sortino Ratio** evaluates returns relative to your chosen Minimum Acceptable Return (MAR)—anchored to either a **Risk-Free** rate or a **Custom** target—and measures how strongly positive performance outweighs downside volatility below that threshold over your `Lookback Length`. You can switch between **Simple** and **Log** returns, optionally annualize the ratio, and frame readings using either fixed institutional levels or adaptive historical percentile bands.
 
-On every bar, the indicator evaluates downside-adjusted efficiency in three steps:
+{% hint style="success" %}
+**General Formula:** Sortino Ratio = (Average Return - Target Return) / Downside Volatility (Downside Deviation)
+{% endhint %}
 
-1. **Return & Hurdle Alignment:** Converts closing prices into **Simple** (default) or **Log** returns and converts your chosen **Target (MAR) Basis**—either the compounded **Risk-Free** rate or a **Custom** per-period hurdle—into the matching return space.
-2. **Downside Deviation & Mean Excess Return:** Measures the average excess return over `Lookback Length` (default `126`) and computes downside deviation strictly from negative excess returns (`Excess < 0`).
-3. **Annualization & Framing:** Optionally scales the raw ratio to annual terms using the square root of `Periods per Year` (default `252`), then frames the output against **Fixed Levels** or dynamic **Percentile Bands**.
-
-#### Mathematical Formula
-
-**1. Per-Period Return & Hurdle (MAR)**
-
-```
-Simple Return = (Close / Previous Close) - 1
-Log Return    = ln(Close / Previous Close)
-
-RF (per period) = ((1 + Annual Risk-Free Rate) ^ (1 / Periods per Year)) - 1
-MAR (Simple)    = RF (per period)   [or Custom Target per period]
-MAR (Log)       = ln(1 + MAR)
-```
-
-**2. Excess Return & Downside Deviation**
-
-```
-Excess Return      = Return - MAR
-Negative Excess    = min(Excess Return, 0)
-Downside Deviation = sqrt(mean(Negative Excess ^ 2))
-```
-
-**3. Raw & Annualized Sortino Ratio**
-
-```
-Raw Sortino        = Mean(Excess Return) / Downside Deviation
-Annualized Sortino = Raw Sortino * sqrt(Periods per Year)
-```
-
-Mean excess return and downside deviation are computed over `Lookback Length` (default `126`, with `Periods per Year` defaulting to `252`), using cumulative-sum windowing that ramps smoothly from bar 1 without cold-start `na` gaps.
-
-#### Visual Guide
+#### Reading the Indicator
 
 You can visualize readings in **Fixed Levels** mode (default, with customizable horizontal guides at `0`, `0.5`, `1.0`, `2.0`, and `3.0` plus optional zone fills) or **Percentile Bands** mode (rolling `P50`, `P75`, and `P90`, plus optional `P25` and `P10`, over an expanding `Calibration Window` defaulting to `200` bars).
 
@@ -83,7 +51,7 @@ In **Percentile Bands** mode, the line blends from **Orange** (`<= P25`) through
 * **Flexible MAR Target Engine:** Anchor MAR to a compounded annual **Risk-Free Rate** or switch to a **Custom** per-period hurdle to match your own strategy benchmark.
 * **Simple & Log Return Models:** Choose arithmetic simple returns for straightforward equity tracking or logarithmic returns for high-volatility and multi-year compounding analysis.
 * **Dual Display Modes:** Switch between classic **Fixed Levels** (`0 / 0.5 / 1 / 2 / 3` with optional shaded bands) and adaptive **Percentile Bands** (`P10` through `P90`).
-* **Adaptive Start-Ramp & Live Readout:** Eliminates cold-start `na` gaps on early chart history and displays the live Sortino value alongside its current Fixed Level or Percentile bucket.
+* **Clean Early-History Readout & Live Badge:** Provides continuous readings from early chart history without long blank startup periods and displays the live Sortino value alongside its current Fixed Level or Percentile bucket.
 
 ### How To Use
 
