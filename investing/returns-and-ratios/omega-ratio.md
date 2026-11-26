@@ -4,6 +4,8 @@ icon: omega
 
 # Omega Ratio
 
+Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+
 > Measure return quality without normality assumptions by comparing cumulative excess gains above your target hurdle against cumulative shortfalls below it.
 
 <figure><img src="../../.gitbook/assets/docs-omega-ratio-002.png" alt=""><figcaption></figcaption></figure>

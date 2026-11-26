@@ -4,6 +4,8 @@ icon: sort-down
 
 # Sortino Ratio
 
+Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+
 > Evaluate risk-adjusted performance by measuring excess return exclusively against downside volatility below your target hurdle.
 
 <figure><img src="../../.gitbook/assets/docs-sortino-ratio-001.png" alt=""><figcaption></figcaption></figure>

@@ -4,6 +4,8 @@ icon: icicles
 
 # Sharpe Ratio
 
+Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+
 > Quantify risk-adjusted performance in real time by measuring excess return per unit of total volatility across any asset or timeframe.
 
 <figure><img src="../../.gitbook/assets/docs-sharpe-ratio-002.png" alt=""><figcaption></figcaption></figure>

@@ -4,6 +4,8 @@ icon: squid
 
 # Calmar Ratio
 
+Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+
 > Measure trend efficiency against real capital pain by comparing an asset's time-adjusted Compound Annual Growth Rate (CAGR) to its Maximum Drawdown.
 
 <figure><img src="../../.gitbook/assets/calmar-ratio-001.png" alt=""><figcaption></figcaption></figure>

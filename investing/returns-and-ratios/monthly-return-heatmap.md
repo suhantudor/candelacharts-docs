@@ -6,6 +6,8 @@ icon: calendar-range
 
 > Visualize multi-year monthly seasonality, annual compounding, and year-by-year return distributions directly on your chart.
 
+Available on:<a href="https://www.tradingview.com/" class="button secondary medium" data-icon="display-chart-up">TradingView</a>
+
 <figure><img src="../../.gitbook/assets/docs-monthly-returns-heatmap-001.png" alt=""><figcaption></figcaption></figure>
 
 ### Introduction
