@@ -4,11 +4,9 @@ icon: icicles
 
 # Sharpe Ratio
 
-## Sharpe Ratio
-
 > Quantify risk-adjusted performance in real time by measuring excess return per unit of total volatility across any asset or timeframe.
 
-![CandelaCharts - Sharpe Ratio Hero Showcase](https://www.tradingview.com/x/KvjEIPpZ/)
+<figure><img src="../../.gitbook/assets/docs-sharpe-ratio-002.png" alt=""><figcaption></figcaption></figure>
 
 ### Introduction
 
@@ -116,6 +114,10 @@ This indicator does not ship with hardcoded alert conditions, allowing you to bu
    * **Crossing Down 0.0** — Warns when excess return drops below the risk-free hurdle.
    * **Crossing Up 2.0** — Flags high-efficiency trend acceleration.
 4. Set **Trigger** to **Once Per Bar Close** to avoid intra-bar false triggers, then click **Create**.
+
+### Alerts
+
+This indicator does not currently include built-in alerts.
 
 ### Frequently Asked Questions (FAQs)
 

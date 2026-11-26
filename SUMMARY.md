@@ -333,12 +333,7 @@
 
 * [Risk-Adjusted Performance](investing/risk-adjusted-performance/README.md)
   * [Sharpe Ratio](investing/risk-adjusted-performance/sharpe-ratio.md)
-  * [Sortino Ratio](investing/risk-adjusted-performance/sortino-ratio/README.md)
-    * [Overview](investing/risk-adjusted-performance/sortino-ratio/overview.md)
-    * [Features](investing/risk-adjusted-performance/sortino-ratio/features.md)
-    * [Usage](investing/risk-adjusted-performance/sortino-ratio/usage.md)
-    * [Confluences](investing/risk-adjusted-performance/sortino-ratio/confluences.md)
-    * [FAQs](investing/risk-adjusted-performance/sortino-ratio/faqs.md)
+  * [Sortino Ratio](investing/risk-adjusted-performance/sortino-ratio.md)
   * [Omega Ratio](investing/risk-adjusted-performance/omega-ratio/README.md)
     * [Overview](investing/risk-adjusted-performance/omega-ratio/overview.md)
     * [Features](investing/risk-adjusted-performance/omega-ratio/features.md)
