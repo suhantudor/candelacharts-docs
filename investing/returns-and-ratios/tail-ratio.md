@@ -4,7 +4,9 @@ icon: stairs
 
 # Tail Ratio
 
-Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+{% hint style="info" %}
+The Tail Ratio is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+{% endhint %}
 
 > Gauge hidden skewness and tail risk in real time by comparing an asset's extreme upside returns against its extreme downside returns.
 

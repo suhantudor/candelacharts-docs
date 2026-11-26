@@ -4,7 +4,9 @@ icon: omega
 
 # Omega Ratio
 
-Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+{% hint style="info" %}
+The Omega Ratio is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+{% endhint %}
 
 > Measure return quality without normality assumptions by comparing cumulative excess gains above your target hurdle against cumulative shortfalls below it.
 

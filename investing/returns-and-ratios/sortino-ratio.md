@@ -4,7 +4,9 @@ icon: sort-down
 
 # Sortino Ratio
 
-Available on: <a href="https://www.candelacharts.com/" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>
+{% hint style="info" %}
+The Sortino Ratio is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+{% endhint %}
 
 > Evaluate risk-adjusted performance by measuring excess return exclusively against downside volatility below your target hurdle.
 
