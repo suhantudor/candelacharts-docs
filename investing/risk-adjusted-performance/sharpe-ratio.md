@@ -22,7 +22,7 @@ Designed for **swing traders, position traders, and long-term investors**, the i
 
 ### How It Works
 
-#### Calculation Pipeline
+#### Calculation
 
 On every bar, the indicator runs a three-step statistical pipeline:
 
@@ -103,23 +103,11 @@ Because the Sharpe Ratio normalizes returns by volatility, it creates an apples-
 * **Unsustainable Extremes (>= 3.0):** Sustained readings above **3.0** indicate unusually smooth, low-volatility appreciation. While strong, these regimes rarely persist indefinitely—use them as a cue to tighten trailing stops or watch for volatility mean reversion.
 * **Early Trend Deterioration:** A sharp rollover from **> 2.0** down through **1.0** often signals that volatility is expanding faster than price appreciation, warning of regime fatigue even before major price support breaks.
 
-#### 4. Setting Up Manual TradingView Alerts
-
-This indicator does not ship with hardcoded alert conditions, allowing you to build custom alerts directly on the plotted **Sharpe Ratio** line:
-
-1. Click the **Alerts** button (clock icon) in TradingView or right-click the **Sharpe Ratio** pane.
-2. Under **Condition**, select **CandelaCharts - Sharpe Ratio** → **Sharpe Ratio**.
-3. Choose **Crossing Up** or **Crossing Down** and set **Value** to your trigger level:
-   * **Crossing Up 1.0** — Notifies when risk-adjusted performance enters the _Good / Investable_ zone.
-   * **Crossing Down 0.0** — Warns when excess return drops below the risk-free hurdle.
-   * **Crossing Up 2.0** — Flags high-efficiency trend acceleration.
-4. Set **Trigger** to **Once Per Bar Close** to avoid intra-bar false triggers, then click **Create**.
-
 ### Alerts
 
 This indicator does not currently include built-in alerts.
 
-### Frequently Asked Questions (FAQs)
+### FAQs
 
 #### 1. What is considered a "good" Sharpe Ratio?
 

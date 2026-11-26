@@ -22,7 +22,7 @@ Built for **swing traders, portfolio managers, and long-term investors**, the in
 
 ### How It Works
 
-#### Calculation Pipeline
+#### Calculation
 
 On every bar, the indicator evaluates downside-adjusted efficiency in three steps:
 
@@ -118,20 +118,11 @@ If you want to test whether an asset beats a specific return target rather than 
 2. Enter your per-bar hurdle in `Custom Target` as a decimal (for example, `0.0005` for `0.05%` per bar).
 3. Observe how quickly the Sortino Ratio reacts—higher hurdles demand greater upside efficiency to stay above **1.0**.
 
-#### 4. Setting Up Manual TradingView Alerts
-
-This script does not include hardcoded alert conditions, allowing you to attach alerts directly to the **Sortino** plot:
-
-1. Click **Alerts** in TradingView or right-click the **Sortino Ratio** oscillator pane.
-2. Under **Condition**, select **CandelaCharts - Sortino Ratio** → **Sortino**.
-3. Pick **Crossing Up** or **Crossing Down** and enter your trigger value (such as `1.0` for investable quality or `0.0` for hurdle breakdown).
-4. Set **Trigger** to **Once Per Bar Close** and click **Create**.
-
 ### Alerts
 
 This indicator does not currently include built-in alerts.
 
-### Frequently Asked Questions (FAQs)
+### FAQs
 
 #### 1. What is considered a "good" Sortino Ratio?
 
