@@ -10,6 +10,8 @@ The Dip Index is available on the <a href="https://www.candelacharts.com/algorit
 
 > Measure internal market participation on a 0–100% breadth scale to spot broad capitulation dips, fragile rallies, and exhaustion zones.
 
+<figure><img src="../../.gitbook/assets/docs-dipx-001.png" alt=""><figcaption></figcaption></figure>
+
 ### Introduction
 
 Headline index prices frequently mask what is happening beneath the surface. A major benchmark can push to fresh highs on the back of a handful of mega-cap leaders while the majority of underlying assets quietly weaken, or fall sharply into a washed-out extreme where nearly everything is oversold at once.
