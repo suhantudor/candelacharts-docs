@@ -1,2 +1,0 @@
-# OHLC Range Map
-

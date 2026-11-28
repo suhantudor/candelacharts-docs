@@ -1,2 +1,0 @@
-# OHLC Macro Range Map
-

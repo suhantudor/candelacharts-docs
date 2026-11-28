@@ -1,2 +1,0 @@
-# Turtle Soup Model
-

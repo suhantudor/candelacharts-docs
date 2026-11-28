@@ -1,2 +1,0 @@
-# OHLC Session Range Map
-

@@ -1,2 +1,0 @@
-# OHLC Volatility Range Map
-

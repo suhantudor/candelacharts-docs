@@ -1,2 +1,0 @@
-# OHLC Depth Range Map
-
