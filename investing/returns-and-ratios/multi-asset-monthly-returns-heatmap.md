@@ -5,7 +5,7 @@ icon: calendar-day
 # Multi-Asset Monthly Returns Heatmap
 
 {% hint style="info" %}
-The Multi-Asset Monthly Return Heatmap is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Compare historical monthly seasonality, return magnitudes, and volatility side-by-side across 28 customizable global assets in a single quarterly matrix.

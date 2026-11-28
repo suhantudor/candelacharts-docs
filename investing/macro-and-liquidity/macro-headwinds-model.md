@@ -5,7 +5,7 @@ icon: wind
 # Macro Headwinds Model
 
 {% hint style="info" %}
-The Macro Headwinds Model is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Monitor four classic cross-asset macro tightening pressures—defensive rotation, dollar strength, surging long-term yields, and hawkish rate pricing—on a single chart.

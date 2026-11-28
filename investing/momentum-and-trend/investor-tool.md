@@ -5,7 +5,7 @@ icon: seedling
 # Investor Tool
 
 {% hint style="info" %}
-The Investor Tool is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on: <a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Frame long-term market cycles, valuation stretch zones, and institutional volume-weighted fair value directly on your price chart.

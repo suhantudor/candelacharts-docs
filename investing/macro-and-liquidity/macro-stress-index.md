@@ -5,7 +5,7 @@ icon: coffee-beans
 # Macro Stress Index
 
 {% hint style="info" %}
-The Macro Stress Index is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Condense market volatility, corporate credit risk, and stock-to-Treasury appetite into one timeframe-consistent macro regime score.

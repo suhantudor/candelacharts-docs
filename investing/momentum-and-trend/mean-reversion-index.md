@@ -5,7 +5,7 @@ icon: border-center-h
 # Mean Reversion Index
 
 {% hint style="info" %}
-The Mean Reversion Index is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Spot overextended rallies and deep oversold Buy Zones by tracking how far price has stretched from its long-term baseline, framed by automatic time cycles.

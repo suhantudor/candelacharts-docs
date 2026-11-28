@@ -5,7 +5,7 @@ icon: sensor
 # Sector ETF Flows
 
 {% hint style="info" %}
-The Sector ETF Flows is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Track capital inflows, outflows, and holdings dominance across 12 US sector ETFs to spot institutional rotation and shifting risk appetite.

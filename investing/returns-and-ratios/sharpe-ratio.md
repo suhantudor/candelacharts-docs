@@ -5,7 +5,7 @@ icon: icicles
 # Sharpe Ratio
 
 {% hint style="info" %}
-The Sharpe Ratio is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Quantify risk-adjusted performance in real time by measuring excess return per unit of total volatility across any asset or timeframe.

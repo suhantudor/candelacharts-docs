@@ -5,7 +5,7 @@ icon: moon-last-quarter
 # Cycle Capitulation Model
 
 {% hint style="info" %}
-The Cycle Capitulation Model is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on: <a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Spot tactical sell-off exhaustion and rare generational market bottoms by monitoring dual fixed-horizon trend deviations and capitulation regimes.

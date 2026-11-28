@@ -5,7 +5,7 @@ icon: rotate-reverse
 # Vertex Oscillator
 
 {% hint style="info" %}
-The Vertex Oscillator is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Identify deep accumulation zones and overheated market euphoria by reading volume-aware momentum extremes on a standardized scale.

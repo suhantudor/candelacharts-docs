@@ -5,7 +5,7 @@ icon: circle-small
 # Period ROI
 
 {% hint style="info" %}
-The Period ROI is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Track percentage return over calendar-anchored cycles or rolling day windows across any asset, complete with period dividers, historical averages, and regime alerts.

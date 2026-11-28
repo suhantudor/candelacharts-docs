@@ -5,7 +5,7 @@ icon: square-half-horizontal
 # Dynamic Exposure Model
 
 {% hint style="info" %}
-The Dynamic Exposure Model is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Convert multi-horizon trend momentum and volatility scaling into an actionable 0–100% long-only position size with anti-churn rebalancing bands.

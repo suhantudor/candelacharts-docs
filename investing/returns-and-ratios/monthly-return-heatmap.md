@@ -5,7 +5,7 @@ icon: calendar-range
 # Monthly Return Heatmap
 
 {% hint style="info" %}
-The Monthly Return Heatmap is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Visualize multi-year monthly seasonality, annual compounding, and year-by-year return distributions directly on your chart.

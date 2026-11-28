@@ -5,7 +5,7 @@ icon: shield
 # Shiller PE Ratio
 
 {% hint style="info" %}
-The Shiller PE Ratio is part of <a href="https://www.candelacharts.com/indicators" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Indicators, for the TradingView platform, available in the Investing and Institutional plans.
+Available on: <a href="https://www.tradingview.com/scripts/marketplace/CandelaCharts/" class="button secondary small" data-icon="chart-fft">TradingView</a>
 {% endhint %}
 
 > Gauge long-term stock market valuation against 10 years of inflation-adjusted earnings to spot historic overvaluation extremes and deep value zones.

@@ -5,7 +5,7 @@ icon: arrow-up-right-dots
 # Trend Heatmap Matrix
 
 {% hint style="info" %}
-The Trend Heatmap Matrix is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on: <a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Track 10 momentum, trend, and volume factors across 11 timeframes in one unified heatmap and multi-timeframe conviction dashboard.

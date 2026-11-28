@@ -5,7 +5,7 @@ icon: circle-half-horizontal
 # Macro Horizon Model
 
 {% hint style="info" %}
-The Macro Horizon Model is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on:<a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Identify four macroeconomic cycle regimes—aligned expansions, peak divergences, contractions, and trough divergences—by tracking market price against a forward-shifted macro horizon line.

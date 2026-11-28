@@ -5,7 +5,7 @@ icon: brackets-round
 # Dip Index Sectors
 
 {% hint style="info" %}
-The Dip Index Sectors is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on: <a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Track cross-sectional participation across 11 market sectors to separate broad-based rallies and sell-offs from narrow, fragile moves.

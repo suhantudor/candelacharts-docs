@@ -5,7 +5,7 @@ icon: superpowers
 # Bollinger %B Model
 
 {% hint style="info" %}
-The Bollinger %B Model is part of <a href="https://www.candelacharts.com/algorithms" class="button secondary medium" data-icon="chart-kanban">CandelaCharts</a>Algorithms, available with the Professional plan.
+Available on: <a href="https://www.candelacharts.com/algorithms" class="button secondary small" data-icon="chart-scatter-bubble">CandelaCharts</a>
 {% endhint %}
 
 > Visualize multi-horizon price extension across 30 stacked Bollinger Band lookbacks in one unified heatmap ribbon and consensus dashboard.
